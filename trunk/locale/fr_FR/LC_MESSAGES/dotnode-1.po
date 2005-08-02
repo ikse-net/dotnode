@@ -1,0 +1,186 @@
+# lang: fr_FR.UTF-8
+
+
+# /album/354a778bacabffaff3d3fd74f93ac278/page/1
+msgid "Page:"
+msgstr "Page :"
+
+
+
+# /album/354a778bacabffaff3d3fd74f93ac278/view/1
+msgid "Photo"
+msgstr "Photo"
+
+
+
+# /communities/create
+msgid "Type"
+msgstr "Type"
+
+msgid "Photo/Logo"
+msgstr "Photo/Logo"
+
+msgid "If you have trouble, send an email on: pixcode-pb@dotnode.net"
+msgstr "Si vous avez un problème, envoyé un email sur: pixcode-pb@dotnode.net"
+
+
+
+# /communities/createTopic/60
+msgid "Message"
+msgstr "Message"
+
+
+
+# /communities/mine
+msgid "My communities"
+msgstr "Mes communautés"
+
+msgid "Directory"
+msgstr "Annuaire"
+
+
+
+# /communities/view/60
+msgid "Related communities"
+msgstr "Communautés voisines"
+
+msgid "The %1 last %2's members who have visited this community (<a href='/communities/members/%3'>View full list</a>):"
+msgstr "Les %1 derniers membres de %2 qui ont visité cette communauté (<a href='/communities/members/%3'>Voir la liste complète</a>):"
+
+msgid "The first %1 related communities:"
+msgstr "Les %1 premières communautés voisines :"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Forum"
+msgstr "Forum"
+
+msgid "Date"
+msgstr "Date"
+
+
+
+# /communities/view/807
+msgid ".node"
+msgstr ".node"
+
+
+
+# /error/incorrect_topic
+msgid "Unknown error"
+msgstr "Une erreur inconnu"
+
+msgid "A problem with this page ? bad translation ? review this page for moderation ?"
+msgstr "Un problème sur cette page ? Mauvaise traduction ? avertir un modérateur ?"
+
+
+
+# /friends/list
+msgid "Invitation"
+msgstr "Invitation"
+
+msgid "Karma"
+msgstr "Karma"
+
+
+
+# /my
+msgid "Edit my profile"
+msgstr "Éditer mon profil"
+
+msgid "Manage my album"
+msgstr "Gérer mon album"
+
+msgid "Add bookmarks"
+msgstr "Ajouter un lien"
+
+msgid "Write blog"
+msgstr "Écrire un blog"
+
+msgid "Change my password"
+msgstr "Changer mon mot de passe"
+
+msgid "The %1 last communities' post (<a href='/profile/communities'>View all communities subscribed</a>):"
+msgstr "Les %1 dernières contributions sur cette communauté (<a href='/profile/communities'>Voir toutes les communautés abonnées</a>):"
+
+msgid "Public"
+msgstr "Public"
+
+msgid "Last post: <a href='/communities/forum/%1'>%2</a>"
+msgstr "Dernière contribution : <a href='/communities/forum/%1'>%2</a>"
+
+msgid "View my own profile"
+msgstr "Voir mon propre profil"
+
+msgid "Album"
+msgstr "Album"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Welcome %1"
+msgstr "Bienvenue %1"
+
+msgid "The %1 last friends who have visited my profile (<a href='/friends/list'>View full list</a>):"
+msgstr "Les %1 derniers amis a avoir visité mon profil (<a href='/friends/list'>Voir la list complète</a>) :"
+
+msgid "Invite my friends to join .node..."
+msgstr "Inviter mes amis sur .node"
+
+msgid "Fill my extented profile"
+msgstr "Remplir mon profil étendu"
+
+msgid "Write a ticket in my blog"
+msgstr "Écrire un ticket dans mon blog"
+
+msgid "Add a link in my bookmarks"
+msgstr "Ajouter un lien dans mes marque-pages"
+
+
+
+# /profile/c4f2f48f8be678d92fd7b76d306880b1
+msgid "Profile"
+msgstr "Profil"
+
+msgid "<b>%1</b> blog"
+msgid_plural "<b>%1</b> blogs"
+msgstr[0] "<b>%1</b> blog"
+msgstr[1] "<b>%1</b> blogs"
+
+msgid "<b>%1</b> friend"
+msgid_plural "<b>%1</b> friends"
+msgstr[0] "<b>%1</b> ami"
+msgstr[1] " <b>%1</b> amis"
+
+msgid "Summary"
+msgstr "Résumé"
+
+msgid "General profile"
+msgstr "Profil général"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Last blog's ticket"
+msgstr "Dernier billet de blog"
+
+msgid "Last links added"
+msgstr "Derniers liens ajoutés"
+
+msgid "<b>%1</b> bookmark"
+msgid_plural "<b>%1</b> bookmarks"
+msgstr[0] "<b>%1</b> lien"
+msgstr[1] "<b>%1</b> liens"
+
+msgid "%1 comment"
+msgid_plural "%1 comments"
+msgstr[0] "%1 commentaire"
+msgstr[1] "%1 commentaires"
+
+
+
+# /search
+msgid "Age"
+msgstr "Âge"
+

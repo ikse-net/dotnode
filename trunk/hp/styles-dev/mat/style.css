@@ -1,0 +1,235 @@
+body, html
+{
+	background-color: #ffffff;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	padding: 20px;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	border-bottom: 1px dotted #47637F;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+	padding: 0;
+}
+
+h3
+{
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	margin-top: 1em;
+}
+
+#miniprofile h3
+{
+	width: 50%;
+}
+
+h2, h3
+{
+	position: relative;
+	left: -27px;
+	padding-left: 26px;
+}
+
+#header
+{
+	padding-bottom: 1em;
+}
+
+a:link, a:visited
+{
+	text-decoration: none;
+	color: #47637F;
+}
+
+h1 a:link, h1 a:visited/*, h2 a:link, h2 a:visited*/
+{
+	background: url(bleu.png) repeat-y 10px 0;
+	padding: 10px 0 0 30px;
+}
+
+a img
+{
+	border: none;
+	padding: 5px;
+}
+
+#menu /* alexx: rajoute moi ca :) */
+{
+	border-left: 10px solid #47637F;
+	position: absolute;
+	background-color: white;
+	right: 20px;
+	top: 18px;
+	margin: 0;
+	padding: 0;
+	z-index: 42;
+}
+
+#menu li
+{
+	margin: 0 0 0 -26px;
+	padding: 0;
+	list-style-type: none;
+	min-height: 25px;
+}
+
+#menu li a
+{
+	display: block;
+	padding: 1px 5px 1px 32px;
+	min-height: 25px;
+}
+
+#menu li a:hover
+{
+	background: url(bleu.png) repeat !important;
+	color: #f6f6f6;
+}
+
+#menu li:hover a
+{
+	
+}
+
+#miniprofile, #friends, #blog, #bookmark, #album
+{
+	background: url(bleu.png) repeat-y 10px 0;
+	min-height: 160px;
+	margin-left: 120px;
+	padding: 10px 0 0 30px;
+}
+
+#album
+{
+	clear: left;
+	margin: 0;
+}
+
+#album td
+{
+	display: block;
+}
+
+#leftside
+{
+	float: left;
+	width: 150px;
+}
+
+
+
+#leftside img
+{
+	padding-right: 10px;
+}
+
+#friends, #middle
+{
+	clear: left;
+	margin: 0 0 0 120px;
+}
+
+#friends td, #album td
+{
+	display: block;
+	float: left;
+	padding: 1.2em 0 0 0;
+	margin: 0;
+	position: relative;
+}
+
+#friends tr, #album tr
+{
+	display: inline;
+}
+
+.friend
+{
+	display: none;
+}
+
+#friends td:hover .friend
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #336699;
+
+}
+
+#friends td img, #album td img
+{
+	border: 1px dotted white;
+}
+
+#friends td:hover img, #album td:hover img
+{
+	border-right: 1px dotted #336699;
+	border-top: 1px dotted #336699;
+}
+
+#bookmark, #blog
+{
+	float: left;
+	width: 40%;
+	margin: 0;
+	padding: 0 0 10px 30px;
+}
+
+#footer
+{
+	text-align: right;
+	border-top: 1px dotted #336699;
+	margin-top: 10px;
+}
+
+#flags
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+	width: 11px;
+}
+
+#flags span
+{
+	display: none;
+}
+
+a.flag img
+{
+	border: none;
+	padding: 0;
+}
+
+
+#menu li.contact
+{
+	background: url(faq-24.png) no-repeat;
+}
+
+
+#menu li.blog
+{
+	background: url(notepad-24.png) no-repeat;
+}
+
+#menu li.bookmark {
+	background: url(internet-24.png) no-repeat;
+}
+
+#menu li.album {
+	background: url(camera-24.png) no-repeat;
+}
