@@ -1,0 +1,77 @@
+<?php
+/****************************************************** Open .node ***
+ * Description:   
+ * Status:        Stable.
+ * Author:        Alexandre Dath <alexandre@dotnode.com>
+ * $Id$
+ *
+ * Copyright (C) 2005 Alexandre Dath <alexandre@dotnode.com>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ ******************** http://opensource.ikse.net/projects/dotnode ***/
+
+$smarty->assign('Title', 'Friends');
+
+$user['info'] = get_cache_user_info($url_id);
+$user['photo'] = build_image_url($url_id);
+
+foreach($user['info']['friends_id'] as $friend_id)
+        $friends[$friend_id] = get_cache_user_info($friend_id);
+
+/********** determination du chemain *****************/
+$user['path'] = array();
+
+if($url_id == $_SESSION['my_id'])
+{
+        $user['relation_type'] = 'myself';
+}
+elseif(in_array($url_id, $_SESSION['my_friends_id']) )
+{
+        $user['relation_type'] = 'friends';
+        $user['path'][$_SESSION['my_id']] = $_SESSION['my_fname'];
+        $user['path'][$url_id] = $user['info']['fname'];
+}
+elseif($intermediaire = array_intersect($_SESSION['my_friends_id'], $user['info']['friends_id']))
+{
+	sort($intermediaire);
+        $user['relation_type'] = 'friends_of_friends';
+        $user['path'][$_SESSION['my_id']] = $_SESSION['my_fname'];
+        $user['path'][$intermediaire[0]] = $friends[$intermediaire[0]]['fname'];
+        $user['path'][$url_id] = $user['info']['fname'];
+}
+else
+        $user['relation_type'] = 'members';
+
+
+
+/************** menu ***************************/
+$leftmenu["/profile/$url_id"] = 'Profile';
+
+if($user['info']['nb_photos'] > 0)
+        $leftmenu["/album/$url_id"] = 'Album';
+
+if($user['info']['nb_blogs'] > 0)
+        $leftmenu["/blog/$url_id"] = 'Blog';
+
+if($user['info']['nb_bookmarks'] > 0)
+        $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
+
+$smarty->assign('leftmenu',$leftmenu);
+
+/************************************************/
+$smarty->assign('tr_attr', array("class='odd' style='vertical-align:top'", "class='even' style='vertical-align:top'"));
+$smarty->assign('user', $user);
+$smarty->assign('friends', $friends);
+?>

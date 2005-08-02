@@ -1,0 +1,166 @@
+body {
+	font-family: Verdana;
+	font-size: 80%;
+	background-color: #003465;
+	color: #b6c5d3;
+}
+
+#header h1 {
+	position: absolute; 
+	background-color: #114576;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	height: 42px;
+	padding-top: 8px;
+}
+
+a, a:link, a:visited {
+	text-decoration: none;
+	color: #9fc6db;
+}
+a:hover {
+	color: white;
+}
+
+.poweredby {
+	float: right;
+	color: #999999; 
+	font-size: 75%;
+	-moz-border-radius: 3px;
+	border: 1px solid #aaaaaa;
+	position: relative;
+	background-color: #777777;
+	color: black;
+	padding: 1px 10px; 
+	top: 22px;
+	z-index: 2;
+}
+
+#main {
+	margin-top: 50px;
+}
+
+#leftside img {
+	width: 100%; 
+}
+#leftside {
+	float: left;
+	width: 50%;
+}
+#rightside {
+	float: left;
+	width: 50%;
+	margin: 10px;
+	margin-left: 0px;
+
+}
+#middle {
+	padding: 10px;
+	padding-top: 10px;
+	margin-left: 50%;
+}
+
+#leftside ul li {
+	display: inline;
+	margin-left: 10px;
+	border: 1px solid #aaaaaa;
+	padding: 1px 10px;
+	-moz-border-radius: 5px;
+	background-color: #114576;
+	position: relative;
+	top: -1px;
+}
+
+#leftside ul {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	position: absolute; 
+	top: 50px;
+	left: 0px;
+	height: 14px;
+	border-top: 1px dashed #aaaaaa;
+	border-bottom: 1px dashed #aaaaaa;
+	background-color: #104070;
+}
+
+#leftside li:hover {
+	background-color: #bbbbbb;
+	border: 1px solid #cccccc;
+	color: #222222;
+}
+
+#leftside li:hover a {
+	color: white;
+}
+
+#miniprofile h2, #friends h2, #blog h2, #bookmark h2, #album h2 {
+	padding: 1px 10px;
+	-moz-border-radius: 5px;
+	background-color: #eeeeee;
+	border: 1px solid;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0px -10px;
+}
+
+h2 a, h2, h2 a:link, h2 a:visited {
+	color: #222222;
+}
+
+#miniprofile, #friends, #blog, #bookmark, #album {
+	background: red;
+	margin: 0px 20px 20px 20px ;
+	padding: 0px 5px 5px 5px;
+	border-left: 1px dashed #aaaaaa;
+	border-right: 1px dashed #aaaaaa;
+	border-bottom: 1px dashed #aaaaaa;
+	background-color: #104070;
+}
+
+#album td {
+	display: inline;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+}
+
+#footer a img {
+	width: 44px !important;
+	height: 15px !important;
+}
+
+h3 {
+	background: #dddddd;
+	-moz-border-radius: 30px;
+	padding-left: 10px;
+	padding-bottom: 1px;
+	color: #222222
+}
+
+h3:before {
+	content: ":: ";
+}
+
+h2:before {
+	content: ".: ";
+}
+
+h2:after {
+	content: " :.";
+}
+
+h1:before {
+	content: "..::[( ";
+}
+
+h1:after {
+	content: " )] . . .  .  .";
+}

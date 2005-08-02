@@ -1,0 +1,366 @@
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet default.css ****/
+
+body {
+	font-size: 12px;
+	margin: 0; 
+	padding: 0; 
+	background: #B0C4DE;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: none; 
+	text-decoration: none;
+}
+
+#header {
+  border-bottom: 1px dashed #00008B;
+	background: #4682B4;
+  width :100%px;
+  margin-bottom:25px;
+  padding-bottom:15px;
+  background-image: url(bouton2.png);
+	background-repeat: repeat-x;
+  background-position: 0px 8px;
+}
+
+#header h1 {
+  text-align:center;
+	padding-top:15px;
+	border-top: 1px dashed #00008B;
+	background-color:#4682B4;
+	color: #00008B;
+  background-image: url(bouton2.png);
+	background-repeat: repeat-x;
+  background-position: 0px 8px;
+}
+
+#header p {
+	float: right;
+	text-align:right;
+	margin: 0;
+	padding: 5px;
+}
+
+#header p a.flag img {
+	padding: 0px;
+	border: none;
+}
+#header p a.flag:hover img {
+	padding: 0px;
+  border: none;
+}     
+
+#header a {
+	text-decoration: none;
+	color: #00008B;
+	font-weight: bold;
+}
+
+#header a:hover {
+	color: #B0C4DE;
+  text-decoration:none;
+}
+
+
+#header div.poweredby {
+	font-family: Arial;
+	font-size: 10px;
+	text-align:center;
+	color: #00008B;
+  margin-left: -60px;
+}
+
+#leftside {
+	font-family: Arial;
+	border-top: 1px #00008B dashed;
+	border-bottom: 1px #00008B dashed;
+	float:left ;
+  padding-top: 13px;
+}
+
+#rightside {
+	border :1px #00008B dashed;
+	float:right;
+	width: 310px;
+	padding-left:10px;
+  padding-right:10px;
+  padding-bottom:25px;
+  margin-right:10px;
+  margin-bottom:10px;
+	background-color :#B0C4DE;
+}
+
+#middle {
+	margin-left: 137px;
+	margin-right: 350px;
+  padding:5px;
+  border: 1px dashed #00008B;
+}
+
+#blog p {
+	color:darkbue;
+}
+
+#blog span.date {
+	color:#4682B4;
+}
+
+#blog span.blogCatComm {
+	font-family: Arial;
+	text-align:right;
+	display: block;
+	font-size: 10px;
+  color:#4682B4;
+}
+
+#blog span.blogCatComm a {
+	color: #4682B4;
+	text-decoration: none;
+}
+#blog span.blogCatComm a:hover {
+	color: #00008B;
+	text-decoration: underline overline;
+  text-weight:bolder;
+
+} 
+#blog a {
+	color: #4682B4;
+  text-decoration: none;
+}
+
+#blog a:hover {
+  color: #00008B;
+  text-decoration: underline overline;
+}
+
+#bookmark ul li a {
+	font-weight: bold;
+	color: #00008B;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#bookmark ul li a:hover {
+	text-decoration: underline overline;
+}
+#bookmark ul li {
+	margin-bottom: 0.6em;
+}
+
+#album img {
+  padding: 4px;
+	border: 1px #4682B4 solid;
+  background-color: white;
+}
+
+#album td {
+	text-align: center;
+	font-family: Arial;
+	font-size: 9px;
+	vertical-align:center;
+  padding-bottom: 10px;
+}
+
+#friends table {
+	width: 100%;
+
+#friends img {
+  border :1px solid #4682B4;
+}
+
+}
+#friends td, #friends td a {
+	font-family: Arial;
+	font-size: 9px;
+	color: #00008B;
+	text-decoration: none;
+}
+#friends td a {
+	color: #00008B;
+}
+
+#friends td a:hover {
+	color: #00008B;
+  font-weight:bolder;
+  text-decoration: none;
+}
+
+#friends td img{
+	border :1px solid #4682B4;
+}
+
+#main {
+	background-color: #B0C4DE;
+	color: #00008B;
+  padding-top: 10px;
+	border-top:  1px dashed  #00008B;
+	clear: both;
+}
+
+#main h2 {
+	background-color : #B0C4DE;
+	padding-left: 5px;
+}
+
+#main h2 , #main h2 a {
+	font-size: 18px;
+	color: #00008B;
+	text-decoration: none;
+  background-color : #4682B4;
+  padding-bottom:3px;
+  padding-top:3px
+}
+
+#main h2 a:hover {
+	color: #B0C4DE;
+	text-decoration: none;   
+}
+
+
+#middle h2 {
+	text-align:center;
+	background-color : #4682B4;
+	border: 1px dashed darblue;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
+#main h3, #main h3 a {
+	font-size: 15px;
+	padding-bottom: 3px;
+	margin: 0.5em 0 0 0;
+	color: #00008B;
+	text-decoration: none;
+}
+
+#main h3 a:hover {
+	text-decoration: line-through;
+	color: #00008B;
+}
+
+
+
+#leftside {
+	font-family: Arial;
+	border-right: 1px #00008B dashed;
+	border-bottom: 1px darblue dashed;
+	float: left;
+	width: 128px;
+  height:250px;
+  background-color : #B0C4DE
+}
+
+
+#leftside img {
+	border:none;
+}
+
+#leftside ul img { vertical-align: middle;  }
+
+#leftside ul li a img {
+	border: none;
+}
+
+
+
+
+#leftside ul {
+	padding-top:20px;
+  padding-bottom:0px;
+	padding-right:0px;
+  padding-left:0px;
+	background-color: #B0C4DE;
+  text-align:center;
+}
+
+#leftside ul li {
+	list-style: none;
+	padding: 0;
+}
+
+#leftside ul li a {
+	display: block;
+	color: #00008B;
+	padding: 1px 10px 0px 10px;
+	font-size: 10px;
+	text-decoration: none;
+	height: 16px;
+	background-color : #B0C4DE
+}
+
+#leftside ul li a:hover {
+	padding: 1px 10px 0px 10px;
+	background-color: #B0C4DE;
+  text-decoration: none;
+  font-weight : bolder;
+  border-top: 1px dashed #00008B;
+  border-bottom: 1px dashed #00008B;
+}
+
+#leftside ul li.contact a {
+	background-color:#B0C4DE;
+}
+#leftside ul li.blog a {
+	background-color:#B0C4DE;
+}
+#leftside ul li.bookmark a {
+	background-color:#B0C4DE;
+}
+#leftside ul li.album a {
+	background-color:#B0C4DE;
+}
+
+
+#miniprofile b {
+	color: #00008B;
+}
+
+#blog h3 {
+	border-bottom: #00008B 1px dashed;
+}
+
+#blog h3 a {
+	color: ;
+}
+
+
+#footer {
+	clear: both;
+	border-top: 1px dashed #00008B;
+  border-bottom: 1px dashed #00008B;
+	padding-right: 10px;
+  padding-top:10px;
+	text-align:right;
+  margin-top:30px;
+}
+#footer a {
+	font-family:Arial;
+	font-size: 11px;
+	color: #00008B;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #00008B;
+	text-decoration: none;
+  font-weight : bold;
+}
+#footer img {
+	border: none;
+}
+#footer p {
+	text-align: right;
+}
+
+

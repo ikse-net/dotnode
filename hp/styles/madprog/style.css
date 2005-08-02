@@ -1,0 +1,181 @@
+a
+{
+	color: #9cf;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+#album
+{
+	background: url(photo.png) no-repeat 10px 10px;
+	border-left: 1px solid #69c;
+	margin-left: 250px;
+	padding: 15px;
+}
+
+#blog
+{
+	background: url(blog.png) no-repeat 10px 10px;
+	border-bottom: 1px dashed #69c;
+	border-left: 1px solid #69c;
+	margin-left: 250px;
+	padding: 15px;
+}
+
+#blog h3
+{
+	background: #47a;
+	border: 1px solid #369;
+	margin: 0px;
+	padding: 2px;
+}
+
+#blog p
+{
+	border: 1px solid #369;
+	border-bottom: none;
+	border-top: none;
+	margin: 0px;
+	padding: 3px;
+}
+
+#blog span
+{
+	border: 1px solid #369;
+	border-top: none;
+	display: inherit;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+body
+{
+	background: #036;
+	color: #69c;
+	margin: 0px;
+}
+
+#bookmark
+{
+	background: url(link.png) no-repeat 10px 10px;
+	border-bottom: 1px dashed #69c;
+	border-left: 1px solid #69c;
+	margin-left: 250px;
+	padding: 15px;
+}
+
+#footer
+{
+	text-align: center;
+}
+
+#friends
+{
+	border-top: 1px dashed #69c;
+	padding-left: 15px;
+}
+
+#header
+{
+	background: url(headbg.png) no-repeat;
+	padding-left: 100px;
+	height: 100px;
+}
+
+#header a
+{
+	color: #9cf;
+	text-decoration: none;
+}
+
+#header a:hover
+{
+	text-decoration: underline;
+}
+
+#header div
+{
+	padding-left: 10px;
+}
+
+#header h1
+{
+	margin: 0px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#header img
+{
+	border: 1px solid #89a;
+	padding: 1px;
+}
+
+#header p
+{
+	float: right;
+	margin: 0px;
+	padding: 5px;
+}
+
+img
+{
+	border: none;
+}
+
+#leftside br
+{
+	display: none;
+}
+
+#leftside img
+{
+	border: 1px solid #89a;
+	display: inline;
+	padding: 1px;
+	position: relative;
+	left: 500px;
+	vertical-align: middle;
+}
+
+#leftside ul
+{
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: -128px;
+}
+
+#leftside ul img
+{
+	border: none;
+	margin: none;
+	padding: none;
+	left: 0px;
+}
+
+#leftside ul li
+{
+	display: inline;
+	margin: 10px;
+}
+
+#miniprofile
+{
+	padding: 10px;
+	padding-bottom: 15px;
+}
+
+#rightside
+{
+	border-right: 1px solid #69c;
+	float: left;
+	width: 250px;
+}

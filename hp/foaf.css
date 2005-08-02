@@ -1,0 +1,76 @@
+@charset "utf-8";
+firstName,surname,title,mbox_sha1sum,givenname,family_name {
+	display: none;
+}
+name,nick,RDF,depiction Image title {
+	display: block;
+}
+RDF {
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	color: #000;
+	margin: 2em 20%;
+	text-align: center;
+	border: 1px solid gray;
+	padding: 1em;
+}
+RDF:before {
+	display: block;
+	content: "rendu via CSS d'un document FOAF";
+	margin-bottom: 2em;
+	text-transform: uppercase;
+}
+RDF:after {
+	display: block;
+	margin-top: 2em;
+	content: "Consultez http://beta.plink.org (moteur de recherche et navigateur FOAF) pour suivre ces pistes..."
+}
+
+bio|event {
+	display: block;
+	border: 1px gray solid;
+}
+
+nick {
+	font-style: italic;
+}
+nick:before {
+	content: "\00AB\00A0";
+}
+nick:after {
+	content: "\00A0\00BB";
+}
+depiction Image title {
+	margin: 0.5em 0 0 0;
+}
+depiction Image title:after {
+	content: "\00A0:";
+}
+depiction Image description {
+	margin: 0.5em 0;
+}
+depiction:before {
+	display: block;
+	margin: 2em 0 0 0;
+}
+depiction:after {
+	margin: 2em 0 0 0;
+	display: block;
+	content: "Mes amis\00A0:";
+	text-align: left;
+}
+knows Person name,knows Group name {
+	display: list-item;
+	margin: 0.5em 1em;
+	text-align: left;
+}
+/* Ceci est helas sans effet dans Opera 7 Win */
+/* Qu'en est-il dans les autres navigateurs/OS ? */
+/* Auriez-vous une autre solution ? */
+seeAlso {
+	display: block;
+	content: attr(resource);
+}
+rdfs|seeAlso {
+	display: block;
+	content: attr(rdf:resource);
+}

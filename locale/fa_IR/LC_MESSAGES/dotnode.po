@@ -1,0 +1,3655 @@
+# id: 1
+msgid ""
+msgstr ""
+"Project-Id-Version: Dotnode.com v1\n"
+"POT-Creation-Date: 2004-04-30 08:32+0100\n"
+"PO-Revision-Date: 2004-05-05 12:17+0100\n"
+"Last-Translator: Alexandre DATH <traduc@ikse.net>\n"
+"Language-Team: Translation team <translation@dotnod.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"nplurals=1;\n"
+
+# id: 2
+msgid "Social Network"
+msgstr ""
+"شبکه اجتماعی"
+
+# id: 3
+msgid "CNIL registration number"
+msgstr ""
+"شماره‌ی ثبت نام CNIL "
+
+# id: 4
+msgid "Page not found"
+msgstr ""
+"صفحه پیدا نشد"
+
+# id: 5
+msgid "Error"
+msgstr ""
+"خطا"
+
+# id: 6
+msgid "No"
+msgstr ""
+"نه"
+
+# id: 7
+msgid "Yes"
+msgstr ""
+"آره"
+
+# id: 8
+msgid "to"
+msgstr ""
+"به"
+
+# id: 9
+msgid "No answer"
+msgstr ""
+"جوابی ندارم"
+
+# id: 10
+msgid "Nothing"
+msgstr ""
+"هیچ چیز"
+
+# id: 11
+msgid "Back"
+msgstr ""
+"برگشت"
+
+# id: 12
+msgid "Close"
+msgstr ""
+"بسته"
+
+# id: 13
+msgid "Submit"
+msgstr ""
+"ارسال"
+
+# id: 14
+msgid "A problem with this page ? Bad translation ? Review this page for moderation ?"
+msgstr ""
+"این صفحه مشکلی دارده؟ بد ترجمه شده؟ این صفحه برای مدیریت دوباره بررسی بشه؟"
+
+# id: 15
+msgid "Report a problem"
+msgstr ""
+"گزارش یک مشکل"
+
+# id: 16
+msgid "Select your language"
+msgstr ""
+"انتخاب زبان"
+
+# id: 17
+msgid "Display problem with this site ?"
+msgstr ""
+"این صفحه مشکل نمایش داره؟"
+
+# id: 18
+msgid "See this page about Web standard"
+msgstr ""
+"این صفحه در مورد استاندارد‌های وب را ببین"
+
+# id: 19
+msgid "January"
+msgstr ""
+"ژانویه"
+
+# id: 20
+msgid "February"
+msgstr ""
+"فوریه"
+
+# id: 21
+msgid "March"
+msgstr ""
+"مارس"
+
+# id: 22
+msgid "April"
+msgstr ""
+"آوریل"
+
+# id: 23
+msgid "May"
+msgstr ""
+"می"
+
+# id: 24
+msgid "June"
+msgstr ""
+"ژوئن"
+
+# id: 25
+msgid "July"
+msgstr ""
+"جولای"
+
+# id: 26
+msgid "August"
+msgstr ""
+"اوت"
+
+# id: 27
+msgid "September"
+msgstr ""
+"سپتامبر"
+
+# id: 28
+msgid "October"
+msgstr ""
+"اکتبر"
+
+# id: 29
+msgid "November"
+msgstr ""
+"نوامبر"
+
+# id: 30
+msgid "December"
+msgstr ""
+"دسامبر"
+
+# id: 31
+msgid "Language"
+msgstr ""
+"زبان"
+
+# id: 32
+msgid "English"
+msgstr ""
+"انگلیسی"
+
+# id: 33
+msgid "French"
+msgstr ""
+"فرانسوی"
+
+# id: 34
+msgid "Comment"
+msgstr ""
+"نظر"
+
+# id: 35
+msgid "Record"
+msgstr ""
+"ذخیره"
+
+# id: 36
+msgid "Modify"
+msgstr ""
+"تصحیح"
+
+# id: 37
+msgid "Myself"
+msgstr ""
+"خودم"
+
+# id: 38
+msgid "Friends of friends"
+msgstr ""
+"دوستانِ دوستان"
+
+# id: 39
+msgid "All members"
+msgstr ""
+"همه اعضا"
+
+# id: 40
+msgid "Everyone"
+msgstr ""
+"همه"
+
+# id: 41
+msgid "Interested in"
+msgstr ""
+"علاقه‌مند به"
+
+# id: 42
+msgid "The"
+msgstr ""
+" "
+
+# id: 43
+msgid "in"
+msgstr ""
+"در"
+
+# id: 44
+msgid "Return"
+msgstr ""
+"بازگشت"
+
+# id: 45
+msgid "At"
+msgstr ""
+"در"
+
+# id: 46
+msgid "Everywhere"
+msgstr ""
+"همه‌جا"
+
+# id: 47
+msgid "In jail or deleted"
+msgstr ""
+"در زندان یا حذف شده"
+
+
+
+# /bad_link
+# id: 571
+msgid "Bad link"
+msgstr ""
+"لینک خراب"
+
+# id: 572
+msgid "The link you have used is not valid"
+msgstr ""
+"لینکی که استفاده کردی درست نیست"
+
+# id: 573
+msgid "Successful invitation"
+msgstr ""
+"دعوت موفق"
+
+# id: 574
+msgid "Invitation in waiting state"
+msgstr ""
+"دعوتنامه در حالت انتظار است"
+
+# id: 575
+msgid "Failed invitation"
+msgstr ""
+"دعوت ناموفق"
+
+
+
+# /blog
+# id: 294
+msgid "Read more"
+msgstr ""
+"مطالعه‌ی بیشتر"
+
+# id: 295
+msgid "%1 comment"
+msgid_plural "%1 comments"
+msgstr[0] "%1 نظر"
+msgstr[1] ""
+
+# id: 296
+msgid "%1 word"
+msgid_plural "%1 words"
+msgstr[0] "%1 کلمه"
+msgstr[1] ""
+
+# id: 297
+msgid "RSS from <a href='%2'>%1</a>"
+msgstr ""
+"RSS از <a href='%2'>%1</a>"
+
+# id: 298
+msgid "Header"
+msgstr ""
+"سربرگ"
+
+
+
+# /blog/7585c79a200905569a2ea15322e64cad/edit/2058/5692
+# id: 648
+msgid "Edit a comment"
+msgstr ""
+"ویرایش یک نظر"
+
+# id: 649
+msgid "Title (optional)"
+msgstr ""
+"(عنوان (اختیاری"
+
+
+
+# /blog/view
+# id: 334
+msgid "Comments"
+msgstr ""
+"نظرات"
+
+# id: 335
+msgid "Post a comment"
+msgstr ""
+"ارسال یک نظر"
+
+# id: 336
+msgid "Your comment"
+msgstr ""
+"نظر تو"
+
+
+
+# /BogusReport
+# id: 501
+msgid "You have found a problem ?"
+msgstr ""
+"مشکلی پیدا کردی؟"
+
+# id: 502
+msgid "If you have found a problem (bad translation, bug, illegal thing, explicit content, ...) on page \"<a href='%1'>http://dotnode.com%1</a>\", report it here. Describe the problem and send the message."
+msgstr ""
+"اگر مشکلی در صفحه‌ی \"<a href='%1'>http://dotnode.com%1</a>\" (مثل ترجمه‌ی بد، باگ، مسئله‌ی غیر قانونی، محتویات ناجور و ...) "
+
+# id: 503
+msgid "Send Bogus Report"
+msgstr ""
+"ارسال گزارش خطا"
+
+
+
+# /bookmarks/354a778bacabffaff3d3fd74f93ac278
+# id: 610
+msgid "edit"
+msgstr ""
+"ویرایش"
+
+# id: 611
+msgid "delete"
+msgstr ""
+"حذف"
+
+
+
+# /bookmarks/354a778bacabffaff3d3fd74f93ac278/category/144
+# id: 682
+msgid "All"
+msgstr ""
+"همه"
+
+
+
+# /communitie/members
+# id: 403
+msgid "Community members"
+msgstr ""
+"اعضای گروه"
+
+# id: 404
+msgid "Members list"
+msgstr ""
+"فهرست اعضا"
+
+
+
+# /communities
+# id: 357
+msgid "Owner"
+msgstr ""
+"مالک"
+
+# id: 358
+msgid "Moderated"
+msgstr ""
+"مدیریت شده"
+
+# id: 359
+msgid "Created"
+msgstr ""
+"ایجاد شد"
+
+# id: 360
+msgid "Members"
+msgstr ""
+"اعضا"
+
+# id: 361
+msgid "Details"
+msgstr ""
+"جزئیات"
+
+# id: 362
+msgid "View forum"
+msgstr ""
+"نمایش انجمن"
+
+# id: 363
+msgid "View events"
+msgstr ""
+"دیدن خبرها"
+
+# id: 364
+msgid "Invite friends"
+msgstr ""
+"دعوت دوستان"
+
+# id: 365
+msgid "No topic"
+msgstr ""
+"موضوعی نیست"
+
+# id: 366
+msgid "No event"
+msgstr ""
+"خبری نیست"
+
+# id: 367
+msgid "New topic"
+msgstr ""
+"موضوع جدید"
+
+# id: 368
+msgid "New event"
+msgstr ""
+"خبر جدید"
+
+# id: 369
+msgid "Return to community"
+msgstr ""
+"بازگشت به گروه"
+
+# id: 370
+msgid "last post at %1"
+msgstr ""
+"آخرین ارسال در %1"
+
+# id: 371
+msgid "Your communities"
+msgstr ""
+"گروه‌های تو"
+
+# id: 372
+msgid "Communities by categorie"
+msgstr ""
+"کروه‌ها بر اساس دسته"
+
+# id: 373
+msgid "%1 member"
+msgid_plural "%1 members"
+msgstr[0] "%1 عضو"
+msgstr[1] ""
+
+# id: 374
+msgid "%1 community"
+msgid_plural "%1 communities"
+msgstr[0] "گروه %1 "
+msgstr[1] "گروه‌های %1 "
+
+# id: 375
+msgid "Location"
+msgstr ""
+"موقعیت"
+
+# id: 376
+msgid "Author"
+msgstr ""
+"نویسنده"
+
+# id: 377
+msgid "Posts"
+msgstr ""
+"فرستاده‌ها"
+
+# id: 378
+msgid "Last post"
+msgstr ""
+"آخرین ارسال"
+
+# id: 379
+msgid "Moderation"
+msgstr ""
+"مدیریت"
+
+# id: 380
+msgid "Stand in moderation"
+msgstr ""
+"حفظ مدیریت"
+
+# id: 381
+msgid "View all topics"
+msgstr ""
+"مشاهده‌ی همه‌ی سرفصل‌ها"
+
+# id: 382
+msgid "View all events"
+msgstr ""
+"مشاهده‌ی همه اخبار"
+
+
+
+# /communities//editPost
+# id: 394
+msgid "Edit a post"
+msgstr ""
+"ویرایش یک پیام"
+
+# id: 395
+msgid "optional"
+msgstr ""
+"اختیاری"
+
+
+
+# /communities/category
+# id: 383
+msgid "By category"
+msgstr ""
+"بر حسب نوع"
+
+# id: 384
+msgid "Newer"
+msgstr ""
+"جدید‌تر"
+
+# id: 385
+msgid "Popular"
+msgstr ""
+"محبوب"
+
+# id: 627
+msgid "Communities by category"
+msgstr ""
+"گروه‌ها بر اساس نوع"
+
+# id: 628
+msgid "To support .node directy, use PayPal :"
+msgstr ""
+"برای اینکه مستقیماْ از دات‌نود حمایت بکنی، از PayPal استفاده کن"
+
+
+
+# /communities/category/3/newer
+# id: 685
+msgid "Page"
+msgstr ""
+"صفحه"
+
+
+
+# /communities/create
+# id: 388
+msgid "Impossible to create your community"
+msgstr ""
+"ایجاد گروه غیر ممکن است"
+
+# id: 389
+msgid "You must enter a valid name, category and description to create your community"
+msgstr ""
+"حتماْ باید یک نام، نوع و توضیح درست وارد کنی تا یک گروه ایجاد کنی"
+
+# id: 683
+msgid "If you have trouble, send an email on: pixcode-pb@dotnode.net"
+msgstr ""
+"اگر با مشکلی روبه‌رو هستی یک ایمیل به این آدرس بزن:‌ pixcode-pb@dotnode.net"
+
+
+
+# /communities/createTopic
+# id: 393
+msgid "Write a new topic in %1"
+msgstr ""
+"یک موضوع جدید در %1 بنویس"
+
+
+
+# /communities/edit/9
+# id: 659
+msgid "Edit %1"
+msgstr ""
+"ویرایش %1"
+
+# id: 661
+msgid "Photo/Logo"
+msgstr ""
+"عکس/تصویر"
+
+# id: 662
+msgid "Destroy %1"
+msgstr ""
+"%1 را حذف کن"
+
+
+
+# /communities/editPost/27470
+# id: 619
+msgid "Title (optional): "
+msgstr ""
+"عنوان: اختیاری"
+
+# id: 620
+msgid "Message: "
+msgstr ""
+"پیام"
+
+
+
+# /communities/invite
+# id: 400
+msgid "Invite friends to %1"
+msgstr ""
+"دعوت دوستان به %1‌ "
+
+# id: 401
+msgid "Choose friends"
+msgstr ""
+"انتخاب دوستان"
+
+
+
+# /communities/join
+# id: 396
+msgid "Join %1"
+msgstr ""
+"عضو شدن در %1 "
+
+# id: 397
+msgid "Are you sure you want to join this community ?"
+msgstr ""
+"مطمئنی می‌خوای تو این گروه عضو بشی؟"
+
+# id: 398
+msgid "No, back to the community"
+msgstr ""
+"نه، برگشت به گروه"
+
+# id: 399
+msgid "This community is moderated. Your inscription must be validated by the moderator"
+msgstr ""
+"این گروه مدیریت شده است. تقاضای تو باید توسط مدیر تایید بشه"
+
+
+
+# /communities/last
+# id: 386
+msgid "New communities"
+msgstr ""
+"گروه‌های جدید"
+
+# id: 387
+msgid "Previous day"
+msgstr ""
+"روز قبلی"
+
+# id: 689
+msgid "Follow the creation of the communities with RSS:"
+msgstr ""
+"با استفاده از RSS از گروه‌هایی که تازه ایجاد شده اند مطلع شوید"
+
+
+
+# /communities/mine
+# id: 591
+msgid "My communities"
+msgstr ""
+"گروه‌های من"
+
+# id: 592
+msgid "Directory"
+msgstr ""
+"راهنما"
+
+# id: 679
+msgid "Follow your communities activities with RSS:"
+msgstr ""
+"فعالیت گروهایت را با RSS دنبال کن"
+
+# id: 680
+msgid "SideBar builder for Mozilla Firefox"
+msgstr ""
+"به صورت سایدبار برای Firefox  "
+
+# id: 681
+msgid "Directly the RSS"
+msgstr ""
+"به صورت RSS "
+
+
+
+# /communities/replyTopic/1907
+# id: 608
+msgid "(optional)"
+msgstr ""
+"(اختیاری)"
+
+
+
+# /communities/search
+# id: 390
+msgid "Search a community"
+msgstr ""
+"جستجوی برای یک گروه"
+
+# id: 391
+msgid "No community found"
+msgstr ""
+"گروهی پیدا نشد"
+
+# id: 392
+msgid "Try again"
+msgstr ""
+"تلاش دوباره"
+
+
+
+# /communities/view/807
+# id: 599
+msgid "Related communities"
+msgstr ""
+"گروه‌های مرتبط"
+
+# id: 600
+msgid "The %1 last %2's members who have visited this community (<a href='/communities/members/%3'>View full list</a>):"
+msgstr ""
+"آخرین %1 عضوی از گروه %2 که از این گروه بازدید کردند (<a href='/communities/members/%3'>‌مشاهده‌ی لیست کامل</a>):"
+
+# id: 601
+msgid "The first %1 related communities: "
+msgstr ""
+"اولین %1 نظر مرتبط"
+
+# id: 602
+msgid "Description"
+msgstr ""
+"شرح"
+
+# id: 603
+msgid ".node"
+msgstr ""
+"دات‌نود"
+
+# id: 695
+msgid "More ?"
+msgstr ""
+"بقیه چی؟"
+
+
+
+# /communities/viewTopic
+# id: 402
+msgid "Reply to topic"
+msgstr ""
+"پاسخ به موضوع"
+
+
+
+# /communities/viewTopic/3687
+# id: 616
+msgid "Unstick it"
+msgstr ""
+"بِکَنِش"
+
+
+
+# /communities/viewTopic/4257
+# id: 623
+msgid "Stick it"
+msgstr ""
+"بچسبونش"
+
+
+
+# /community categories
+# id: 405
+msgid "Alumni & Schools"
+msgstr ""
+"مدارس و فارغ‌التحصیلان"
+
+# id: 406
+msgid "Arts & Entertainment"
+msgstr ""
+"هنر و تفریحات"
+
+# id: 407
+msgid "Automotive"
+msgstr ""
+"خودروها"
+
+# id: 408
+msgid "Business"
+msgstr ""
+"تجارت"
+
+# id: 409
+msgid "Company"
+msgstr ""
+"شرکت"
+
+# id: 410
+msgid "Cities & Neighborhoods"
+msgstr ""
+"شهرها و محله‌ها"
+
+# id: 411
+msgid "Computers & Internet"
+msgstr ""
+"کامپیوتر و اینترنت"
+
+# id: 412
+msgid "Countries & Regional"
+msgstr ""
+"کشورها و نواحی"
+
+# id: 413
+msgid "Cultures & Community"
+msgstr ""
+"فرهنگ‌ها و گروه‌ها"
+
+# id: 414
+msgid "Family & Home"
+msgstr ""
+"خانه و خانواده"
+
+# id: 415
+msgid "Fashion & Beauty"
+msgstr ""
+"مُد و زیبایی"
+
+# id: 416
+msgid "Food, Drink & Wine"
+msgstr ""
+"غذا، نوشیدنی و باده"
+
+# id: 417
+msgid "Games"
+msgstr ""
+"بازی‌ها"
+
+# id: 418
+msgid "Government & Politics"
+msgstr ""
+"حکومت و سیاست"
+
+# id: 419
+msgid "Health, Wellness & Fitness"
+msgstr ""
+"سلامتی، شادابی و خوش‌اندامی"
+
+# id: 420
+msgid "Hobbies & Crafts"
+msgstr ""
+"صنایع دستی و سرگرمی"
+
+# id: 421
+msgid "Individuals"
+msgstr ""
+"افراد"
+
+# id: 422
+msgid "Music"
+msgstr ""
+"موسیقی"
+
+# id: 423
+msgid "Pets & Animals"
+msgstr ""
+"جانورها و حیوانات خانگی"
+
+# id: 424
+msgid "Recreation & Sports"
+msgstr ""
+"ورزش و سرگرمی"
+
+# id: 425
+msgid "Religion & Beliefs"
+msgstr ""
+"مذهب و اعتقادات"
+
+# id: 426
+msgid "Romance & Relationships"
+msgstr ""
+"عشق‌ورزی"
+
+# id: 427
+msgid "Science & History"
+msgstr ""
+"تاریخ و علم"
+
+# id: 428
+msgid "Travel"
+msgstr ""
+"مسافرت"
+
+# id: 429
+msgid "Other"
+msgstr ""
+"دیگر"
+
+
+
+# /deprecated
+# id: 105
+msgid "You are connected to <strong>%2</strong> people through <strong>%1</strong> friend."
+msgid_plural "You are connected to <strong>%2</strong> people through <strong>%1</strong> friends."
+msgstr[0] "تو با <strong>%2</strong> نفر از طریق <strong>%1</strong> دوست ارتباط داری"
+msgstr[1] ""
+
+# id: 106
+msgid ".node counts <b>%1</b> people"
+msgstr ""
+"دات‌نود <b>%1</b> عضو داره"
+
+# id: 107
+msgid "Your network (direct connect + friends of friends) counts <b>%1</b> person"
+msgid_plural "Your network (direct connect + friends of friends) counts <b>%1</b> persons"
+msgstr[0] "در شبکه‌ی مستقیم و غیر مستقیم تو <b>%1</b> نفر وجود دارد"
+msgstr[1] ""
+
+# id: 108
+msgid "Right now, <b>%1</b> people are on .node"
+msgstr ""
+"الان، <b>%1</b> نفر توی دات‌نود هستند"
+
+# id: 109
+msgid "Grow your network now !"
+msgstr ""
+"حالا شبکه‌ی خودت رو بزرگ کن"
+
+# id: 110
+msgid "Invite new friends now !"
+msgstr ""
+"حالا دوست‌های جدید دعوت کن!"
+
+# id: 111
+msgid "View network"
+msgstr ""
+"مشاهده‌ی شبکه"
+
+# id: 112
+msgid "View friends"
+msgstr ""
+"مشاهده‌ی دوستان"
+
+# id: 113
+msgid "View communities"
+msgstr ""
+"مشاهده‌ی گروه‌ها"
+
+# id: 114
+msgid "View members"
+msgstr ""
+"مشاهده‌ی اعضا"
+
+# id: 115
+msgid "Tell people your dotpage address:"
+msgstr ""
+"آدرس صفحه‌ی داتی خودت رو به بقیه بگو:"
+
+# id: 116
+msgid "you can see stats here"
+msgstr ""
+"میتونی آمار رو اینجا ببینی"
+
+# id: 117
+msgid "If you select a photo for your profile, an homepage will be automatically generated with a simple address"
+msgstr ""
+"اگر برای شناسنامه‌ی خودت یک عکس انتخاب کنی، به صورت خودکار یک صفحه‌ی شخصی با یک آدرس ساده برات تولیدمیشه"
+
+# id: 118
+msgid "You can share your album, blog, links ... into it, it's worldwide accessible"
+msgstr ""
+"میتونی آلبوم، بالگ، لینک‌ها و ... رو توش به اشتراک بزاری، از تمام جهان قابل دسترسی است"
+
+# id: 119
+msgid "Add a photo to my profile"
+msgstr ""
+"اضافه کردن عکس به شناسنامه‌"
+
+# id: 120
+msgid "Come on the .node IRC channel"
+msgstr ""
+"بیا به کانال دات‌نود در IRC "
+
+
+
+# /error
+# id: 559
+msgid "Verification code failed"
+msgstr ""
+"کد صحت‌یاب ناموفق بود"
+
+# id: 560
+msgid "The sent code don't match the image"
+msgstr ""
+"کد ارسال شده با تصویر تطابق ندارد"
+
+
+
+# /error/bad_link/not_found
+# id: 658
+msgid "Mauvais lien"
+msgstr ""
+"لينك خراب"
+
+
+
+# /error/forgot_password
+# id: 561
+msgid "Password retrieval"
+msgstr ""
+"بازیابی گذرواژه"
+
+# id: 562
+msgid "Enter your"
+msgstr ""
+"وارد کردن"
+
+# id: 563
+msgid "Password forgotten"
+msgstr ""
+"رمز عبور فراموش شده"
+
+# id: 564
+msgid "Fill this form to retrieve your password or your login to .node"
+msgstr ""
+"فرم زیر را برای بازیابی رمز عبور یا ورود به دات‌نود پر کن"
+
+# id: 565
+msgid "You will receive an email in 2 minutes max."
+msgstr ""
+"حداکثر تا ۲ دقیقه‌ی دیگر ایمیلی دریافت خواهید کرد"
+
+
+
+# /error/image/nothing
+# id: 657
+msgid "No image sent"
+msgstr ""
+"تصویری فرستاده نشده"
+
+
+
+# /error/wrong_login
+# id: 634
+msgid "A problem with this page ? bad translation ? review this page for moderation ?"
+msgstr ""
+"این صفحه مشکلی دارده؟ بد ترجمه شده؟ این صفحه برای مدیریت دوباره بررسی بشه؟"
+
+
+
+# /friends/11bbcdcb2d5d248eb76658d5cdf72aeb/fans
+# id: 650
+msgid "Fans"
+msgstr ""
+"طرفداران"
+
+# id: 651
+msgid "Fans list"
+msgstr ""
+"فهرست طرفداران"
+
+
+
+# /friends/invitation
+# id: 492
+msgid "Specify how close you are to your friend"
+msgstr ""
+"مشخص کن چقدر به این دوستت نزدیکی"
+
+# id: 493
+msgid "Confirm %1 is your friend"
+msgstr ""
+"تأیید %1 دوست تو است"
+
+# id: 494
+msgid "%1 is my friend"
+msgstr ""
+"%1 دوست منه"
+
+# id: 495
+msgid "%1 is not my friend"
+msgstr ""
+"%1 دوست من نیست"
+
+# id: 496
+msgid "Invitation from %1 %2"
+msgstr ""
+"دعوتنامه از طرف %1 %2"
+
+# id: 497
+msgid "Can I be your friend ? (see my profile here : %1 )"
+msgstr ""
+"میشه دوستت باشم؟ (شناسنامه‌ی من رو اینجا ببین: %1 ) "
+
+# id: 498
+msgid "Invitation accepted"
+msgstr ""
+"دعوت پذیرفته شده"
+
+# id: 499
+msgid "%1 %2 has refused your invitation"
+msgstr ""
+"%1 %2 دعوت تو را رد کرده"
+
+# id: 500
+msgid "Sorry, but your invitation was refused"
+msgstr ""
+"متاسفم، دعوت شما رد شد"
+
+
+
+# /friends/join
+# id: 468
+msgid "Invite your friends"
+msgstr ""
+"دوستانت را دعوت کن"
+
+# id: 469
+msgid "Fill this form to invite your friend"
+msgstr ""
+"برای دعوت دوستت این فرم را پر کن"
+
+# id: 470
+msgid "Personalize your invitation"
+msgstr ""
+"دعوتنامه رو اختصاصی کن"
+
+# id: 471
+msgid "Status of your invitations"
+msgstr ""
+"وضعیت دعوتنامه"
+
+# id: 472
+msgid "Response"
+msgstr ""
+"پاسخ"
+
+# id: 473
+msgid "Send date"
+msgstr ""
+"تاریخ ارسال"
+
+# id: 474
+msgid "Ready to send"
+msgstr ""
+"آماده ارسال"
+
+# id: 475
+msgid "Invitation sent"
+msgstr ""
+"دعوت‌نامه ارسال شد"
+
+# id: 476
+msgid "Operation finished"
+msgstr ""
+"فعالیتت خاتمه یافت"
+
+# id: 477
+msgid "Operation stopped"
+msgstr ""
+"فعالیت متوقف شد"
+
+# id: 478
+msgid "Accepted"
+msgstr ""
+"قبول"
+
+# id: 479
+msgid "Refused"
+msgstr ""
+"رد شده"
+
+# id: 480
+msgid "Refuse all .node invitations"
+msgstr ""
+"تمام دعوت‌نامه‌های دات‌نود رو رد کن"
+
+# id: 481
+msgid "No invitation. Don't wait ! Invite your friends !"
+msgstr ""
+"هیچ دعوتنامه‌ای نفرستادی. منتظر چی هستی! دوستانت رو دعوت کن!"
+
+# id: 482
+msgid "Mail problem"
+msgstr ""
+"مشکل میل"
+
+# id: 483
+msgid "No response"
+msgstr ""
+"بدون پاسخ"
+
+# id: 484
+msgid "Resend"
+msgstr ""
+"ارسال دوباره"
+
+# id: 485
+msgid "Modify/Resend"
+msgstr ""
+"تغییر/ارسال دوباره"
+
+# id: 486
+msgid "Import a CSV file"
+msgstr ""
+"وارد کردن فایل csv "
+
+# id: 487
+msgid "Import from CSV"
+msgstr ""
+"از CSV وارد کن"
+
+# id: 488
+msgid "The CSV format is: "
+msgstr ""
+"فرمت CSV هست:"
+
+# id: 489
+msgid "Eg.: You can import your Orkut contacts here: "
+msgstr ""
+"مثلاْ میتونی لیست دوستان اورکات رو اینجا بدی."
+
+# id: 490
+msgid "Import"
+msgstr ""
+"وارد کردن"
+
+# id: 491
+msgid "File location: "
+msgstr ""
+"محل فایل"
+
+
+
+# /friends/karma
+# id: 431
+msgid "Friends'Karma"
+msgstr ""
+"فره‌وهر دوستان"
+
+# id: 432
+msgid "Haven't seen"
+msgstr ""
+"تا به حال ندیده‌آم"
+
+# id: 433
+msgid "Acquaintance"
+msgstr ""
+"آشنا"
+
+# id: 434
+msgid "Friend"
+msgstr ""
+"دوست"
+
+# id: 435
+msgid "Good friend"
+msgstr ""
+"رفیق خوب"
+
+# id: 436
+msgid "Best friend"
+msgstr ""
+"رفیق فاب"
+
+# id: 437
+msgid "Karma recorded"
+msgstr ""
+"فره‌وهر ذخیره شد"
+
+# id: 438
+msgid "Love"
+msgstr ""
+"عشق"
+
+# id: 439
+msgid "Asso/Club"
+msgstr ""
+"مجمع یا کلوب"
+
+# id: 440
+msgid "Childhood"
+msgstr ""
+"بچگی"
+
+# id: 441
+msgid "Studies"
+msgstr ""
+"مطالعات"
+
+# id: 442
+msgid "Family"
+msgstr ""
+"خانواده"
+
+# id: 443
+msgid "Internet"
+msgstr ""
+"شبکه‌ی جهانی"
+
+# id: 444
+msgid "Parties"
+msgstr ""
+"مهمانی‌ها"
+
+# id: 445
+msgid "Work"
+msgstr ""
+"کار"
+
+# id: 446
+msgid "Holidays"
+msgstr ""
+"تعطیلات"
+
+# id: 652
+msgid "Karma has moved"
+msgstr ""
+"فره‌وهر جابجا شده"
+
+# id: 653
+msgid "Now, you can rate your friends in there profiles (see the karma tab)."
+msgstr ""
+"(حالا شما می‌توانید دوستانتان را در شناسنامه‌شان درجه‌بندی کنید (نوار فره‌وهر را ببینید"
+
+
+
+# /friends/list
+# id: 430
+msgid "Friends list"
+msgstr ""
+"فهرست دوستان"
+
+# id: 598
+msgid "<b>%1</b> friend"
+msgid_plural "<b>%1</b> friends"
+msgstr[0] "<b>%1</b> دوست"
+msgstr[1] ""
+
+
+
+# /friends/search
+# id: 447
+msgid "Friend finder"
+msgstr ""
+"دوست‌یاب"
+
+# id: 448
+msgid "Search friends"
+msgstr ""
+"جستجوی دوستان"
+
+# id: 449
+msgid "Search for friends on .node network"
+msgstr ""
+"در دات‌نود دنبال دوست بگرد"
+
+# id: 450
+msgid "Nobody match your search. Try again !"
+msgstr ""
+"هیچ کس با جستجوی تو جور نشد. دوباره امتحان کن!"
+
+
+
+# /help
+# id: 553
+msgid "About"
+msgstr ""
+"درباره"
+
+# id: 554
+msgid "FAQ"
+msgstr ""
+"سین‌جیم"
+
+# id: 555
+msgid "Terms"
+msgstr ""
+"موارد"
+
+# id: 556
+msgid "Privacy"
+msgstr ""
+"حریم شخصی"
+
+
+
+# /help/faq
+# id: 607
+msgid "Last modified: "
+msgstr ""
+"آخرین تصحیح"
+
+
+
+# /irc
+# id: 635
+msgid "IRC"
+msgstr ""
+"IRC"
+
+
+
+# /mail DotNodeMailPassword
+# id: 566
+msgid "Change your password"
+msgstr ""
+"تغییر گذرواژه"
+
+# id: 567
+msgid "Change your main email"
+msgstr ""
+"تغییر ایمیل اصلی"
+
+
+
+# /mail invitation
+# id: 557
+msgid "%1 %2 invite you on .node"
+msgstr ""
+"%1 %2 تو رو به دات‌نود دعوت کرده"
+
+# id: 558
+msgid "A personal message from your friend"
+msgstr ""
+"یک پیام خصوصی از طرف دوستت"
+
+
+
+# /menu
+# id: 48
+msgid "Public Section"
+msgstr ""
+"بخش عمومی"
+
+# id: 49
+msgid "Join"
+msgstr ""
+"پیوستن"
+
+# id: 50
+msgid "Help"
+msgstr ""
+"کمک"
+
+# id: 51
+msgid "Home"
+msgstr ""
+"خانه"
+
+# id: 52
+msgid "Friends"
+msgstr ""
+"دوستان"
+
+# id: 53
+msgid "Messages"
+msgstr ""
+"پیام‌ها"
+
+# id: 54
+msgid "Community"
+msgstr ""
+"گروه"
+
+# id: 55
+msgid "Communities"
+msgstr ""
+"گروه"
+
+# id: 56
+msgid "Search"
+msgstr ""
+"جستجو"
+
+# id: 57
+msgid "News"
+msgstr ""
+"اخبار"
+
+# id: 58
+msgid "Logout"
+msgstr ""
+"خروج"
+
+# id: 59
+msgid "Profile"
+msgstr ""
+"شناسنامه"
+
+# id: 60
+msgid "Album"
+msgstr ""
+"آلبوم"
+
+# id: 61
+msgid "Settings"
+msgstr ""
+"تنظیمات"
+
+# id: 62
+msgid "Bookmarks"
+msgstr ""
+"نشان‌ها"
+
+# id: 63
+msgid "Blog"
+msgstr ""
+"بلاگ"
+
+# id: 64
+msgid "General"
+msgstr ""
+"کلی"
+
+# id: 65
+msgid "Interests"
+msgstr ""
+"علاقه‌ها"
+
+# id: 66
+msgid "Professional"
+msgstr ""
+"حرفه‌ای"
+
+# id: 67
+msgid "Personal"
+msgstr ""
+"شخصی"
+
+# id: 68
+msgid "Schools"
+msgstr ""
+"مدارس"
+
+# id: 69
+msgid "Contact"
+msgstr ""
+"تماس"
+
+# id: 70
+msgid "Photo"
+msgstr ""
+"عکس"
+
+# id: 71
+msgid "Invitation"
+msgstr ""
+"دعوت‌نامه"
+
+# id: 72
+msgid "Karma"
+msgstr ""
+"فره‌وهر"
+
+# id: 73
+msgid "Read"
+msgstr ""
+"بخون"
+
+# id: 74
+msgid "Write"
+msgstr ""
+"بنویس"
+
+# id: 75
+msgid "Send"
+msgstr ""
+"ارسال"
+
+# id: 76
+msgid "Saved"
+msgstr ""
+"ذخیره شده"
+
+# id: 77
+msgid "Sent"
+msgstr ""
+"ارسال شده"
+
+# id: 78
+msgid "Create"
+msgstr ""
+"ایجاد"
+
+# id: 79
+msgid "Create your community"
+msgstr ""
+"درست کردن گروه"
+
+# id: 80
+msgid "View"
+msgstr ""
+"نمایش"
+
+# id: 81
+msgid "Unjoin"
+msgstr ""
+"خارج شدن"
+
+# id: 82
+msgid "Forum"
+msgstr ""
+"انجمن"
+
+# id: 83
+msgid "Event"
+msgstr ""
+"خبر"
+
+# id: 84
+msgid "Invite"
+msgstr ""
+"دعوت"
+
+# id: 85
+msgid "Edit"
+msgstr ""
+"ویرایش"
+
+# id: 86
+msgid "Report an error"
+msgstr ""
+"گزارش خطا"
+
+
+
+# /messages
+# id: 451
+msgid "Compose message"
+msgstr ""
+"نوشتن پیام"
+
+# id: 452
+msgid "Friends and friends of friends"
+msgstr ""
+"موضوع"
+
+# id: 453
+msgid "Subject"
+msgstr ""
+"موضوع"
+
+# id: 454
+msgid "Message"
+msgstr ""
+"پیام"
+
+# id: 455
+msgid "From"
+msgstr ""
+"از"
+
+# id: 456
+msgid "To"
+msgstr ""
+"به"
+
+# id: 457
+msgid "Date"
+msgstr ""
+"تاریخ"
+
+# id: 458
+msgid "Reply"
+msgstr ""
+"پاسخ"
+
+# id: 459
+msgid "Forward"
+msgstr ""
+"ارجاع"
+
+# id: 460
+msgid "Inbox"
+msgstr ""
+"صندوق"
+
+# id: 461
+msgid "Inbox messages"
+msgstr ""
+"پیام‌های صندوق"
+
+# id: 462
+msgid "Sent messages"
+msgstr ""
+"پیغام‌های ارسال شده"
+
+# id: 463
+msgid "Saved messages"
+msgstr ""
+"پیام‌های ذخیره‌شده"
+
+# id: 464
+msgid "No message"
+msgstr ""
+"پیامی نیست"
+
+# id: 465
+msgid "Delete selection"
+msgstr ""
+"پاک کردن انتخاب شده‌ها"
+
+
+
+# /messages/inbox/1
+# id: 605
+msgid "Page:"
+msgstr ""
+"صفحه:"
+
+# id: 622
+msgid "Ok"
+msgstr ""
+"قبول"
+
+
+
+# /messages/write
+# id: 466
+msgid "Incorrect message"
+msgstr ""
+"پیام نادرست"
+
+# id: 467
+msgid "You must enter a subject and a body to send your .message"
+msgstr ""
+"برای ارسال پیام باید یک موضوع و بدنه وارد کنی"
+
+
+
+# /my
+# id: 102
+msgid "My Friends"
+msgstr ""
+"دوستام"
+
+# id: 103
+msgid "My Communities"
+msgstr ""
+"گروه‌های من"
+
+# id: 104
+msgid "Welcome"
+msgstr ""
+"خوش‌آمد"
+
+# id: 576
+msgid "Edit my profile"
+msgstr ""
+"ویرایش شناسنامه‌ی من"
+
+# id: 577
+msgid "Manage my album"
+msgstr ""
+"مدیریت آلبوم"
+
+# id: 578
+msgid "Add bookmarks"
+msgstr ""
+"نشانه بذار"
+
+# id: 579
+msgid "Write blog"
+msgstr ""
+"بلاگ نوشتن"
+
+# id: 580
+msgid "Change my password"
+msgstr ""
+"تغییر رمز عبور"
+
+# id: 581
+msgid "The %1 last friends who have visited my profile (<a href='/friends/list'>View full list</a>):"
+msgstr ""
+"آخرین %1 دوستی که از شناسنامه‌ی من بازدید کردند (<a href='/friends/list'>مشاهده‌ی لیست کامل</a>):"
+
+# id: 582
+msgid "The %1 last communities' post (<a href='/profile/communities'>View all communities subscribed</a>): "
+msgstr ""
+"آهرین %1 ارسال به گروه‌ها (<a href='/profile/communities'>مشاهده‌ی همه‌ی گروه‌ها</a>):"
+
+# id: 583
+msgid "Public"
+msgstr ""
+"عمومی"
+
+# id: 584
+msgid "Last post: <a href='/communities/forum/%1'>%2</a>"
+msgstr ""
+"آخرین ارسال: <a href='/communities/forum/%1'>%2</a>"
+
+# id: 585
+msgid "View my own profile"
+msgstr ""
+"مشاهده‌ی شناسنامه‌ی خودم"
+
+# id: 586
+msgid "Welcome %1"
+msgstr ""
+"خوش‌آمدی %1"
+
+# id: 587
+msgid "Invite my friends to join .node..."
+msgstr ""
+"دوستام رو به دات‌نود دعوت کن... "
+
+# id: 588
+msgid "Fill my extented profile"
+msgstr ""
+"پر کردن شناسنامه‌ی گسترده‌"
+
+# id: 589
+msgid "Write a ticket in my blog"
+msgstr ""
+"نوشتن بچسب در بلاگ"
+
+# id: 590
+msgid "Add a link in my bookmarks"
+msgstr ""
+"یک لینک به نشان‌گذاری‌های من اضافه کن"
+
+# id: 624
+msgid "%1 support .node."
+msgstr ""
+"%1 از دات نود حمایت می‌کنه"
+
+# id: 625
+msgid "For each created account by this link (and confirmed), eBay give some money to .node..."
+msgstr ""
+"%1 از دات‌نود حمایت کن"
+
+# id: 626
+msgid "Make a donation with PayPal"
+msgstr ""
+"برای اهدای کمک از PayPal استفاده کنید"
+
+# id: 636
+msgid "Support"
+msgstr ""
+"پشتیبانی"
+
+# id: 669
+msgid "Search & subscribe to communities"
+msgstr ""
+"جستجو در گروه‌ها و عضو شدن"
+
+
+
+# /my/album
+# id: 299
+msgid "You can upload a JPEG (.jpg), GIF (.gif), or PNG (.png) file (maximum size of 500KB)."
+msgstr ""
+"میتونی یک فایل از نوع JPEG، GIF یا PNG با حداکثر اندازه‌ی ۵۰۰ کیلو بایت رو به عنوان معرف خودت بذاری"
+
+# id: 300
+msgid "Select image"
+msgstr ""
+"انتخاب تصویر"
+
+# id: 301
+msgid "Caption"
+msgstr ""
+"زیرنویس"
+
+# id: 302
+msgid "Edit caption"
+msgstr ""
+"ویرایش زیرنویس"
+
+# id: 303
+msgid "Confirm delete ?"
+msgstr ""
+"حذف رو تایید می‌کنی؟"
+
+# id: 304
+msgid "Image"
+msgstr ""
+"تصویر"
+
+# id: 305
+msgid "Update"
+msgstr ""
+"به‌روز‌رسانی"
+
+# id: 306
+msgid "View full photo"
+msgstr ""
+"مشاهده‌ی تصویر کامل"
+
+# id: 307
+msgid "%1's Album"
+msgstr ""
+"آلبوم %1 "
+
+
+
+# /my/become_translator
+# id: 670
+msgid "I want to become a .node translator"
+msgstr ""
+"می‌خواهم مترجم دات‌نود شوم"
+
+# id: 671
+msgid "If you want to become a .node translator, just fill this form :"
+msgstr ""
+"اگر مایلید مترجم دات‌نود شوید، این فرم را پر کنید:"
+
+# id: 672
+msgid "If you are accepted, your login/password will be your actual .node login/password."
+msgstr ""
+"اگر پذیرفته شوی، نام کابری و رمز عبورت همان نام کاربری و رمز عبور دات‌نود خواهد بد."
+
+# id: 673
+msgid "Language i want to translate .node to: "
+msgstr ""
+"زبانی که می‌خواهم دات‌نود را به آن ترجمه کنم:"
+
+# id: 674
+msgid "Enter here some information about you and your language (level of practice, mother tongue or not, ...):"
+msgstr ""
+"در این محل اطلاعاتی در مورد خودت، زبانت (سطح آمادگی،‌ ربان مادری یا غیر مادری و ...) وارد کن:"
+
+# id: 675
+msgid "Select your wanted level : "
+msgstr ""
+"سطح مورد نظر را انتخاب کن"
+
+
+
+# /my/blog
+# id: 312
+msgid "%1's Blog"
+msgstr ""
+"بلاگ %1 "
+
+# id: 313
+msgid "No blog"
+msgstr ""
+"بلاگی نیست"
+
+# id: 314
+msgid "edit one now"
+msgstr ""
+"یکی رو الان ویرایش کن"
+
+# id: 315
+msgid "URL of your RSS blog if you have one"
+msgstr ""
+"آدرس RSS بلاگت (اگر بلاگ داری)"
+
+# id: 316
+msgid "To activate your RSS, you must post one ticket Online here"
+msgstr ""
+"برای فعال کردن RSS باید حداقل یک برچست بفرستی"
+
+# id: 317
+msgid "Category"
+msgstr ""
+"مقوله"
+
+# id: 318
+msgid "See"
+msgstr ""
+"ببین"
+
+# id: 319
+msgid "Publish it"
+msgstr ""
+"منتشرش کن"
+
+# id: 320
+msgid "Hide it"
+msgstr ""
+"منتشر کردن"
+
+# id: 321
+msgid "Online"
+msgstr ""
+"آنلاین"
+
+# id: 322
+msgid "Offline"
+msgstr ""
+"آفلاین"
+
+# id: 323
+msgid "Write a ticket"
+msgstr ""
+"نوشتن برچسب"
+
+# id: 324
+msgid "Manage categories"
+msgstr ""
+"مدیریت دسته‌بندی"
+
+# id: 325
+msgid "Organize your blog with categories..."
+msgstr ""
+"بلاگت رو با دسته‌بندی مرتب کن"
+
+# id: 326
+msgid "Add this categorie"
+msgstr ""
+"اضافه کردن این دسته‌بندی"
+
+# id: 327
+msgid "Write a new ticket"
+msgstr ""
+"نوشتن برچست جدید"
+
+# id: 328
+msgid "Status"
+msgstr ""
+"وضعیت"
+
+# id: 329
+msgid "The content of your blog is under your responsability."
+msgstr ""
+"مسئولیت محتویات بلاگ با خود تو است"
+
+# id: 330
+msgid "Ticket content"
+msgstr ""
+"محتویات بچسب"
+
+# id: 331
+msgid "Manage blog's categories"
+msgstr ""
+"مدریت دسته‌بندی بلاگ"
+
+# id: 332
+msgid "No category"
+msgstr ""
+"هیچ دسته‌ای نیست"
+
+# id: 333
+msgid "add one now"
+msgstr ""
+"یکی رو اضافه کن"
+
+
+
+# /my/bookmarks
+# id: 308
+msgid "%1's Bookmarks"
+msgstr ""
+"نشان‌های %1 "
+
+# id: 309
+msgid "Please, do not add illegal sites."
+msgstr ""
+"لطفاْ سایت‌های غیر قانونی اضافه نکن"
+
+# id: 310
+msgid "URL Address"
+msgstr ""
+"آدرس"
+
+# id: 311
+msgid "Add"
+msgstr ""
+"اضافه‌کردن"
+
+# id: 612
+msgid "Add a bookmark"
+msgstr ""
+"یک نشانه بذار"
+
+# id: 613
+msgid "Share your best links with your friends and other .nodians."
+msgstr ""
+"بهترین لینک‌ها را با دوستان و سایر اعضای دات‌نود تقسیم کن."
+
+# id: 614
+msgid "Name :"
+msgstr ""
+"اسم:"
+
+
+
+# /my/new
+# id: 504
+msgid "You"
+msgstr ""
+"تو"
+
+# id: 505
+msgid "Job"
+msgstr ""
+"شغل"
+
+# id: 506
+msgid "Finish"
+msgstr ""
+"پایان"
+
+# id: 507
+msgid "Next step"
+msgstr ""
+"قدم بعدی"
+
+# id: 508
+msgid "Indicate information about you."
+msgstr ""
+"یه سری اطلاعات در مورد خودت بده"
+
+# id: 509
+msgid "Indicate how to contact you."
+msgstr ""
+"بگو چه جوری میشه با تو تماس گرفت"
+
+# id: 510
+msgid "Describe your job."
+msgstr ""
+"شغلت را شرح بده"
+
+# id: 511
+msgid "To help other members to know you ..."
+msgstr ""
+"برای کمک به بقیه‌ی اعضا که تو رو بهتر بشناسند"
+
+# id: 512
+msgid "Fill it seriously ... :-)"
+msgstr ""
+"با جدیت پرش کن :-)"
+
+
+
+# /my/password
+# id: 352
+msgid "Modify your password"
+msgstr ""
+"اصلاح گذرواژه"
+
+# id: 353
+msgid "Old password"
+msgstr ""
+"رمز عبور قدیمی"
+
+# id: 354
+msgid "New password"
+msgstr ""
+"گذرواژه‌ی جدید"
+
+# id: 355
+msgid "Confirm new password"
+msgstr ""
+"تایید رمز عبور جدید"
+
+# id: 356
+msgid "New password recorded"
+msgstr ""
+"رمز عبور جدید ذخیره شد"
+
+
+
+# /my/profile
+# id: 629
+msgid "Create my album"
+msgstr ""
+"آلبومم را ایجاد کن"
+
+# id: 630
+msgid "Create my blog"
+msgstr ""
+"بلاگم را ایجاد کن"
+
+# id: 631
+msgid "Create my bookmarks"
+msgstr ""
+"نشان‌گذاری‌های من را ایجاد کن"
+
+
+
+# /my/profile/contact
+# id: 260
+msgid "Contact Profile"
+msgstr ""
+"شناسنامه‌ی تماس"
+
+# id: 261
+msgid "Address"
+msgstr ""
+"آدرس"
+
+# id: 262
+msgid "email"
+msgstr ""
+"ایمیل"
+
+# id: 263
+msgid "Email"
+msgstr ""
+"ایمیل"
+
+# id: 264
+msgid "Email (2)"
+msgstr ""
+"ایمیل"
+
+# id: 265
+msgid "Email (3)"
+msgstr ""
+"ایمیل"
+
+# id: 266
+msgid "Email (4)"
+msgstr ""
+"ایمیل"
+
+# id: 267
+msgid "Main IM"
+msgstr ""
+"IM اصلی"
+
+# id: 268
+msgid "Secondary IM"
+msgstr ""
+"IM دوم"
+
+# id: 269
+msgid "Phone"
+msgstr ""
+"تلفن"
+
+# id: 270
+msgid "Cell phone"
+msgstr ""
+"تلفن همراه"
+
+# id: 271
+msgid "Zip"
+msgstr ""
+"کد پستی"
+
+# id: 272
+msgid "Your email will be updated after your confirmation received by email (in 2 min max)"
+msgstr ""
+"ایمیلت بعد از اینکه تاییدش توسط ایمیل دریافت شد به‌روز میشه (حداکثر ۲ دقیقه)"
+
+
+
+# /my/profile/contact/edit
+# id: 259
+msgid "Edit my contact"
+msgstr ""
+"ویرایش لیست دوستان"
+
+# id: 632
+msgid "ZIP"
+msgstr ""
+"ZIP‌"
+
+
+
+# /my/profile/general
+# id: 122
+msgid "General Profile"
+msgstr ""
+"شناسنامه‌ی عمومی"
+
+# id: 123
+msgid "No general profile recorded."
+msgstr ""
+"هیچ شناسنامه‌ی عمومی ذخیره نشده"
+
+# id: 124
+msgid "Edit it !"
+msgstr ""
+"ویرایش کن"
+
+# id: 125
+msgid "First name"
+msgstr ""
+"اسم"
+
+# id: 126
+msgid "Last name"
+msgstr ""
+"فامیل"
+
+# id: 127
+msgid "Nickname"
+msgstr ""
+"نام مستعار"
+
+# id: 128
+msgid "Gender"
+msgstr ""
+"جنسیت"
+
+# id: 129
+msgid "Relationship status"
+msgstr ""
+"وضعیت تاهل"
+
+# id: 130
+msgid "Birthday"
+msgstr ""
+"روز تولد"
+
+# id: 131
+msgid "Male"
+msgstr ""
+"مرد"
+
+# id: 132
+msgid "Female"
+msgstr ""
+"زن"
+
+# id: 133
+msgid "Single"
+msgstr ""
+"مجرد"
+
+# id: 134
+msgid "Married"
+msgstr ""
+"متاهل"
+
+# id: 135
+msgid "Committed"
+msgstr ""
+"متعهد"
+
+# id: 136
+msgid "I'm interested in"
+msgstr ""
+"من علاقه دارم به"
+
+# id: 137
+msgid "Business networking"
+msgstr ""
+"ارتباطات شغلی"
+
+# id: 138
+msgid "Dating"
+msgstr ""
+"دوست‌یابی"
+
+# id: 139
+msgid "Activity Partners"
+msgstr ""
+"شرکای کاری"
+
+# id: 140
+msgid "Children"
+msgstr ""
+"فرزندان"
+
+# id: 141
+msgid "Yes, full time"
+msgstr ""
+"بله، تمام وقت"
+
+# id: 142
+msgid "Yes, half time"
+msgstr ""
+"بله، پاره وقت"
+
+# id: 143
+msgid "Yes, but not at home"
+msgstr ""
+"آره،‌ ولی نه توی خونه"
+
+# id: 144
+msgid "Fashion"
+msgstr ""
+"مد"
+
+# id: 145
+msgid "Alternative"
+msgstr ""
+"جایگزین"
+
+# id: 146
+msgid "Casual"
+msgstr ""
+"آنچنانی"
+
+# id: 147
+msgid "Classic"
+msgstr ""
+"کلاسیک"
+
+# id: 148
+msgid "Contemporary"
+msgstr ""
+"امروزی"
+
+# id: 149
+msgid "Designer"
+msgstr ""
+"طراح"
+
+# id: 150
+msgid "Minimal"
+msgstr ""
+"کمینه"
+
+# id: 151
+msgid "Natural"
+msgstr ""
+"طبیعی"
+
+# id: 152
+msgid "Outdoorsy"
+msgstr ""
+"آفاقی"
+
+# id: 153
+msgid "Smart"
+msgstr ""
+"زرنگ"
+
+# id: 154
+msgid "Trendy"
+msgstr ""
+"نوگرا"
+
+# id: 155
+msgid "Urban"
+msgstr ""
+"شهری"
+
+# id: 156
+msgid "Smoking"
+msgstr ""
+"سیگار"
+
+# id: 157
+msgid "Drinking"
+msgstr ""
+"باده پیمایی"
+
+# id: 158
+msgid "A little"
+msgstr ""
+"کمی"
+
+# id: 159
+msgid "Socialy"
+msgstr ""
+"اجتماعی"
+
+# id: 160
+msgid "Occasionally"
+msgstr ""
+"گهگاه"
+
+# id: 161
+msgid "Regularly"
+msgstr ""
+"اغلب"
+
+# id: 162
+msgid "Living"
+msgstr ""
+"زندگی"
+
+# id: 163
+msgid "Alone"
+msgstr ""
+"تنها"
+
+# id: 164
+msgid "With my roommate(s)"
+msgstr ""
+"با هم‌اتاقی‌ها"
+
+# id: 165
+msgid "With my parents"
+msgstr ""
+"با والدینم"
+
+# id: 166
+msgid "With my partner"
+msgstr ""
+"با همسرم"
+
+# id: 167
+msgid "With my kid(s)"
+msgstr ""
+"با بچه‌هام"
+
+# id: 168
+msgid "With my pet(s)"
+msgstr ""
+"با حیوونام"
+
+# id: 169
+msgid "My Web"
+msgstr ""
+"آدرس وب من"
+
+# id: 170
+msgid "Describe yourself"
+msgstr ""
+"خودت رو شرح بده"
+
+# id: 171
+msgid "About me"
+msgstr ""
+"درباره‌ی من"
+
+# id: 172
+msgid "<b>%1</b> fan"
+msgid_plural "<b>%1</b> fans"
+msgstr[0] "<b>%1</b> طرفدار"
+msgstr[1] ""
+
+# id: 173
+msgid "<b>%1</b> photo"
+msgid_plural "<b>%1</b> photos"
+msgstr[0] "عکس <b>%1</b>"
+msgstr[1] "عکس‌های <b>%1</b>"
+
+# id: 174
+msgid "<b>%1</b> blog"
+msgid_plural "<b>%1</b> blogs"
+msgstr[0] "<b>%1</b>بلاگ "
+msgstr[1] ""
+
+# id: 175
+msgid "<b>%1</b> bookmark"
+msgid_plural "<b>%1</b> bookmarks"
+msgstr[0] "<b>%1</b>نشان "
+msgstr[1] ""
+
+# id: 176
+msgid "You have <b>%1</b> fan"
+msgid_plural "You have <b>%1</b> fans"
+msgstr[0] "<b>%1</b> طرفدار داری"
+msgstr[1] ""
+
+# id: 177
+msgid "You have <b>%1</b> new message"
+msgid_plural "You have <b>%1</b> new messages"
+msgstr[0] "<b>%1</b> پیام جدید داری"
+msgstr[1] ""
+
+# id: 178
+msgid "Go to my messagebox"
+msgstr ""
+"برو به صندوق پیام‌ها"
+
+
+
+# /my/profile/general/edit
+# id: 121
+msgid "Edit general profile"
+msgstr ""
+"ویرایش شناسنامه‌ی عمومی"
+
+
+
+# /my/profile/interests
+# id: 180
+msgid "Interests Profile"
+msgstr ""
+"شناسنامه‌ی علاقه‌ها"
+
+# id: 181
+msgid "Passions"
+msgstr ""
+"علاقه‌مندی‌ها"
+
+# id: 182
+msgid "Sports"
+msgstr ""
+"ورزش"
+
+# id: 183
+msgid "Activities"
+msgstr ""
+"فعالیت‌ها"
+
+# id: 184
+msgid "Favorite books"
+msgstr ""
+"کتاب‌های مورد علاقه"
+
+# id: 185
+msgid "Favorite music"
+msgstr ""
+"موزیک مورد‌علاقه"
+
+# id: 186
+msgid "Favorite TV shows"
+msgstr ""
+"برنامه‌ی تلوزیونی مورد ‌علاقه"
+
+# id: 187
+msgid "Favorite movies"
+msgstr ""
+"فیلم‌های مورد علاقه"
+
+# id: 188
+msgid "Favorite cuisines"
+msgstr ""
+"غذای مورد علاقه"
+
+
+
+# /my/profile/interests/edit
+# id: 179
+msgid "Edit interest profile"
+msgstr ""
+"ویرایش شناسنامه‌ی علاقه‌ها"
+
+
+
+# /my/profile/personal
+# id: 219
+msgid "Personal Profile"
+msgstr ""
+"شناسنامه‌ی شخصی"
+
+# id: 220
+msgid "Headline"
+msgstr ""
+"سرآمد"
+
+# id: 221
+msgid "First thing you will notice<br />about me"
+msgstr ""
+"اولین چیزی که در مورد من متوجه خواهید شد"
+
+# id: 222
+msgid "Size (in cm)"
+msgstr ""
+"اندازه (به سانتی‌متر)"
+
+# id: 223
+msgid "Size"
+msgstr ""
+"اندازه"
+
+# id: 224
+msgid "Eye color"
+msgstr ""
+"رنگ چشم"
+
+# id: 225
+msgid "Hair color"
+msgstr ""
+"رنگ مو"
+
+# id: 226
+msgid "Body art"
+msgstr ""
+"هنر‌های بدن"
+
+# id: 227
+msgid "Best feature"
+msgstr ""
+"مهم‌ترین ویژگی"
+
+# id: 228
+msgid "Things I can't live without"
+msgstr ""
+"چیز‌هایی که نمیتونم بدونشون زندگی کنم"
+
+# id: 229
+msgid "Describe your ideal match"
+msgstr ""
+"فرد ایده‌آل مورد نظر خودت رو توصیف کن"
+
+# id: 230
+msgid "Blue"
+msgstr ""
+"آبی"
+
+# id: 231
+msgid "Green"
+msgstr ""
+"سبز"
+
+# id: 232
+msgid "Brown"
+msgstr ""
+"قهوه‌ای"
+
+# id: 233
+msgid "Black"
+msgstr ""
+"مشکی"
+
+# id: 234
+msgid "Gray"
+msgstr ""
+"خاکستری"
+
+# id: 235
+msgid "Hazel"
+msgstr ""
+"قهوه‌ای مایل به سبز"
+
+# id: 236
+msgid "Blonde"
+msgstr ""
+"بلوند"
+
+# id: 237
+msgid "Auburn"
+msgstr ""
+"قهوه‌ای"
+
+# id: 238
+msgid "Salt and pepper"
+msgstr ""
+"نمک و فلفل"
+
+# id: 239
+msgid "Red"
+msgstr ""
+"سرخ"
+
+# id: 240
+msgid "Light brown"
+msgstr ""
+"قهوه‌ای روشن"
+
+# id: 241
+msgid "Dark brown"
+msgstr ""
+"قهوه‌ای تیره"
+
+# id: 242
+msgid "Hidden tattoo"
+msgstr ""
+"خالکوبی پنهان"
+
+# id: 243
+msgid "Visible tattoo"
+msgstr ""
+"خالکوبی عیان"
+
+# id: 244
+msgid "Pierced tongue"
+msgstr ""
+"سوراخ زبان"
+
+# id: 245
+msgid "Other piercing"
+msgstr ""
+"سوراخ در جاهای دیگر (مثلاً کجا؟؟؟)"
+
+# id: 246
+msgid "Eyes"
+msgstr ""
+"چشمان"
+
+# id: 247
+msgid "Hair"
+msgstr ""
+"مو"
+
+# id: 248
+msgid "Lips"
+msgstr ""
+"لب"
+
+# id: 249
+msgid "Neck"
+msgstr ""
+"گردن"
+
+# id: 250
+msgid "Arms"
+msgstr ""
+"بازو"
+
+# id: 251
+msgid "Hands"
+msgstr ""
+"دست‌ها"
+
+# id: 252
+msgid "Chest"
+msgstr ""
+"سینه"
+
+# id: 253
+msgid "Belly button"
+msgstr ""
+"ناف"
+
+# id: 254
+msgid "Butt"
+msgstr ""
+"باسن"
+
+# id: 255
+msgid "Legs"
+msgstr ""
+"ران"
+
+# id: 256
+msgid "Calves"
+msgstr ""
+"ساق‌پاها"
+
+# id: 257
+msgid "Feet"
+msgstr ""
+"پاها"
+
+# id: 258
+msgid "Not in the list"
+msgstr ""
+"در فهرست نیست"
+
+
+
+# /my/profile/personal/edit
+# id: 218
+msgid "Edit personal profile"
+msgstr ""
+"ویرایش شناسنامه‌ی شخصی"
+
+
+
+# /my/profile/photo
+# id: 273
+msgid "You can upload a JPEG (.jpg), GIF (.gif), or PNG (.png) file (maximum size of 500KB) to represent you into %1."
+msgstr ""
+"میتونی یک فایل از نوع JPEG، GIF یا PNG با حداکثر اندازه‌ی ۵۰۰ کیلو بایت رو به عنوان معرف خودت بذاری"
+
+# id: 274
+msgid "Please, do not upload photos containing celebrities, nudity, artwork, children, pets/animals, cartoons or copyrighted images."
+msgstr ""
+"لطفا عکس‌های افراد سرشناس، برهنگی، آثار هنری، کودکان، حیوانات، کارتون‌ها و یا نشان‌های دارای مالکیت معنوی را بارگذاری نکنید"
+
+# id: 275
+msgid "Please, do not upload photos containing celebrities, nudity, cartoons or copyrighted images."
+msgstr ""
+"لطفا عکس افراد سرشناس، برهنگی، آثار هنری، کودکان، حیوانات، کارتون‌ها و یا تصویرهای دارای مالکیت معنوی را نگذارید"
+
+# id: 276
+msgid "Select photo"
+msgstr ""
+"انتخاب عکس"
+
+# id: 277
+msgid "Uploader"
+msgstr ""
+"بارگذار"
+
+
+
+# /my/profile/photo/success
+# id: 684
+msgid "Remember to reload to<br />view the new photo"
+msgstr ""
+"یادت باشه دوباره لود بکنی <br /> مشاهده‌ی عکس جدید"
+
+
+
+# /my/profile/professional
+# id: 190
+msgid "Professional Profile"
+msgstr ""
+"شناسنامه‌ی حرفه‌ای"
+
+# id: 191
+msgid "No professional profile recorded."
+msgstr ""
+"هیچ شناسنامه‌ی حرفه‌ای ذخیره نشده"
+
+# id: 192
+msgid "Occupation"
+msgstr ""
+"شغل"
+
+# id: 193
+msgid "Industry"
+msgstr ""
+"صنعت"
+
+# id: 194
+msgid "Company name"
+msgstr ""
+"اسم شرکت"
+
+# id: 195
+msgid "Web"
+msgstr ""
+"وب"
+
+# id: 196
+msgid "Title"
+msgstr ""
+"عنوان"
+
+# id: 197
+msgid "Job description"
+msgstr ""
+"توضیح وضعیت شغلی"
+
+# id: 198
+msgid "Work email"
+msgstr ""
+"ایمیل کاری"
+
+# id: 199
+msgid "Work phone"
+msgstr ""
+"تلفن محل کار"
+
+# id: 200
+msgid "Agriculture"
+msgstr ""
+"کشاورزی و دامداری"
+
+# id: 201
+msgid "Arts"
+msgstr ""
+"هنر"
+
+# id: 202
+msgid "Construction"
+msgstr ""
+"ساخت و ساز"
+
+# id: 203
+msgid "Consumer goods"
+msgstr ""
+"وسایل مصرفی"
+
+# id: 204
+msgid "Corporate services"
+msgstr ""
+"خدمات شرکتی"
+
+# id: 205
+msgid "Education"
+msgstr ""
+"تحصیلات"
+
+# id: 206
+msgid "Finance"
+msgstr ""
+"مالي"
+
+# id: 207
+msgid "Government"
+msgstr ""
+"دولت"
+
+# id: 208
+msgid "Hi-technology"
+msgstr ""
+"تکنولوژی‌های پیشرفته"
+
+# id: 209
+msgid "Legal"
+msgstr ""
+"حقوقی"
+
+# id: 210
+msgid "Manufacturing"
+msgstr ""
+"تولید"
+
+# id: 211
+msgid "Media"
+msgstr ""
+"رسانه"
+
+# id: 212
+msgid "Medical"
+msgstr ""
+"پزشکی"
+
+# id: 213
+msgid "Non-profit"
+msgstr ""
+"غیر انتفاعی"
+
+# id: 214
+msgid "Entertainment"
+msgstr ""
+"سرگرمی"
+
+# id: 215
+msgid "Scientific"
+msgstr ""
+"علمی"
+
+# id: 216
+msgid "Service industry"
+msgstr ""
+"صنعت خدمات"
+
+# id: 217
+msgid "Transportation"
+msgstr ""
+"حمل‌و‌نقل"
+
+
+
+# /my/profile/professional/edit
+# id: 189
+msgid "Edit professional profile"
+msgstr ""
+"ویرایش شناسنامه‌ی حرفه‌ای"
+
+
+
+# /my/profile/schools
+# id: 279
+msgid "School course"
+msgstr ""
+"واحد درسی مدرسه"
+
+# id: 280
+msgid "Year"
+msgstr ""
+"سال"
+
+# id: 281
+msgid "Name"
+msgstr ""
+"نام"
+
+# id: 282
+msgid "City"
+msgstr ""
+"شهر"
+
+# id: 283
+msgid "Country"
+msgstr ""
+"کشور"
+
+# id: 284
+msgid "Action"
+msgstr ""
+"فعالیت"
+
+# id: 285
+msgid "Actions"
+msgstr ""
+"فعالیت‌ها"
+
+# id: 286
+msgid "Save"
+msgstr ""
+"ذخیره"
+
+# id: 287
+msgid "Delete"
+msgstr ""
+"خذف"
+
+# id: 288
+msgid "Add next year"
+msgstr ""
+"اضافه کردن سال بعد"
+
+
+
+# /my/profile/schools/add
+# id: 278
+msgid "Add a school"
+msgstr ""
+"اضافه کردن مدرسه"
+
+
+
+# /my/settings
+# id: 337
+msgid "Edit my settings"
+msgstr ""
+"ویرایش تنظیمات"
+
+# id: 338
+msgid "New friend notification"
+msgstr ""
+"یادآوری دوست جدید"
+
+# id: 339
+msgid "New friend approval"
+msgstr ""
+"دوست جدید قبول کرد"
+
+# id: 340
+msgid "New blog comment"
+msgstr ""
+"نظر جدید در بلاگ"
+
+# id: 341
+msgid "Messages sent directly to me"
+msgstr ""
+"پیام‌هایی که مستقیماْ به من ارسال شده‌اند"
+
+# id: 342
+msgid "Messages sent to friends"
+msgstr ""
+"پیام به دوستان ارسال شد"
+
+# id: 343
+msgid "Messages sent to friends of friends"
+msgstr ""
+"پیام دوستان دوستان"
+
+# id: 344
+msgid "Messages sent to my communities"
+msgstr ""
+"پیام‌هایی که به گروه‌های من ارسال شده‌اند"
+
+# id: 345
+msgid "Birthday reminder"
+msgstr ""
+"یادآوری روز تولد"
+
+# id: 346
+msgid "<b>Publish my .page</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: blog, album, ...)"
+msgstr ""
+"صفحه‌ی داتی من رو منتشر کن:</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: بلاگ ، آلبوم، ... )"
+
+# id: 347
+msgid "Select .page style"
+msgstr ""
+"انتخاب سبک صفحه"
+
+# id: 348
+msgid "Invitation message"
+msgstr ""
+"پیام دعوت"
+
+# id: 349
+msgid "Add your personal message<br />into invitation to join %1"
+msgstr ""
+"پیام شخصی خودت رو توی دعوت‌نامه %1 بذار"
+
+# id: 350
+msgid "Settings recorded"
+msgstr ""
+"تنظیمات ذخیره شد"
+
+# id: 351
+msgid "this parameter take 10 minutes to be applied"
+msgstr ""
+"این تغییر پس از ۱۰ دقیقه اعمال می‌شود"
+
+
+
+# /new
+# id: 532
+msgid "Do you want to join the .node network ?"
+msgstr ""
+"می‌خوای عضو دات‌نود بشی؟"
+
+# id: 533
+msgid "If you want more information, <a href='/pub'>see the .node site</a> and <a href='/pub/help'>his help</a>"
+msgstr ""
+"اگر اطلاعات بیشتری می‌خواهی، <a href='/pub'>صفحه‌ی دات‌نود رو ببین</a> و <a href='/pub/help'> این راهنما رو</a>"
+
+# id: 534
+msgid "Your login"
+msgstr ""
+"نام کاربری"
+
+# id: 535
+msgid "Confirm password"
+msgstr ""
+"تایید رمزعبور"
+
+# id: 536
+msgid "Type the code displayed inside this image"
+msgstr ""
+"آره، می‌خوام"
+
+# id: 537
+msgid "Yes, I want"
+msgstr ""
+"آره، می‌خوام"
+
+# id: 538
+msgid "To join .node network, fill this little form then click the 'Accept' button"
+msgstr ""
+"برای عضویت در دات‌نود این فرم کوچولو رو پر کن و روی دکمه‌ی «قبول» کلیک کن"
+
+# id: 539
+msgid "Accept"
+msgstr ""
+"پذیرش"
+
+# id: 540
+msgid "No, I don't want to join .node"
+msgstr ""
+"نه، نمی‌خوام عضو دات‌نود بشم"
+
+# id: 541
+msgid ""
+"The person who have invited you will be informed of your refusal.<br />"
+"If another person invite you, you will still receive an invitation.<br >"
+"Indicate the reasons of your refusal (optional) then click the 'Refuse' button to refuse this invitation"
+msgstr ""
+"کسی که دعوتت کرده از رد کردن این دعوت مطلع خواهد شده </br> اگر شخص دیگه‌ای دعوتت کنه، دوباره یک دعوتنامه دریاف می‌کنی </br> دلایل رد کردن دعوت رو اگر دوست داری ذکر کن و روی دکمه‌ی «Refuse» کلیک کن تا این دعوت رو در کنی."
+
+# id: 542
+msgid "Refuse"
+msgstr ""
+"ردکردن"
+
+# id: 543
+msgid "No, I don't want to be contacted by .node anymore"
+msgstr ""
+"نمی‌خوام دات‌نود دیگه با من تماس بگیره"
+
+# id: 544
+msgid ""
+"You don't want to join .node network, and you don't want to receive any future invitation.<br />"
+"Your email will be added on a black list.<br />"
+"If it's realy what you want, indicate the reasons of your refusal (optional) then click on 'Blacklist me' button"
+msgstr ""
+"نمی‌خوای عضو شبکه‌ی دات‌نود باشی، و نمی‌خوای در آینده هیچ دعوتنامه‌ای دریافت کنی <br/> ایمیلت به لیست سیاه اضافه می‌شه. <br/> اگر واقاْ همین رو میخوای، لطفاْ دلایل رو بگو (اختیاری) و روی دکمه‌ی «من رو حذف کن» کلیک کن."
+
+# id: 545
+msgid "Blacklist me"
+msgstr ""
+"منو حذف کن"
+
+# id: 546
+msgid "Reasons"
+msgstr ""
+"دلایل"
+
+# id: 547
+msgid "Return to the registration process"
+msgstr ""
+"بازگشت به فرایند ثبت‌نام"
+
+
+
+# /new/profile
+# id: 548
+msgid "Your login to .node is"
+msgstr ""
+"نام کاربری تو در دات‌نود هست"
+
+# id: 549
+msgid "Now, you can connect to .node network"
+msgstr ""
+"حالا می‌تونی به شبکه‌ی دات‌نود وصل بشی"
+
+# id: 550
+msgid "Thanks for your participation"
+msgstr ""
+"متشکر از همراهی شما"
+
+# id: 551
+msgid "This filled profile is basic, a more detailled profile can be filled inside the network (menu: Home / Profile)"
+msgstr ""
+"این شناسنامه‌ که پر شده خیلی ابتدایی است. یک شناسنامه با جزيیات بیشتر رو میتونی داخل شبکه پر کنی (منو: خانه/شناسنامه‌)"
+
+# id: 552
+msgid "You could change your<br />email after registration"
+msgstr ""
+"میتونی بعد از ثبت نام ایمیلت رو عوض کنی"
+
+# id: 568
+msgid "Form problem"
+msgstr ""
+"مشکل فرم"
+
+# id: 569
+msgid "The submited form is incorrect"
+msgstr ""
+"فرم ارسال شده نادرست است"
+
+# id: 570
+msgid "You must enter a valid first name, last name, gender and country to validate your registration"
+msgstr ""
+"حتماْ باید نام،‌ نام خانوادگی، جنسیت و کشور درست وارد کنی تا ثبت نامت درست انجام بشه"
+
+# id: 690
+msgid "Profile creation"
+msgstr ""
+"تشکیل پرونده"
+
+
+
+# /news
+# id: 517
+msgid "Last blog's tickets"
+msgstr ""
+" آخرین برچسب‌های بلاگ"
+
+# id: 518
+msgid "External blog"
+msgstr ""
+"بلاگ خارجی"
+
+# id: 519
+msgid "View friends' blogs only"
+msgstr ""
+"فقط مشاهده‌ی بلاگ دوستان"
+
+# id: 606
+msgid "Statistics"
+msgstr ""
+"آمار"
+
+
+
+# /news/blog
+# id: 520
+msgid "%1 blog this week"
+msgid_plural "%1 blogs this week"
+msgstr[0] "این هفته %1 بلاگ"
+msgstr[1] "این هفته %1 بلاگ"
+
+
+
+# /news/statistics
+# id: 521
+msgid "Country representation"
+msgstr ""
+"بر اساس کشور"
+
+# id: 522
+msgid "Total"
+msgstr ""
+"مجموع"
+
+
+
+# /profile
+# id: 289
+msgid ".nodian since %1"
+msgstr ""
+"دات‌نودی از %1 "
+
+# id: 290
+msgid "His Friends"
+msgstr ""
+"دوستان او"
+
+# id: 291
+msgid "Her Friends"
+msgstr ""
+"دوستاش"
+
+# id: 292
+msgid "Send message"
+msgstr ""
+"ارسال پیام"
+
+# id: 293
+msgid "Add as a friend"
+msgstr ""
+"دوستش باش"
+
+
+
+# /profile/354a778bacabffaff3d3fd74f93ac278
+# id: 593
+msgid "The %1 last %2's friends who have visited that profile (<a href='/friends/%3/list'>View full list</a>):"
+msgstr ""
+"آخرین %1 دوست %2 که این شناسنامه‌ را دیده‌اند. (<a href='/friends/%3/list'> مشاهده‌ی لیست کامل </a>):"
+
+# id: 594
+msgid "The %1 last communities' post (<a href='/profile/%2/communities'>View all communities subscribed</a>): "
+msgstr ""
+"آهرین %1 ارسال به گروه (<a href='/profile/%2/communities'>مشاهده‌ی همه‌ی گروه‌ها</a>):"
+
+# id: 595
+msgid "Summary"
+msgstr ""
+"خلاصه"
+
+# id: 596
+msgid "General profile"
+msgstr ""
+"شناسنامه کلی"
+
+# id: 597
+msgid "Last links added"
+msgstr ""
+"آخرین لینک‌های اضافه شده"
+
+
+
+# /profile/6c462c5f333945c866c4b63a8f9f1cfe
+# id: 604
+msgid "Last blog's ticket"
+msgstr ""
+"آخرین برچسب بلاگ"
+
+
+
+# /profile/afe5e1804d88f0fdc122ecc7af624111
+# id: 618
+msgid "Last photo added"
+msgstr ""
+"آخرین عکس اضافه شده"
+
+
+
+# /profile/c57fb3809b0d27b1922c5e3ae0a3ab7b/communities
+# id: 656
+msgid "Communities list"
+msgstr ""
+"فهرست اجتماعات"
+
+
+
+# /profile/fbb92b36beb704dc5138b73362d3b6ff
+# id: 641
+msgid "Rate your friend to build his/her karma: "
+msgstr ""
+"دوستانت را درجه‌بندی کن تا فره‌وهر آن‌ها را ایجاد کنی"
+
+# id: 642
+msgid "Fan: "
+msgstr ""
+"طرفدار"
+
+# id: 643
+msgid "Fun: "
+msgstr ""
+"خوشی:"
+
+# id: 644
+msgid "Cool: "
+msgstr ""
+"باحال:"
+
+# id: 645
+msgid "Sexy: "
+msgstr ""
+"خوشگل"
+
+# id: 646
+msgid "Relation: "
+msgstr ""
+"رابطه"
+
+# id: 647
+msgid "Type: "
+msgstr ""
+":نوع"
+
+
+
+# /pub
+# id: 87
+msgid "What is it ?"
+msgstr ""
+"کجاست؟"
+
+# id: 88
+msgid ".node is an online community connecting people through a trusted friends network"
+msgstr ""
+"دات‌نود یک اجتماع آنلاین است که افراد رو از طریق یک شبکه‌ از دوستان به هم مرتبط می‌کند"
+
+# id: 89
+msgid "We wish to create a worldwide friendship network without any language barrier"
+msgstr ""
+"ما می‌خواهیم یک شبکه‌ی جهانی از دوستان بدون هیچ محدودیت زبانی ایجاد کنیم"
+
+# id: 90
+msgid "By joining <strong>.node</strong>, you can use lots of little services based on trusted friends"
+msgstr ""
+"با عضو شدن در <strong>دات‌نود</strong>، می‌تونی از تعداد زیادی سرویس کوچولو مبتنی بر یک شبکه‌ی دوستی استفاده بکنی"
+
+# id: 91
+msgid "Connect"
+msgstr ""
+"اتصال"
+
+# id: 92
+msgid "Login"
+msgstr ""
+"ورود"
+
+# id: 93
+msgid "Password"
+msgstr ""
+"رمز عبور"
+
+# id: 94
+msgid "To contact me"
+msgstr ""
+"برای تماس با من"
+
+# id: 95
+msgid "Enter"
+msgstr ""
+"ورود"
+
+# id: 96
+msgid "Forgot your password ?"
+msgstr ""
+"رمز عبورت یادت رفته؟"
+
+# id: 97
+msgid "Not a member?"
+msgstr ""
+"عضو نیستی؟"
+
+# id: 98
+msgid "You must be connected to view this page"
+msgstr ""
+"باید وصل بشی تا این صفحه رو ببینی"
+
+# id: 655
+msgid "Join .node"
+msgstr ""
+"به دات‌نود بپیوندید"
+
+
+
+# /pub/no-hp
+# id: 99
+msgid "No dotPage for this .node member"
+msgstr ""
+"برای این عضو دات‌نود هیج دات‌پیجی پیدا نشد"
+
+# id: 100
+msgid "This member haven't join a photo to his profile. His dotPage is disabled"
+msgstr ""
+"این عضو عکسی توی شناسنامه‌ی خودش نگذاشته، به همین علت دات‌پیجش غیرفعاله"
+
+# id: 101
+msgid "You can see dotPage's examples at"
+msgstr ""
+"میتونی نمونه‌ی یک دات‌چیج رو در اینجا ببینی"
+
+
+
+# /public
+# id: 523
+msgid "Contact me"
+msgstr ""
+"باهام تماس بگیرید"
+
+# id: 524
+msgid "On"
+msgstr ""
+"در"
+
+# id: 525
+msgid "My Blog"
+msgstr ""
+"بلاگ من"
+
+# id: 526
+msgid "Some bookmarks"
+msgstr ""
+"چند تا نشان"
+
+# id: 527
+msgid "Some photos"
+msgstr ""
+"چند تصویر"
+
+# id: 528
+msgid "My album"
+msgstr ""
+"آلبوم من"
+
+# id: 529
+msgid "Some friends"
+msgstr ""
+"چند تا دوست"
+
+# id: 530
+msgid "Some comments"
+msgstr ""
+"چند نظر"
+
+# id: 531
+msgid "Return to home"
+msgstr ""
+"بازگشت به خانه"
+
+
+
+# /search
+# id: 513
+msgid "Find your soul mate"
+msgstr ""
+"رفیق خودت رو پیدا کن"
+
+# id: 514
+msgid "only member with photo"
+msgstr ""
+"فقط اعضای عکس‌دار"
+
+# id: 515
+msgid "Results"
+msgstr ""
+"نتایج"
+
+# id: 516
+msgid "To perform a search by name, go to <a href='/friends/search'>Friends / Search</a> page"
+msgstr ""
+"برای اینکه با اسم جستجو بکنی، برو به صفحه‌ی <a href='/friends/search'>جستجو/دوستان</a>"
+
+# id: 617
+msgid "Age"
+msgstr ""
+"سن"
+
+
+
+# /support
+# id: 637
+msgid "To support .node"
+msgstr ""
+"برای حمایت از دات‌نود"
+
+# id: 638
+msgid "You can find here some links that can give money to .node :"
+msgstr ""
+"اینجا میتونی لینک‌هایی رو پیدا کنی که به دات‌نود پول میدن:"
+
+# id: 639
+msgid "To support .node directy, use PayPal"
+msgstr ""
+"برای حمایت مستقیم از دات‌نود از PayPal استفاده کن"
+
+# id: 640
+msgid "If you want to support .node,<br /><a href='/support'>go here</a>"
+msgstr ""
+"اگر می‌خواهی از دات‌نود پشتیبانی کنی برو <br /><a href='/support'>اینجا</a>"
+
+# lang: fa_IR

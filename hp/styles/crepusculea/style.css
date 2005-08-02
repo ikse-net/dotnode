@@ -1,0 +1,333 @@
+ /* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+body { 
+	font-size: 12px;
+	margin: 0; 
+	padding: 0; 
+	background: black;
+}
+ul {
+	list-style: url(mini-puce-vert.png);
+}
+img {
+	border: none; 
+	text-decoration: none;
+}
+
+#header {
+	height:150px;
+        background-image: url(yeux.gif);
+         background-repeat: no-repeat;
+         background-color:black;
+         text-align:center
+}
+
+#header h1 {
+	height:10px;
+        padding-top:40px;
+	background-image: url(yeux.gif);
+	background-repeat: no-repeat;
+        background-color:black;
+        text-align:center;
+}
+
+#header p {
+	float: right;
+	text-align: right;
+	margin: 0;
+        padding: 5;
+}
+
+#header p a.flag img {
+	padding: 1px;
+	border: 1px solid white;
+}
+#header p a.flag:hover img {
+	padding: 0;
+	border: white 1px solid;
+}     
+
+#header a {
+        text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#header a:hover {
+	color: yellow;
+}
+
+
+#header div.poweredby {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 8px;
+	color: white;
+}
+
+#leftside {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	border-right: 1px silver solid;
+	border-bottom: 1px silver solid;
+	float: left;
+	width: 138px;
+background-color:black;
+}
+
+#rightside {
+	border-left: 1px silver solid;
+	border-bottom: 1px silver solid;
+	float: right;
+	width: 200px;
+	padding-left:10px;
+	background-color:black;
+       color:white;  
+}
+
+#middle {
+	margin-left: 145px;
+	margin-right: 240px;
+background-color:black;
+}
+
+#blog p {
+	margin-left:2em;
+        color:white;
+}
+
+#blog span.date {
+	color: yellow;
+}
+
+#blog span.blogCatComm {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	text-align: right;
+	display: block;
+	font-size: 10px;
+}
+
+#blog span.blogCatComm a {
+	color: gray;
+	text-decoration: none;
+}
+#blog span.blogCatComm a:hover {
+	color: white;
+	text-decoration: underline overline;
+} 
+#blog a {
+	color: white;
+
+}
+
+#bookmark ul li a {
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+#bookmark ul li a:hover {
+	text-decoration: underline;
+}
+#bookmark ul li {
+	margin-bottom: 0.5em;
+background-color:black;
+}
+
+
+#album img {
+	border: 5px white solid;
+}
+#album td {
+	text-align: center;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9px;
+	vertical-align:bottom;
+}
+
+#friends table {
+	width: 100%;
+}
+#friends td, #friends td a {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9px;
+	color: white;
+	text-decoration: none;
+}
+#friends td a {
+	color: white;
+}
+
+#friends td a:hover {
+	color: white;
+        font-weight:bolder;
+}    
+
+#main {
+	background-color:black;
+	color: white;
+	border-top: 1px silver solid;
+	clear: both;
+}
+
+#main h2 {
+	background: url(h3_bg.png) no-repeat left bottom;
+	padding-left: 8px;
+}
+
+#main h2 , #main h2 a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+#main h2 a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+#middle h2 {
+	padding: 0 0 2px 8px;
+	background: url(h3_bg.png) no-repeat left bottom;
+	border-bottom: 1px silver solid;
+        
+}
+
+#main h3, #main h3 a {
+	font-size: 15px;
+	padding: 0;
+	margin-bottom:0px;
+	color: white;
+	text-decoration:none;
+}
+
+#main h3 a:hover {
+	text-decoration: overline;
+	color: white;
+}
+
+#main h3 a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#main h3 a:active {
+	text-decoration: none;
+	color: white;
+}
+
+#leftside {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	border: none;
+	float: left;
+	width: 134px;
+
+}
+
+
+#leftside img {
+	border: 3px white solid;
+}
+
+#leftside ul img { vertical-align: middle; }
+
+#leftside ul li a img {
+	border: none;
+}
+
+
+
+
+#leftside ul {
+	padding:5px 0 1px 0;
+	margin:0;
+	background-color:black;
+}
+
+#leftside ul li {
+	list-style: none;
+	padding: 0;
+}
+
+#leftside ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+        padding-top:10px;
+	font-size: 11px;
+	text-decoration: none;
+	height: 32px;
+	background-color:black;
+}
+
+#leftside ul li a:hover {
+	text-align: center;
+	border-top: white 1px dashed;
+        border-bottom: white 1px dashed;
+	border-left: none;
+	border-right: white 1px dashed;
+	background-color: white;
+        color:black;
+       font-weight:bolder;
+}
+
+#leftside ul li.contact a {
+	background-image: url();
+}
+#leftside ul li.blog a {
+	background-image: url();
+}
+#leftside ul li.bookmark a {
+	background-image: url();
+}
+#leftside ul li.album a {
+	background-image: url();
+}
+
+
+#miniprofile b {
+	color: white;
+}
+
+#blog h3 {
+	border-bottom: white 1px solid;
+}
+
+#blog h3 a {
+	color: white;
+}
+
+#blog h3 a:hover {
+	color: white;
+        text-decoration:overline;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px silver solid;
+	padding-right:10px;
+        padding-top: 10px;
+	text-align:right;
+}
+#footer a {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: white;
+	text-derocation: underline;
+}
+#footer img {
+	border: none;
+}
+#footer p {
+	text-align: right;
+}
+
+

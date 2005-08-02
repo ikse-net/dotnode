@@ -1,0 +1,3518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dotnode.com v1\n"
+"POT-Creation-Date: 2005-01-01 08:14+0100\n"
+"PO-Revision-Date: 2005-01-01 08:14+0100\n"
+"Language-Team: Translation team <translation@dotnode.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"nplurals=2; plural=n<2?0 : 1\n"
+
+# id: 2
+msgid "Social Network"
+msgstr ""
+"Rede Social"
+
+# id: 3
+msgid "CNIL registration number"
+msgstr ""
+"Número de registra na CNIL"
+
+# id: 4
+msgid "Page not found"
+msgstr ""
+"Página não encontrada "
+
+# id: 5
+msgid "Error"
+msgstr ""
+"Erro"
+
+# id: 6
+msgid "No"
+msgstr ""
+"Não"
+
+# id: 7
+msgid "Yes"
+msgstr ""
+"Sim"
+
+# id: 8
+msgid "to"
+msgstr ""
+"para"
+
+# id: 9
+msgid "No answer"
+msgstr ""
+"Sem resposta"
+
+# id: 10
+msgid "Nothing"
+msgstr ""
+"Nada"
+
+# id: 11
+msgid "Back"
+msgstr ""
+"Voltar"
+
+# id: 12
+msgid "Close"
+msgstr ""
+"Fechar"
+
+# id: 13
+msgid "Submit"
+msgstr ""
+"Enviar"
+
+# id: 14
+msgid "A problem with this page ? Bad translation ? Review this page for moderation ?"
+msgstr ""
+"Problemas com esta página? Erros de tradução? Rever a página para moderação?"
+
+# id: 15
+msgid "Report a problem"
+msgstr ""
+"Notificar um problema"
+
+# id: 16
+msgid "Select your language"
+msgstr ""
+"Escolha seu idioma"
+
+# id: 17
+msgid "Display problem with this site ?"
+msgstr ""
+"Problemas de exibição neste site?"
+
+# id: 18
+msgid "See this page about Web standard"
+msgstr ""
+"Veja esta página sobre Web standard"
+
+# id: 19
+msgid "January"
+msgstr ""
+"Janeiro"
+
+# id: 20
+msgid "February"
+msgstr ""
+"Fevereiro"
+
+# id: 21
+msgid "March"
+msgstr ""
+"Março"
+
+# id: 22
+msgid "April"
+msgstr ""
+"Abril"
+
+# id: 23
+msgid "May"
+msgstr ""
+"Maio"
+
+# id: 24
+msgid "June"
+msgstr ""
+"Junho"
+
+# id: 25
+msgid "July"
+msgstr ""
+"Julho"
+
+# id: 26
+msgid "August"
+msgstr ""
+"Agosto"
+
+# id: 27
+msgid "September"
+msgstr ""
+"Setembro"
+
+# id: 28
+msgid "October"
+msgstr ""
+"Outubro"
+
+# id: 29
+msgid "November"
+msgstr ""
+"Novembro"
+
+# id: 30
+msgid "December"
+msgstr ""
+"Dezembro"
+
+# id: 31
+msgid "Language"
+msgstr ""
+"Idioma"
+
+# id: 32
+msgid "English"
+msgstr ""
+"Inglês"
+
+# id: 33
+msgid "French"
+msgstr ""
+"Francês"
+
+# id: 34
+msgid "Comment"
+msgstr ""
+"Comentário"
+
+# id: 35
+msgid "Record"
+msgstr ""
+"Salvar"
+
+# id: 36
+msgid "Modify"
+msgstr ""
+"Modificar"
+
+# id: 37
+msgid "Myself"
+msgstr ""
+"Eu mesmo(a)"
+
+# id: 38
+msgid "Friends of friends"
+msgstr ""
+"Amigos de amigos"
+
+# id: 39
+msgid "All members"
+msgstr ""
+"Todos os membros"
+
+# id: 40
+msgid "Everyone"
+msgstr ""
+"Todos"
+
+# id: 41
+msgid "Interested in"
+msgstr ""
+"Interessado em"
+
+# id: 42
+msgid "The"
+msgstr ""
+"O (A)"
+
+# id: 43
+msgid "in"
+msgstr ""
+"em"
+
+# id: 44
+msgid "Return"
+msgstr ""
+"Retornar"
+
+# id: 45
+msgid "At"
+msgstr ""
+"Em"
+
+# id: 46
+msgid "Everywhere"
+msgstr ""
+"Em qualquer lugar"
+
+# id: 47
+msgid "In jail or deleted"
+msgstr ""
+"Na cadeia ou apagado"
+
+
+
+# /bad_link
+# id: 571
+msgid "Bad link"
+msgstr ""
+"Link ruim"
+
+# id: 572
+msgid "The link you have used is not valid"
+msgstr ""
+"O link que você usou não é válido"
+
+# id: 573
+msgid "Successful invitation"
+msgstr ""
+"Convite bem sucedido"
+
+# id: 574
+msgid "Invitation in waiting state"
+msgstr ""
+"Convite em estado de espera"
+
+# id: 575
+msgid "Failed invitation"
+msgstr ""
+"Falha no convite"
+
+
+
+# /blog
+# id: 294
+msgid "Read more"
+msgstr ""
+"Leia mais"
+
+# id: 295
+msgid "%1 comment"
+msgid_plural "%1 comments"
+msgstr[0] "%1 comentário"
+msgstr[1] "%1 comentários"
+
+# id: 296
+msgid "%1 word"
+msgid_plural "%1 words"
+msgstr[0] "%1 palavra"
+msgstr[1] "%1 palavras"
+
+# id: 297
+msgid "RSS from <a href='%2'>%1</a>"
+msgstr ""
+"RSS de <a href='%2'>%1</a>"
+
+# id: 298
+msgid "Header"
+msgstr ""
+"Cabeçalho"
+
+
+
+# /blog/7585c79a200905569a2ea15322e64cad/edit/2058/5692
+# id: 648
+msgid "Edit a comment"
+msgstr ""
+"Edite um comentário"
+
+# id: 649
+msgid "Title (optional)"
+msgstr ""
+"Titulo (opcional)"
+
+
+
+# /blog/view
+# id: 334
+msgid "Comments"
+msgstr ""
+"Comentários"
+
+# id: 335
+msgid "Post a comment"
+msgstr ""
+"Postar um comentário"
+
+# id: 336
+msgid "Your comment"
+msgstr ""
+"Seu comentário"
+
+
+
+# /BogusReport
+# id: 501
+msgid "You have found a problem ?"
+msgstr ""
+"Você encontrou um problema ?"
+
+# id: 502
+msgid "If you have found a problem (bad translation, bug, illegal thing, explicit content, ...) on page \"<a href='%1'>http://dotnode.com%1</a>\", report it here. Describe the problem and send the message."
+msgstr ""
+"Se você encontrou algum problema (erro de tradução, falhas no sistema, material ilegal, conteúo explícito...) na página \"<a href='%1'>http://dotnode.com%1</a>\", informe aqui. Descreva o problema e envie a mensagem."
+
+# id: 503
+msgid "Send Bogus Report"
+msgstr ""
+"Enviar notificação de erro"
+
+
+
+# /bookmarks/354a778bacabffaff3d3fd74f93ac278
+# id: 610
+msgid "edit"
+msgstr ""
+"editar"
+
+# id: 611
+msgid "delete"
+msgstr ""
+"apagar"
+
+
+
+# /communitie/members
+# id: 403
+msgid "Community members"
+msgstr ""
+"Membros da comunidade"
+
+# id: 404
+msgid "Members list"
+msgstr ""
+"Lista de membros"
+
+
+
+# /communities
+# id: 357
+msgid "Owner"
+msgstr ""
+"Proprietário"
+
+# id: 358
+msgid "Moderated"
+msgstr ""
+"Moderado"
+
+# id: 359
+msgid "Created"
+msgstr ""
+"Criado"
+
+# id: 360
+msgid "Members"
+msgstr ""
+"Membros"
+
+# id: 361
+msgid "Details"
+msgstr ""
+"Detalhes"
+
+# id: 362
+msgid "View forum"
+msgstr ""
+"Ver fórum"
+
+# id: 363
+msgid "View events"
+msgstr ""
+"Ver eventos"
+
+# id: 364
+msgid "Invite friends"
+msgstr ""
+"Convidar amigos"
+
+# id: 365
+msgid "No topic"
+msgstr ""
+"Nenhum tópico"
+
+# id: 366
+msgid "No event"
+msgstr ""
+"Nenhum evento"
+
+# id: 367
+msgid "New topic"
+msgstr ""
+"Novo tópico"
+
+# id: 368
+msgid "New event"
+msgstr ""
+"Novo evento"
+
+# id: 369
+msgid "Return to community"
+msgstr ""
+"Retornar à comunidade"
+
+# id: 370
+msgid "last post at %1"
+msgstr ""
+"Último post em %1"
+
+# id: 371
+msgid "Your communities"
+msgstr ""
+"Suas comunidades"
+
+# id: 372
+msgid "Communities by categorie"
+msgstr ""
+"Comunidades por categoria"
+
+# id: 373
+msgid "%1 member"
+msgid_plural "%1 members"
+msgstr[0] "%1 membro"
+msgstr[1] "%1 membros"
+
+# id: 374
+msgid "%1 community"
+msgid_plural "%1 communities"
+msgstr[0] "%1 comunidade"
+msgstr[1] "%1 comunidades"
+
+# id: 375
+msgid "Location"
+msgstr ""
+"Localização"
+
+# id: 376
+msgid "Author"
+msgstr ""
+"Autor"
+
+# id: 377
+msgid "Posts"
+msgstr ""
+"Mensagens"
+
+# id: 378
+msgid "Last post"
+msgstr ""
+"Última mensagem"
+
+# id: 379
+msgid "Moderation"
+msgstr ""
+"Moderação"
+
+# id: 380
+msgid "Stand in moderation"
+msgstr ""
+"Manter moderado"
+
+# id: 381
+msgid "View all topics"
+msgstr ""
+"Ver todos os tópicos"
+
+# id: 382
+msgid "View all events"
+msgstr ""
+"Ver todos os eventos"
+
+
+
+# /communities//editPost
+# id: 394
+msgid "Edit a post"
+msgstr ""
+"Editar um post"
+
+# id: 395
+msgid "optional"
+msgstr ""
+"opcional"
+
+
+
+# /communities/category
+# id: 383
+msgid "By category"
+msgstr ""
+"Por categoria"
+
+# id: 384
+msgid "Newer"
+msgstr ""
+"Mais novo"
+
+# id: 385
+msgid "Popular"
+msgstr ""
+"Popular"
+
+# id: 627
+msgid "Communities by category"
+msgstr ""
+"Comunidades por categoria"
+
+# id: 628
+msgid "To support .node directy, use PayPal :"
+msgstr ""
+"Para ajudar diretamente o .node, use o Paypal:"
+
+
+
+# /communities/create
+# id: 388
+msgid "Impossible to create your community"
+msgstr ""
+"Impossível criar sua comunidade"
+
+# id: 389
+msgid "You must enter a valid name, category and description to create your community"
+msgstr ""
+"Você deve digitar um nome válido, categoria e descrição para criar sua comunidade"
+
+
+
+# /communities/createTopic
+# id: 393
+msgid "Write a new topic in %1"
+msgstr ""
+"Escrever um novo tópico em %1"
+
+
+
+# /communities/editPost/27470
+# id: 619
+msgid "Title (optional): "
+msgstr ""
+"Título (opcional)"
+
+# id: 620
+msgid "Message: "
+msgstr ""
+"Mensagem:"
+
+
+
+# /communities/invite
+# id: 400
+msgid "Invite friends to %1"
+msgstr ""
+"Convidar amigos para %1"
+
+# id: 401
+msgid "Choose friends"
+msgstr ""
+"Escolha os amigos"
+
+
+
+# /communities/join
+# id: 396
+msgid "Join %1"
+msgstr ""
+"Junte-se a %1"
+
+# id: 397
+msgid "Are you sure you want to join this community ?"
+msgstr ""
+"Você tem certeza que quer fazer parte dessa comunidade?"
+
+# id: 398
+msgid "No, back to the community"
+msgstr ""
+"Não, voltar para a comunidade"
+
+# id: 399
+msgid "This community is moderated. Your inscription must be validated by the moderator"
+msgstr ""
+"Esta comunidade é restrita. Sua inscrição deve ser aprovada pelo moderador"
+
+
+
+# /communities/last
+# id: 386
+msgid "New communities"
+msgstr ""
+"Novas comunidades"
+
+# id: 387
+msgid "Previous day"
+msgstr ""
+"Dia anterior"
+
+
+
+# /communities/mine
+# id: 591
+msgid "My communities"
+msgstr ""
+"Minhas comunidades"
+
+# id: 592
+msgid "Directory"
+msgstr ""
+"Diretório"
+
+
+
+# /communities/replyTopic/1907
+# id: 608
+msgid "(optional)"
+msgstr ""
+"(opcional)"
+
+
+
+# /communities/search
+# id: 390
+msgid "Search a community"
+msgstr ""
+"Procurar uma comunidade"
+
+# id: 391
+msgid "No community found"
+msgstr ""
+"Nenhuma comunidade encontrada"
+
+# id: 392
+msgid "Try again"
+msgstr ""
+"Tente novamente"
+
+
+
+# /communities/view/807
+# id: 599
+msgid "Related communities"
+msgstr ""
+"Comunidades relacionadas"
+
+# id: 600
+msgid "The %1 last %2's members who have visited this community (<a href='/communities/members/%3'>View full list</a>):"
+msgstr ""
+"Os %1 últimos membros de %2 que visitaram esta comunidade (<a href='/communities/members/%3'>Ver lista completa</a>):"
+
+# id: 601
+msgid "The first %1 related communities: "
+msgstr ""
+"As %1 primeiras comunidades relacionadas:"
+
+# id: 602
+msgid "Description"
+msgstr ""
+"Descrição"
+
+# id: 603
+msgid ".node"
+msgstr ""
+".node"
+
+
+
+# /communities/viewTopic
+# id: 402
+msgid "Reply to topic"
+msgstr ""
+"Respoder ao tópico"
+
+
+
+# /communities/viewTopic/3687
+# id: 616
+msgid "Unstick it"
+msgstr ""
+"Liberar"
+
+
+
+# /communities/viewTopic/4257
+# id: 623
+msgid "Stick it"
+msgstr ""
+"Fixar"
+
+
+
+# /community categories
+# id: 405
+msgid "Alumni & Schools"
+msgstr ""
+"Ex-alunos & Escolas"
+
+# id: 406
+msgid "Arts & Entertainment"
+msgstr ""
+"Artes & Entretenimento"
+
+# id: 407
+msgid "Automotive"
+msgstr ""
+"Veículos"
+
+# id: 408
+msgid "Business"
+msgstr ""
+"Negócios"
+
+# id: 409
+msgid "Company"
+msgstr ""
+"Empresas"
+
+# id: 410
+msgid "Cities & Neighborhoods"
+msgstr ""
+"Cidades & Bairros"
+
+# id: 411
+msgid "Computers & Internet"
+msgstr ""
+"Computadores & Internet"
+
+# id: 412
+msgid "Countries & Regional"
+msgstr ""
+"Países & Regiões"
+
+# id: 413
+msgid "Cultures & Community"
+msgstr ""
+"Culturas & Comunidade"
+
+# id: 414
+msgid "Family & Home"
+msgstr ""
+"Família & Casa"
+
+# id: 415
+msgid "Fashion & Beauty"
+msgstr ""
+"Moda & Beleza"
+
+# id: 416
+msgid "Food, Drink & Wine"
+msgstr ""
+"Comida, Bebida & Vinho"
+
+# id: 417
+msgid "Games"
+msgstr ""
+"Jogos"
+
+# id: 418
+msgid "Government & Politics"
+msgstr ""
+"Governo & Política"
+
+# id: 419
+msgid "Health, Wellness & Fitness"
+msgstr ""
+"Saúde, Bem Estar & Fitness"
+
+# id: 420
+msgid "Hobbies & Crafts"
+msgstr ""
+"Lazer & Recreação"
+
+# id: 421
+msgid "Individuals"
+msgstr ""
+"Indivíduos"
+
+# id: 422
+msgid "Music"
+msgstr ""
+"Música"
+
+# id: 423
+msgid "Pets & Animals"
+msgstr ""
+"Bichos de estimação & Animais"
+
+# id: 424
+msgid "Recreation & Sports"
+msgstr ""
+"Recreação & Esportes"
+
+# id: 425
+msgid "Religion & Beliefs"
+msgstr ""
+"Religiões & Crenças"
+
+# id: 426
+msgid "Romance & Relationships"
+msgstr ""
+"Romance & Relacionamentos"
+
+# id: 427
+msgid "Science & History"
+msgstr ""
+"Ciência & História"
+
+# id: 428
+msgid "Travel"
+msgstr ""
+"Viagens"
+
+# id: 429
+msgid "Other"
+msgstr ""
+"Outros"
+
+
+
+# /deprecated
+# id: 105
+msgid "You are connected to <strong>%2</strong> people through <strong>%1</strong> friend."
+msgid_plural "You are connected to <strong>%2</strong> people through <strong>%1</strong> friends."
+msgstr[0] "Você está conectado a <strong>%2</strong> pessoas através de <strong>%1</strong> amigo."
+msgstr[1] "Você está conectado a <strong>%2</strong> pessoas através de <strong>%1</strong> amigos."
+
+# id: 106
+msgid ".node counts <b>%1</b> people"
+msgstr ""
+".node conta um total de <b>%1</b> pessoas"
+
+# id: 107
+msgid "Your network (direct connect + friends of friends) counts <b>%1</b> person"
+msgid_plural "Your network (direct connect + friends of friends) counts <b>%1</b> persons"
+msgstr[0] "Sua rede (conexões diretas + amigos dos amigos) tem <b>%1</b> pessoa"
+msgstr[1] "Sua rede (conexões diretas + amigos dos amigos) tem <b>%1</b> pessoas"
+
+# id: 108
+msgid "Right now, <b>%1</b> people are on .node"
+msgstr ""
+"Neste momento, <b>%1</b> pessoas estão no .node"
+
+# id: 109
+msgid "Grow your network now !"
+msgstr ""
+"Amplie seus contatos agora!"
+
+# id: 110
+msgid "Invite new friends now !"
+msgstr ""
+"Convide novos amigos agora!"
+
+# id: 111
+msgid "View network"
+msgstr ""
+"Ver rede"
+
+# id: 112
+msgid "View friends"
+msgstr ""
+"Ver amigos"
+
+# id: 113
+msgid "View communities"
+msgstr ""
+"Ver comunidades"
+
+# id: 114
+msgid "View members"
+msgstr ""
+"Ver membros"
+
+# id: 115
+msgid "Tell people your dotpage address:"
+msgstr ""
+"Mostre às pessoas o endereço de sua dotpage:"
+
+# id: 116
+msgid "you can see stats here"
+msgstr ""
+"Você pode ver estatísticas aqui"
+
+# id: 117
+msgid "If you select a photo for your profile, an homepage will be automatically generated with a simple address"
+msgstr ""
+"Se você selecionar uma foto para seu perfil, uma homepage será gerada automaticamente com um endereço simples"
+
+# id: 118
+msgid "You can share your album, blog, links ... into it, it's worldwide accessible"
+msgstr ""
+"Você pode compartilhar sou álbum, blog, links... nele, é acessível ao mundo todo"
+
+# id: 119
+msgid "Add a photo to my profile"
+msgstr ""
+"Adicionar uma foto ao meu perfil"
+
+# id: 120
+msgid "Come on the .node IRC channel"
+msgstr ""
+"Venha para o canal do .node no IRC"
+
+
+
+# /error
+# id: 559
+msgid "Verification code failed"
+msgstr ""
+"Falha no código de verificação"
+
+# id: 560
+msgid "The sent code don't match the image"
+msgstr ""
+"O código enviado não coincide com a imagem"
+
+
+
+# /error/bad_link/not_found
+
+
+# /error/forgot_password
+# id: 561
+msgid "Password retrieval"
+msgstr ""
+"Recuperação de senha"
+
+# id: 562
+msgid "Enter your"
+msgstr ""
+"Entre seu"
+
+# id: 563
+msgid "Password forgotten"
+msgstr ""
+"Senha esquecida"
+
+# id: 564
+msgid "Fill this form to retrieve your password or your login to .node"
+msgstr ""
+"Preencha esse formulário para recuperar sua senha ou seu login no .node"
+
+# id: 565
+msgid "You will receive an email in 2 minutes max."
+msgstr ""
+"Você receberá um email em, no máximo, 2 minutos."
+
+
+
+# /error/image/nothing
+
+
+# /error/wrong_login
+# id: 634
+msgid "A problem with this page ? bad translation ? review this page for moderation ?"
+msgstr ""
+"Problemas com esta página? Erros de tradução? Rever a página para moderação?"
+
+
+
+# /friends/11bbcdcb2d5d248eb76658d5cdf72aeb/fans
+# id: 650
+msgid "Fans"
+msgstr ""
+"Fãs"
+
+# id: 651
+msgid "Fans list"
+msgstr ""
+"Lista de fãs"
+
+
+
+# /friends/invitation
+# id: 492
+msgid "Specify how close you are to your friend"
+msgstr ""
+"Especifique o quanto vocês são próximos"
+
+# id: 493
+msgid "Confirm %1 is your friend"
+msgstr ""
+"Confirme se %1 é seu(sua) amigo(a)"
+
+# id: 494
+msgid "%1 is my friend"
+msgstr ""
+"%1 é meu amigo"
+
+# id: 495
+msgid "%1 is not my friend"
+msgstr ""
+"%1 não é meu amigo"
+
+# id: 496
+msgid "Invitation from %1 %2"
+msgstr ""
+"Convite de %1 %2"
+
+# id: 497
+msgid "Can I be your friend ? (see my profile here : %1 )"
+msgstr ""
+"Posso ser seu amigo ? (veja meu perfil aqui : %1 )"
+
+# id: 498
+msgid "Invitation accepted"
+msgstr ""
+"Convite aceito"
+
+# id: 499
+msgid "%1 %2 has refused your invitation"
+msgstr ""
+"%1 %2 recusou seu convite"
+
+# id: 500
+msgid "Sorry, but your invitation was refused"
+msgstr ""
+"Desculpe, mas seu convite foi recusado"
+
+
+
+# /friends/join
+# id: 468
+msgid "Invite your friends"
+msgstr ""
+"Convide seus amigos"
+
+# id: 469
+msgid "Fill this form to invite your friend"
+msgstr ""
+"Preencha este formulário para convidar seu amigo"
+
+# id: 470
+msgid "Personalize your invitation"
+msgstr ""
+"Personalize seu convite"
+
+# id: 471
+msgid "Status of your invitations"
+msgstr ""
+"Estado de seus convites"
+
+# id: 472
+msgid "Response"
+msgstr ""
+"Resposta"
+
+# id: 473
+msgid "Send date"
+msgstr ""
+"Enviar data"
+
+# id: 474
+msgid "Ready to send"
+msgstr ""
+"Pronto para enviar"
+
+# id: 475
+msgid "Invitation sent"
+msgstr ""
+"Convite enviado"
+
+# id: 476
+msgid "Operation finished"
+msgstr ""
+"Operação concluída"
+
+# id: 477
+msgid "Operation stopped"
+msgstr ""
+"Operação interrompida"
+
+# id: 478
+msgid "Accepted"
+msgstr ""
+"Aceito"
+
+# id: 479
+msgid "Refused"
+msgstr ""
+"Recusado"
+
+# id: 480
+msgid "Refuse all .node invitations"
+msgstr ""
+"Recusar todos os convites do .node"
+
+# id: 481
+msgid "No invitation. Don't wait ! Invite your friends !"
+msgstr ""
+"Nenhum convite. Não espere mais! Convide seus amigos!"
+
+# id: 482
+msgid "Mail problem"
+msgstr ""
+"Problemas com email"
+
+# id: 483
+msgid "No response"
+msgstr ""
+"Sem resposta"
+
+# id: 484
+msgid "Resend"
+msgstr ""
+"Reenviar"
+
+# id: 485
+msgid "Modify/Resend"
+msgstr ""
+"Modificar/Reenviar"
+
+# id: 486
+msgid "Import a CSV file"
+msgstr ""
+"Importar um arquivo CSV"
+
+# id: 487
+msgid "Import from CSV"
+msgstr ""
+"Importar de CSV"
+
+# id: 488
+msgid "The CSV format is: "
+msgstr ""
+"O formato CSV é:"
+
+# id: 489
+msgid "Eg.: You can import your Orkut contacts here: "
+msgstr ""
+"Ex.: você pode importar seus contatos do Orkut aqui:"
+
+# id: 490
+msgid "Import"
+msgstr ""
+"Importar"
+
+# id: 491
+msgid "File location: "
+msgstr ""
+"Localização do arquivo:"
+
+
+
+# /friends/karma
+# id: 431
+msgid "Friends'Karma"
+msgstr ""
+"Karma dos amigos"
+
+# id: 432
+msgid "Haven't seen"
+msgstr ""
+"Não tenho visto"
+
+# id: 433
+msgid "Acquaintance"
+msgstr ""
+"Conhecido"
+
+# id: 434
+msgid "Friend"
+msgstr ""
+"Amigo"
+
+# id: 435
+msgid "Good friend"
+msgstr ""
+"Bom amigo"
+
+# id: 436
+msgid "Best friend"
+msgstr ""
+"Melhor amigo"
+
+# id: 437
+msgid "Karma recorded"
+msgstr ""
+"Karma salvo"
+
+# id: 438
+msgid "Love"
+msgstr ""
+"Amor"
+
+# id: 439
+msgid "Asso/Club"
+msgstr ""
+"Associação/Clube"
+
+# id: 440
+msgid "Childhood"
+msgstr ""
+"Infância"
+
+# id: 441
+msgid "Studies"
+msgstr ""
+"Estudos"
+
+# id: 442
+msgid "Family"
+msgstr ""
+"Família"
+
+# id: 443
+msgid "Internet"
+msgstr ""
+"Internet"
+
+# id: 444
+msgid "Parties"
+msgstr ""
+"Festas"
+
+# id: 445
+msgid "Work"
+msgstr ""
+"Trabalho"
+
+# id: 446
+msgid "Holidays"
+msgstr ""
+"Feriados"
+
+# id: 652
+msgid "Karma has moved"
+msgstr ""
+"Karma se mudou"
+
+# id: 653
+msgid "Now, you can rate your friends in there profiles (see the karma tab)."
+msgstr ""
+"Agora, você pode classificar seus amigos nos seus perfis (Veja a aba karma)."
+
+
+
+# /friends/list
+# id: 430
+msgid "Friends list"
+msgstr ""
+"Lista de amigos"
+
+# id: 598
+msgid "<b>%1</b> friend"
+msgid_plural "<b>%1</b> friends"
+msgstr[0] "<b>%1</b> amigo"
+msgstr[1] "<b>%1</b> amigos"
+
+
+
+# /friends/search
+# id: 447
+msgid "Friend finder"
+msgstr ""
+"Localizador de amigos"
+
+# id: 448
+msgid "Search friends"
+msgstr ""
+"Procurar Amigos"
+
+# id: 449
+msgid "Search for friends on .node network"
+msgstr ""
+"Procurar amigos na rede .node"
+
+# id: 450
+msgid "Nobody match your search. Try again !"
+msgstr ""
+"Ninguém coincide com sua busca. Tente de novo!"
+
+
+
+# /help
+# id: 553
+msgid "About"
+msgstr ""
+"Sobre"
+
+# id: 554
+msgid "FAQ"
+msgstr ""
+"FAQ"
+
+# id: 555
+msgid "Terms"
+msgstr ""
+"Termos"
+
+# id: 556
+msgid "Privacy"
+msgstr ""
+"Privacidade"
+
+
+
+# /help/faq
+# id: 607
+msgid "Last modified: "
+msgstr ""
+"Última modificação"
+
+
+
+# /irc
+# id: 635
+msgid "IRC"
+msgstr ""
+"IRC"
+
+
+
+# /mail DotNodeMailPassword
+# id: 566
+msgid "Change your password"
+msgstr ""
+"Mude sua senha"
+
+# id: 567
+msgid "Change your main email"
+msgstr ""
+"Mude seu e-mail principal"
+
+
+
+# /mail invitation
+# id: 557
+msgid "%1 %2 invite you on .node"
+msgstr ""
+"%1 %2 convidou você para o .node"
+
+# id: 558
+msgid "A personal message from your friend"
+msgstr ""
+"Uma mensagem pessoal do(a) seu(sua) amigo(a)"
+
+
+
+# /menu
+# id: 48
+msgid "Public Section"
+msgstr ""
+"Seção Pública"
+
+# id: 49
+msgid "Join"
+msgstr ""
+"Participar"
+
+# id: 50
+msgid "Help"
+msgstr ""
+"Ajuda"
+
+# id: 51
+msgid "Home"
+msgstr ""
+"Início"
+
+# id: 52
+msgid "Friends"
+msgstr ""
+"Amigos"
+
+# id: 53
+msgid "Messages"
+msgstr ""
+"Mensagens"
+
+# id: 54
+msgid "Community"
+msgstr ""
+"Comunidade"
+
+# id: 55
+msgid "Communities"
+msgstr ""
+"Comunidades"
+
+# id: 56
+msgid "Search"
+msgstr ""
+"Busca"
+
+# id: 57
+msgid "News"
+msgstr ""
+"Notícias"
+
+# id: 58
+msgid "Logout"
+msgstr ""
+"Sair"
+
+# id: 59
+msgid "Profile"
+msgstr ""
+"Perfil"
+
+# id: 60
+msgid "Album"
+msgstr ""
+"Álbum"
+
+# id: 61
+msgid "Settings"
+msgstr ""
+"Configurações"
+
+# id: 62
+msgid "Bookmarks"
+msgstr ""
+"Marcadores"
+
+# id: 63
+msgid "Blog"
+msgstr ""
+"Blog"
+
+# id: 64
+msgid "General"
+msgstr ""
+"Geral"
+
+# id: 65
+msgid "Interests"
+msgstr ""
+"Interesses"
+
+# id: 66
+msgid "Professional"
+msgstr ""
+"Profissional"
+
+# id: 67
+msgid "Personal"
+msgstr ""
+"Pessoal"
+
+# id: 68
+msgid "Schools"
+msgstr ""
+"Escolas"
+
+# id: 69
+msgid "Contact"
+msgstr ""
+"Contato"
+
+# id: 70
+msgid "Photo"
+msgstr ""
+"Foto"
+
+# id: 71
+msgid "Invitation"
+msgstr ""
+"Convite"
+
+# id: 72
+msgid "Karma"
+msgstr ""
+"Karma"
+
+# id: 73
+msgid "Read"
+msgstr ""
+"Ler"
+
+# id: 74
+msgid "Write"
+msgstr ""
+"Escrever"
+
+# id: 75
+msgid "Send"
+msgstr ""
+"Enviar"
+
+# id: 76
+msgid "Saved"
+msgstr ""
+"Salvo"
+
+# id: 77
+msgid "Sent"
+msgstr ""
+"Enviado"
+
+# id: 78
+msgid "Create"
+msgstr ""
+"Criar"
+
+# id: 79
+msgid "Create your community"
+msgstr ""
+"Crie sua comunidade"
+
+# id: 80
+msgid "View"
+msgstr ""
+"Ver"
+
+# id: 81
+msgid "Unjoin"
+msgstr ""
+"Sair"
+
+# id: 82
+msgid "Forum"
+msgstr ""
+"Fórum"
+
+# id: 83
+msgid "Event"
+msgstr ""
+"Evento"
+
+# id: 84
+msgid "Invite"
+msgstr ""
+"Convidar"
+
+# id: 85
+msgid "Edit"
+msgstr ""
+"Editar"
+
+# id: 86
+msgid "Report an error"
+msgstr ""
+"Notificar um erro"
+
+
+
+# /messages
+# id: 451
+msgid "Compose message"
+msgstr ""
+"Compor mensagem"
+
+# id: 452
+msgid "Friends and friends of friends"
+msgstr ""
+"Amigos e amigos dos amigos"
+
+# id: 453
+msgid "Subject"
+msgstr ""
+"Assunto"
+
+# id: 454
+msgid "Message"
+msgstr ""
+"Mensagem"
+
+# id: 455
+msgid "From"
+msgstr ""
+"De"
+
+# id: 456
+msgid "To"
+msgstr ""
+"Para"
+
+# id: 457
+msgid "Date"
+msgstr ""
+"Data"
+
+# id: 458
+msgid "Reply"
+msgstr ""
+"Responder"
+
+# id: 459
+msgid "Forward"
+msgstr ""
+"Encaminhar"
+
+# id: 460
+msgid "Inbox"
+msgstr ""
+"Caixa de entrada"
+
+# id: 461
+msgid "Inbox messages"
+msgstr ""
+"Mensagens na caixa de entrada"
+
+# id: 462
+msgid "Sent messages"
+msgstr ""
+"Mensagens enviadas"
+
+# id: 463
+msgid "Saved messages"
+msgstr ""
+"Mensagens salvas"
+
+# id: 464
+msgid "No message"
+msgstr ""
+"Nenhuma mensagem"
+
+# id: 465
+msgid "Delete selection"
+msgstr ""
+"Apagar itens selecionados"
+
+
+
+# /messages/inbox/1
+# id: 605
+msgid "Page:"
+msgstr ""
+"Página:"
+
+# id: 622
+msgid "Ok"
+msgstr ""
+"OK"
+
+
+
+# /messages/write
+# id: 466
+msgid "Incorrect message"
+msgstr ""
+"Mensagem incorreta"
+
+# id: 467
+msgid "You must enter a subject and a body to send your .message"
+msgstr ""
+"Você deve digitar um assunto e um texto para enviar sua .mensagem "
+
+
+
+# /my
+# id: 102
+msgid "My Friends"
+msgstr ""
+"Meus amigos"
+
+# id: 103
+msgid "My Communities"
+msgstr ""
+"Minhas Comunidades"
+
+# id: 104
+msgid "Welcome"
+msgstr ""
+"Bem-vindo"
+
+# id: 576
+msgid "Edit my profile"
+msgstr ""
+"Editar meu perfil"
+
+# id: 577
+msgid "Manage my album"
+msgstr ""
+"Organizar meu álbum"
+
+# id: 578
+msgid "Add bookmarks"
+msgstr ""
+"Adicionar marcadores"
+
+# id: 579
+msgid "Write blog"
+msgstr ""
+"Escrever blog"
+
+# id: 580
+msgid "Change my password"
+msgstr ""
+"Mudar minha senha"
+
+# id: 581
+msgid "The %1 last friends who have visited my profile (<a href='/friends/list'>View full list</a>):"
+msgstr ""
+"Os %1 últimos amigos que visitaram meu perfil (<a href='/friends/list'>Ver lista completa</a>):"
+
+# id: 582
+msgid "The %1 last communities' post (<a href='/profile/communities'>View all communities subscribed</a>): "
+msgstr ""
+"%1 últimas comunidades com novas mensagens (<a href='/profile/%2/communities'>Ver todas as minhas comunidades</a>): "
+
+# id: 583
+msgid "Public"
+msgstr ""
+"Público"
+
+# id: 584
+msgid "Last post: <a href='/communities/forum/%1'>%2</a>"
+msgstr ""
+"Última mensagem: <a href='/communities/forum/%1'>%2</a>"
+
+# id: 585
+msgid "View my own profile"
+msgstr ""
+"Ver meu perfil"
+
+# id: 586
+msgid "Welcome %1"
+msgstr ""
+"Bem-Vindo(a) %1"
+
+# id: 587
+msgid "Invite my friends to join .node..."
+msgstr ""
+"Convidar meus amigos para entrar no .node..."
+
+# id: 588
+msgid "Fill my extented profile"
+msgstr ""
+"Preencher meu perfil completo"
+
+# id: 589
+msgid "Write a ticket in my blog"
+msgstr ""
+"Escreva um bilhete no meu blog"
+
+# id: 590
+msgid "Add a link in my bookmarks"
+msgstr ""
+"Adicionar um link nos meus marcadores"
+
+# id: 624
+msgid "%1 support .node."
+msgstr ""
+"%1 apoiam o .node."
+
+# id: 625
+msgid "For each created account by this link (and confirmed), eBay give some money to .node..."
+msgstr ""
+"Para cada conta criada através deste link (e confirmada), o eBay dá uma quantia em dinheiro ao .node..."
+
+# id: 626
+msgid "Make a donation with PayPal"
+msgstr ""
+"Faça uma doação via PayPal"
+
+# id: 636
+msgid "Support"
+msgstr ""
+"Ajude"
+
+
+
+# /my/album
+# id: 299
+msgid "You can upload a JPEG (.jpg), GIF (.gif), or PNG (.png) file (maximum size of 500KB)."
+msgstr ""
+"Você pode enviar um arquivo JPEG (.jpg), GIF (.gif) ou PNG (.png) (tamanho máximo de 500KB)."
+
+# id: 300
+msgid "Select image"
+msgstr ""
+"Selecionar imagem"
+
+# id: 301
+msgid "Caption"
+msgstr ""
+"Legenda"
+
+# id: 302
+msgid "Edit caption"
+msgstr ""
+"Editar legenda"
+
+# id: 303
+msgid "Confirm delete ?"
+msgstr ""
+"Confirma exclusão?"
+
+# id: 304
+msgid "Image"
+msgstr ""
+"Imagem"
+
+# id: 305
+msgid "Update"
+msgstr ""
+"Atualizar"
+
+# id: 306
+msgid "View full photo"
+msgstr ""
+"Ver foto inteira"
+
+# id: 307
+msgid "%1's Album"
+msgstr ""
+"Álbum de %1"
+
+
+
+# /my/blog
+# id: 312
+msgid "%1's Blog"
+msgstr ""
+"Blog de %1"
+
+# id: 313
+msgid "No blog"
+msgstr ""
+"Não há blog"
+
+# id: 314
+msgid "edit one now"
+msgstr ""
+"editar um agora"
+
+# id: 315
+msgid "URL of your RSS blog if you have one"
+msgstr ""
+"URL do seu blog RSS, se tiver um"
+
+# id: 316
+msgid "To activate your RSS, you must post one ticket Online here"
+msgstr ""
+"Para ativar seu RSS, você deve postar um bilhete Online aqui"
+
+# id: 317
+msgid "Category"
+msgstr ""
+"Categoria"
+
+# id: 318
+msgid "See"
+msgstr ""
+"Ver"
+
+# id: 319
+msgid "Publish it"
+msgstr ""
+"Publique"
+
+# id: 320
+msgid "Hide it"
+msgstr ""
+"Esconda"
+
+# id: 321
+msgid "Online"
+msgstr ""
+"Online"
+
+# id: 322
+msgid "Offline"
+msgstr ""
+"Offline"
+
+# id: 323
+msgid "Write a ticket"
+msgstr ""
+"Escrever um bilhete"
+
+# id: 324
+msgid "Manage categories"
+msgstr ""
+"Organizar categorias"
+
+# id: 325
+msgid "Organize your blog with categories..."
+msgstr ""
+"Organize seu blog por categorias..."
+
+# id: 326
+msgid "Add this categorie"
+msgstr ""
+"Adicionar esta categoria"
+
+# id: 327
+msgid "Write a new ticket"
+msgstr ""
+"Escrever um novo bilhete"
+
+# id: 328
+msgid "Status"
+msgstr ""
+"Status"
+
+# id: 329
+msgid "The content of your blog is under your responsability."
+msgstr ""
+"O conteúdo do seu blog está sob sua responsabilidade."
+
+# id: 330
+msgid "Ticket content"
+msgstr ""
+"Conteúdo do ticket"
+
+# id: 331
+msgid "Manage blog's categories"
+msgstr ""
+"Administrar as categorias do blog"
+
+# id: 332
+msgid "No category"
+msgstr ""
+"Nenhuma categoria"
+
+# id: 333
+msgid "add one now"
+msgstr ""
+"Adicionar uma agora"
+
+
+
+# /my/bookmarks
+# id: 308
+msgid "%1's Bookmarks"
+msgstr ""
+"Marcadores de %1"
+
+# id: 309
+msgid "Please, do not add illegal sites."
+msgstr ""
+"Por favor, não adicione sites ilegais."
+
+# id: 310
+msgid "URL Address"
+msgstr ""
+"URL"
+
+# id: 311
+msgid "Add"
+msgstr ""
+"Adicionar"
+
+# id: 612
+msgid "Add a bookmark"
+msgstr ""
+"Adicionar um marcador"
+
+# id: 613
+msgid "Share your best links with your friends and other .nodians."
+msgstr ""
+"Compartilhe seus melhores links com seus amigos e outros .nodeanos."
+
+# id: 614
+msgid "Name :"
+msgstr ""
+"Nome :"
+
+
+
+# /my/new
+# id: 504
+msgid "You"
+msgstr ""
+"Você"
+
+# id: 505
+msgid "Job"
+msgstr ""
+"Trabalho"
+
+# id: 506
+msgid "Finish"
+msgstr ""
+"Finalizar"
+
+# id: 507
+msgid "Next step"
+msgstr ""
+"Próximo passo"
+
+# id: 508
+msgid "Indicate information about you."
+msgstr ""
+"Algumas informações sobre você."
+
+# id: 509
+msgid "Indicate how to contact you."
+msgstr ""
+"Diga como entrar em contato com você."
+
+# id: 510
+msgid "Describe your job."
+msgstr ""
+"Descreva seu trabalho."
+
+# id: 511
+msgid "To help other members to know you ..."
+msgstr ""
+"Para ajudar outros membros a te conhcer..."
+
+# id: 512
+msgid "Fill it seriously ... :-)"
+msgstr ""
+"Preencha com seriedade... :-)"
+
+
+
+# /my/password
+# id: 352
+msgid "Modify your password"
+msgstr ""
+"Mudar sua senha"
+
+# id: 353
+msgid "Old password"
+msgstr ""
+"Senha anterior"
+
+# id: 354
+msgid "New password"
+msgstr ""
+"Senha nova"
+
+# id: 355
+msgid "Confirm new password"
+msgstr ""
+"Confirmar senha nova"
+
+# id: 356
+msgid "New password recorded"
+msgstr ""
+"Senha alterada"
+
+
+
+# /my/profile
+# id: 629
+msgid "Create my album"
+msgstr ""
+"Criar meu album"
+
+# id: 630
+msgid "Create my blog"
+msgstr ""
+"Criar meu blog"
+
+# id: 631
+msgid "Create my bookmarks"
+msgstr ""
+"Criar meus marcadores de página"
+
+
+
+# /my/profile/contact
+# id: 260
+msgid "Contact Profile"
+msgstr ""
+"Perfil para contato"
+
+# id: 261
+msgid "Address"
+msgstr ""
+"Endereço"
+
+# id: 262
+msgid "email"
+msgstr ""
+"email"
+
+# id: 263
+msgid "Email"
+msgstr ""
+"Email"
+
+# id: 264
+msgid "Email (2)"
+msgstr ""
+"Email (2)"
+
+# id: 265
+msgid "Email (3)"
+msgstr ""
+"Email (3)"
+
+# id: 266
+msgid "Email (4)"
+msgstr ""
+"Email (4)"
+
+# id: 267
+msgid "Main IM"
+msgstr ""
+"IM Principal"
+
+# id: 268
+msgid "Secondary IM"
+msgstr ""
+"IM Secundário"
+
+# id: 269
+msgid "Phone"
+msgstr ""
+"Telefone"
+
+# id: 270
+msgid "Cell phone"
+msgstr ""
+"Telefone celular"
+
+# id: 271
+msgid "Zip"
+msgstr ""
+"CEP"
+
+# id: 272
+msgid "Your email will be updated after your confirmation received by email (in 2 min max)"
+msgstr ""
+"Seu email será atualizado após sua confirmação recebida por email (em 2 min. no máximo)"
+
+
+
+# /my/profile/contact/edit
+# id: 259
+msgid "Edit my contact"
+msgstr ""
+"Editar minhas informações de contato"
+
+# id: 632
+msgid "ZIP"
+msgstr ""
+"CEP"
+
+
+
+# /my/profile/general
+# id: 122
+msgid "General Profile"
+msgstr ""
+"Perfil geral"
+
+# id: 123
+msgid "No general profile recorded."
+msgstr ""
+"Não há um perfil geral cadastrado."
+
+# id: 124
+msgid "Edit it !"
+msgstr ""
+"Editar!"
+
+# id: 125
+msgid "First name"
+msgstr ""
+"Nome"
+
+# id: 126
+msgid "Last name"
+msgstr ""
+"Sobrenome"
+
+# id: 127
+msgid "Nickname"
+msgstr ""
+"Apelido"
+
+# id: 128
+msgid "Gender"
+msgstr ""
+"Sexo"
+
+# id: 129
+msgid "Relationship status"
+msgstr ""
+"Estado civil"
+
+# id: 130
+msgid "Birthday"
+msgstr ""
+"Aniversário"
+
+# id: 131
+msgid "Male"
+msgstr ""
+"Masculino"
+
+# id: 132
+msgid "Female"
+msgstr ""
+"Feminino"
+
+# id: 133
+msgid "Single"
+msgstr ""
+"Solteiro"
+
+# id: 134
+msgid "Married"
+msgstr ""
+"Casado (a)"
+
+# id: 135
+msgid "Committed"
+msgstr ""
+"Comprometido (a)"
+
+# id: 136
+msgid "I'm interested in"
+msgstr ""
+"Estou interessado (a) em"
+
+# id: 137
+msgid "Business networking"
+msgstr ""
+"Relações profissionais"
+
+# id: 138
+msgid "Dating"
+msgstr ""
+"Namoro"
+
+# id: 139
+msgid "Activity Partners"
+msgstr ""
+"Parceiros de atividades"
+
+# id: 140
+msgid "Children"
+msgstr ""
+"Filhos"
+
+# id: 141
+msgid "Yes, full time"
+msgstr ""
+"Sim, tempo integral"
+
+# id: 142
+msgid "Yes, half time"
+msgstr ""
+"Sim, meio período"
+
+# id: 143
+msgid "Yes, but not at home"
+msgstr ""
+"Sim, mas não em casa"
+
+# id: 144
+msgid "Fashion"
+msgstr ""
+"Estilo"
+
+# id: 145
+msgid "Alternative"
+msgstr ""
+"Alternativo"
+
+# id: 146
+msgid "Casual"
+msgstr ""
+"Casual"
+
+# id: 147
+msgid "Classic"
+msgstr ""
+"Clássico"
+
+# id: 148
+msgid "Contemporary"
+msgstr ""
+"Contemporâneo"
+
+# id: 149
+msgid "Designer"
+msgstr ""
+"Estilista"
+
+# id: 150
+msgid "Minimal"
+msgstr ""
+"Minimalista"
+
+# id: 151
+msgid "Natural"
+msgstr ""
+"Natural"
+
+# id: 152
+msgid "Outdoorsy"
+msgstr ""
+"Aventureiro"
+
+# id: 153
+msgid "Smart"
+msgstr ""
+"Elegante"
+
+# id: 154
+msgid "Trendy"
+msgstr ""
+"Última moda"
+
+# id: 155
+msgid "Urban"
+msgstr ""
+"Urbano"
+
+# id: 156
+msgid "Smoking"
+msgstr ""
+"Fumo"
+
+# id: 157
+msgid "Drinking"
+msgstr ""
+"Bebo"
+
+# id: 158
+msgid "A little"
+msgstr ""
+"Um pouco"
+
+# id: 159
+msgid "Socialy"
+msgstr ""
+"Socialmente"
+
+# id: 160
+msgid "Occasionally"
+msgstr ""
+"Ocasionalmente"
+
+# id: 161
+msgid "Regularly"
+msgstr ""
+"Regularmente"
+
+# id: 162
+msgid "Living"
+msgstr ""
+"Vivo"
+
+# id: 163
+msgid "Alone"
+msgstr ""
+"Sozinho (a)"
+
+# id: 164
+msgid "With my roommate(s)"
+msgstr ""
+"Com colega(s) de quarto"
+
+# id: 165
+msgid "With my parents"
+msgstr ""
+"Com meus pais"
+
+# id: 166
+msgid "With my partner"
+msgstr ""
+"Com meu parceiro"
+
+# id: 167
+msgid "With my kid(s)"
+msgstr ""
+"Com meu(s) filho(s)"
+
+# id: 168
+msgid "With my pet(s)"
+msgstr ""
+"Com meu(s) animal(is) de estimação"
+
+# id: 169
+msgid "My Web"
+msgstr ""
+"Meu site"
+
+# id: 170
+msgid "Describe yourself"
+msgstr ""
+"Descreva-se"
+
+# id: 171
+msgid "About me"
+msgstr ""
+"Sobre mim"
+
+# id: 172
+msgid "<b>%1</b> fan"
+msgid_plural "<b>%1</b> fans"
+msgstr[0] "<b>%1</b> fã"
+msgstr[1] "<b>%1</b> fãs"
+
+# id: 173
+msgid "<b>%1</b> photo"
+msgid_plural "<b>%1</b> photos"
+msgstr[0] "<b>%1</b> foto"
+msgstr[1] "<b>%1</b> fotos"
+
+# id: 174
+msgid "<b>%1</b> blog"
+msgid_plural "<b>%1</b> blogs"
+msgstr[0] "<b>%1</b> blog"
+msgstr[1] "<b>%1</b> blogs"
+
+# id: 175
+msgid "<b>%1</b> bookmark"
+msgid_plural "<b>%1</b> bookmarks"
+msgstr[0] "<b>%1</b> marcação"
+msgstr[1] "<b>%1</b> marcações"
+
+# id: 176
+msgid "You have <b>%1</b> fan"
+msgid_plural "You have <b>%1</b> fans"
+msgstr[0] "Você tem <b>%1</b> fã"
+msgstr[1] "Você tem <b>%1</b> fãs"
+
+# id: 177
+msgid "You have <b>%1</b> new message"
+msgid_plural "You have <b>%1</b> new messages"
+msgstr[0] "Você tem <b>%1</b> mensagem nova"
+msgstr[1] "Você tem <b>%1</b> mensagens novas"
+
+# id: 178
+msgid "Go to my messagebox"
+msgstr ""
+"Ir para a caixa de entrada"
+
+
+
+# /my/profile/general/edit
+# id: 121
+msgid "Edit general profile"
+msgstr ""
+"Editar perfil geral"
+
+
+
+# /my/profile/interests
+# id: 180
+msgid "Interests Profile"
+msgstr ""
+"Perfil de Interesses"
+
+# id: 181
+msgid "Passions"
+msgstr ""
+"Paixões"
+
+# id: 182
+msgid "Sports"
+msgstr ""
+"Esportes"
+
+# id: 183
+msgid "Activities"
+msgstr ""
+"Atividades"
+
+# id: 184
+msgid "Favorite books"
+msgstr ""
+"Livros favoritos"
+
+# id: 185
+msgid "Favorite music"
+msgstr ""
+"Músicas favoritas"
+
+# id: 186
+msgid "Favorite TV shows"
+msgstr ""
+"Programas de TV favoritos"
+
+# id: 187
+msgid "Favorite movies"
+msgstr ""
+"Filmes favoritos"
+
+# id: 188
+msgid "Favorite cuisines"
+msgstr ""
+"Comidas favoritas"
+
+
+
+# /my/profile/interests/edit
+# id: 179
+msgid "Edit interest profile"
+msgstr ""
+"Editar perfil de interesse"
+
+
+
+# /my/profile/personal
+# id: 219
+msgid "Personal Profile"
+msgstr ""
+"Perfil Pessoal"
+
+# id: 220
+msgid "Headline"
+msgstr ""
+"Título"
+
+# id: 221
+msgid "First thing you will notice<br />about me"
+msgstr ""
+"Primeira coisa que você vai reparar<br /> em mim"
+
+# id: 222
+msgid "Size (in cm)"
+msgstr ""
+"Altura (em cm)"
+
+# id: 223
+msgid "Size"
+msgstr ""
+"Altura"
+
+# id: 224
+msgid "Eye color"
+msgstr ""
+"Cor dos olhos"
+
+# id: 225
+msgid "Hair color"
+msgstr ""
+"Cor dos cabelos"
+
+# id: 226
+msgid "Body art"
+msgstr ""
+"Body art"
+
+# id: 227
+msgid "Best feature"
+msgstr ""
+"Melhor característica"
+
+# id: 228
+msgid "Things I can't live without"
+msgstr ""
+"Não consigo viver sem"
+
+# id: 229
+msgid "Describe your ideal match"
+msgstr ""
+"Descreva seu par ideal"
+
+# id: 230
+msgid "Blue"
+msgstr ""
+"Azuis"
+
+# id: 231
+msgid "Green"
+msgstr ""
+"Verdes"
+
+# id: 232
+msgid "Brown"
+msgstr ""
+"Castanhos"
+
+# id: 233
+msgid "Black"
+msgstr ""
+"Negros"
+
+# id: 234
+msgid "Gray"
+msgstr ""
+"Acinzentados"
+
+# id: 235
+msgid "Hazel"
+msgstr ""
+"Castanho-claros"
+
+# id: 236
+msgid "Blonde"
+msgstr ""
+"Loiros"
+
+# id: 237
+msgid "Auburn"
+msgstr ""
+"Ruivo"
+
+# id: 238
+msgid "Salt and pepper"
+msgstr ""
+"Com mechas"
+
+# id: 239
+msgid "Red"
+msgstr ""
+"Vermelho"
+
+# id: 240
+msgid "Light brown"
+msgstr ""
+"Castanho claro"
+
+# id: 241
+msgid "Dark brown"
+msgstr ""
+"Castanho escuro"
+
+# id: 242
+msgid "Hidden tattoo"
+msgstr ""
+"Tatuagem escondida"
+
+# id: 243
+msgid "Visible tattoo"
+msgstr ""
+"Tatuagem visível"
+
+# id: 244
+msgid "Pierced tongue"
+msgstr ""
+"Piercing na língua"
+
+# id: 245
+msgid "Other piercing"
+msgstr ""
+"Outros piercings"
+
+# id: 246
+msgid "Eyes"
+msgstr ""
+"Olhos"
+
+# id: 247
+msgid "Hair"
+msgstr ""
+"Cabelo"
+
+# id: 248
+msgid "Lips"
+msgstr ""
+"Labios"
+
+# id: 249
+msgid "Neck"
+msgstr ""
+"Pescoço"
+
+# id: 250
+msgid "Arms"
+msgstr ""
+"Braços"
+
+# id: 251
+msgid "Hands"
+msgstr ""
+"Mãos"
+
+# id: 252
+msgid "Chest"
+msgstr ""
+"Peito"
+
+# id: 253
+msgid "Belly button"
+msgstr ""
+"Umbigo"
+
+# id: 254
+msgid "Butt"
+msgstr ""
+"Nádegas"
+
+# id: 255
+msgid "Legs"
+msgstr ""
+"Pernas"
+
+# id: 256
+msgid "Calves"
+msgstr ""
+"Panturrilha"
+
+# id: 257
+msgid "Feet"
+msgstr ""
+"Pés"
+
+# id: 258
+msgid "Not in the list"
+msgstr ""
+"Não consta na lista"
+
+
+
+# /my/profile/personal/edit
+# id: 218
+msgid "Edit personal profile"
+msgstr ""
+"Editar perfil pessoal"
+
+
+
+# /my/profile/photo
+# id: 273
+msgid "You can upload a JPEG (.jpg), GIF (.gif), or PNG (.png) file (maximum size of 500KB) to represent you into %1."
+msgstr ""
+"Você pode enviar um arquivo JPEG (.jpg), GIF (.gif), ou PNG (.png) (tamanho maximo de 500KB) para representar voce em %1"
+
+# id: 274
+msgid "Please, do not upload photos containing celebrities, nudity, artwork, children, pets/animals, cartoons or copyrighted images."
+msgstr ""
+"Por favor, não envie fotos contendo celebridades, nudez, obras de arte, crianças, animais, desenhos ou imagens com direitos autorais."
+
+# id: 275
+msgid "Please, do not upload photos containing celebrities, nudity, cartoons or copyrighted images."
+msgstr ""
+"Por favor, não envie fotos contendo celebridades, nudez, desenhos ou imagens com direitos autorais."
+
+# id: 276
+msgid "Select photo"
+msgstr ""
+"Selecionar foto"
+
+# id: 277
+msgid "Uploader"
+msgstr ""
+"Enviar"
+
+
+
+# /my/profile/professional
+# id: 190
+msgid "Professional Profile"
+msgstr ""
+"Perfil Profissional"
+
+# id: 191
+msgid "No professional profile recorded."
+msgstr ""
+"Não há perfil profissional cadastrado."
+
+# id: 192
+msgid "Occupation"
+msgstr ""
+"Ocupação"
+
+# id: 193
+msgid "Industry"
+msgstr ""
+"Área de Atuação"
+
+# id: 194
+msgid "Company name"
+msgstr ""
+"Nome da Empresa"
+
+# id: 195
+msgid "Web"
+msgstr ""
+"Web"
+
+# id: 196
+msgid "Title"
+msgstr ""
+"Título"
+
+# id: 197
+msgid "Job description"
+msgstr ""
+"Descrição do trabalho"
+
+# id: 198
+msgid "Work email"
+msgstr ""
+"Email Profissional"
+
+# id: 199
+msgid "Work phone"
+msgstr ""
+"Telefone Comercial"
+
+# id: 200
+msgid "Agriculture"
+msgstr ""
+"Agricultura"
+
+# id: 201
+msgid "Arts"
+msgstr ""
+"Artes"
+
+# id: 202
+msgid "Construction"
+msgstr ""
+"Construção"
+
+# id: 203
+msgid "Consumer goods"
+msgstr ""
+"Bens de consumo"
+
+# id: 204
+msgid "Corporate services"
+msgstr ""
+"Serviços corporativos"
+
+# id: 205
+msgid "Education"
+msgstr ""
+"Educação"
+
+# id: 206
+msgid "Finance"
+msgstr ""
+"Finanças"
+
+# id: 207
+msgid "Government"
+msgstr ""
+"Governo"
+
+# id: 208
+msgid "Hi-technology"
+msgstr ""
+"Alta Tecnologia"
+
+# id: 209
+msgid "Legal"
+msgstr ""
+"Legal"
+
+# id: 210
+msgid "Manufacturing"
+msgstr ""
+"Manufaturados"
+
+# id: 211
+msgid "Media"
+msgstr ""
+"Mídia"
+
+# id: 212
+msgid "Medical"
+msgstr ""
+"Médica"
+
+# id: 213
+msgid "Non-profit"
+msgstr ""
+"Não lucrativas"
+
+# id: 214
+msgid "Entertainment"
+msgstr ""
+"Entretenimento"
+
+# id: 215
+msgid "Scientific"
+msgstr ""
+"Científica"
+
+# id: 216
+msgid "Service industry"
+msgstr ""
+"Prestação de Serviços"
+
+# id: 217
+msgid "Transportation"
+msgstr ""
+"Transportes"
+
+
+
+# /my/profile/professional/edit
+# id: 189
+msgid "Edit professional profile"
+msgstr ""
+"Editar perfil profissional"
+
+
+
+# /my/profile/schools
+# id: 279
+msgid "School course"
+msgstr ""
+"Carreira escolar"
+
+# id: 280
+msgid "Year"
+msgstr ""
+"Ano"
+
+# id: 281
+msgid "Name"
+msgstr ""
+"Nome"
+
+# id: 282
+msgid "City"
+msgstr ""
+"Cidade"
+
+# id: 283
+msgid "Country"
+msgstr ""
+"País"
+
+# id: 284
+msgid "Action"
+msgstr ""
+"Ação"
+
+# id: 285
+msgid "Actions"
+msgstr ""
+"Ações"
+
+# id: 286
+msgid "Save"
+msgstr ""
+"Salvar"
+
+# id: 287
+msgid "Delete"
+msgstr ""
+"Deletar"
+
+# id: 288
+msgid "Add next year"
+msgstr ""
+"Adicionar o próximo ano"
+
+
+
+# /my/profile/schools/add
+# id: 278
+msgid "Add a school"
+msgstr ""
+"Adicionar uma escola"
+
+
+
+# /my/settings
+# id: 337
+msgid "Edit my settings"
+msgstr ""
+"Editar minhas configurações"
+
+# id: 338
+msgid "New friend notification"
+msgstr ""
+"Notificação de novo(a) amigo(a)"
+
+# id: 339
+msgid "New friend approval"
+msgstr ""
+"Aceitação de novos amigos"
+
+# id: 340
+msgid "New blog comment"
+msgstr ""
+"Novo comentário no blog"
+
+# id: 341
+msgid "Messages sent directly to me"
+msgstr ""
+"Mensagens enviadas diretamente para mim"
+
+# id: 342
+msgid "Messages sent to friends"
+msgstr ""
+"Mensagens enviadas para amigos"
+
+# id: 343
+msgid "Messages sent to friends of friends"
+msgstr ""
+"Mensagens enviadas para amigos de amigos"
+
+# id: 344
+msgid "Messages sent to my communities"
+msgstr ""
+"Mensagens enviadas para minhas comunidades"
+
+# id: 345
+msgid "Birthday reminder"
+msgstr ""
+"Lembrete de aniversário"
+
+# id: 346
+msgid "<b>Publish my .page</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: blog, album, ...)"
+msgstr ""
+"<b>Publicar minha .page</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: blog, álbum, ...)"
+
+# id: 347
+msgid "Select .page style"
+msgstr ""
+"Selecionar estilo da .page"
+
+# id: 348
+msgid "Invitation message"
+msgstr ""
+"Mensagem do convite"
+
+# id: 349
+msgid "Add your personal message<br />into invitation to join %1"
+msgstr ""
+"Escreva sua mensagem pessoal <br />no convite para fazer parte de %1"
+
+# id: 350
+msgid "Settings recorded"
+msgstr ""
+"Configurações salvas"
+
+# id: 351
+msgid "this parameter take 10 minutes to be applied"
+msgstr ""
+"este parâmetro leva 10 minutos para ser aplicado"
+
+
+
+# /new
+# id: 532
+msgid "Do you want to join the .node network ?"
+msgstr ""
+"Quer entrar na rede .node?"
+
+# id: 533
+msgid "If you want more information, <a href='/pub'>see the .node site</a> and <a href='/pub/help'>his help</a>"
+msgstr ""
+"Se voce quer mais informação, <a href='/pub'>veja o site do .node</a> e <a href='/pub/help'>sua ajuda</a>"
+
+# id: 534
+msgid "Your login"
+msgstr ""
+"Seu login"
+
+# id: 535
+msgid "Confirm password"
+msgstr ""
+"Confirme a senha"
+
+# id: 536
+msgid "Type the code displayed inside this image"
+msgstr ""
+"Digite o código mostrado nessa imagem"
+
+# id: 537
+msgid "Yes, I want"
+msgstr ""
+"Sim, eu quero"
+
+# id: 538
+msgid "To join .node network, fill this little form then click the 'Accept' button"
+msgstr ""
+"Para entrer na rede .node, preencha esse pequeno formulário e clique no botão 'Aceito'"
+
+# id: 539
+msgid "Accept"
+msgstr ""
+"Aceito"
+
+# id: 540
+msgid "No, I don't want to join .node"
+msgstr ""
+"Não, eu não quero entrar no .node"
+
+# id: 541
+msgid ""
+"The person who have invited you will be informed of your refusal.<br />"
+"If another person invite you, you will still receive an invitation.<br >"
+"Indicate the reasons of your refusal (optional) then click the 'Refuse' button to refuse this invitation"
+msgstr ""
+"A pessoa que convidou-lhe será informada de sua recusa. <br /> Se outra pessoa lhe convidar, você ainda receberá o convite. <br > Indique os motivos da recusa (opcional) e clique no botão 'Recusar' para recusar este convite"
+
+# id: 542
+msgid "Refuse"
+msgstr ""
+"Recusar"
+
+# id: 543
+msgid "No, I don't want to be contacted by .node anymore"
+msgstr ""
+"Não, eu não quero mais ser contactado(a) pelo .node "
+
+# id: 544
+msgid ""
+"You don't want to join .node network, and you don't want to receive any future invitation.<br />"
+"Your email will be added on a black list.<br />"
+"If it's realy what you want, indicate the reasons of your refusal (optional) then click on 'Blacklist me' button"
+msgstr ""
+"Você não quer fazer parte da rede .node e não quer receber nenhum convite futuramente.<br /> Seu email será adicionado à lista negra.<br /> Se é realmente o que deseja, indique as razões da recusa (opcional) e clique no botão 'Adicione-me à lista negra'"
+
+# id: 545
+msgid "Blacklist me"
+msgstr ""
+"Adicione-me à lista negra"
+
+# id: 546
+msgid "Reasons"
+msgstr ""
+"Razões"
+
+# id: 547
+msgid "Return to the registration process"
+msgstr ""
+"Retornar ao processo de registro"
+
+
+
+# /new/profile
+# id: 548
+msgid "Your login to .node is"
+msgstr ""
+"Seu login no .node é"
+
+# id: 549
+msgid "Now, you can connect to .node network"
+msgstr ""
+"Agora, você pode se conectar à rede .node"
+
+# id: 550
+msgid "Thanks for your participation"
+msgstr ""
+"Obrigado pela participação"
+
+# id: 551
+msgid "This filled profile is basic, a more detailled profile can be filled inside the network (menu: Home / Profile)"
+msgstr ""
+"Este perfil é básico, um perfil mais detalhado poderá ser preenchido na rede (menu: Início / Perfil)"
+
+# id: 552
+msgid "You could change your<br />email after registration"
+msgstr ""
+"Você poderá mudar seu <br /> email após o registro"
+
+# id: 568
+msgid "Form problem"
+msgstr ""
+"Problemas com o formulário"
+
+# id: 569
+msgid "The submited form is incorrect"
+msgstr ""
+"O formulário enviado está incorreto"
+
+# id: 570
+msgid "You must enter a valid first name, last name, gender and country to validate your registration"
+msgstr ""
+"Você deve fornecer um nome válido, sobrenome, sexo e país para confirmar seu registro"
+
+
+
+# /news
+# id: 517
+msgid "Last blog's tickets"
+msgstr ""
+"últimos bilhetes do blog"
+
+# id: 518
+msgid "External blog"
+msgstr ""
+"Blog externo"
+
+# id: 519
+msgid "View friends' blogs only"
+msgstr ""
+"Ver apenas blogs de amigos"
+
+# id: 606
+msgid "Statistics"
+msgstr ""
+"Estatísticas"
+
+
+
+# /news/blog
+# id: 520
+msgid "%1 blog this week"
+msgid_plural "%1 blogs this week"
+msgstr[0] "%1 blog esta semana"
+msgstr[1] " %1 blogs esta semana"
+
+
+
+# /news/statistics
+# id: 521
+msgid "Country representation"
+msgstr ""
+"Representação por país"
+
+# id: 522
+msgid "Total"
+msgstr ""
+"Total"
+
+
+
+# /profile
+# id: 289
+msgid ".nodian since %1"
+msgstr ""
+".nodiano desde %1"
+
+# id: 290
+msgid "His Friends"
+msgstr ""
+"Amigos dele"
+
+# id: 291
+msgid "Her Friends"
+msgstr ""
+"Amigos dela"
+
+# id: 292
+msgid "Send message"
+msgstr ""
+"Enviar mensagem"
+
+# id: 293
+msgid "Add as a friend"
+msgstr ""
+"Incluir como amigo"
+
+
+
+# /profile/354a778bacabffaff3d3fd74f93ac278
+# id: 593
+msgid "The %1 last %2's friends who have visited that profile (<a href='/friends/%3/list'>View full list</a>):"
+msgstr ""
+"Os %1 últimos amigos de %2 que visitaram este perfil (<a href='/friends/%3/list'>Ver lista completa</a>):"
+
+# id: 594
+msgid "The %1 last communities' post (<a href='/profile/%2/communities'>View all communities subscribed</a>): "
+msgstr ""
+"%1 últimas comunidades com novas mensagens (<a href='/profile/%2/communities'>Ver todas as comunidades</a>): "
+
+# id: 595
+msgid "Summary"
+msgstr ""
+"Sumário"
+
+# id: 596
+msgid "General profile"
+msgstr ""
+"Perfil geral"
+
+# id: 597
+msgid "Last links added"
+msgstr ""
+"Últimos links adicionados"
+
+
+
+# /profile/6c462c5f333945c866c4b63a8f9f1cfe
+# id: 604
+msgid "Last blog's ticket"
+msgstr ""
+"Último bilhete do blog"
+
+
+
+# /profile/afe5e1804d88f0fdc122ecc7af624111
+# id: 618
+msgid "Last photo added"
+msgstr ""
+"Última foto adicionada"
+
+
+
+# /profile/c57fb3809b0d27b1922c5e3ae0a3ab7b/communities
+
+
+# /profile/fbb92b36beb704dc5138b73362d3b6ff
+# id: 641
+msgid "Rate your friend to build his/her karma: "
+msgstr ""
+"Classifique seu(ua) amigo(a) para criar o karma dele(a)"
+
+# id: 642
+msgid "Fan: "
+msgstr ""
+"Fã:"
+
+# id: 643
+msgid "Fun: "
+msgstr ""
+"Diversão:"
+
+# id: 644
+msgid "Cool: "
+msgstr ""
+"Legal:"
+
+# id: 645
+msgid "Sexy: "
+msgstr ""
+"Sexy:"
+
+# id: 646
+msgid "Relation: "
+msgstr ""
+"Relação:"
+
+# id: 647
+msgid "Type: "
+msgstr ""
+"Tipo:"
+
+
+
+# /pub
+# id: 87
+msgid "What is it ?"
+msgstr ""
+"O que é isto?"
+
+# id: 88
+msgid ".node is an online community connecting people through a trusted friends network"
+msgstr ""
+".node é uma comunidade online conectando pessoas através de uma rede de amigos de confiança"
+
+# id: 89
+msgid "We wish to create a worldwide friendship network without any language barrier"
+msgstr ""
+"Nós desejamos criar uma rede mundial de amizades sem nenhuma barreira de idioma"
+
+# id: 90
+msgid "By joining <strong>.node</strong>, you can use lots of little services based on trusted friends"
+msgstr ""
+"Fazendo parte do <b>.node</b>, você pode aproveitar vários serviços baseados em amigos de confiança"
+
+# id: 91
+msgid "Connect"
+msgstr ""
+"Conectar"
+
+# id: 92
+msgid "Login"
+msgstr ""
+"Login"
+
+# id: 93
+msgid "Password"
+msgstr ""
+"Senha"
+
+# id: 94
+msgid "To contact me"
+msgstr ""
+"Para entrar em contato"
+
+# id: 95
+msgid "Enter"
+msgstr ""
+"Entrar"
+
+# id: 96
+msgid "Forgot your password ?"
+msgstr ""
+"Esqueceu sua senha?"
+
+# id: 97
+msgid "Not a member?"
+msgstr ""
+"Não é um membro?"
+
+# id: 98
+msgid "You must be connected to view this page"
+msgstr ""
+"Você deve estar conectado para ver esta página"
+
+
+
+# /pub/no-hp
+# id: 99
+msgid "No dotPage for this .node member"
+msgstr ""
+"Não há dotPage para este membro do .node"
+
+# id: 100
+msgid "This member haven't join a photo to his profile. His dotPage is disabled"
+msgstr ""
+"Este membro não adicionou uma foto ao seu perfil. A dotPage dele está desativada"
+
+# id: 101
+msgid "You can see dotPage's examples at"
+msgstr ""
+"Você pode ver exemplos de dotPages aqui"
+
+
+
+# /public
+# id: 523
+msgid "Contact me"
+msgstr ""
+"Entre em contato comigo"
+
+# id: 524
+msgid "On"
+msgstr ""
+"Em"
+
+# id: 525
+msgid "My Blog"
+msgstr ""
+"Meu Blog"
+
+# id: 526
+msgid "Some bookmarks"
+msgstr ""
+"Alguns marcadores"
+
+# id: 527
+msgid "Some photos"
+msgstr ""
+"Algumas fotos"
+
+# id: 528
+msgid "My album"
+msgstr ""
+"Meu álbum"
+
+# id: 529
+msgid "Some friends"
+msgstr ""
+"Alguns amigos"
+
+# id: 530
+msgid "Some comments"
+msgstr ""
+"Alguns comentários"
+
+# id: 531
+msgid "Return to home"
+msgstr ""
+"Voltar à página inicial"
+
+
+
+# /search
+# id: 513
+msgid "Find your soul mate"
+msgstr ""
+"Encontre sua alma gêmea"
+
+# id: 514
+msgid "only member with photo"
+msgstr ""
+"somente membros com foto"
+
+# id: 515
+msgid "Results"
+msgstr ""
+"Resultados"
+
+# id: 516
+msgid "To perform a search by name, go to <a href='/friends/search'>Friends / Search</a> page"
+msgstr ""
+"Para procurar pelo nome vá para a pagina <a href='/friends/search'>Amigos / Busca</a>"
+
+# id: 617
+msgid "Age"
+msgstr ""
+"Idade"
+
+
+
+# /support
+# id: 637
+msgid "To support .node"
+msgstr ""
+"Para ajudar o .node"
+
+# id: 638
+msgid "You can find here some links that can give money to .node :"
+msgstr ""
+"Você pode encontrar aqui alguns links que dão dinheiro ao .node:"
+
+# id: 639
+msgid "To support .node directy, use PayPal"
+msgstr ""
+"Para ajudar diretamente o .node, use o Paypal"
+
+# id: 640
+msgid "If you want to support .node,<br /><a href='/support'>go here</a>"
+msgstr ""
+"Se você quer contribuir com o .node,<br /><a href='/support'>clique aqui</a>"
+
+# lang: pt_BR

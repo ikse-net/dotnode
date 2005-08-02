@@ -1,0 +1,378 @@
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet default.css ****/
+
+body {
+	font-size: 12px;
+	margin: 0; 
+	padding: 0; 
+	background: #b0c4de;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: none; 
+	text-decoration: none;
+}
+
+#header {
+  background: #b0c4de;
+  width :560px;
+  height:110px;
+  margin-left: 10px;
+  margin-bottom:0px;
+  padding-bottom:10px;
+  background-image: url(firefox.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+#header h1 {
+
+  padding-left:130px;
+	padding-top:15px;
+	background-color:#b0c4de;
+	color: #FF6600;
+  background-image: url(firefox.png);
+	background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+#header p {
+	float: right;
+	text-align: right;
+	padding: 5px;
+}
+
+#header p a.flag img {
+	padding: 0px;
+	border: none;
+}
+#header p a.flag:hover img {
+	padding: 0px;
+  border: none;
+}     
+
+#header a {
+	text-decoration: none;
+	color: #FF6600;
+	font-weight: bold;
+}
+
+#header a:hover {
+	color: #003399;
+  text-decoration:underline overline;
+}
+
+
+#header div.poweredby {
+	font-family: Arial;
+	font-size: 10px;
+	text-align:left;
+	color: #FF6600;
+  margin-left: 130px;
+}
+
+#leftside {
+	font-family: Arial;
+	position:fixed;
+	top:13px;
+  left:600px;
+  padding-top: 13px;
+}
+
+#rightside {
+	
+	width: 560px;
+	padding-left:10px;
+  padding-right:10px;
+  padding-bottom:25px;
+  margin-right:10px;
+	background-color :#b0c4de;
+}
+
+#middle {
+	margin-left: 0px;
+	margin-right: 0px;
+  padding:5px;
+  width: 570px;
+}
+
+#blog p {
+	color: black;
+  padding-left: 15px;
+}
+
+#blog span.date {
+	color:#0033CC;
+  margin-left: 10px;
+}
+
+#blog span.blogCatComm {
+	font-family: Arial;
+	text-align:right;
+	display: block;
+	font-size: 10px;
+  color:#FF6600;
+}
+
+#blog span.blogCatComm a {
+	color: #FF6600;
+	text-decoration: none;
+}
+#blog span.blogCatComm a:hover {
+	color: #FF6600;
+	text-decoration: underline overline;
+  text-weight:bolder;
+
+} 
+#blog a {
+	color: #FF6600;
+  text-decoration: none;
+}
+
+#blog a:hover {
+  color: #FF6600;
+  text-decoration: underline overline;
+}
+
+#bookmark ul li a {
+	font-weight: bold;
+	color: #FF6600;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#bookmark ul li a:hover {
+	text-decoration: underline overline;
+}
+#bookmark ul li {
+	margin-bottom: 0.6em;
+}
+
+#album{
+  text-align: center;
+}
+
+#album img {
+  padding: 4px;
+  background-color: white;
+}
+
+#album td {
+	text-align: center;
+	font-family: Arial;
+	font-size: 10px;
+	vertical-align:center;
+  padding-bottom: 10px;
+  color: #FF6600;
+	font-weight: bold;
+}
+
+#friends table {
+	width: 100%;
+}
+
+#friends td, #friends td a {
+	font-family: Arial;
+	font-size: 9px;
+	color: #FF6600;
+	text-decoration: none;
+}
+#friends td a {
+	color: #FF6600;
+  text-decoration: none;
+}
+
+#friends td a:hover {
+	color: #FF6600;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#main {
+	background-color: #b0c4de
+	color: #FF6600;
+  padding-top: 10px;
+	clear: both;
+}
+
+#main h2 {
+	background-color : #FF6600;
+	padding-left: 5px;
+  text-align: left;
+}
+
+#main h2 , #main h2 a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+  background-color : #FF6600;
+  padding-bottom:4px;
+  padding-top:4px;
+  text-align: left;
+  margin-top:40px;
+}
+
+#main h2 a:hover {
+	color: #0033CC;
+	text-decoration: none;   
+}
+
+
+#middle h2 {
+	text-align:left;
+	background-color : #FF6600;
+	margin-top:40px;
+  padding-left: 5px;
+}
+
+#middle h2 a {
+  text-align:left;
+	background-color : #FF6600;
+	margin-top:40px;
+  padding-left: 5px;
+}
+
+#main h3, #main h3 a {
+	font-size: 15px;
+	padding-bottom: 3px;
+  margin-left:5px;
+  margin-bottom: 0.5px;
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#main h3 a:hover {
+	text-decoration: line-through;
+	color: #FF6600;
+}
+
+
+
+#leftside {
+	font-family: Arial;
+	width: 129px;
+  background-color : #FFFF
+}
+
+
+#leftside img {
+	border: 1px solid #FF6600;
+}
+
+#leftside ul img {
+  vertical-align: middle;
+}
+
+#leftside ul li a img {
+	border: none;
+}
+
+#leftside ul {
+	padding-top:10px;
+  padding-bottom:0px;
+	padding-right:0px;
+  padding-left:0px;
+	background-color: #FFFFF;
+  text-align:center;
+  position:fixed;
+  top:15px;
+  left:750px;
+}
+
+#leftside ul li {
+	list-style: none;
+	padding: 0;
+}
+
+#leftside ul li a {
+	display: block;
+	color: #FF6600;
+	padding: 1px 10px 0px 10px;
+	font-size: 10px;
+	text-decoration: none;
+	height: 16px;
+	background-color : #FFFFF
+}
+
+#leftside ul li a:hover {
+	padding: 1px 10px 0px 10px;
+	background-color: #b0c4de;
+  text-decoration: none;
+  font-weight : bolder;
+  border-top: 1px solid #FF6600;
+  border-bottom: 1px solid #FF6600;
+  border-right: 1px solid #FF6600;
+border-left: 1px solid #FF6600;
+}
+
+#leftside ul li.contact a {
+	background-color:#b0c4de;
+}
+#leftside ul li.blog a {
+	background-color:#b0c4de;
+}
+#leftside ul li.bookmark a {
+	background-color:#b0c4de;
+}
+#leftside ul li.album a {
+	background-color:#b0c4de;
+}
+
+
+#miniprofile b {
+	color: #FF6600;
+  margin-left: 5px;
+}
+
+#blog h3 {
+	border-bottom:#FF6600 1px solid;
+}
+
+#blog h3 a {
+	color: ;
+}
+
+
+#footer {
+	clear: both;
+	border-top: px solid #FF6600;
+  border-bottom: px solid #00008B;
+	padding-right: 10px;
+  padding-top:10px;
+	text-align:right;
+  margin-top:30px;
+}
+#footer a {
+	font-family:Arial;
+	font-size: 11px;
+	color: #FF6600;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #FF6600;
+	text-decoration: none;
+  font-weight : bold;
+}
+#footer img {
+	border: none;
+}
+#footer p {
+	text-align: right;
+}

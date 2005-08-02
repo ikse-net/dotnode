@@ -1,0 +1,3311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dotnode.com v1\n"
+"POT-Creation-Date: 2004-04-30 08:32+0100\n"
+"PO-Revision-Date: 2004-05-05 12:17+0100\n"
+"Language-Team: Translation team <translation@dotnod.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"nplurals=2; plural=n<2?0 : 1\n"
+
+# id: 2
+msgid "Social Network"
+msgstr ""
+"ソーシャルネットワーク"
+
+# id: 3
+msgid "CNIL registration number"
+msgstr ""
+"CNIL登録番号"
+
+# id: 4
+msgid "Page not found"
+msgstr ""
+"ページが見つかりません"
+
+# id: 5
+msgid "Error"
+msgstr ""
+"エラー"
+
+# id: 6
+msgid "No"
+msgstr ""
+"いいえ"
+
+# id: 7
+msgid "Yes"
+msgstr ""
+"はい"
+
+# id: 9
+msgid "No answer"
+msgstr ""
+"回答なし"
+
+# id: 10
+msgid "Nothing"
+msgstr ""
+"なし"
+
+# id: 11
+msgid "Back"
+msgstr ""
+"戻る"
+
+# id: 12
+msgid "Close"
+msgstr ""
+"閉じる"
+
+# id: 13
+msgid "Submit"
+msgstr ""
+"送信"
+
+# id: 14
+msgid "A problem with this page ? Bad translation ? Review this page for moderation ?"
+msgstr ""
+"このページの内容あるいは翻訳におかしなところを見つけましたか？"
+
+# id: 15
+msgid "Report a problem"
+msgstr ""
+"問題を報告する"
+
+# id: 16
+msgid "Select your language"
+msgstr ""
+"言語を選択 (Select your language)"
+
+# id: 17
+msgid "Display problem with this site ?"
+msgstr ""
+"このページの表示に問題がありますか？"
+
+# id: 18
+msgid "See this page about Web standard"
+msgstr ""
+"Web基準についてのこのページを読んでください。"
+
+# id: 19
+msgid "January"
+msgstr ""
+"1月"
+
+# id: 20
+msgid "February"
+msgstr ""
+"2月"
+
+# id: 21
+msgid "March"
+msgstr ""
+"3月"
+
+# id: 22
+msgid "April"
+msgstr ""
+"4月"
+
+# id: 23
+msgid "May"
+msgstr ""
+"5月"
+
+# id: 24
+msgid "June"
+msgstr ""
+"6月"
+
+# id: 25
+msgid "July"
+msgstr ""
+"7月"
+
+# id: 26
+msgid "August"
+msgstr ""
+"8月"
+
+# id: 27
+msgid "September"
+msgstr ""
+"9月"
+
+# id: 28
+msgid "October"
+msgstr ""
+"10月"
+
+# id: 29
+msgid "November"
+msgstr ""
+"11月"
+
+# id: 30
+msgid "December"
+msgstr ""
+"12月"
+
+# id: 31
+msgid "Language"
+msgstr ""
+"言語"
+
+# id: 32
+msgid "English"
+msgstr ""
+"英語 (English)"
+
+# id: 33
+msgid "French"
+msgstr ""
+"フランス語 (Français)"
+
+# id: 34
+msgid "Comment"
+msgstr ""
+"コメント"
+
+# id: 35
+msgid "Record"
+msgstr ""
+"記録する"
+
+# id: 36
+msgid "Modify"
+msgstr ""
+"変更する"
+
+# id: 37
+msgid "Myself"
+msgstr ""
+"自分自身"
+
+# id: 38
+msgid "Friends of friends"
+msgstr ""
+"友達の友達"
+
+# id: 39
+msgid "All members"
+msgstr ""
+"メンバー全員"
+
+# id: 40
+msgid "Everyone"
+msgstr ""
+"誰でも"
+
+# id: 41
+msgid "Interested in"
+msgstr ""
+"関心"
+
+# id: 44
+msgid "Return"
+msgstr ""
+"戻る"
+
+# id: 45
+msgid "At"
+msgstr ""
+"At"
+
+# id: 46
+msgid "Everywhere"
+msgstr ""
+"世界中"
+
+# id: 47
+msgid "In jail or deleted"
+msgstr ""
+"アカウントが削除されています"
+
+
+
+# /bad_link
+# id: 571
+msgid "Bad link"
+msgstr ""
+"不正なリンク (Bad link)"
+
+# id: 572
+msgid "The link you have used is not valid"
+msgstr ""
+"リンク先のアドレスが無効です"
+
+# id: 573
+msgid "Successful invitation"
+msgstr ""
+"招待が成功した数"
+
+# id: 574
+msgid "Invitation in waiting state"
+msgstr ""
+"招待して待っている人の数"
+
+# id: 575
+msgid "Failed invitation"
+msgstr ""
+"招待が失敗した数"
+
+
+
+# /blog
+# id: 294
+msgid "Read more"
+msgstr ""
+"もっと読む"
+
+# id: 295
+msgid "%1 comment"
+msgid_plural "%1 comments"
+msgstr[0] "%1個のコメント"
+msgstr[1] "%1個のコメント"
+
+# id: 296
+msgid "%1 word"
+msgid_plural "%1 words"
+msgstr[0] "%1個の単語"
+msgstr[1] "%1個の単語"
+
+# id: 297
+msgid "RSS from <a href='%2'>%1</a>"
+msgstr ""
+"<a href='%2'>%1</a>からのRSS"
+
+# id: 298
+msgid "Header"
+msgstr ""
+"ヘッダー"
+
+
+
+# /blog/view
+# id: 334
+msgid "Comments"
+msgstr ""
+"コメント"
+
+# id: 335
+msgid "Post a comment"
+msgstr ""
+"コメントを投稿する"
+
+# id: 336
+msgid "Your comment"
+msgstr ""
+"あなたのコメント"
+
+
+
+# /BogusReport
+# id: 501
+msgid "You have found a problem ?"
+msgstr ""
+"問題を見つけましたか？"
+
+# id: 502
+msgid "If you have found a problem (bad translation, bug, illegal thing, explicit content, ...) on page \"<a href='%1'>http://dotnode.com%1</a>\", report it here. Describe the problem and send the message."
+msgstr ""
+"もしも\"<a href='%1'>http://dotnode.com%1</a>\"ページの中に翻訳のミス、違法なもの、どぎついコンテントなどの問題を見つけましたら、"
+
+# id: 503
+msgid "Send Bogus Report"
+msgstr ""
+"不正利用報告を送ってください。"
+
+
+
+# /bookmarks/354a778bacabffaff3d3fd74f93ac278
+# id: 610
+msgid "edit"
+msgstr ""
+"編集"
+
+# id: 611
+msgid "delete"
+msgstr ""
+"削除"
+
+
+
+# /communitie/members
+# id: 403
+msgid "Community members"
+msgstr ""
+"コミュニティーのメンバー"
+
+# id: 404
+msgid "Members list"
+msgstr ""
+"メンバーリスト"
+
+
+
+# /communities
+# id: 357
+msgid "Owner"
+msgstr ""
+"オーナー"
+
+# id: 358
+msgid "Moderated"
+msgstr ""
+"参加にはモデレーターの承認が必要"
+
+# id: 359
+msgid "Created"
+msgstr ""
+"作成日"
+
+# id: 360
+msgid "Members"
+msgstr ""
+"メンバー"
+
+# id: 361
+msgid "Details"
+msgstr ""
+"詳細"
+
+# id: 362
+msgid "View forum"
+msgstr ""
+"フォーラムを見る"
+
+# id: 363
+msgid "View events"
+msgstr ""
+"イベントを見る"
+
+# id: 364
+msgid "Invite friends"
+msgstr ""
+"友達を招待する"
+
+# id: 365
+msgid "No topic"
+msgstr ""
+"トピックがありません"
+
+# id: 366
+msgid "No event"
+msgstr ""
+"イベントがありません"
+
+# id: 367
+msgid "New topic"
+msgstr ""
+"新規トピック"
+
+# id: 368
+msgid "New event"
+msgstr ""
+"新規イベント"
+
+# id: 369
+msgid "Return to community"
+msgstr ""
+"コミュニティーへ戻る"
+
+# id: 370
+msgid "last post at %1"
+msgstr ""
+"%1への最新の書き込み"
+
+# id: 371
+msgid "Your communities"
+msgstr ""
+"参加しているコミュニティー"
+
+# id: 372
+msgid "Communities by categorie"
+msgstr ""
+"コミュニティーのカテゴリー一覧"
+
+# id: 373
+msgid "%1 member"
+msgid_plural "%1 members"
+msgstr[0] "メンバー%1人"
+msgstr[1] "メンバー%1人"
+
+# id: 374
+msgid "%1 community"
+msgid_plural "%1 communities"
+msgstr[0] "%1個のコミュニティー"
+msgstr[1] "%1個のコミュニティー"
+
+# id: 375
+msgid "Location"
+msgstr ""
+"場所"
+
+# id: 376
+msgid "Author"
+msgstr ""
+"書いた人"
+
+# id: 377
+msgid "Posts"
+msgstr ""
+"記事"
+
+# id: 378
+msgid "Last post"
+msgstr ""
+"最新記事"
+
+# id: 379
+msgid "Moderation"
+msgstr ""
+"管理者メニュー"
+
+# id: 380
+msgid "Stand in moderation"
+msgstr ""
+"不正利用調査中"
+
+# id: 381
+msgid "View all topics"
+msgstr ""
+"すべてのトピックを見る"
+
+# id: 382
+msgid "View all events"
+msgstr ""
+"すべてのイベントを見る"
+
+
+
+# /communities//editPost
+# id: 394
+msgid "Edit a post"
+msgstr ""
+"投稿記事を編集する"
+
+# id: 395
+msgid "optional"
+msgstr ""
+"省略可能"
+
+
+
+# /communities/category
+# id: 383
+msgid "By category"
+msgstr ""
+"カテゴリー別"
+
+# id: 384
+msgid "Newer"
+msgstr ""
+"最新"
+
+# id: 385
+msgid "Popular"
+msgstr ""
+"人気"
+
+
+
+# /communities/create
+# id: 388
+msgid "Impossible to create your community"
+msgstr ""
+"コミュニティー作成に失敗しました"
+
+# id: 389
+msgid "You must enter a valid name, category and description to create your community"
+msgstr ""
+"コミュニティーを作成するためには、有効な名前、カテゴリー、説明を入力する必要があります。"
+
+
+
+# /communities/createTopic
+# id: 393
+msgid "Write a new topic in %1"
+msgstr ""
+"%1に新しいトピックを書き込む。"
+
+
+
+# /communities/editPost/27470
+# id: 619
+msgid "Title (optional): "
+msgstr ""
+"題名 (省略可)："
+
+# id: 620
+msgid "Message: "
+msgstr ""
+"メッセージ："
+
+
+
+# /communities/invite
+# id: 400
+msgid "Invite friends to %1"
+msgstr ""
+"%1に友達を招待する"
+
+# id: 401
+msgid "Choose friends"
+msgstr ""
+"友達を選択する"
+
+
+
+# /communities/join
+# id: 396
+msgid "Join %1"
+msgstr ""
+"%1に参加する"
+
+# id: 397
+msgid "Are you sure you want to join this community ?"
+msgstr ""
+"このコミュニティーに参加しますか？"
+
+# id: 398
+msgid "No, back to the community"
+msgstr ""
+"参加しない。コミュニティーに戻る。"
+
+# id: 399
+msgid "This community is moderated. Your inscription must be validated by the moderator"
+msgstr ""
+"このコミュニティーの参加にはモデレーターの承認が必要です。モデレーターの承認をお待ちください。"
+
+
+
+# /communities/last
+# id: 386
+msgid "New communities"
+msgstr ""
+"最新コミュニティーリスト"
+
+# id: 387
+msgid "Previous day"
+msgstr ""
+"前日"
+
+
+
+# /communities/mine
+# id: 591
+msgid "My communities"
+msgstr ""
+"参加しているコミュニティー"
+
+# id: 592
+msgid "Directory"
+msgstr ""
+"カテゴリ一覧"
+
+
+
+# /communities/replyTopic/1907
+
+
+# /communities/search
+# id: 390
+msgid "Search a community"
+msgstr ""
+"コミュニティを探す"
+
+# id: 391
+msgid "No community found"
+msgstr ""
+"コミュニティーが見つかりません。"
+
+# id: 392
+msgid "Try again"
+msgstr ""
+"もう一度"
+
+
+
+# /communities/view/807
+# id: 599
+msgid "Related communities"
+msgstr ""
+"関連コミュニティー"
+
+# id: 600
+msgid "The %1 last %2's members who have visited this community (<a href='/communities/members/%3'>View full list</a>):"
+msgstr ""
+"%2のメンバーの中で最近コミュニティーを訪問した%1人 (<a href='/communities/members/%3'>全てのメンバーを見る</a>):"
+
+# id: 601
+msgid "The first %1 related communities: "
+msgstr ""
+"関連コミュニティー (最初の%1個)"
+
+# id: 602
+msgid "Description"
+msgstr ""
+"説明"
+
+# id: 603
+msgid ".node"
+msgstr ""
+".node"
+
+
+
+# /communities/viewTopic
+# id: 402
+msgid "Reply to topic"
+msgstr ""
+"トピックに返信する"
+
+
+
+# /communities/viewTopic/3687
+# id: 616
+msgid "Unstick it"
+msgstr ""
+"スティッキートピックではなくする"
+
+
+
+# /communities/viewTopic/4257
+
+
+# /community categories
+# id: 405
+msgid "Alumni & Schools"
+msgstr ""
+"学校、同窓会"
+
+# id: 406
+msgid "Arts & Entertainment"
+msgstr ""
+"芸術・エターテインメント"
+
+# id: 407
+msgid "Automotive"
+msgstr ""
+"自動車"
+
+# id: 408
+msgid "Business"
+msgstr ""
+"ビジネス"
+
+# id: 409
+msgid "Company"
+msgstr ""
+"会社"
+
+# id: 410
+msgid "Cities & Neighborhoods"
+msgstr ""
+"都市、近所"
+
+# id: 411
+msgid "Computers & Internet"
+msgstr ""
+"パソコン・インターネット"
+
+# id: 412
+msgid "Countries & Regional"
+msgstr ""
+"国、地域"
+
+# id: 413
+msgid "Cultures & Community"
+msgstr ""
+"文化・コミュニティ"
+
+# id: 414
+msgid "Family & Home"
+msgstr ""
+"家族、家"
+
+# id: 415
+msgid "Fashion & Beauty"
+msgstr ""
+"ファッション・美容"
+
+# id: 416
+msgid "Food, Drink & Wine"
+msgstr ""
+"飲食・グルメ"
+
+# id: 417
+msgid "Games"
+msgstr ""
+"ゲーム"
+
+# id: 418
+msgid "Government & Politics"
+msgstr ""
+"政府、政治"
+
+# id: 419
+msgid "Health, Wellness & Fitness"
+msgstr ""
+"健康"
+
+# id: 420
+msgid "Hobbies & Crafts"
+msgstr ""
+"趣味、技能"
+
+# id: 421
+msgid "Individuals"
+msgstr ""
+"個人"
+
+# id: 422
+msgid "Music"
+msgstr ""
+"音楽"
+
+# id: 423
+msgid "Pets & Animals"
+msgstr ""
+"ペット・動物"
+
+# id: 424
+msgid "Recreation & Sports"
+msgstr ""
+"遊び・スポーツ"
+
+# id: 425
+msgid "Religion & Beliefs"
+msgstr ""
+"宗教、信仰"
+
+# id: 426
+msgid "Romance & Relationships"
+msgstr ""
+"ロマンス・出会い"
+
+# id: 427
+msgid "Science & History"
+msgstr ""
+"科学・歴史"
+
+# id: 428
+msgid "Travel"
+msgstr ""
+"旅行"
+
+# id: 429
+msgid "Other"
+msgstr ""
+"その他"
+
+
+
+# /deprecated
+# id: 105
+msgid "You are connected to <strong>%2</strong> people through <strong>%1</strong> friend."
+msgid_plural "You are connected to <strong>%2</strong> people through <strong>%1</strong> friends."
+msgstr[0] "<strong>%1</strong>人の友達を通じて<strong>%2</strong>人の.nodeメンバーとつながっています。"
+msgstr[1] "<strong>%1</strong>人の友達を通じて<strong>%2</strong>人の.nodeメンバーとつながっています。"
+
+# id: 106
+msgid ".node counts <b>%1</b> people"
+msgstr ""
+".nodeの会員数は<b>%1</b>人です。"
+
+# id: 107
+msgid "Your network (direct connect + friends of friends) counts <b>%1</b> person"
+msgid_plural "Your network (direct connect + friends of friends) counts <b>%1</b> persons"
+msgstr[0] "友達と友達の友達の合計は<b>%1</b>人です。"
+msgstr[1] "友達と友達の友達の合計は<b>%1</b>人です。"
+
+# id: 108
+msgid "Right now, <b>%1</b> people are on .node"
+msgstr ""
+"現在.nodeにログインしている人は<b>%1</b>人です。"
+
+# id: 109
+msgid "Grow your network now !"
+msgstr ""
+"友達のネットワークを広げましょう！"
+
+# id: 110
+msgid "Invite new friends now !"
+msgstr ""
+"新しい友達を招待しましょう！"
+
+# id: 111
+msgid "View network"
+msgstr ""
+"友達のネットワークを見る"
+
+# id: 112
+msgid "View friends"
+msgstr ""
+"友達を見る"
+
+# id: 113
+msgid "View communities"
+msgstr ""
+"コミュニティーを見る"
+
+# id: 114
+msgid "View members"
+msgstr ""
+"メンバーを見る"
+
+# id: 115
+msgid "Tell people your dotpage address:"
+msgstr ""
+"dotpage(インターネットに公開されているページ)のアドレスを宣伝しましょう："
+
+# id: 116
+msgid "you can see stats here"
+msgstr ""
+"アクセス統計をここで見ることができます"
+
+# id: 117
+msgid "If you select a photo for your profile, an homepage will be automatically generated with a simple address"
+msgstr ""
+"プロフィールに写真を掲載すると、インターネットに公開されるホームページが自動的に作成されます。そのホームページアドレスは単純です。"
+
+# id: 118
+msgid "You can share your album, blog, links ... into it, it's worldwide accessible"
+msgstr ""
+"そのホームページには、アルバム、ブログ、ブックマークが公開され、世界中からアクセス可能になります。"
+
+# id: 119
+msgid "Add a photo to my profile"
+msgstr ""
+"プロフィールに写真を追加する。"
+
+# id: 120
+msgid "Come on the .node IRC channel"
+msgstr ""
+".nodeのIRCチャンネルへ来てみてください。"
+
+
+
+# /error
+# id: 559
+msgid "Verification code failed"
+msgstr ""
+"認証コードが違います"
+
+# id: 560
+msgid "The sent code don't match the image"
+msgstr ""
+"認証コードが図と違います"
+
+
+
+# /error/forgot_password
+# id: 561
+msgid "Password retrieval"
+msgstr ""
+"パスワード再発行"
+
+# id: 562
+msgid "Enter your"
+msgstr ""
+"選択："
+
+# id: 563
+msgid "Password forgotten"
+msgstr ""
+"パスワードを忘れましたか？"
+
+# id: 564
+msgid "Fill this form to retrieve your password or your login to .node"
+msgstr ""
+"パスワードを再発行するためには、このフォームにメールアドレスまたはログイン名を入力してください。"
+
+# id: 565
+msgid "You will receive an email in 2 minutes max."
+msgstr ""
+"2分以内にメールが届きます。"
+
+
+
+# /friends/invitation
+# id: 492
+msgid "Specify how close you are to your friend"
+msgstr ""
+"友達との親密度"
+
+# id: 493
+msgid "Confirm %1 is your friend"
+msgstr ""
+"%1さんがあなたの友達であることを確認してください。"
+
+# id: 494
+msgid "%1 is my friend"
+msgstr ""
+"%1は友達です"
+
+# id: 495
+msgid "%1 is not my friend"
+msgstr ""
+"%1は友達ではない"
+
+# id: 496
+msgid "Invitation from %1 %2"
+msgstr ""
+"%1 %2からの招待"
+
+# id: 497
+msgid "Can I be your friend ? (see my profile here : %1 )"
+msgstr ""
+"友達になりませんか？　（プロファイルはここです：%1）"
+
+# id: 498
+msgid "Invitation accepted"
+msgstr ""
+"招待が承認されました。"
+
+# id: 499
+msgid "%1 %2 has refused your invitation"
+msgstr ""
+"%1 %2は招待を断りました"
+
+# id: 500
+msgid "Sorry, but your invitation was refused"
+msgstr ""
+"残念ながら、招待が拒否されました。"
+
+
+
+# /friends/join
+# id: 468
+msgid "Invite your friends"
+msgstr ""
+"友達を招待する"
+
+# id: 469
+msgid "Fill this form to invite your friend"
+msgstr ""
+"このフォームを記入して、友達を招待しましょう。"
+
+# id: 470
+msgid "Personalize your invitation"
+msgstr ""
+"招待メッセージを変更する"
+
+# id: 471
+msgid "Status of your invitations"
+msgstr ""
+"招待の状況"
+
+# id: 472
+msgid "Response"
+msgstr ""
+"返事"
+
+# id: 473
+msgid "Send date"
+msgstr ""
+"招待した日"
+
+# id: 474
+msgid "Ready to send"
+msgstr ""
+"送信準備中"
+
+# id: 475
+msgid "Invitation sent"
+msgstr ""
+"送信完了"
+
+# id: 476
+msgid "Operation finished"
+msgstr ""
+"操作完了"
+
+# id: 477
+msgid "Operation stopped"
+msgstr ""
+"操作中断"
+
+# id: 478
+msgid "Accepted"
+msgstr ""
+"応じられた"
+
+# id: 479
+msgid "Refused"
+msgstr ""
+"断られた"
+
+# id: 480
+msgid "Refuse all .node invitations"
+msgstr ""
+".nodeの招待の全てを断る"
+
+# id: 481
+msgid "No invitation. Don't wait ! Invite your friends !"
+msgstr ""
+"招待がありません。今すぐ友達を招待して！"
+
+# id: 482
+msgid "Mail problem"
+msgstr ""
+"メールトラブル"
+
+# id: 483
+msgid "No response"
+msgstr ""
+"返事なし"
+
+# id: 484
+msgid "Resend"
+msgstr ""
+"再送信"
+
+# id: 485
+msgid "Modify/Resend"
+msgstr ""
+"変更、再送信"
+
+# id: 486
+msgid "Import a CSV file"
+msgstr ""
+"CSVファイルのインポート"
+
+# id: 487
+msgid "Import from CSV"
+msgstr ""
+"CSVからインポート"
+
+# id: 488
+msgid "The CSV format is: "
+msgstr ""
+"CSVのフォーマット："
+
+# id: 489
+msgid "Eg.: You can import your Orkut contacts here: "
+msgstr ""
+"例：ここでOrkutのコンタクトリストを一括して入力（インポート）できます："
+
+# id: 490
+msgid "Import"
+msgstr ""
+"インポート"
+
+# id: 491
+msgid "File location: "
+msgstr ""
+"ファイルの場所："
+
+
+
+# /friends/karma
+# id: 431
+msgid "Friends'Karma"
+msgstr ""
+"友達のカルマ"
+
+# id: 432
+msgid "Haven't seen"
+msgstr ""
+"会ったことがない"
+
+# id: 433
+msgid "Acquaintance"
+msgstr ""
+"知り合い"
+
+# id: 434
+msgid "Friend"
+msgstr ""
+"友達"
+
+# id: 435
+msgid "Good friend"
+msgstr ""
+"友人"
+
+# id: 436
+msgid "Best friend"
+msgstr ""
+"親友"
+
+# id: 437
+msgid "Karma recorded"
+msgstr ""
+"カルマが記録されました"
+
+# id: 438
+msgid "Love"
+msgstr ""
+"恋愛"
+
+# id: 439
+msgid "Asso/Club"
+msgstr ""
+"協会・倶楽部"
+
+# id: 440
+msgid "Childhood"
+msgstr ""
+"子供の頃"
+
+# id: 441
+msgid "Studies"
+msgstr ""
+"勉強"
+
+# id: 442
+msgid "Family"
+msgstr ""
+"家族"
+
+# id: 443
+msgid "Internet"
+msgstr ""
+"インターネット"
+
+# id: 444
+msgid "Parties"
+msgstr ""
+"パーティ"
+
+# id: 445
+msgid "Work"
+msgstr ""
+"仕事"
+
+# id: 446
+msgid "Holidays"
+msgstr ""
+"バカンス"
+
+
+
+# /friends/list
+# id: 430
+msgid "Friends list"
+msgstr ""
+"友達リスト"
+
+# id: 598
+msgid "<b>%1</b> friend"
+msgid_plural "<b>%1</b> friends"
+msgstr[0] "<b>%1人</b>の友達"
+msgstr[1] "<b>%1人</b>の友達"
+
+
+
+# /friends/search
+# id: 447
+msgid "Friend finder"
+msgstr ""
+"友達検索"
+
+# id: 448
+msgid "Search friends"
+msgstr ""
+"友達検索"
+
+# id: 449
+msgid "Search for friends on .node network"
+msgstr ""
+".nodeで友達を検索する"
+
+# id: 450
+msgid "Nobody match your search. Try again !"
+msgstr ""
+"検索条件に該当する人はいませんでした。検索条件を変えて、再検索してみましょう。"
+
+
+
+# /help
+# id: 553
+msgid "About"
+msgstr ""
+".nodeについて"
+
+# id: 554
+msgid "FAQ"
+msgstr ""
+"FAQ"
+
+# id: 555
+msgid "Terms"
+msgstr ""
+"規約"
+
+# id: 556
+msgid "Privacy"
+msgstr ""
+"プライバシーポリシー"
+
+
+
+# /help/faq
+# id: 607
+msgid "Last modified: "
+msgstr ""
+"最終更新日："
+
+
+
+# /mail DotNodeMailPassword
+# id: 566
+msgid "Change your password"
+msgstr ""
+"パスワード変更"
+
+# id: 567
+msgid "Change your main email"
+msgstr ""
+"メールアドレスを変更する"
+
+
+
+# /mail invitation
+# id: 557
+msgid "%1 %2 invite you on .node"
+msgstr ""
+"%1 %2 さんが、あなたを .node に招待しています。"
+
+# id: 558
+msgid "A personal message from your friend"
+msgstr ""
+"友達からの個人的なメッセージ"
+
+
+
+# /menu
+# id: 48
+msgid "Public Section"
+msgstr ""
+"公開エリア"
+
+# id: 49
+msgid "Join"
+msgstr ""
+"参加する"
+
+# id: 50
+msgid "Help"
+msgstr ""
+"ヘルプ"
+
+# id: 51
+msgid "Home"
+msgstr ""
+"ホーム"
+
+# id: 52
+msgid "Friends"
+msgstr ""
+"友達"
+
+# id: 53
+msgid "Messages"
+msgstr ""
+"メッセージ"
+
+# id: 54
+msgid "Community"
+msgstr ""
+"コミュニティー"
+
+# id: 55
+msgid "Communities"
+msgstr ""
+"コミュニティー"
+
+# id: 56
+msgid "Search"
+msgstr ""
+"検索"
+
+# id: 57
+msgid "News"
+msgstr ""
+"ニュース"
+
+# id: 58
+msgid "Logout"
+msgstr ""
+"ログアウト"
+
+# id: 59
+msgid "Profile"
+msgstr ""
+"プロフィール"
+
+# id: 60
+msgid "Album"
+msgstr ""
+"アルバム"
+
+# id: 61
+msgid "Settings"
+msgstr ""
+"設定"
+
+# id: 62
+msgid "Bookmarks"
+msgstr ""
+"ブックマーク"
+
+# id: 63
+msgid "Blog"
+msgstr ""
+"ブログ"
+
+# id: 64
+msgid "General"
+msgstr ""
+"基本情報"
+
+# id: 65
+msgid "Interests"
+msgstr ""
+"興味、関心事"
+
+# id: 66
+msgid "Professional"
+msgstr ""
+"職業、専門"
+
+# id: 67
+msgid "Personal"
+msgstr ""
+"個人的なこと"
+
+# id: 68
+msgid "Schools"
+msgstr ""
+"学校"
+
+# id: 69
+msgid "Contact"
+msgstr ""
+"連絡先"
+
+# id: 70
+msgid "Photo"
+msgstr ""
+"写真"
+
+# id: 71
+msgid "Invitation"
+msgstr ""
+"招待"
+
+# id: 72
+msgid "Karma"
+msgstr ""
+"カルマ"
+
+# id: 73
+msgid "Read"
+msgstr ""
+"読む"
+
+# id: 74
+msgid "Write"
+msgstr ""
+"書く"
+
+# id: 75
+msgid "Send"
+msgstr ""
+"送る"
+
+# id: 76
+msgid "Saved"
+msgstr ""
+"保存"
+
+# id: 77
+msgid "Sent"
+msgstr ""
+"送信済み"
+
+# id: 78
+msgid "Create"
+msgstr ""
+"新規作成"
+
+# id: 79
+msgid "Create your community"
+msgstr ""
+"コミュニティーを作成する"
+
+# id: 80
+msgid "View"
+msgstr ""
+"確認する"
+
+# id: 81
+msgid "Unjoin"
+msgstr ""
+"参加を取り消す"
+
+# id: 82
+msgid "Forum"
+msgstr ""
+"フォーラム"
+
+# id: 83
+msgid "Event"
+msgstr ""
+"イベント"
+
+# id: 84
+msgid "Invite"
+msgstr ""
+"招待する"
+
+# id: 85
+msgid "Edit"
+msgstr ""
+"編集"
+
+# id: 86
+msgid "Report an error"
+msgstr ""
+"エラーを報告する"
+
+
+
+# /messages
+# id: 451
+msgid "Compose message"
+msgstr ""
+"メッセージの作成"
+
+# id: 452
+msgid "Friends and friends of friends"
+msgstr ""
+"友達と友達の友達"
+
+# id: 453
+msgid "Subject"
+msgstr ""
+"件名"
+
+# id: 454
+msgid "Message"
+msgstr ""
+"メッセージ"
+
+# id: 455
+msgid "From"
+msgstr ""
+"差出人 (From)"
+
+# id: 456
+msgid "To"
+msgstr ""
+"宛先"
+
+# id: 457
+msgid "Date"
+msgstr ""
+"日付"
+
+# id: 458
+msgid "Reply"
+msgstr ""
+"返信"
+
+# id: 459
+msgid "Forward"
+msgstr ""
+"転送"
+
+# id: 460
+msgid "Inbox"
+msgstr ""
+"受信箱"
+
+# id: 461
+msgid "Inbox messages"
+msgstr ""
+"受信箱のメッセージ"
+
+# id: 462
+msgid "Sent messages"
+msgstr ""
+"送信済みメッセージ"
+
+# id: 463
+msgid "Saved messages"
+msgstr ""
+"保存済みメッセージ"
+
+# id: 464
+msgid "No message"
+msgstr ""
+"メッセージ無し"
+
+# id: 465
+msgid "Delete selection"
+msgstr ""
+"選択を消除する"
+
+
+
+# /messages/inbox/1
+# id: 605
+msgid "Page:"
+msgstr ""
+"ページ："
+
+
+
+# /messages/write
+# id: 466
+msgid "Incorrect message"
+msgstr ""
+"不正なメッセージ"
+
+# id: 467
+msgid "You must enter a subject and a body to send your .message"
+msgstr ""
+"件名も本文も必要となります。"
+
+
+
+# /my
+# id: 102
+msgid "My Friends"
+msgstr ""
+"友達"
+
+# id: 103
+msgid "My Communities"
+msgstr ""
+"参加しているコミュニティー"
+
+# id: 104
+msgid "Welcome"
+msgstr ""
+"ようこそ"
+
+# id: 576
+msgid "Edit my profile"
+msgstr ""
+"プロフィールを編集する"
+
+# id: 577
+msgid "Manage my album"
+msgstr ""
+"アルバムを管理する"
+
+# id: 578
+msgid "Add bookmarks"
+msgstr ""
+"ブックマークを追加する"
+
+# id: 579
+msgid "Write blog"
+msgstr ""
+"ブログを書く"
+
+# id: 580
+msgid "Change my password"
+msgstr ""
+"パスワード変更"
+
+# id: 581
+msgid "The %1 last friends who have visited my profile (<a href='/friends/list'>View full list</a>):"
+msgstr ""
+"最近プロフィールを訪問した友達%1人 (<a href='/friends/list'>友達全員を見る</a>):"
+
+# id: 582
+msgid "The %1 last communities' post (<a href='/profile/communities'>View all communities subscribed</a>): "
+msgstr ""
+"コミュニティーの書き込み最新%1件 (<a href='/profile/communities'>参加しているコミュニティー一覧</a>):"
+
+# id: 583
+msgid "Public"
+msgstr ""
+"公開"
+
+# id: 584
+msgid "Last post: <a href='/communities/forum/%1'>%2</a>"
+msgstr ""
+"最新の書き込み: <a href='/communities/forum/%1'>%2</a>"
+
+# id: 585
+msgid "View my own profile"
+msgstr ""
+"自分のプロフィールを見る"
+
+# id: 586
+msgid "Welcome %1"
+msgstr ""
+"%1さん、.nodeへようこそ！"
+
+# id: 587
+msgid "Invite my friends to join .node..."
+msgstr ""
+"友達に.nodeを紹介する"
+
+# id: 588
+msgid "Fill my extented profile"
+msgstr ""
+"プロフィールを編集する"
+
+# id: 589
+msgid "Write a ticket in my blog"
+msgstr ""
+"ブログの記事を書く"
+
+# id: 590
+msgid "Add a link in my bookmarks"
+msgstr ""
+"ブックマークを追加する"
+
+
+
+# /my/album
+# id: 299
+msgid "You can upload a JPEG (.jpg), GIF (.gif), or PNG (.png) file (maximum size of 500KB)."
+msgstr ""
+"最大500KBのJPEG (.jpg), GIF (.gif), あるいは PNG (.png)ファイルをアップロードすることができます。"
+
+# id: 300
+msgid "Select image"
+msgstr ""
+"画像を選択する"
+
+# id: 301
+msgid "Caption"
+msgstr ""
+"説明文"
+
+# id: 302
+msgid "Edit caption"
+msgstr ""
+"説明文を編集する"
+
+# id: 303
+msgid "Confirm delete ?"
+msgstr ""
+"削除してよろしいですか？"
+
+# id: 304
+msgid "Image"
+msgstr ""
+"画像"
+
+# id: 305
+msgid "Update"
+msgstr ""
+"アップデート"
+
+# id: 306
+msgid "View full photo"
+msgstr ""
+"大きい写真を見る"
+
+# id: 307
+msgid "%1's Album"
+msgstr ""
+"%1のアルバム"
+
+
+
+# /my/blog
+# id: 312
+msgid "%1's Blog"
+msgstr ""
+"%1のブログ"
+
+# id: 313
+msgid "No blog"
+msgstr ""
+"ブログがありません"
+
+# id: 314
+msgid "edit one now"
+msgstr ""
+"編集を開始する"
+
+# id: 315
+msgid "URL of your RSS blog if you have one"
+msgstr ""
+"ブログにRSSがあれば、そのURL"
+
+# id: 316
+msgid "To activate your RSS, you must post one ticket Online here"
+msgstr ""
+"RSSを有効にするためには、ここのブログに１つ記事を投稿する必要があります。"
+
+# id: 317
+msgid "Category"
+msgstr ""
+"カテゴリー"
+
+# id: 318
+msgid "See"
+msgstr ""
+"確認する"
+
+# id: 319
+msgid "Publish it"
+msgstr ""
+"公開する"
+
+# id: 320
+msgid "Hide it"
+msgstr ""
+"非公開にする"
+
+# id: 321
+msgid "Online"
+msgstr ""
+"公開"
+
+# id: 322
+msgid "Offline"
+msgstr ""
+"非公開"
+
+# id: 323
+msgid "Write a ticket"
+msgstr ""
+"記事を書く"
+
+# id: 324
+msgid "Manage categories"
+msgstr ""
+"カテゴリーを編集する"
+
+# id: 325
+msgid "Organize your blog with categories..."
+msgstr ""
+"ブログをカテゴリーで整理しましょう。"
+
+# id: 326
+msgid "Add this categorie"
+msgstr ""
+"このカテゴリーを追加する"
+
+# id: 327
+msgid "Write a new ticket"
+msgstr ""
+"新しい記事を書き込む"
+
+# id: 328
+msgid "Status"
+msgstr ""
+"状態"
+
+# id: 329
+msgid "The content of your blog is under your responsability."
+msgstr ""
+"ブログの内容に関しては、あなたが全責任を負います。"
+
+# id: 330
+msgid "Ticket content"
+msgstr ""
+"記事の内容"
+
+# id: 331
+msgid "Manage blog's categories"
+msgstr ""
+"ブログのカテゴリーを管理する"
+
+# id: 332
+msgid "No category"
+msgstr ""
+"カテゴリーなし"
+
+# id: 333
+msgid "add one now"
+msgstr ""
+"追加する"
+
+
+
+# /my/bookmarks
+# id: 308
+msgid "%1's Bookmarks"
+msgstr ""
+"%1のブックマーク"
+
+# id: 309
+msgid "Please, do not add illegal sites."
+msgstr ""
+"不正なサイトを追加しないでください。"
+
+# id: 310
+msgid "URL Address"
+msgstr ""
+"URL"
+
+# id: 311
+msgid "Add"
+msgstr ""
+"追加"
+
+# id: 612
+msgid "Add a bookmark"
+msgstr ""
+"ブックマークを追加する"
+
+# id: 613
+msgid "Share your best links with your friends and other .nodians."
+msgstr ""
+"あなたのとっておきのブックマークを、友達や他の.nodeメンバーと共有しましょう。"
+
+# id: 614
+msgid "Name :"
+msgstr ""
+"名前："
+
+
+
+# /my/new
+# id: 504
+msgid "You"
+msgstr ""
+"あなた"
+
+# id: 505
+msgid "Job"
+msgstr ""
+"仕事"
+
+# id: 506
+msgid "Finish"
+msgstr ""
+"完了"
+
+# id: 507
+msgid "Next step"
+msgstr ""
+"次のステップ"
+
+# id: 508
+msgid "Indicate information about you."
+msgstr ""
+"あなたの情報を記入。"
+
+# id: 509
+msgid "Indicate how to contact you."
+msgstr ""
+"あなたの連絡先を記入。"
+
+# id: 510
+msgid "Describe your job."
+msgstr ""
+"仕事内容の説明"
+
+# id: 511
+msgid "To help other members to know you ..."
+msgstr ""
+"他のメンバーがあなたのことをよりよく知るために、"
+
+# id: 512
+msgid "Fill it seriously ... :-)"
+msgstr ""
+"真面目に書き込んでね ^^"
+
+
+
+# /my/password
+# id: 352
+msgid "Modify your password"
+msgstr ""
+"パスワードの変更"
+
+# id: 353
+msgid "Old password"
+msgstr ""
+"古いパスワード"
+
+# id: 354
+msgid "New password"
+msgstr ""
+"新しいパスワード"
+
+# id: 355
+msgid "Confirm new password"
+msgstr ""
+"新しいパスワードの確認"
+
+# id: 356
+msgid "New password recorded"
+msgstr ""
+"新しいパスワードに変更されました"
+
+
+
+# /my/profile
+
+
+# /my/profile/contact
+# id: 260
+msgid "Contact Profile"
+msgstr ""
+"連絡先"
+
+# id: 261
+msgid "Address"
+msgstr ""
+"住所"
+
+# id: 262
+msgid "email"
+msgstr ""
+"メール"
+
+# id: 263
+msgid "Email"
+msgstr ""
+"メール"
+
+# id: 264
+msgid "Email (2)"
+msgstr ""
+"メール (2)"
+
+# id: 265
+msgid "Email (3)"
+msgstr ""
+"メール (3)"
+
+# id: 266
+msgid "Email (4)"
+msgstr ""
+"メール (4)"
+
+# id: 267
+msgid "Main IM"
+msgstr ""
+"IM (メイン)"
+
+# id: 268
+msgid "Secondary IM"
+msgstr ""
+"IM (サブ)"
+
+# id: 269
+msgid "Phone"
+msgstr ""
+"電話"
+
+# id: 270
+msgid "Cell phone"
+msgstr ""
+"携帯電話"
+
+# id: 271
+msgid "Zip"
+msgstr ""
+"郵便番号"
+
+# id: 272
+msgid "Your email will be updated after your confirmation received by email (in 2 min max)"
+msgstr ""
+"メールアドレス変更には、メールアドレス確認手続きが必要です。２分以内に確認メールが届きますので、確認手続きをお願いします。"
+
+
+
+# /my/profile/contact/edit
+# id: 259
+msgid "Edit my contact"
+msgstr ""
+"連絡先を編集する"
+
+
+
+# /my/profile/general
+# id: 122
+msgid "General Profile"
+msgstr ""
+"基本情報"
+
+# id: 123
+msgid "No general profile recorded."
+msgstr ""
+"基本情報は登録されていません。"
+
+# id: 124
+msgid "Edit it !"
+msgstr ""
+"編集する"
+
+# id: 125
+msgid "First name"
+msgstr ""
+"名前 (First name)"
+
+# id: 126
+msgid "Last name"
+msgstr ""
+"名字 (Last name)"
+
+# id: 127
+msgid "Nickname"
+msgstr ""
+"ニックネーム"
+
+# id: 128
+msgid "Gender"
+msgstr ""
+"性別"
+
+# id: 129
+msgid "Relationship status"
+msgstr ""
+"交際相手の有無"
+
+# id: 130
+msgid "Birthday"
+msgstr ""
+"誕生日"
+
+# id: 131
+msgid "Male"
+msgstr ""
+"男"
+
+# id: 132
+msgid "Female"
+msgstr ""
+"女"
+
+# id: 133
+msgid "Single"
+msgstr ""
+"独身"
+
+# id: 134
+msgid "Married"
+msgstr ""
+"既婚"
+
+# id: 135
+msgid "Committed"
+msgstr ""
+"交際中"
+
+# id: 136
+msgid "I'm interested in"
+msgstr ""
+"興味"
+
+# id: 137
+msgid "Business networking"
+msgstr ""
+"仕事のネットワーク"
+
+# id: 138
+msgid "Dating"
+msgstr ""
+"デート"
+
+# id: 139
+msgid "Activity Partners"
+msgstr ""
+"活動のパートナー"
+
+# id: 140
+msgid "Children"
+msgstr ""
+"子供"
+
+# id: 141
+msgid "Yes, full time"
+msgstr ""
+"いつでもいる"
+
+# id: 142
+msgid "Yes, half time"
+msgstr ""
+"たまにいる"
+
+# id: 143
+msgid "Yes, but not at home"
+msgstr ""
+"いるけれど家にはいない"
+
+# id: 144
+msgid "Fashion"
+msgstr ""
+"ファッション"
+
+# id: 145
+msgid "Alternative"
+msgstr ""
+"Alternative"
+
+# id: 146
+msgid "Casual"
+msgstr ""
+"カジュアル"
+
+# id: 147
+msgid "Classic"
+msgstr ""
+"クラシック"
+
+# id: 148
+msgid "Contemporary"
+msgstr ""
+"現代風"
+
+# id: 149
+msgid "Designer"
+msgstr ""
+"デザイナー"
+
+# id: 150
+msgid "Minimal"
+msgstr ""
+"最小限"
+
+# id: 151
+msgid "Natural"
+msgstr ""
+"自然"
+
+# id: 152
+msgid "Outdoorsy"
+msgstr ""
+"アウトドア"
+
+# id: 153
+msgid "Smart"
+msgstr ""
+"スマート"
+
+# id: 154
+msgid "Trendy"
+msgstr ""
+"トレンディー"
+
+# id: 155
+msgid "Urban"
+msgstr ""
+"アーバン"
+
+# id: 156
+msgid "Smoking"
+msgstr ""
+"喫煙"
+
+# id: 157
+msgid "Drinking"
+msgstr ""
+"飲酒"
+
+# id: 158
+msgid "A little"
+msgstr ""
+"少し"
+
+# id: 159
+msgid "Socialy"
+msgstr ""
+"社交的に飲む程度"
+
+# id: 160
+msgid "Occasionally"
+msgstr ""
+"たまにいる"
+
+# id: 161
+msgid "Regularly"
+msgstr ""
+"いつも"
+
+# id: 162
+msgid "Living"
+msgstr ""
+"同居者"
+
+# id: 163
+msgid "Alone"
+msgstr ""
+"ひとり"
+
+# id: 164
+msgid "With my roommate(s)"
+msgstr ""
+"ルームメート"
+
+# id: 165
+msgid "With my parents"
+msgstr ""
+"親"
+
+# id: 166
+msgid "With my partner"
+msgstr ""
+"パートナー"
+
+# id: 167
+msgid "With my kid(s)"
+msgstr ""
+"子供"
+
+# id: 168
+msgid "With my pet(s)"
+msgstr ""
+"ペット"
+
+# id: 169
+msgid "My Web"
+msgstr ""
+"ホームページアドレス"
+
+# id: 170
+msgid "Describe yourself"
+msgstr ""
+"自己紹介"
+
+# id: 171
+msgid "About me"
+msgstr ""
+"私について"
+
+# id: 172
+msgid "<b>%1</b> fan"
+msgid_plural "<b>%1</b> fans"
+msgstr[0] "ファン<b>%1</b>人"
+msgstr[1] "ファン<b>%1</b>人"
+
+# id: 173
+msgid "<b>%1</b> photo"
+msgid_plural "<b>%1</b> photos"
+msgstr[0] "写真<b>%1</b>枚"
+msgstr[1] "写真<b>%1</b>枚"
+
+# id: 174
+msgid "<b>%1</b> blog"
+msgid_plural "<b>%1</b> blogs"
+msgstr[0] "ブログ記事<b>%1</b>件"
+msgstr[1] "ブログ記事<b>%1</b>件"
+
+# id: 175
+msgid "<b>%1</b> bookmark"
+msgid_plural "<b>%1</b> bookmarks"
+msgstr[0] "ブックマーク<b>%1</b>個"
+msgstr[1] "ブックマーク<b>%1</b>個"
+
+# id: 176
+msgid "You have <b>%1</b> fan"
+msgid_plural "You have <b>%1</b> fans"
+msgstr[0] "<b>%1</b>人のファンがいます"
+msgstr[1] "<b>%1</b>人のファンがいます"
+
+# id: 177
+msgid "You have <b>%1</b> new message"
+msgid_plural "You have <b>%1</b> new messages"
+msgstr[0] "<b>%1</b>個の新着メッセージがあります"
+msgstr[1] "<b>%1</b>個の新着メッセージがあります"
+
+# id: 178
+msgid "Go to my messagebox"
+msgstr ""
+"メッセージボックスを開ける"
+
+
+
+# /my/profile/general/edit
+# id: 121
+msgid "Edit general profile"
+msgstr ""
+"基本情報を編集する"
+
+
+
+# /my/profile/interests
+# id: 180
+msgid "Interests Profile"
+msgstr ""
+"興味、関心事のプロフィール"
+
+# id: 181
+msgid "Passions"
+msgstr ""
+"好きなこと"
+
+# id: 182
+msgid "Sports"
+msgstr ""
+"スポーツ"
+
+# id: 183
+msgid "Activities"
+msgstr ""
+"活動"
+
+# id: 184
+msgid "Favorite books"
+msgstr ""
+"好きな本"
+
+# id: 185
+msgid "Favorite music"
+msgstr ""
+"好きな音楽"
+
+# id: 186
+msgid "Favorite TV shows"
+msgstr ""
+"好きなテレビ番組"
+
+# id: 187
+msgid "Favorite movies"
+msgstr ""
+"好きな映画"
+
+# id: 188
+msgid "Favorite cuisines"
+msgstr ""
+"好きな食べ物"
+
+
+
+# /my/profile/interests/edit
+# id: 179
+msgid "Edit interest profile"
+msgstr ""
+"興味、関心事のプロフィールを編集する"
+
+
+
+# /my/profile/personal
+# id: 219
+msgid "Personal Profile"
+msgstr ""
+"個人的なプロフィール"
+
+# id: 220
+msgid "Headline"
+msgstr ""
+"ヘッドライン"
+
+# id: 221
+msgid "First thing you will notice<br />about me"
+msgstr ""
+"私の第一印象"
+
+# id: 222
+msgid "Size (in cm)"
+msgstr ""
+"身長 (cm)"
+
+# id: 223
+msgid "Size"
+msgstr ""
+"身長"
+
+# id: 224
+msgid "Eye color"
+msgstr ""
+"目の色"
+
+# id: 225
+msgid "Hair color"
+msgstr ""
+"髪の色"
+
+# id: 226
+msgid "Body art"
+msgstr ""
+"ボディーアート"
+
+# id: 227
+msgid "Best feature"
+msgstr ""
+"自慢の体の部位"
+
+# id: 228
+msgid "Things I can't live without"
+msgstr ""
+"これがなくては生きていけない！というもの"
+
+# id: 229
+msgid "Describe your ideal match"
+msgstr ""
+"理想の相手はどんな人ですか。"
+
+# id: 230
+msgid "Blue"
+msgstr ""
+"青"
+
+# id: 231
+msgid "Green"
+msgstr ""
+"緑"
+
+# id: 232
+msgid "Brown"
+msgstr ""
+"褐色"
+
+# id: 233
+msgid "Black"
+msgstr ""
+"黒"
+
+# id: 234
+msgid "Gray"
+msgstr ""
+"灰色"
+
+# id: 235
+msgid "Hazel"
+msgstr ""
+"うす茶色 (Hazel)"
+
+# id: 236
+msgid "Blonde"
+msgstr ""
+"ブロンド"
+
+# id: 237
+msgid "Auburn"
+msgstr ""
+"赤褐色"
+
+# id: 238
+msgid "Salt and pepper"
+msgstr ""
+"塩とこしょう"
+
+# id: 239
+msgid "Red"
+msgstr ""
+"赤"
+
+# id: 240
+msgid "Light brown"
+msgstr ""
+"明褐色"
+
+# id: 241
+msgid "Dark brown"
+msgstr ""
+"暗褐色"
+
+# id: 242
+msgid "Hidden tattoo"
+msgstr ""
+"隠されたタトゥー"
+
+# id: 243
+msgid "Visible tattoo"
+msgstr ""
+"見える場所のタトゥー"
+
+# id: 244
+msgid "Pierced tongue"
+msgstr ""
+"舌のピアス"
+
+# id: 245
+msgid "Other piercing"
+msgstr ""
+"他の場所のピアス"
+
+# id: 246
+msgid "Eyes"
+msgstr ""
+"目の色"
+
+# id: 247
+msgid "Hair"
+msgstr ""
+"髪"
+
+# id: 248
+msgid "Lips"
+msgstr ""
+"唇"
+
+# id: 249
+msgid "Neck"
+msgstr ""
+"首"
+
+# id: 250
+msgid "Arms"
+msgstr ""
+"腕"
+
+# id: 251
+msgid "Hands"
+msgstr ""
+"手"
+
+# id: 252
+msgid "Chest"
+msgstr ""
+"胸"
+
+# id: 253
+msgid "Belly button"
+msgstr ""
+"へそ"
+
+# id: 254
+msgid "Butt"
+msgstr ""
+"尻"
+
+# id: 255
+msgid "Legs"
+msgstr ""
+"脚"
+
+# id: 256
+msgid "Calves"
+msgstr ""
+"ふくらはぎ"
+
+# id: 257
+msgid "Feet"
+msgstr ""
+"足"
+
+# id: 258
+msgid "Not in the list"
+msgstr ""
+"その他"
+
+
+
+# /my/profile/personal/edit
+# id: 218
+msgid "Edit personal profile"
+msgstr ""
+"個人的なプロフィールを編集する"
+
+
+
+# /my/profile/photo
+# id: 273
+msgid "You can upload a JPEG (.jpg), GIF (.gif), or PNG (.png) file (maximum size of 500KB) to represent you into %1."
+msgstr ""
+"%1の中であなたをあらわすために、あなたの顔写真などをJPEG (.jpg), GIF (.gif), あるいは PNG (.png)ファイルとしてアップロードできます。最大500KBです。"
+
+# id: 274
+msgid "Please, do not upload photos containing celebrities, nudity, artwork, children, pets/animals, cartoons or copyrighted images."
+msgstr ""
+"有名人、ヌード、芸術作品、子供、ペット、動物、漫画、著作権のある画像などを含む写真はアップロードしないでください。"
+
+# id: 275
+msgid "Please, do not upload photos containing celebrities, nudity, cartoons or copyrighted images."
+msgstr ""
+"有名人、ヌード、漫画、著作権のある画像を含む写真はアップロードしないでください。"
+
+# id: 276
+msgid "Select photo"
+msgstr ""
+"写真を選択する"
+
+# id: 277
+msgid "Uploader"
+msgstr ""
+"アップロードする"
+
+
+
+# /my/profile/professional
+# id: 190
+msgid "Professional Profile"
+msgstr ""
+"職業、専門のプロフィール"
+
+# id: 191
+msgid "No professional profile recorded."
+msgstr ""
+"職業、専門のプロフィールは登録されていません。"
+
+# id: 192
+msgid "Occupation"
+msgstr ""
+"職業"
+
+# id: 193
+msgid "Industry"
+msgstr ""
+"業種"
+
+# id: 194
+msgid "Company name"
+msgstr ""
+"会社名"
+
+# id: 195
+msgid "Web"
+msgstr ""
+"ホームページアドレス"
+
+# id: 196
+msgid "Title"
+msgstr ""
+"肩書き"
+
+# id: 197
+msgid "Job description"
+msgstr ""
+"仕事の内容"
+
+# id: 198
+msgid "Work email"
+msgstr ""
+"仕事のメールアドレス"
+
+# id: 199
+msgid "Work phone"
+msgstr ""
+"仕事の電話番号"
+
+# id: 200
+msgid "Agriculture"
+msgstr ""
+"農業"
+
+# id: 201
+msgid "Arts"
+msgstr ""
+"芸術"
+
+# id: 202
+msgid "Construction"
+msgstr ""
+"建設"
+
+# id: 203
+msgid "Consumer goods"
+msgstr ""
+"消費財"
+
+# id: 204
+msgid "Corporate services"
+msgstr ""
+"企業サービス"
+
+# id: 205
+msgid "Education"
+msgstr ""
+"教育"
+
+# id: 206
+msgid "Finance"
+msgstr ""
+"金融"
+
+# id: 207
+msgid "Government"
+msgstr ""
+"政府"
+
+# id: 208
+msgid "Hi-technology"
+msgstr ""
+"ハイテク"
+
+# id: 209
+msgid "Legal"
+msgstr ""
+"法律関係"
+
+# id: 210
+msgid "Manufacturing"
+msgstr ""
+"製造業"
+
+# id: 211
+msgid "Media"
+msgstr ""
+"メディア"
+
+# id: 212
+msgid "Medical"
+msgstr ""
+"医療"
+
+# id: 213
+msgid "Non-profit"
+msgstr ""
+"非営利"
+
+# id: 214
+msgid "Entertainment"
+msgstr ""
+"娯楽"
+
+# id: 215
+msgid "Scientific"
+msgstr ""
+"科学"
+
+# id: 216
+msgid "Service industry"
+msgstr ""
+"サービス業"
+
+# id: 217
+msgid "Transportation"
+msgstr ""
+"運輸"
+
+
+
+# /my/profile/professional/edit
+# id: 189
+msgid "Edit professional profile"
+msgstr ""
+"職業、専門のプロフィールを編集する"
+
+
+
+# /my/profile/schools
+# id: 279
+msgid "School course"
+msgstr ""
+"学校での専門（コース）"
+
+# id: 280
+msgid "Year"
+msgstr ""
+"年"
+
+# id: 281
+msgid "Name"
+msgstr ""
+"名前"
+
+# id: 282
+msgid "City"
+msgstr ""
+"都市"
+
+# id: 283
+msgid "Country"
+msgstr ""
+"国"
+
+# id: 284
+msgid "Action"
+msgstr ""
+"作業内容"
+
+# id: 285
+msgid "Actions"
+msgstr ""
+"作業内容"
+
+# id: 286
+msgid "Save"
+msgstr ""
+"保存"
+
+# id: 287
+msgid "Delete"
+msgstr ""
+"削除"
+
+# id: 288
+msgid "Add next year"
+msgstr ""
+"次の年を加える"
+
+
+
+# /my/profile/schools/add
+# id: 278
+msgid "Add a school"
+msgstr ""
+"学校を加える"
+
+
+
+# /my/settings
+# id: 337
+msgid "Edit my settings"
+msgstr ""
+"設定を変更する"
+
+# id: 338
+msgid "New friend notification"
+msgstr ""
+"新しい友達のお知らせ"
+
+# id: 339
+msgid "New friend approval"
+msgstr ""
+"新しい友達の承認"
+
+# id: 340
+msgid "New blog comment"
+msgstr ""
+"新しいブログのコメント"
+
+# id: 341
+msgid "Messages sent directly to me"
+msgstr ""
+"私個人宛のメッセージ"
+
+# id: 342
+msgid "Messages sent to friends"
+msgstr ""
+"友達宛の同報メッセージ"
+
+# id: 343
+msgid "Messages sent to friends of friends"
+msgstr ""
+"友達の友達宛の同報メッセージ"
+
+# id: 344
+msgid "Messages sent to my communities"
+msgstr ""
+"コミュニティー宛のメッセージ"
+
+# id: 345
+msgid "Birthday reminder"
+msgstr ""
+"誕生日通知"
+
+# id: 346
+msgid "<b>Publish my .page</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: blog, album, ...)"
+msgstr ""
+"<b>.pageを公開する</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: ブログ、アルバム…)"
+
+# id: 347
+msgid "Select .page style"
+msgstr ""
+".pageのスタイルを選択する"
+
+# id: 348
+msgid "Invitation message"
+msgstr ""
+"招待メッセージ"
+
+# id: 349
+msgid "Add your personal message<br />into invitation to join %1"
+msgstr ""
+"友達を%1へ招待するときの<br />メッセージを作成しましょう"
+
+# id: 350
+msgid "Settings recorded"
+msgstr ""
+"設定が記録されました"
+
+# id: 351
+msgid "this parameter take 10 minutes to be applied"
+msgstr ""
+"この設定変更が反映されるまでには10分かかります"
+
+
+
+# /new
+# id: 532
+msgid "Do you want to join the .node network ?"
+msgstr ""
+".node に参加したいですか？"
+
+# id: 533
+msgid "If you want more information, <a href='/pub'>see the .node site</a> and <a href='/pub/help'>his help</a>"
+msgstr ""
+"より詳しくは、<a href='/pub'>.node のページ</a> と <a href='/pub/help'>ヘルプ</a>を参照してください。"
+
+# id: 534
+msgid "Your login"
+msgstr ""
+"ログイン"
+
+# id: 535
+msgid "Confirm password"
+msgstr ""
+"パスワードの確認"
+
+# id: 536
+msgid "Type the code displayed inside this image"
+msgstr ""
+"この画像に表示されているコード（文字）を入力してください"
+
+# id: 537
+msgid "Yes, I want"
+msgstr ""
+"はい、参加します"
+
+# id: 538
+msgid "To join .node network, fill this little form then click the 'Accept' button"
+msgstr ""
+".nodeに参加するには、このフォームを埋めて「承認」ボタンを押してください。"
+
+# id: 539
+msgid "Accept"
+msgstr ""
+"応じる"
+
+# id: 540
+msgid "No, I don't want to join .node"
+msgstr ""
+"いいえ、.nodeに参加したくない"
+
+# id: 541
+msgid ""
+"The person who have invited you will be informed of your refusal.<br />"
+"If another person invite you, you will still receive an invitation.<br >"
+"Indicate the reasons of your refusal (optional) then click the 'Refuse' button to refuse this invitation"
+msgstr ""
+"あなたを招待した人は、あなたが拒否したことを知らされます。<br />そして、他の人があなたを招待したら、再び招待メールを受け取ることになります。<br />招待を拒否をするためには、拒否した理由を記入して（省略可能）、「拒否」ボタンを押してください。"
+
+# id: 542
+msgid "Refuse"
+msgstr ""
+"断る"
+
+# id: 543
+msgid "No, I don't want to be contacted by .node anymore"
+msgstr ""
+"いいえ、私は.nodeから二度とコンタクトしてほしくありません。"
+
+# id: 544
+msgid ""
+"You don't want to join .node network, and you don't want to receive any future invitation.<br />"
+"Your email will be added on a black list.<br />"
+"If it's realy what you want, indicate the reasons of your refusal (optional) then click on 'Blacklist me' button"
+msgstr ""
+"あなたは.nodeに参加する意思がなく、将来にわたって招待メールを受け取ることはありません。<br />あなたのメールアドレスは、招待メールを送らない人のリスト（ブラックリスト）に登録されます。<br />それでよろしければ、拒否する理由を記入して（省略可能）、「ブラックリストに登録する」ボタンを押してください。"
+
+# id: 545
+msgid "Blacklist me"
+msgstr ""
+"ブラックリストに登録する"
+
+# id: 546
+msgid "Reasons"
+msgstr ""
+"理由"
+
+# id: 547
+msgid "Return to the registration process"
+msgstr ""
+"登録手続きに戻る"
+
+
+
+# /new/profile
+# id: 548
+msgid "Your login to .node is"
+msgstr ""
+"あなたの.nodeへのログイン名は"
+
+# id: 549
+msgid "Now, you can connect to .node network"
+msgstr ""
+"これで、.nodeに参加することができます。"
+
+# id: 550
+msgid "Thanks for your participation"
+msgstr ""
+"参加していただきありがとうございます。"
+
+# id: 551
+msgid "This filled profile is basic, a more detailled profile can be filled inside the network (menu: Home / Profile)"
+msgstr ""
+"このプロフィールは最小限の基本情報であり、さらに詳細なプロフィールは.nodeにログインしたあとに「ホーム - プロフィール」メニューから記入することができます。"
+
+# id: 552
+msgid "You could change your<br />email after registration"
+msgstr ""
+"登録後に、メールアドレスを変更することもできます。"
+
+# id: 568
+msgid "Form problem"
+msgstr ""
+"フォームに問題があります。"
+
+# id: 569
+msgid "The submited form is incorrect"
+msgstr ""
+"フォーム記入が不正確です。"
+
+# id: 570
+msgid "You must enter a valid first name, last name, gender and country to validate your registration"
+msgstr ""
+"登録を完了するためには、有効な名前、名字、性別、国を入力する必要があります。"
+
+
+
+# /news
+# id: 517
+msgid "Last blog's tickets"
+msgstr ""
+"ブログ最新記事"
+
+# id: 518
+msgid "External blog"
+msgstr ""
+"外部ブログ"
+
+# id: 519
+msgid "View friends' blogs only"
+msgstr ""
+"友達のブログのみを見る"
+
+# id: 606
+msgid "Statistics"
+msgstr ""
+"統計"
+
+
+
+# /news/blog
+# id: 520
+msgid "%1 blog this week"
+msgid_plural "%1 blogs this week"
+msgstr[0] "今週の%1このブログ記事"
+msgstr[1] "今週の%1このブログ記事"
+
+
+
+# /news/statistics
+# id: 521
+msgid "Country representation"
+msgstr ""
+"国別割合"
+
+# id: 522
+msgid "Total"
+msgstr ""
+"合計"
+
+
+
+# /profile
+# id: 289
+msgid ".nodian since %1"
+msgstr ""
+"%1以来の.nodeメンバー"
+
+# id: 290
+msgid "His Friends"
+msgstr ""
+"彼の友達"
+
+# id: 291
+msgid "Her Friends"
+msgstr ""
+"彼女の友達"
+
+# id: 292
+msgid "Send message"
+msgstr ""
+"メッセージを送る"
+
+# id: 293
+msgid "Add as a friend"
+msgstr ""
+"友達登録をする"
+
+
+
+# /profile/354a778bacabffaff3d3fd74f93ac278
+# id: 593
+msgid "The %1 last %2's friends who have visited that profile (<a href='/friends/%3/list'>View full list</a>):"
+msgstr ""
+"%2さんの友達の中で、最近プロフィールを訪問した%1人 (<a href='/friends/%3/list'>友達を全員見る</a>):"
+
+# id: 594
+msgid "The %1 last communities' post (<a href='/profile/%2/communities'>View all communities subscribed</a>): "
+msgstr ""
+"コミュニティーの書き込み最新%1件 (<a href='/profile/%2/communities'>参加しているコミュニティーすべてを見る</a>):"
+
+# id: 595
+msgid "Summary"
+msgstr ""
+"概要"
+
+# id: 596
+msgid "General profile"
+msgstr ""
+"基本情報"
+
+# id: 597
+msgid "Last links added"
+msgstr ""
+"最新ブックマーク"
+
+
+
+# /profile/6c462c5f333945c866c4b63a8f9f1cfe
+# id: 604
+msgid "Last blog's ticket"
+msgstr ""
+"ブログの最新記事"
+
+
+
+# /profile/afe5e1804d88f0fdc122ecc7af624111
+# id: 618
+msgid "Last photo added"
+msgstr ""
+"最近追加された写真"
+
+
+
+# /pub
+# id: 87
+msgid "What is it ?"
+msgstr ""
+"これは何ですか？"
+
+# id: 88
+msgid ".node is an online community connecting people through a trusted friends network"
+msgstr ""
+".nodeは信頼できる友達のネットワークによるオンラインコミュニティーです。"
+
+# id: 89
+msgid "We wish to create a worldwide friendship network without any language barrier"
+msgstr ""
+"言語の障壁を越えて、世界規模の友達ネットワークを構築したいと思っています。"
+
+# id: 90
+msgid "By joining <strong>.node</strong>, you can use lots of little services based on trusted friends"
+msgstr ""
+"<strong>.node</strong>に参加することで、友達の信頼関係をもとにした様々なサービスを使うことができます。"
+
+# id: 91
+msgid "Connect"
+msgstr ""
+"ログインする"
+
+# id: 92
+msgid "Login"
+msgstr ""
+"ログイン"
+
+# id: 93
+msgid "Password"
+msgstr ""
+"パスワード"
+
+# id: 94
+msgid "To contact me"
+msgstr ""
+"私にコンタクトするには"
+
+# id: 95
+msgid "Enter"
+msgstr ""
+"ログイン"
+
+# id: 96
+msgid "Forgot your password ?"
+msgstr ""
+"パスワードを忘れましたか？"
+
+# id: 97
+msgid "Not a member?"
+msgstr ""
+"メンバーではありませんか？"
+
+# id: 98
+msgid "You must be connected to view this page"
+msgstr ""
+"このページは.nodeにログインしないと見ることができません。"
+
+
+
+# /pub/no-hp
+# id: 99
+msgid "No dotPage for this .node member"
+msgstr ""
+"この.nodeメンバーのdotPageがありません。"
+
+# id: 100
+msgid "This member haven't join a photo to his profile. His dotPage is disabled"
+msgstr ""
+"このメンバーはプロフィールに写真を掲載していないため、dotPageは無効にされています。"
+
+# id: 101
+msgid "You can see dotPage's examples at"
+msgstr ""
+"dotPageの例をここで見ることができます"
+
+
+
+# /public
+# id: 523
+msgid "Contact me"
+msgstr ""
+"私に連絡する"
+
+# id: 525
+msgid "My Blog"
+msgstr ""
+"マイブログ"
+
+# id: 526
+msgid "Some bookmarks"
+msgstr ""
+"ブックマーク"
+
+# id: 527
+msgid "Some photos"
+msgstr ""
+"写真"
+
+# id: 528
+msgid "My album"
+msgstr ""
+"マイアルバム"
+
+# id: 529
+msgid "Some friends"
+msgstr ""
+"友達"
+
+# id: 530
+msgid "Some comments"
+msgstr ""
+"コメント"
+
+# id: 531
+msgid "Return to home"
+msgstr ""
+"ホームに戻る"
+
+
+
+# /search
+# id: 513
+msgid "Find your soul mate"
+msgstr ""
+"親友を見つけよう"
+
+# id: 514
+msgid "only member with photo"
+msgstr ""
+"写真付メンバーだけ"
+
+# id: 515
+msgid "Results"
+msgstr ""
+"結果"
+
+# id: 516
+msgid "To perform a search by name, go to <a href='/friends/search'>Friends / Search</a> page"
+msgstr ""
+"名前で検索するには、<a href='/friends/search'>友達 / 検索</a>ページをご利用ください。"
+
+# id: 617
+msgid "Age"
+msgstr ""
+"年齢"
+
+# lang: ja_JP

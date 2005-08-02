@@ -1,0 +1,196 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+}
+
+a{
+	color: #000;
+}
+
+a img{
+	border: none;
+	text-decoration: none;
+}
+
+/* Header
+********************************************/
+#header{
+	color: #FFF;
+	background: #C20 url(header.jpg) no-repeat left center;
+	padding: 1%;
+}
+
+#header p{
+	margin: 0;
+	text-align: right;
+}
+
+#header a{
+	color: #FFF;
+	background: transparent;
+	text-decoration: none;
+}
+
+h1, h2, h3{
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+.poweredby{
+	font-size: 0.8em;
+}
+
+/* Leftside
+********************************************/
+#leftside{
+	padding: 10px;
+	/*background: #EEE;*/
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+#leftside img{
+	padding: 10px;
+	background: #FFF;
+	color: inherit;
+	border: 1px solid #DDD;
+}
+
+#leftside ul{
+	padding: 0;
+	margin: 1em 0;
+	list-style: none;
+	border-top: 1px dotted #CCC;
+}
+
+.contact a, .blog a, .bookmark a, .album a{
+	padding: 3px;
+	display: block;
+	border-bottom: 1px dotted #CCC;
+	text-decoration: none;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #555;
+	background: transparent;
+}
+
+/**
+* Images originales sous licence GPL de Jakub 'jimmac' Steiner
+* http://jimmac.musichall.cz/
+*/
+.contact a{
+	background-image: url(mail-open.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.blog a{
+	background-image: url(stock_notes.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.bookmark a{
+	background-image: url(connect-to-url-16.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.album a{
+	background-image: url(stock-images-16.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.contact a:hover, .blog a:hover, .bookmark a:hover, .album a:hover{
+	color: #111;
+	background-color: #EEE;
+}
+
+
+
+/* Rightside
+********************************************/
+#rightside{
+	padding: 1%;
+	width: 18%;
+	float: right;
+	font-size: 0.9em;
+}
+
+/* Middle
+********************************************/
+#middle{
+	padding: 1% 2%;
+	margin-left: 170px;
+	margin-right: 20%;
+}
+
+#middle h2{
+	padding-left: 20px;
+	background: #FFF url(sstar.png) no-repeat left;
+	background-position: 0 0.1em;
+	color: #666;
+}
+
+h2 a{
+	text-decoration: none;
+	background: transparent;
+	color: #666;
+}
+
+#middle p{
+	text-align: justify;
+}
+
+#album img{
+	padding: 10px;
+	background: #FFF;
+	color: inherit;
+	border: 1px solid #DDD;
+}
+
+/* Friends
+********************************************/
+#friends img{
+	padding: 5px;
+	border: 1px solid #DDD;
+}
+
+#friends a{
+	text-decoration: none;
+	color: #444;
+	background: transparent;
+}
+
+#friends a:hover{
+	color: #222;
+	background: transparent;
+}
+
+#friends a:hover img{
+	border: 1px solid #BBB;
+}
+
+/* Footer
+********************************************/
+#footer{
+	background: #DDD url(footer.png) repeat-x top;
+	border-top: 1px solid #999;
+	color: inherit;
+	clear: both;
+	margin: 0;
+	padding: 1ex;
+}
+
+#footer p{
+	margin: 0;
+}
