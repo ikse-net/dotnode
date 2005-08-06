@@ -345,6 +345,7 @@ function valid_lang($lang)
 		case 'pt_BR':
 		case 'fa_IR':
 		case 'de_DE':
+		case 'ca_ES':
 			return true;
 		default:
 			return false;
@@ -409,6 +410,15 @@ function normalize_lang($lang)
 	case 'de_CH':
 	case 'de-ch':
 		$rval = 'de_DE';
+		break;
+
+	case 'ca_es':
+	case 'ca-es':
+	case 'ca_AD':
+	case 'ca-ad':
+	case 'ca_ad':
+	case 'ca_ES':
+		$rval = 'ca_ES';
 		break;
 
 	case 'en_L33T':
