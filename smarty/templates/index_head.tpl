@@ -33,13 +33,14 @@ function help()
 <div id='title'>
 {if $help_tpl}<p><a href="javascript:help()"><img class='icon' src='/img/help.png' alt='help' /></a></p>{/if}
 <p>
-<a class='flag' href='/action/select_language/en_US'><img src='/img/flag_en.png' alt='english' /></a>&nbsp;
-<a class='flag' href='/action/select_language/fr_FR'><img src='/img/flag_fr.png' alt='french' /></a>&nbsp;
-<a class='flag' href='/action/select_language/de_DE'><img src='/img/flag_de.png' alt='deutch' /></a>&nbsp;
-<a class='flag' href='/action/select_language/es_ES'><img src='/img/flag_es.png' alt='spanish' /></a>&nbsp;
-<a class='flag' href='/action/select_language/pt_BR'><img src='/img/flag_br.png' alt='brazilian' /></a>&nbsp;
-<a class='flag' href='/action/select_language/ja_JP'><img src='/img/flag_ja.png' alt='japanese' /></a>&nbsp;
-<a class='flag' href='/action/select_language/fa_IR'><img src='/img/flag_fa.png' alt='farsi' /></a>&nbsp;
+<a class='flag' href='/action/select_language/en_US'><img src='/img/flags/en_US.png' alt='english' /></a>&nbsp;
+<a class='flag' href='/action/select_language/fr_FR'><img src='/img/flags/fr_FR.png' alt='french' /></a>&nbsp;
+<a class='flag' href='/action/select_language/de_DE'><img src='/img/flags/de_DE.png' alt='deutch' /></a>&nbsp;
+<a class='flag' href='/action/select_language/es_ES'><img src='/img/flags/es_ES.png' alt='spanish' /></a>&nbsp;
+<a class='flag' href='/action/select_language/ca_ES'><img src='/img/flags/ca_ES.png' alt='catalan' /></a>&nbsp;
+<a class='flag' href='/action/select_language/pt_BR'><img src='/img/flags/pt_BR.png' alt='brazilian' /></a>&nbsp;
+<a class='flag' href='/action/select_language/ja_JP'><img src='/img/flags/ja_JP.png' alt='japanese' /></a>&nbsp;
+<a class='flag' href='/action/select_language/fa_IR'><img src='/img/flags/fa_IR.png' alt='farsi' /></a>&nbsp;
 <a href='/communities/view/807'>{t}More ?{/t}</a>
 {if $smarty.session.nb_new_messages}
 <br /><img src='/img/message_new.png' alt='' align='middle' />&nbsp;<a class='newmessages' href='/messages/inbox'>{t escape='no' count=$smarty.session.nb_new_messages plural="You have <b>%1</b> new messages"}You have <b>%1</b> new message{/t}</a>
