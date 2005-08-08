@@ -76,21 +76,24 @@ if(!$smarty->template_exists($tpl))
 
 // Exportation des donnees pour Smarty
 
-$smarty->assign('token',$token);
-$smarty->assign('menu',$menu['pub']);
-$smarty->assign('smenu',$smenu['pub']);
+$_SMARTY['token'] = $token;
+$_SMARTY['menu'] = $menu['pub'];
+$_SMARTY['smenu'] = $smenu['pub'];
 
-$smarty->assign('tpl',$tpl);
-$smarty->assign('lang',$lang);
+$_SMARTY['tpl'] = $tpl;
+$_SMARTY['lang'] = $lang;
 // Affiche du template
 
-if($_SERVER['REMOTE_ADDR'] == '82.225.136.176')
+if($_SERVER['REMOTE_ADDR'] == $config['admin_ip'])
 {
         $debug['session'] = $_SESSION;
-        $smarty->assign('debug', $debug);
-        $smarty->assign('php_mem',memory_get_usage()/1024);
-	$smarty->assign('inc',$inc);
+	$_SMARTY['debug'] = $debug;
+	$_SMARTY['php_mem'] = memory_get_usage()/1024;
+	$_SMARTY['inc'] = $inc;
 }
+
+$smarty->assign($_SMARTY);
+
 header('Content-type: text/html; charset=UTF-8');
 // ob_start('ob_gzhandler');
 

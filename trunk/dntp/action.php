@@ -53,7 +53,7 @@ error_log($_SERVER['HTTP_HOST'].' | '.$_SERVER['PHP_SELF'].' | '.$_SESSION['my_l
         {
                 header("HTTP/1.1 403 Forbidden");
                 print $_SERVER["PHP_SELF"].": Action forbidden<br />\n";
-                if($_SERVER['REMOTE_ADDR'] == "82.226.113.191")
+                if($_SERVER['REMOTE_ADDR'] == $config['admin_ip'])
                         print ACTIONSPATH.'/'.$action;
         }
 

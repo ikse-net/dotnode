@@ -30,7 +30,7 @@
 
 <tr class='{cycle name='parity' values='odd,even'}'>
 <td colspan='2' align='center'><span class='label'>{t}Type the code displayed inside this image{/t} :</span>
-<input type='text' name='code' maxlength='4' size='4' /><br /><img style='border: 2px silver solid; padding: 2px;width:237px; height: 48px;' src='/pix/{$smarty.now}.png' alt='{t}If you have trouble, send an email on: pixcode-pb@dotnode.net{/t}'/></td>
+<input type='text' name='code' maxlength='4' size='4' /><br /><img style='border: 2px silver solid; padding: 2px;width:237px; height: 48px;' src='/pix/{$smarty.now}.png' alt='{t 1=$config.email}If you have trouble, send an email on: %1{/t}'/></td>
 </tr>
 
 

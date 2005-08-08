@@ -12,7 +12,7 @@
 <span class='label'>{t}Password{/t}:</span>&nbsp;<input type='password' name='passwd' /><br />
 <span class='label'>{t}Comfirm password{/t}:</span>&nbsp;<input type='password' name='passwd2' /><br />
 <span class='label'>{t}Type the code displayed inside this image{/t} :</span>&nbsp;<input type='text' name='code' maxlength='4' size='4' /><br />
-<img style='border: 2px silver solid; padding: 2px;width:237px; height: 48px;' src='/pix/{$smarty.now}.png' alt='{t}If you have trouble, send an email on: pixcode-pb@dotnode.net{/t}'/><br />
+<img style='border: 2px silver solid; padding: 2px;width:237px; height: 48px;' src='/pix/{$smarty.now}.png' alt='{t 1=$config.email}If you have trouble, send an email on: %1{/t}'/><br />
 <br />
 <input type='submit' name='accept' value='{t}Accept{/t}' />
 </fieldset>

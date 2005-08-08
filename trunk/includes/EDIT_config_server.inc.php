@@ -24,6 +24,9 @@
 
 
 $config['domain'] = 'xxx.dotnode.net';
+$config['email'] = 'email_of_a_resp';
+$config['admin_login'] = 'admin_login';
+$config['admin_ip'] = 'admin_ip';
 
 $dsn = array(
     'phptype'  => 'mysql',

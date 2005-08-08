@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-if($_SESSION['my_login'] == 'alexx' || $_SESSION['my_login'] == 'mathieu')
+if($_SESSION['my_login'] == $config['admin_login'])
 {
 	list($id_image, $ext) = split("\.", basename($_POST['image_path']));
 	$image_path = build_album_path($url_id, $id_image, false, $ext); 

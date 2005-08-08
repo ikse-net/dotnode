@@ -18,7 +18,7 @@
 {else}
 <param name="command2" value="/join #dotnode-en">
 {/if}
-<param name="quitmessage" value=".node forever! See my .page : http://{$smarty.session.my_login}.dotnode.com">
+<param name="quitmessage" value=".node forever! See my .page : http://{$smarty.session.my_login}.{$config.domain}">
 <param name="asl" value="true">
 
 <param name="style:bitmapsmileys" value="false">

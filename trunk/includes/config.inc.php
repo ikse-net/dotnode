@@ -22,8 +22,6 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-require "config_server.inc.php";
-
 if(array_key_exists('DOCUMENT_ROOT', $_SERVER) && strlen($_SERVER['DOCUMENT_ROOT']) > 0)
 	define('BASEPATH',$_SERVER['DOCUMENT_ROOT']);
 elseif(array_key_exists('BASEPATH', $_ENV))
@@ -48,6 +46,13 @@ define('ALBUM_THUMB_W', 160);
 define('ALBUM_THUMB_H', 160);
 define('ALBUM_IMAGE_W', 944);
 define('ALBUM_IMAGE_H', 708);
+
+if(file_exists(INCLUDESPATH.'/config_server.inc.php'))
+	require 'config_server.inc.php';
+else
+	die('Edit includes/EDIT_config_server.inc.php and rename it in config_server.inc.php');
+
+$_SMARTY['config'] = $config;
 
 ini_set('register_globals', 'off');
 ini_set('error_log', BASEPATH.'/../log/php.log');

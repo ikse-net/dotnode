@@ -120,12 +120,11 @@ if(!$smarty->is_cached('index.tpl', $login.'.'.$lang.'.'.$_SERVER['PHP_SELF'] ))
 	if(!$smarty->template_exists($tpl))
 		$tpl='default.tpl';
 
-	$smarty->assign('tpl', $tpl);
-	$smarty->assign('token', $token);
+	$_SMARTY['tpl'] = $tpl;
+	$_SMARTY['token'] = $token;
 
-
-	$smarty->assign('profile', $user);
-	$smarty->assign('dotpage_css', $dotpage_css);
+	$_SMARTY['profile'] = $user;
+	$_SMARTY['dotpage_css'] = $dotpage_css;
 }
 
 $dir = glob(ROOTDIR.'/hp/styles/*', GLOB_ONLYDIR);
@@ -139,8 +138,10 @@ foreach($dir as $style)
         $css[basename($style)] = basename($style);
 }
 
-$smarty->assign('css', $css);
-$smarty->assign('lang', $lang);
+$_SMARTY['css'] = $css;
+$_SMARTY['lang'] = $lang;
+
+$smarty->assign($_SMARTY);
 
 header('Content-type: text/html; charset=UTF-8');
 // ob_start('ob_gzhandler');

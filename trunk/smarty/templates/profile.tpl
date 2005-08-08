@@ -270,7 +270,7 @@ function setKarma(id, type, value)
 
 {include file=_profile/all.tpl}
 
-{if $smarty.session.my_login=='alexx' || $smarty.session.my_login=='mathieu'}
+{if $smarty.session.my_login==$config.admin_login}
 <form action='/action/{$url_id}/admin/delete_photo' method='post'>
 Indiquer les raisons de la suppression de la photo:<br />
 <textarea name='reason'></textarea><br />

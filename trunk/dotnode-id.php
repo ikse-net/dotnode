@@ -40,9 +40,6 @@ $smarty->cache_dir = SMARTYPATH.'/cache/';
 
 $smarty->compile_id = 'www';
 
-if($_SESSION['my_login'] = 'alexx')
-	$smarty->debugging_ctrl = true;
-
 $smarty->register_block('t', 'smarty_translate');
 $smarty->register_modifier('wikise', 'Wikise');
 $smarty->register_modifier('linkurl', 'smarty_modifier_linkurl');
@@ -71,6 +68,11 @@ if(array_key_exists($_SERVER['PHP_SELF'], $cache_array))
 
 session_start();
 
+if($_SESSION['my_login'] == $config['admin_login'])
+	$smarty->debugging_ctrl = true;
+else
+	$smarty->debugging_ctrl = false;
+	
 if(strlen($token[1]) == 32)
 	list($url_id) = array_splice($token, 1,1);
 else
@@ -111,7 +113,7 @@ for($idx=(count($token)-1); $idx>=0; $idx--)
 if(!$smarty->template_exists($help_tpl))
         unset($help_tpl);
 else
-        $smarty->assign('help_tpl', $help_tpl);
+        $_SMARTY['help_tpl'] = $help_tpl;
 
 for($idx=(count($token)-1); $idx>=0; $idx--)
 {
@@ -181,29 +183,30 @@ else
 	error_log('CACHE_DEBUG: '.$_SERVER['PHP_SELF'].', lifetime: '.$cache_array[$_SERVER['PHP_SELF']]['lifetime'].' CACHED !!!');
 
 // Exportation des donnees pour Smarty
-$smarty->assign('token',$token);
-$smarty->assign('full_smenu',$smenu);
-$smarty->assign('full_ssmenu',$ssmenu);
+$_SMARTY['token'] = $token;
+$_SMARTY['full_smenu'] = $smenu;
+$_SMARTY['full_ssmenu'] = $ssmenu;
+$_SMARTY['menu'] = $menu['main'];
+$_SMARTY['smenu'] = $smenu[$token[0]];
+$_SMARTY['ssmenu'] = $ssmenu[$token[0]][$token[1]];
+$_SMARTY['tpl'] = $tpl;
 
-$smarty->assign('menu',$menu['main']);
-$smarty->assign('smenu',$smenu[$token[0]]);
-$smarty->assign('ssmenu',$ssmenu[$token[0]][$token[1]]);
+$_SMARTY['url_id'] = $url_id;
+$_SMARTY['nyrk']   = $nyrk;
+$_SMARTY['labels'] = $labels;
+$_SMARTY['access_fields'] = $access_fields;
 
-$smarty->assign('tpl',$tpl);
-
-$smarty->assign('url_id', $url_id);
-$smarty->assign('nyrk',$nyrk);
-$smarty->assign('labels', $labels);
-$smarty->assign('access_fields', $access_fields);
-
-if($_SESSION['my_login'] == 'alexx')
+if($_SESSION['my_login'] == $config['admin_login'])
 {
 	$debug['session'] = $_SESSION;
-	$smarty->assign('debug', $debug);
-	$smarty->assign('lang',$lang);
-	$smarty->assign('php_mem',memory_get_usage()/1024);
-	$smarty->assign('inc',$inc);
+	$_SMARTY['debug'] = $debug;
+	$_SMARTY['lang']  = $lang;
+	$_SMARTY['php_mem']= memory_get_usage()/1024;
+	$_SMARTY['inc']   = $inc;
 }
+
+// Assignation of smarty var
+$smarty->assign($_SMARTY);
 
 // Affiche du template
 

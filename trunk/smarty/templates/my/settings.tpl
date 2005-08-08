@@ -44,7 +44,7 @@
 </tr>
 *}
 <tr class='{cycle values='odd,even'}'>
-<td align='right' class='label'>{t escape='no' 1=$smarty.session.my_login}<b>Publish my .page</b><br />(<a href='http://%1.dotnode.com'>%1.dotnode.com</a>: blog, album, ...){/t} : </td>
+<td align='right' class='label'>{t escape='no' 1=$smarty.session.my_login 2=domain}<b>Publish my .page</b><br />(<a href='http://%1.%2'>%1.%2</a>: blog, album, ...){/t} : </td>
 <td class='value' nowrap='nowrap'>{html_radios name='publish' options=$labels.yesno checked=$my.settings.publish}</td>
 <td rowspan='2' style='vertical-align: middle'>({t}this parameter take 10 minutes to be applied{/t})</td>
 </tr>
