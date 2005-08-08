@@ -110,7 +110,7 @@
 <p><img src='/img/message_one.png' alt='' align='middle' />&nbsp;<a href='/messages/inbox'>{t escape='no' count=$smarty.session.nb_new_messages plural="You have <b>%1</b> new messages"}You have <b>%1</b> new message{/t}</a></p>
 {/if}
 
-<p><img class='icon' src='/img/help.png' alt='help' align='left' />&nbsp;{t}Tell people your dotpage address:{/t} <a href='http://{$my.info.login}.dotnode.com'>{$my.info.login}.dotnode.com</a>
+<p><img class='icon' src='/img/help.png' alt='help' align='left' />&nbsp;{t}Tell people your dotpage address:{/t} <a href='http://{$my.info.login}.{$config.domain}'>{$my.info.login}.{$config.domain}</a>
 </p>
 
 <p><img src='/img/bulle-chat.png' alt='Chat !!' align='left' style='width: 100px; height: 53px;' />{t}Come on the .node IRC channel{/t}: <a href='/irc'>#dotnode@irc.freenode.net</a></p>

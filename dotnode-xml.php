@@ -36,7 +36,7 @@ $smarty->template_dir = SMARTYPATH.'/templates_xml/';
 $smarty->compile_dir = SMARTYPATH.'/templates_c/';
 $smarty->config_dir = SMARTYPATH.'/configs/';
 $smarty->cache_dir = SMARTYPATH.'/cache/';
-$smarty->debugging_ctrl = true;
+$smarty->debugging_ctrl = false;
 $smarty->register_modifier('wikise', 'Wikise');
 $smarty->compile_id = 'xml';
 $smarty->caching = false;
@@ -109,11 +109,11 @@ if(!$smarty->is_cached('index.tpl', $login.'.'.$_SERVER['PHP_SELF'] ))
 	if(!$smarty->template_exists($tpl))
 		$tpl='default.tpl';
 
+	$_SMARTY['tpl'] = $tpl;
+	$_SMARTY['token'] = $token;
+	$_SMARTY['url_id'] = $url_id;
+	$_SMARTY['profile'] = $user;
 	$smarty->assign($_SMARTY);
-	$smarty->assign('tpl', $tpl);
-	$smarty->assign('token', $token);
-	$smarty->assign('url_id', $url_id);
-	$smarty->assign('profile', $user);
 }
 
 if(ereg('\.xul$', $_SERVER['PHP_SELF']))

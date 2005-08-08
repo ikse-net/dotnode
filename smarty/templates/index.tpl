@@ -140,15 +140,15 @@ function close_error()
 <p>{t}A problem with this page ? bad translation ? review this page for moderation ?{/t} <a href='/ReportBogus?url={$smarty.server.PHP_SELF|escape:'url'}'>{t}Report a problem{/t}</a><br />
 {t}Display problem with this site ?{/t} <a href='/help/about#standard'>{t}See this page about Web standard{/t}</a></p>
 {/if}
- <form style="display: inline;" method='post' id='cnil' action='http://www.cnil.fr/index.php?id=29'><p>{t}CNIL registration number{/t}: <input type='hidden' name='txtCritere' value='1011429' /><a href='http://www.cnil.fr/index.php?id=29' onClick="document.forms['cnil'].submit(); return false;">1011429</a> - {t}To contact me{/t} : {mailto address="nyrk&#64;dotnode.com" encode="javascript"}</p></form>
+ <form style="display: inline;" method='post' id='cnil' action='http://www.cnil.fr/index.php?id=29'><p>{t}CNIL registration number{/t}: <input type='hidden' name='txtCritere' value='1011429' /><a href='http://www.cnil.fr/index.php?id=29' onClick="document.forms['cnil'].submit(); return false;">1011429</a> - {t}To contact me{/t} : {mailto address=$config.email encode="javascript"}</p></form>
 <p>
 <a href="http://www.ikse.net" ><img style="width:88px;height:31px" src="http://ikse.net/images/ikse.net-88x31.png" alt="Hosted by Ikse.net" /></a>
 {if $token[0] == 'pub'}
 <a href="http://validator.w3.org/check/referer"><img style="width:88px;height:31px" src="/img/xhtml-1.png" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
-<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdotnode.com%2Fdefault.css&amp;warning=2&amp;profile=css2&amp;usermedium=all"><img style="width:88px;height:31px" src="/img/css.png" alt="Valid CSS!" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F{$config.domain}%2Fdefault.css&amp;warning=2&amp;profile=css2&amp;usermedium=all"><img style="width:88px;height:31px" src="/img/css.png" alt="Valid CSS!" /></a>
 {/if}
 </p>
-{if $smarty.server.REMOTE_ADDR eq "82.226.113.191"}
+{if $smarty.server.REMOTE_ADDR eq $config.admin_ip}
 Template utilisé : {$tpl}<br />
 Help template utilisé : {$help_tpl}<br />
 Include utilisé: {$inc}<br />

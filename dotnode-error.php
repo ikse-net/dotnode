@@ -137,25 +137,25 @@ default:
 }
 
 if($_SESSION['my_id'])
-	$smarty->assign('menu', $menu['main']);
+	$_SMARTY['menu'] = $menu['main'];
 else
-	$smarty->assign('menu', $menu['pub']);
+	$_SMARTY['menu'] = $menu['pub'];
 
-$smarty->assign('token', $token);
+$_SMARTY['token'] = $token;
+$_SMARTY['Title'] = $title;
+$_SMARTY['errorMsg'] = $error_msg;
+$_SMARTY['tpl'] = 'error.tpl';
 
-$smarty->assign('Title',$title);
-$smarty->assign('errorMsg',$error_msg);
-
-$smarty->assign('tpl','error.tpl');
-
-if($_SERVER['REMOTE_ADDR'] == "82.225.136.176")
+if($_SERVER['REMOTE_ADDR'] == $config['admin_ip'])
 {
         $debug['session'] = $_SESSION;
-        $smarty->assign('debug', $debug);
-        $smarty->assign('lang',$lang);
-        $smarty->assign('php_mem',memory_get_usage()/1024);
-        $smarty->assign('inc',$inc);
+	$_SMARTY['debug'] = $debug;
+	$_SMARTY['lang'] = $lang;
+	$_SMARTY['php_mem'] = memory_get_usage()/1024;
+	$_SMARTY['inc'] = $inc;
 }
+
+$smarty->assign($_SMARTY);
 
 header('Content-type: text/html; charset=UTF-8');
 

@@ -1,18 +1,5 @@
 <h2>{t}What is it ?{/t}</h2>
 <div id='loginbox'>
-{if $smarty.server.REMOTE_ADDR == 'ok82.226.113.191'}
-
-<fieldset>
-<legend>En maintenance !</legend>
-.node est en cours de conversion en UTF-8 pour accepter des langues avec un alphabet différent.<br />
-<br />
-Merci de votre comprehension. Retour prevu a 10h30 (j'espere).<br />
-(cela fonctionne déjà presque parfaitement ... plus que 2-3 petites choses à régler)<br />
-<br />
-Alexx <br />
-</fieldset>
-
-{else}
 
 <form action='/action/login' method='post' onSubmit="document.getElementById('md5_passwd').value = MD5_hexhash(document.getElementById('passwd').value);">
 <fieldset>
@@ -27,8 +14,6 @@ Alexx <br />
 {t}Not a member?{/t}<br /><a href='/pub/join'>{t}Join .node{/t}</a>
 </fieldset>
 </form>
-
-{/if}
 
 </div>
 <p><img src='/img/who_do_you.png' alt="Who do you want to meet today ?" align='left' style='margin-right: 10px;'/>

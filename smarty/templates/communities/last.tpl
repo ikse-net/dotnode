@@ -2,8 +2,8 @@
 
 <p>{t}Follow the creation of the communities with RSS:{/t}</p>
 <ul>
-<li><a href='http://alexx.ikse.org/addpanel.php?rss=http://dotnode.com/xml/rss/communities/last'>{t}SideBar builder for Mozilla Firefox{/t}</a></li>
-<li><a href='http://dotnode.com/xml/rss/communities/last'>{t}Directly the RSS{/t}</a></li>
+<li><a href='http://alexx.ikse.org/addpanel.php?rss=http://{$config.domain}/xml/rss/communities/last'>{t}SideBar builder for Mozilla Firefox{/t}</a></li>
+<li><a href='http://{$config.domain}/xml/rss/communities/last'>{t}Directly the RSS{/t}</a></li>
 </ul>
 
 

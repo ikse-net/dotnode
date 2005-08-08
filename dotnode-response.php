@@ -57,7 +57,7 @@ if(strlen($token[1]) == 32)
 	{
 		header("HTTP/1.1 403 Forbidden");
 		print $_SERVER["PHP_SELF"].": Response forbidden<br />\n";
-		if($_SERVER['REMOTE_ADDR'] == "82.226.113.191")
+		if($_SERVER['REMOTE_ADDR'] == $config['admin_ip'])
 			print RESPONSESPATH.'/'.$response; 
 	}
 

@@ -35,7 +35,7 @@ $smarty->cache_dir = SMARTYPATH.'/cache/';
 
 $smarty->compile_id = 'new';
 
-$smarty->debugging_ctrl = true;
+$smarty->debugging_ctrl = false;
 
 $smarty->register_block('t', 'smarty_translate');
 $smarty->register_modifier('wikise', 'Wikise');
@@ -74,7 +74,7 @@ for($idx=(count($token)-1); $idx>=0; $idx--)
 if(!$smarty->template_exists($help_tpl))
         unset($help_tpl);
 else
-        $smarty->assign('help_tpl', $help_tpl);
+        $_SMARTY['help_tpl'] = $help_tpl;
 
 
 
@@ -123,26 +123,28 @@ if(!$smarty->template_exists($tpl))
 
 // Exportation des donnees pour Smarty
 
-$smarty->assign('token',$token);
-$smarty->assign('menu',$menu['main']);
-$smarty->assign('smenu',$smenu[$token[0]]);
-$smarty->assign('ssmenu',$ssmenu[$token[0]][$token[1]]);
+$_SMARTY['token'] = $token;
+$_SMARTY['menu'] = $menu['main'];
+$_SMARTY['smenu'] = $smenu[$token[0]];
+$_SMARTY['ssmenu'] = $ssmenu[$token[0]][$token[1]];
 
-$smarty->assign('tpl',$tpl);
+$_SMARTY['tpl'] = $tpl;
 
-$smarty->assign('url_id', $url_id);
-$smarty->assign('nyrk',$nyrk);
-$smarty->assign('labels', $labels);
-$smarty->assign('access_fields', $access_fields);
-$smarty->assign('lang',$lang);
+$_SMARTY['url_id'] = $url_id;
+$_SMARTY['nyrk'] = $nyrk;
+$_SMARTY['labels'] = $labels;
+$_SMARTY['access_fields'] = $access_fields;
+$_SMARTY['lang'] = $lang;
 
-if($_SERVER['REMOTE_ADDR'] == "82.226.113.191" || $_SERVER['REMOTE_ADDR'] == "81.56.215.231")
+if($_SERVER['REMOTE_ADDR'] == $config['admin_ip'])
 {
 	$debug['session'] = $_SESSION;
-	$smarty->assign('debug', $debug);
-	$smarty->assign('php_mem',memory_get_usage()/1024);
-	$smarty->assign('inc',$inc);
+	$_SMARTY['debug'] = $debug;
+	$_SMARTY['php_mem'] = memory_get_usage()/1024;
+	$_SMARTY['inc'] = $inc;
 }
+
+$smarty->assign($_SMARTY);
 
 // Affiche du template
 

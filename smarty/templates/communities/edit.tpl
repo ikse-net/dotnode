@@ -59,7 +59,7 @@
 </table>
 </form>
 
-{if $smarty.session.my_login == 'alexx'}
+{if $smarty.session.my_login == $config.admin_login}
 <br />
 {if $community.info.status=='ok'}
 
@@ -69,7 +69,7 @@
 <p>{t}To destroy your commununity, you must send a message to member by using the form{/t}.</p>
 <label for='reason'>{t}Explain why they should unjoin your community{/t}.<br >
 {t}It can be{/t}:<br />
-<i>"{t}because it's redondant with the community{/t} http://dotnode.com/communities/view/XXXX"</i></label><br />
+<i>"{t}because it's redondant with the community{/t} http://{$config.domain}/communities/view/XXXX"</i></label><br />
 <textarea id='reason' name='reason' cols='60' rows='5'></textarea><br />
 {else}
 <p>{t}You are the only member of your community. You can destroy it now.{/t}</p>

@@ -10,7 +10,7 @@
 <div style='text-align: right'><a href='/album/{$url_id}' class='button'>{t}Back{/t}</a></div>
 <div style="clear:both"></div>
 
-{if $smarty.session.my_login=='alexx' || $smarty.session.my_login=='mathieu'}
+{if $smarty.session.my_login==$config.admin_login}
 <form action='/action/{$url_id}/admin/delete_image' method='post'>
 Indiquer les raisons de la suppression de l'image:<br />
 <textarea name='reason'></textarea><br />

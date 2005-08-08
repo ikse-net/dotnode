@@ -1,5 +1,5 @@
 <h2>{t}You have found a problem ?{/t}</h2>
-{t escape=no 1=$smarty.get.url}If you have found a problem (bad translation, bug, illegal thing, explicit content, ...) on page "<a href='%1'>http://dotnode.com%1</a>", report it here. Describe the problem and send the message.{/t}
+{t escape=no 1=$smarty.get.url 2=$config.domain}If you have found a problem (bad translation, bug, illegal thing, explicit content, ...) on page "<a href='%1'>http://%2%1</a>", report it here. Describe the problem and send the message.{/t}
 <br />
 <form action='/action/ReportBogus/send' method='post'>
 <fieldset>
