@@ -89,6 +89,7 @@ if(strlen($_POST['fname'])>0 &&
 	$cache_data = array(
 		  'fname' => stripslashes($values['user']['fname']),
 		  'lname' => stripslashes($values['user']['lname']),
+		  'nick' => stripslashes($values['user']['nick']),
 		  'gender' => $values['user_general']['gender'],
 		  'country' => $values['user_contact']['country'],
 		  'relationship_status' => $values['user_general']['relationship_status'],
