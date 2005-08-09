@@ -27,7 +27,7 @@ include('../includes/config/xml.inc.php');
 
 $_SERVER['HTTP_HOST'] = ereg_replace(":80$", "", $_SERVER["HTTP_HOST"]);
 $requested_site = ereg_replace("^www\.", "", $_SERVER["HTTP_HOST"]);
-ereg("(.*)\.dotnode\.com$", $requested_site, $regs);
+ereg("(.*)\.${config['domain']}$", $requested_site, $regs);
 $login = $regs[1];
 
 $smarty = new Smarty;
@@ -50,7 +50,6 @@ include(INCLUDESPATH.'/session_save_handler.inc.php');
 session_set_save_handler ("_sess_open", "_sess_close", "_sess_read", "_sess_write", "_sess_destroy", "_sess_gc");
 
 session_start();
-
 
 if(!$smarty->is_cached('index.tpl', $login.'.'.$_SERVER['PHP_SELF'] ))
 {

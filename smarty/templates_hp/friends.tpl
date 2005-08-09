@@ -12,7 +12,7 @@
 <tr>
 {/if}
   <td align='center'>
-    <a href='http://{$friend.login}.dotnode.com'>
+    <a href='http://{$friend.login}.{$config.domain}'>
   <img src='{$friend.thumb_path}' alt='photo' /><br />
   {$friend.fname|escape} {$friend.lname|escape}
   </a>

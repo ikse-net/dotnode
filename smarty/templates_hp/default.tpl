@@ -33,7 +33,7 @@
 <tr>
 {/if}
   <td>
-    <a href='http://{$friend.login}.dotnode.com'>
+    <a href='http://{$friend.login}.{$config.domain}'>
   <img src='{$friend.thumb_path}' alt='photo' /><br />
 <span class="friend">{$friend.fname|escape} {$friend.lname|escape}</span>
 {if $friend.photo=='y'}
