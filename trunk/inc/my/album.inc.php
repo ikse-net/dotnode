@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','Album');
+$_SMARTY['Title'] = 'Album';
 
 $album_r = $db->query('SELECT id_image, width, height, format, caption FROM album WHERE id=? ORDER BY date DESC', $_SESSION['my_id'] );
 while($image = $album_r->fetchRow())
@@ -48,7 +48,7 @@ while($image = $album_r->fetchRow())
 	$album['image'][$image['id_image']]['thumb_height'] = $thumb_height;
 }
 
-$smarty->assign('my',$my);
-$smarty->assign('album', $album);
+$_SMARTY['my'] = $my;
+$_SMARTY['album'] =  $album;
 
 ?>

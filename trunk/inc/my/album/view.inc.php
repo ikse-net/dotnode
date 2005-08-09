@@ -25,14 +25,14 @@
 
 if( is_numeric($token[3]) )
 {
-	$smarty->assign('Title','Album');
+	$_SMARTY['Title'] = 'Album';
 
 	$image = $db->getRow('SELECT id_image, width, height, format, caption FROM album WHERE id=? ORDER BY date DESC LIMIT !,1', array($_SESSION['my_id'], ($token[3]-1)) );
 
 	$my['album']['image'] = $image;
 	$my['album']['image']['path'] = build_album_url($_SESSION['my_id'], $image['id_image'], $image['format']);
 
-	$smarty->assign('my',$my);
+	$_SMARTY['my'] = $my;
 }
 else
 {

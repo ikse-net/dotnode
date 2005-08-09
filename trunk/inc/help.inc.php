@@ -30,7 +30,7 @@ if(!isset($token[1]))
 }
 
 
-$smarty->assign('Title', 'Help');
+$_SMARTY['Title'] =  'Help';
 
 $db_wiki =& DB::connect($dsn_wiki);
 if (DB::isError($db_wiki))
@@ -44,5 +44,5 @@ if(!$page)
 $db_wiki->disconnect();
 
 
-$smarty->assign('page' , $page);
+$_SMARTY['page' ] =  $page;
 ?>

@@ -36,6 +36,6 @@ else
 $cal =& new dotCal($date, "/test/%04u/%02u/%02u");
 $cal->add(time());
 
-$smarty->assign('cal', $cal);
+$_SMARTY['cal'] =  $cal;
 
 ?>

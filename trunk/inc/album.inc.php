@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','Album');
+$_SMARTY['Title'] = 'Album';
 
 if($token[1] != 'view' || !is_numeric($token[2]) )
 {
@@ -51,9 +51,9 @@ if($token[1] != 'view' || !is_numeric($token[2]) )
 		exit();
 	}
 
-	$pagination['pages'] = array_fill(1,$pagination['nb_pages'], NULL);
+	$pagination['pages'] = @array_fill(1,$pagination['nb_pages'], NULL);
 
-	$smarty->assign('pagination', $pagination);
+	$_SMARTY['pagination'] =  $pagination;
 	/******************************/
 
 
@@ -84,7 +84,7 @@ if($token[1] != 'view' || !is_numeric($token[2]) )
 }
 elseif(is_numeric($token[2]) )
 {
-	$smarty->assign('Title','Photo');
+	$_SMARTY['Title'] = 'Photo';
 
         $image = $db->getRow('SELECT id_image, width, height, format, caption FROM album WHERE id=? ORDER BY date DESC LIMIT !,1', array($url_id, $token[2]-1) );
 	if(DB::isError($image))
@@ -105,13 +105,13 @@ if($user['info']['nb_blogs'] > 0)
 if($user['info']['nb_bookmarks'] > 0)
         $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-$smarty->assign('leftmenu',$leftmenu);
+$_SMARTY['leftmenu'] = $leftmenu;
 
 
 /************************************/
 
-$smarty->assign('user',$user);
-$smarty->assign('album',$album);
+$_SMARTY['user'] = $user;
+$_SMARTY['album'] = $album;
 
 
 ?>

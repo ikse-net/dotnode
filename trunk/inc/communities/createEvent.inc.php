@@ -36,11 +36,11 @@ if(is_numeric($token[2]) )
 		$leftmenu["/communities/forum/".$community['info']['id_comm']] = 'View forum';
 		$leftmenu["/communities/events/".$community['info']['id_comm']] = 'View events';
 
-		$smarty->assign('leftmenu',$leftmenu);
+		$_SMARTY['leftmenu'] = $leftmenu;
 		/************************************/
 
-		$smarty->assign('Title', 'Communities');
-		$smarty->assign('community', $community);
+		$_SMARTY['Title'] =  'Communities';
+		$_SMARTY['community'] =  $community;
         }
         else
         {

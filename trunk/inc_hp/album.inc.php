@@ -30,5 +30,5 @@ while($album = $album_r->fetchRow())
 	$albums[$album['id_image']]['photo'] = build_album_url($user['info']['id'], $album['id_image'], $album['format']);
 }
 
-$smarty->assign('albums', $albums);
+$_SMARTY['albums'] =  $albums;
 ?>

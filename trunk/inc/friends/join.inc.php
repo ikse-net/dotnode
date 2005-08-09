@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Invite your friends');
+$_SMARTY['Title'] =  'Invite your friends';
 $user['info'] = get_cache_user_info($url_id);
 
 $invitation_r = $db->query('SELECT id, fname, lname, email, status, response, date_begin, date_finish, failure_notice FROM invitation_email WHERE id_invit=? ORDER BY status,response,date_begin', array($_SESSION['my_id']) );
@@ -32,8 +32,8 @@ while($invitation = $invitation_r->fetchRow())
 	$invitations[$invitation['id']]['status_str'] = $labels['invitation']['todo'][$invitation['status']];
 }
 
-$smarty->assign('user', $user);
-$smarty->assign('invitations', $invitations);
+$_SMARTY['user'] =  $user;
+$_SMARTY['invitations'] =  $invitations;
 
 
 ?>

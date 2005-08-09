@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Help');
+$_SMARTY['Title'] =  'Help';
 
 $db_wiki =& DB::connect($dsn_wiki);
 if (DB::isError($db_wiki))
@@ -36,7 +36,7 @@ if(!$page)
 $db_wiki->disconnect();
 
 
-$smarty->assign('page' , $page);
+$_SMARTY['page' ] =  $page;
 
 
 ?>

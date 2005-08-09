@@ -27,21 +27,21 @@
 if($rss_blog = $db->getRow('SELECT id_blog, title, link, rss FROM rss_blog WHERE id=?', array($url_id)) )
 {
         $ticket = $db->getRow('SELECT id_ticket, title, description, link, date, description, content FROM rss_blog_ticket WHERE id=? ORDER BY date DESC LIMIT 1', array($url_id));
-        $smarty->assign('blog_rss',$ticket);
+        $_SMARTY['blog_rss'] = $ticket;
 }
 else
 {
         $blog = $db->getRow('SELECT blog.id as id, id_blog, blog.id_cat,title, chapeau, ticket, date, status, blog_categorie.name as categorie, nb_comments  FROM blog LEFT JOIN blog_categorie USING (id,id_cat) WHERE blog.id=? AND blog.status=? ORDER BY date DESC LIMIT 1', array($url_id, 'online') );
-        $smarty->assign('blog',$blog);
+        $_SMARTY['blog'] = $blog;
 }
 
 #$blog = $db->getRow('SELECT id_blog, title, chapeau, ticket, nb_comments FROM blog WHERE id=? AND status=? ORDER BY date DESC LIMIT 0,1', array($url_id, 'online'));
-#$smarty->assign('blog', $blog);
+#$_SMARTY['blog'] =  $blog;
 
 $bookmarks_r = $db->query('SELECT link, comment FROM bookmarks WHERE id=? ORDER BY date DESC LIMIT 0,4', array($url_id));
 while($bookmark = $bookmarks_r->fetchRow())
 	$bookmarks[] = $bookmark;
-$smarty->assign('bookmarks',$bookmarks);
+$_SMARTY['bookmarks'] = $bookmarks;
 
 $albums_r = $db->query('SELECT caption,id_image, width, height FROM album WHERE id=? ORDER BY date DESC LIMIT 0,3', array($url_id));
 while($photo = $albums_r->fetchRow())
@@ -49,7 +49,7 @@ while($photo = $albums_r->fetchRow())
 	$photo['thumb_path'] = build_album_thumb_url($url_id, $photo['id_image']);
         $albums[] = $photo;
 }
-$smarty->assign('albums',$albums);
+$_SMARTY['albums'] = $albums;
 
 
 // Recuperation du profil general *******************

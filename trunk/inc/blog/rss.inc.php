@@ -23,7 +23,7 @@
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
 
-$smarty->assign('Title','Blog');
+$_SMARTY['Title'] = 'Blog';
 
 $user['info'] = get_cache_user_info($url_id);
 
@@ -49,13 +49,13 @@ if($user['info']['nb_blogs'] > 0)
 if($user['info']['nb_bookmarks'] > 0)
         $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-$smarty->assign('leftmenu',$leftmenu);
+$_SMARTY['leftmenu'] = $leftmenu;
 
 
 /************************************/
 
-$smarty->assign('user',$user);
-$smarty->assign('blog',$blog);
+$_SMARTY['user'] = $user;
+$_SMARTY['blog'] = $blog;
 
 
 ?>

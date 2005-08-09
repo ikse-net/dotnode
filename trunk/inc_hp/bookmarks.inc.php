@@ -28,5 +28,5 @@ while($bookmark = $bookmark_r->fetchRow())
         $bookmarks[$bookmark['link']] = $bookmark;
 }
 
-$smarty->assign('bookmarks', $bookmarks);
+$_SMARTY['bookmarks'] =  $bookmarks;
 ?>

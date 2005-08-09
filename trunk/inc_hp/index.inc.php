@@ -35,7 +35,7 @@ if($rss_blog = $db->getRow('SELECT id_blog, title, link, rss FROM rss_blog WHERE
         while($ticket = $ticket_r->fetchRow())
                 $rss_blog['item'][$ticket['link']] = $ticket;
 
-        $smarty->assign('rss_blog',$rss_blog);
+        $_SMARTY['rss_blog'] = $rss_blog;
 }
 else
 {
@@ -48,7 +48,7 @@ else
                         $blogs[$blog['id_blog']] = $blog;
                 }
 
-        $smarty->assign('blogs', $blogs);
+        $_SMARTY['blogs'] =  $blogs;
 }
 
 
@@ -82,10 +82,10 @@ foreach($user['info']['friends_id'] as $friend_id)
 
 
 
-$smarty->assign('blogs', $blogs);
-$smarty->assign('albums', $albums);
-$smarty->assign('bookmarks', $bookmarks);
-$smarty->assign('friends', $friends);
+$_SMARTY['blogs'] =  $blogs;
+$_SMARTY['albums'] =  $albums;
+$_SMARTY['bookmarks'] =  $bookmarks;
+$_SMARTY['friends'] =  $friends;
 
 
 ?>

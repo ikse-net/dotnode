@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','Blog');
+$_SMARTY['Title'] = 'Blog';
 
 $blogs = $db->query('SELECT id_blog, blog.id_cat,title, chapeau, ticket, date, status, blog_categorie.name as categorie, nb_comments  FROM blog LEFT JOIN blog_categorie USING (id,id_cat) WHERE blog.id=?  ORDER BY date DESC', $_SESSION['my_id'] );
 
@@ -41,7 +41,7 @@ while($blog = $blogs->fetchRow())
 
 $my['blog_url'] = $db->getOne('SELECT rss FROM rss_blog WHERE id=?', array($_SESSION['my_id']));
 
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 
 
 ?>

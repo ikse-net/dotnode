@@ -63,5 +63,5 @@ while($relationship = $relationship_r->fetchRow())
 	$stats['relationship'][$relationship['name']]['label'] = $labels['profile']['relationship_status_cb'][$relationship['name']];
 }
 
-$smarty->assign('stats', $stats);
+$_SMARTY['stats'] =  $stats;
 ?>

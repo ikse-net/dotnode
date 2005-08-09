@@ -25,13 +25,13 @@
 
 if( is_numeric($token[3]) )
 {
-	$smarty->assign('Title','View blog');
+	$_SMARTY['Title'] = 'View blog';
 
 	$ticket =& $db->getRow('SELECT title,chapeau,ticket,date,`status` FROM blog LEFT JOIN blog_categorie USING (id,id_cat) WHERE blog.id=? ORDER BY date DESC LIMIT !,1', array($_SESSION['my_id'], ($token[3]-1)) );
 
 	$my['blog']['ticket'] = $ticket;
 
-	$smarty->assign('my',$my);
+	$_SMARTY['my'] = $my;
 }
 else
 {

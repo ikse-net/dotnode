@@ -29,12 +29,12 @@ if($_SESSION['my_login'])
         exit();
 }
 
-$smarty->assign('Title','Welcome');
+$_SMARTY['Title'] = 'Welcome';
 
 if(!$_SESSION['6nergies_login'])
 	list($suggestion['login']) = split('@', $_SESSION['my_email']);
 else
 	$suggestion['login'] = $_SESSION['6nergies_login'];
 
-$smarty->assign('suggestion', $suggestion);
+$_SMARTY['suggestion'] =  $suggestion;
 ?>

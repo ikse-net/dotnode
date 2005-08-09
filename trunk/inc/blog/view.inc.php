@@ -23,7 +23,7 @@
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
 
-$smarty->assign('Title','Blog');
+$_SMARTY['Title'] = 'Blog';
 
 if(is_numeric($token[2]) )
 {
@@ -66,13 +66,13 @@ if(is_numeric($token[2]) )
 	if($user['info']['nb_bookmarks'] > 0)
 		$leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-	$smarty->assign('leftmenu',$leftmenu);
+	$_SMARTY['leftmenu'] = $leftmenu;
 
 
 	/************************************/
 
-	$smarty->assign('user',$user);
-	$smarty->assign('blog',$blog);
+	$_SMARTY['user'] = $user;
+	$_SMARTY['blog'] = $blog;
 }
 else
 	header('Location: /blog/'.$url_id);

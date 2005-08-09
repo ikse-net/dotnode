@@ -31,7 +31,7 @@ if(is_numeric($token[2]) && ($token[3] != 'newer' && $token[3] != 'popular'))
 
 if(is_numeric($token[2]))
 {
-	$smarty->assign('Title', 'By category');
+	$_SMARTY['Title'] =  'By category';
 
 	if($token[3] == 'newer')
 		$order = "ORDER BY date DESC";
@@ -41,7 +41,7 @@ if(is_numeric($token[2]))
 	$category =& $db->getRow('SELECT name, description, nb_communities  FROM community_cat WHERE id_cat=?', array($token[2]));
 
 	$nb_page = ceil($category['nb_communities']/20);
-	$pages = array_fill(1,$nb_page, NULL);
+	$pages = @array_fill(1,$nb_page, NULL);
 
 	if($category['nb_communities']>20 && is_numeric($token[4]) && $token[4]<= $nb_page )
 		$limit_start = ($token[4]-1)*20;
@@ -55,9 +55,9 @@ if(is_numeric($token[2]))
 		$communities[$community['id_comm']]['logo'] = build_logo_thumb_url($community['id'], $community['id_comm']);
 	}
 
-	$smarty->assign('cat', $category);
-	$smarty->assign('pages', $pages);
-	$smarty->assign('communities', $communities);
+	$_SMARTY['cat'] =  $category;
+	$_SMARTY['pages'] =  $pages;
+	$_SMARTY['communities'] =  $communities;
 }
 else
 {
@@ -76,10 +76,10 @@ while($category = $categories_r->fetchRow())
         }
 }
 
-$smarty->assign('categories', $categories);
+$_SMARTY['categories'] =  $categories;
 
 array_unshift($categories_list, _('Everywhere'));
-$smarty->assign('categories_list', $categories_list);
+$_SMARTY['categories_list'] =  $categories_list;
 
 }
 

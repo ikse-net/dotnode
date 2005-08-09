@@ -307,12 +307,16 @@ function get_cache_user_info($id, $fields="", $update_friends_order=false)
 			}
 
 		}
+		else
+			$info['friends_id'] = array();
 
 		if(array_key_exists('communities_id', $info) && $info['communities_id'] != NULL)
 			if(strpos($info['communities_id'],','))
 					$info['communities_id'] = explode(',', $info['communities_id']);
 				else
 					$info['communities_id'] = array($info['communities_id']);
+		else
+			$info['communities_id'] = array();
 		return $info;
 	}
 	else

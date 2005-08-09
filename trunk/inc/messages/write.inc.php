@@ -29,10 +29,10 @@ if(strlen($token[2]) == 32)
 	if(is_numeric($token[3]))
 	{
 		$message = $db->getRow('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND id_mess=?', array($_SESSION['my_id'],$token[3]));
-		$smarty->assign('message', $message);
+		$_SMARTY['message'] =  $message;
 	}
 
-	$smarty->assign('to', $to);
+	$_SMARTY['to'] =  $to;
 }
 else
 {
@@ -42,6 +42,6 @@ else
 	$friends_r = $db->query('SELECT id, lname, fname FROM user WHERE id IN (!)', implode(',', $friends_list));
 	while($friend = $friends_r->fetchRow())
 		$friends[$friend['id']] = $friend['fname'].' '.$friend['lname'];
-	$smarty->assign('friends',$friends);
+	$_SMARTY['friends'] = $friends;
 }
 ?>

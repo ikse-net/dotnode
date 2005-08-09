@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'News');
+$_SMARTY['Title'] =  'News';
 
 $db_wiki =& DB::connect($dsn_wiki);
 if (DB::isError($db_wiki))
@@ -34,57 +34,5 @@ if(!$page)
 	$page =& $db_wiki->getOne('SELECT body FROM pages WHERE tag=? AND lang=? AND latest=?', array('DotNodeNews'.$token[1], 'en_US', 'Y'));
 $db_wiki->disconnect();
 
-/*
-$blog_r = $db->query('
-	SELECT 
-	   blog.id, 
-	   cache_user.fname as fname, 
-	   cache_user.lname as lname, 
-	   id_blog, 
-	   title, 
-	   chapeau, 
-	   ticket,
-	   date
-	FROM 
-	   blog,cache_user 
-	WHERE 
-	   blog.id=cache_user.id AND
-	   blog.status=?
-	ORDER BY date DESC
-	LIMIT 20
-', array('online'));
-while($blog =& $blog_r->fetchRow())
-{
-	if(strlen($blog['ticket'])>100)
-		$blogs[$blog['date'].str_pad($blog['id_blog'],6,0)] =& $blog;
-}
-$blog_r = $db->query('
-        SELECT 
-           rss_blog_ticket.id, 
-           cache_user.fname as fname, 
-           cache_user.lname as lname, 
-           id_blog, 
-           title, 
-           description as chapeau, 
-	   link,
-           date
-        FROM 
-           rss_blog_ticket,cache_user 
-        WHERE 
-           rss_blog_ticket.id=cache_user.id AND
-	   rss_blog_ticket.date<?
-        ORDER BY date DESC
-        LIMIT 20
-', array(time()));
-while($blog =& $blog_r->fetchRow())
-{
-	if(strlen($blog['chapeau'])>100)
-	        $blogs[$blog['date'].str_pad($blog['id_blog'],6,0)] =& $blog;
-}
-krsort($blogs);
-
-$smarty->assign('blogs' , array_slice($blogs,0,15));
-
-*/
-$smarty->assign('page' , $page);
+$_SMARTY['page' ] =  $page;
 ?>

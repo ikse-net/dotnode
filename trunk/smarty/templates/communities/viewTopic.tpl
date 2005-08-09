@@ -48,7 +48,7 @@
 </td>
 </tr>
 {/foreach}
-{if $member}
+{if $is_member}
 <tr class='{cycle name='topic' values='even,odd'}'>
 <td align='right' colspan='2'><a class='button' href='/communities/replyTopic/{$token[2]}'>{t}Reply to topic{/t}</a></td>
 </tr>

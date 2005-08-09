@@ -25,5 +25,5 @@
 foreach($user['info']['friends_id'] as $friend_id)
 	$friends[$friend_id] = get_cache_user_info($friend_id, 'id, login, fname, lname, photo');
 
-$smarty->assign('friends', $friends);
+$_SMARTY['friends'] =  $friends;
 ?>

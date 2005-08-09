@@ -25,7 +25,7 @@
 
 if( is_numeric($token[3]) )
 {
-	$smarty->assign('Title','Album');
+	$_SMARTY['Title'] = 'Album';
 
 	$image =& $db->getRow('SELECT id_image, width, height, format, caption FROM album WHERE id=? ORDER BY date DESC LIMIT !,1' , array($_SESSION['my_id'], ($token[3]-1)));
 
@@ -48,7 +48,7 @@ if( is_numeric($token[3]) )
 	$my['album']['thumb']['width'] = $thumb_width;
 	$my['album']['thumb']['height'] = $thumb_height;
 
-	$smarty->assign('my',$my);
+	$_SMARTY['my'] = $my;
 }
 else
 {

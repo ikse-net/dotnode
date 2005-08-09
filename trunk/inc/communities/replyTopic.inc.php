@@ -37,7 +37,7 @@ if(is_numeric($token[2]))
 		$topic['posts'][$post['id_post']]['author_photo'] = build_thumb_url($post['id']);
 	}
 
-	$smarty->assign('community',$community);
-	$smarty->assign('topic', $topic);
+	$_SMARTY['community'] = $community;
+	$_SMARTY['topic'] =  $topic;
 }
 ?>

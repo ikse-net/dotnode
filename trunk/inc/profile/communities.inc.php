@@ -23,7 +23,7 @@
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
 
-$smarty->assign('Title', 'Communities list');
+$_SMARTY['Title'] =  'Communities list';
 $community_r = $db->query('SELECT community.id as id, user_comm.id_comm as id_comm, name, description, nb_members FROM user_comm LEFT JOIN community USING (id_comm) WHERE user_comm.id=? AND user_comm.status=?', array($url_id,'ok'));
 while($community = $community_r->fetchRow())
 {
@@ -33,7 +33,7 @@ while($community = $community_r->fetchRow())
 
 $user['info'] = get_cache_user_info($url_id);
 $user['photo'] = build_image_url($url_id);
-$smarty->assign('user', $user);
+$_SMARTY['user'] =  $user;
 
 /************* menu *******************/
 $leftmenu["/profile/$url_id"] = 'Profile';
@@ -47,12 +47,12 @@ if($user['info']['nb_blogs'] > 0)
 if($user['info']['nb_bookmarks'] > 0)
         $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-$smarty->assign('leftmenu',$leftmenu);
+$_SMARTY['leftmenu'] = $leftmenu;
 
 
 /************************************/
 
 
-$smarty->assign('communities',$communities);
+$_SMARTY['communities'] = $communities;
 
 ?>

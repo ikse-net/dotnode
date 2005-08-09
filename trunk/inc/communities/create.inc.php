@@ -24,12 +24,12 @@
 
 include(INCLUDESPATH.'/countries_list.inc.php');
 
-$smarty->assign('Title', 'Communities');
+$_SMARTY['Title'] =  'Communities';
 
 $categories_r = $db->query('SELECT id_cat,name,nb_communities FROM community_cat');
 
 while($categorie = $categories_r->fetchRow())
 	$categories[$categorie['id_cat']] = _($categorie['name']).' ('.$categorie['nb_communities'].')';
 
-$smarty->assign('categories', $categories);
+$_SMARTY['categories'] =  $categories;
 ?>

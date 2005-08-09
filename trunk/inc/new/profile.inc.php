@@ -40,7 +40,7 @@ if($_SESSION['my_login'] && $_SESSION['my_status']=='ok')
 }
 
 
-$smarty->assign('Title', 'Profile creation');
+$_SMARTY['Title'] =  'Profile creation';
 
 $step = array(
 	_('You'),
@@ -92,9 +92,9 @@ if( DB::isError($user_personal) )
         error_log($_SERVER['HTTP_HOST'].' | Erreyr SQL dans '.__FILE__.': '.$user_personal->getMessage());
 
 
-$smarty->assign('access_list',$access_list);
-$smarty->assign('my', $my);
+$_SMARTY['access_list'] = $access_list;
+$_SMARTY['my'] =  $my;
 
-$smarty->assign('step', $step);
+$_SMARTY['step'] =  $step;
 
 ?>

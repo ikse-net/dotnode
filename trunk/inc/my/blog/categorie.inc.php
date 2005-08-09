@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title',"Manage blog's categories");
+$_SMARTY['Title'] = "Manage blog's categories";
 $cats = $db->query('SELECT id_cat, name, comment FROM blog_categorie WHERE id=?', $_SESSION['my_id'] );
 
 if (DB::isError($cats)) {
@@ -32,5 +32,5 @@ if (DB::isError($cats)) {
 while($cat = $cats->fetchRow())
 	$my['blog']['categorie'][$cat['id_cat']] = $cat;
 
-$smarty->assign('my', $my);
+$_SMARTY['my'] =  $my;
 ?>

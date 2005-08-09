@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Messages');
+$_SMARTY['Title'] =  'Messages';
 
 /** Pagination ***************/
 $pagination['nb_elements'] = $db->getOne('SELECT COUNT(id) FROM message WHERE id=? AND box=?', array($_SESSION['my_id'], 'save') );
@@ -43,9 +43,9 @@ else
         exit();
 }
 
-$pagination['pages'] = array_fill(1,$pagination['nb_pages'], NULL);
+$pagination['pages'] = @array_fill(1,$pagination['nb_pages'], NULL);
 
-$smarty->assign('pagination', $pagination);
+$_SMARTY['pagination'] =  $pagination;
 /******************************/
 
 
@@ -57,6 +57,6 @@ while($message = $messages_r->fetchRow())
 else
 	error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$messages_r->getUserInfo());
 
-$smarty->assign('messages', $messages);
+$_SMARTY['messages'] =  $messages;
 
 ?>

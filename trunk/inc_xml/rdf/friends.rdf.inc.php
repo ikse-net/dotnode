@@ -26,5 +26,5 @@
 if($_SESSION['my_id'])
 	$friends = $db->getAssoc('SELECT cache_user.id AS id, fname, lname, nick FROM cache_user,relation WHERE cache_user.id=relation.id_friend AND relation.id=?', true, array($_SESSION['my_id']));
 
-$smarty->assign('friends',$friends);
+$_SMARTY['friends'] = $friends;
 ?>

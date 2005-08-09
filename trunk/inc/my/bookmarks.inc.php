@@ -23,7 +23,7 @@
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
 include(INCLUDESPATH.'/bookmarks.inc.php');
-$smarty->assign('Title','Bookmarks');
+$_SMARTY['Title'] = 'Bookmarks';
 
 $links = $db->query('SELECT link, comment, id_cat FROM bookmarks WHERE id=?', array($_SESSION['my_id']) );
 $idx=0;
@@ -46,7 +46,7 @@ $bookmarks_cat += $cats;
 
 $bookmarks_cat_parent = array('0'=>' - Root - ');
 $bookmarks_cat_parent += $cats;
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 $smarty->assign_by_ref('bookmarks_cat',$bookmarks_cat);
 $smarty->assign_by_ref('bookmarks_cat_parent',$bookmarks_cat_parent);
 

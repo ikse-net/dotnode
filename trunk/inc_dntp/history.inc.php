@@ -53,6 +53,6 @@ else
 	}
 unset($day); unset($last_day);
 
-$smarty->assign('msgid', $msgid);
-$smarty->assign('historic', $historic);
+$_SMARTY['msgid'] =  $msgid;
+$_SMARTY['historic'] =  $historic;
 ?>

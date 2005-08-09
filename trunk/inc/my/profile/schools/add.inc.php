@@ -24,5 +24,5 @@
 
 include(INCLUDESPATH.'/countries_list.inc.php');
 
-$smarty->assign('Title', "Add a school");
+$_SMARTY['Title'] =  "Add a school";
 ?>

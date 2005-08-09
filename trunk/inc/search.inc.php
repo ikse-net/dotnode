@@ -24,7 +24,7 @@
 
 include(INCLUDESPATH.'/countries_list.inc.php');
 $labels['profile']['country'] = $db->getAssoc('SELECT DISTINCT country, country  FROM user_contact');
-$smarty->assign('Title', 'Find your soul mate');
+$_SMARTY['Title'] =  'Find your soul mate';
 
 $pagination['elmt_by_page'] = 20;
 
@@ -94,7 +94,7 @@ foreach($list_item as $field)
 			$where_array[] = $_GET['search'][$field][$idx];
 			$idx++;
 		}
-		$where[] = $field.' IN ('.implode(',', array_fill(0,count($_GET['search'][$field]), '?')).')';
+		$where[] = $field.' IN ('.implode(',', @array_fill(0,count($_GET['search'][$field]), '?')).')';
 		unset($temp);
 	}
 
@@ -136,11 +136,11 @@ if($pagination['nb_elements'] > 0)
 else
         $pagination['nb_pages'] = 1;
 
-$pagination['pages'] = array_fill(1,$pagination['nb_pages'], NULL);
+$pagination['pages'] = @array_fill(1,$pagination['nb_pages'], NULL);
 
-$smarty->assign('pagination', $pagination);
-$smarty->assign('search', $search);
-$smarty->assign('result', $result);
+$_SMARTY['pagination'] =  $pagination;
+$_SMARTY['search'] =  $search;
+$_SMARTY['result'] =  $result;
 
 if(!$_GET['do'])
 	 $_GET['search']['photo'] = 'y';

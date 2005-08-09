@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Community');
+$_SMARTY['Title'] =  'Community';
 
 $array = explode(' ', $_GET['q']);
 error_log('comm_search: '.$_GET['q']);
@@ -67,8 +67,8 @@ while($category = $categories_r->fetchRow())
 }
 
 array_unshift($categories_list, _('Everywhere'));
-$smarty->assign('categories_list', $categories_list);
-$smarty->assign('comm', $comm);
+$_SMARTY['categories_list'] =  $categories_list;
+$_SMARTY['comm'] =  $comm;
 
 
 ?>

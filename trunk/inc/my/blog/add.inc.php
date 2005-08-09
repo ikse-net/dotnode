@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Write a new ticket');
+$_SMARTY['Title'] =  'Write a new ticket';
 
 $cats = $db->query('SELECT id_cat, name, comment FROM blog_categorie WHERE id=?', $_SESSION['my_id'] );
 
@@ -37,7 +37,7 @@ else
                 $idx++;
         }
 
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 
 
 ?>
