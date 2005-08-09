@@ -50,7 +50,7 @@
 <td colspan='4' align='center'>No topic</td>
 </tr>
 {/foreach}
-{if $member}
+{if $is_member}
 <tr class='{cycle name='forum' values='odd,even'}'>
 <td colspan='4' align='right'><a class='button' href='/communities/createTopic/{$token[2]}'>{t}New topic{/t}</a></td>
 </tr>

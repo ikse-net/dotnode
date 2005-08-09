@@ -120,7 +120,10 @@ if(is_numeric($token[2]) )
 				$leftmenu['/communities/join/'.$token[2]] = 'Join';
 		}
 	else
+	{
+		$smarty->assign('is_member', 1);
 		$leftmenu["/communities/edit/".$token[2]] = 'Edit';	
+	}
 
 
 	$leftmenu['/communities/forum/'.$token[2]] = 'View forum';

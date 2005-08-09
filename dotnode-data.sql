@@ -88,7 +88,7 @@ INSERT INTO `bookmarks_cat` VALUES ('354a778bacabffaff3d3fd74f93ac278',2,0,'Dev'
 -- Dumping data for table `cache_user`
 --
 
-INSERT INTO `cache_user` VALUES ('354a778bacabffaff3d3fd74f93ac278','alexx','Alexandre','DATH','','A42536','D000','','France','male',25,'committed','friend,business,partners',1084260676,'y',2,'1353c20315c720ad6c88a498ccc1c1ac,00112233445566778899001122334455',0,'',0,0,0,0,0.00,0.00,0.00);
+INSERT INTO `cache_user` VALUES ('354a778bacabffaff3d3fd74f93ac278','alexx','Alexandre','DATH','','A42536','D000','','France','male',25,'committed','friend,business,partners',1084260676,'y',2,'1353c20315c720ad6c88a498ccc1c1ac,00112233445566778899001122334455',1,'1',0,0,0,0,0.00,0.00,0.00);
 INSERT INTO `cache_user` VALUES ('00112233445566778899001122334455','moderator','Moderator','Moderator','','','','','France','male',25,'','',1084260676,'y',1,'354a778bacabffaff3d3fd74f93ac278',0,'',0,0,0,0,0.00,0.00,0.00);
 INSERT INTO `cache_user` VALUES ('1353c20315c720ad6c88a498ccc1c1ac','mdoe','John','Doe',NULL,'J500','D000',NULL,'France','male',0,'single','business,partners',1122934961,'y',1,'354a778bacabffaff3d3fd74f93ac278',0,'',1,0,1,5,0.00,0.00,0.00);
 
