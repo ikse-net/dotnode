@@ -38,36 +38,38 @@ if(is_numeric($token[2]) )
 
 	if($_SESSION['my_id'] != $community['info']['id'])
 		if(in_array($community['info']['id_comm'], $_SESSION['my_communities_id']) )
+		{
 			$leftmenu["/communities/unjoin/".$token[2]] = 'Unjoin';
+			$_SMARTY['is_member'] = 1;
+		}
 		else
+		{
 			$leftmenu["/communities/join/".$token[2]] = 'Join';
+			$_SMARTY['is_member'] = 0;
+		}
 	else
+	{
 		$leftmenu["/communities/edit/".$token[2]] = 'Edit';	
-
+		$_SMARTY['is_member'] = 1;
+	}
 
 	$leftmenu["/communities/events/".$token[2]] = 'View events';
 	$leftmenu["/communities/invite/".$token[2]] = 'Invite friends';
 
-	$smarty->assign('leftmenu',$leftmenu);
+	$_SMARTY['leftmenu'] = $leftmenu;
 
 
 	/************************************/
 
 
 
-	$smarty->assign('Title', 'Community');
+	$_SMARTY['Title'] = 'Community';
+	
 
-	if($_SESSION['my_communities_id'])
-	{
-		if( in_array($community['info']['id_comm'], $_SESSION['my_communities_id']) )
-		{
-			$db->query('UPDATE user_comm SET last_visit=? WHERE id=? AND id_comm=?', array(time(), $_SESSION['my_id'], $community['info']['id_comm']));
-			$smarty->assign('member', true);
-		}
-	}
+	if($_SMARTY['is_member'])
+		$db->query('UPDATE user_comm SET last_visit=? WHERE id=? AND id_comm=?', array(time(), $_SESSION['my_id'], $community['info']['id_comm']));
 
-
-	$smarty->assign('community', $community);
+	$_SMARTY['community'] = $community;
 }
 else
 {

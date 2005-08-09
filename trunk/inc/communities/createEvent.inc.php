@@ -31,16 +31,16 @@ if(is_numeric($token[2]) )
 
 	if(in_array($community['info']['id_comm'], $_SESSION['my_communities_id']))
         {
-        /************* menu *******************/
-        $leftmenu["/communities/view/".$community['info']['id_comm']] = 'Return to community';
-        $leftmenu["/communities/forum/".$community['info']['id_comm']] = 'View forum';
-        $leftmenu["/communities/events/".$community['info']['id_comm']] = 'View events';
+		/************* menu *******************/
+		$leftmenu["/communities/view/".$community['info']['id_comm']] = 'Return to community';
+		$leftmenu["/communities/forum/".$community['info']['id_comm']] = 'View forum';
+		$leftmenu["/communities/events/".$community['info']['id_comm']] = 'View events';
 
-        $smarty->assign('leftmenu',$leftmenu);
-        /************************************/
+		$smarty->assign('leftmenu',$leftmenu);
+		/************************************/
 
-        $smarty->assign('Title', 'Communities');
-        $smarty->assign('community', $community);
+		$smarty->assign('Title', 'Communities');
+		$smarty->assign('community', $community);
         }
         else
         {

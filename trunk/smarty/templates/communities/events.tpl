@@ -46,7 +46,7 @@
 <td colspan='3' align='center'>{t}No event{/t}</td>
 </tr>
 {/foreach}
-{if $member}
+{if $is_member}
 <tr class='{cycle name='events' values='odd,even'}'>
 <td colspan='3' align='right'><a class='button' href='/communities/createEvent/{$token[2]}'>{t}New event{/t}</a></td>
 </tr>

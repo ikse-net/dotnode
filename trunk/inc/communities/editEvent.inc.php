@@ -21,6 +21,7 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
+include(INCLUDESPATH.'/countries_list.inc.php');
 
 if(is_numeric($token[2]))
 {
