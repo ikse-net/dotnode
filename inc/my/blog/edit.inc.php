@@ -25,7 +25,7 @@
 
 if( is_numeric($token[3]) )
 {
-	$smarty->assign('Title','Edit Blog');
+	$_SMARTY['Title'] = 'Edit Blog';
 
 	$ticket =& $db->getRow('SELECT title,chapeau,ticket,id_cat,date,status FROM blog WHERE id=? ORDER BY date DESC LIMIT !,1', array($_SESSION['my_id'], ($token[3]-1)) );
 
@@ -47,7 +47,7 @@ if( is_numeric($token[3]) )
 
 
 
-	$smarty->assign('my',$my);
+	$_SMARTY['my'] = $my;
 }
 else
 {

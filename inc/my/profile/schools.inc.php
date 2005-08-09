@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','School course');
+$_SMARTY['Title'] = 'School course';
 
 /*if(!$_SESSION['my_profile_personal'])
 {*/
@@ -67,7 +67,7 @@ $smarty->assign('Title','School course');
 	else
 		error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$user_schools->getUserInfo());
 
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 
 
 ?>

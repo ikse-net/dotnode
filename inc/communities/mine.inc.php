@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'My communities');
+$_SMARTY['Title'] =  'My communities';
 
 $my_communities_r = $db->query('SELECT name, community.id_comm as id_comm, description, nb_members, last_post_date, community.id as id FROM community LEFT JOIN user_comm USING (id_comm) WHERE user_comm.id=? AND user_comm.status=? ORDER BY last_post_date DESC', array($_SESSION['my_id'], 'ok') );
 
@@ -44,6 +44,6 @@ while($my_community = $my_communities_r->fetchRow())
 	$my_communities[$key] = $my_community;
 }
 
-$smarty->assign('my_communities', $my_communities);
+$_SMARTY['my_communities'] =  $my_communities;
 
 ?>

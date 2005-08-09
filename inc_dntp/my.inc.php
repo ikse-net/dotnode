@@ -45,7 +45,7 @@ case 'sadmin':
                         $last_day = $day;
                 }
 	unset($day); unset($last_day);
-	$smarty->assign('waiting_entries', $waiting_entries);
+	$_SMARTY['waiting_entries'] =  $waiting_entries;
 
 	$nb_msgid = $db->getOne('SELECT COUNT(id) FROM dntp_msgid WHERE status=?', array('ok'));
 	$list_lang = $db->getCol('SELECT DISTINCT(lang) FROM dntp_translator WHERE status=?', 0, array('ok'));
@@ -55,8 +55,8 @@ case 'sadmin':
 		$nb_msgstr = $db->getOne('SELECT COUNT(id) FROM dntp_msgstr WHERE `key`=? AND last=? AND lang=?', array(0, 'y', $c_lang));
 		$avancement[$c_lang] = array('msgid' => $nb_msgid, 'msgstr' => $nb_msgstr, 'score' => $nb_msgstr*100/$nb_msgid);
 	}
-	$smarty->assign('nb_msgid', $nb_msgid);
-	$smarty->assign('avancement', $avancement);
+	$_SMARTY['nb_msgid'] =  $nb_msgid;
+	$_SMARTY['avancement'] =  $avancement;
 	break;
 
 case 'admin':
@@ -66,8 +66,8 @@ case 'admin':
 	$nb_msgstr = $db->getOne('SELECT COUNT(id) FROM dntp_msgstr WHERE `key`=? AND last=? AND lang=?', array(0, 'y', $c_lang));
 	$avancement[$c_lang] = array('msgid' => $nb_msgid, 'msgstr' => $nb_msgstr, 'score' => $nb_msgstr*100/$nb_msgid);
 
-	$smarty->assign('nb_msgid', $nb_msgid);
-	$smarty->assign('avancement', $avancement);
+	$_SMARTY['nb_msgid'] =  $nb_msgid;
+	$_SMARTY['avancement'] =  $avancement;
 
 
 case 'translator':
@@ -140,8 +140,8 @@ case 'verif':
                 }
 
 	unset($day); unset($last_day);
-	$smarty->assign('last_modifs', $last_modifs);
-	$smarty->assign('new_entries', $new_entries);
+	$_SMARTY['last_modifs'] =  $last_modifs;
+	$_SMARTY['new_entries'] =  $new_entries;
 	break;
 }
 ?>

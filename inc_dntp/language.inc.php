@@ -33,10 +33,10 @@ $stats['nb_msgstr'] = $db->getOne('SELECT COUNT(id) FROM dntp_msgstr WHERE last=
 
 $stats['to_complet'] = $stats['nb_msgstr']*100/$stats['nb_msgid'];
 
-$smarty->assign('admin_login', $admin_login);
-$smarty->assign('translators', $translators);
-$smarty->assign('verificators', $verificators);
-$smarty->assign('stats', $stats);
+$_SMARTY['admin_login'] =  $admin_login;
+$_SMARTY['translators'] =  $translators;
+$_SMARTY['verificators'] =  $verificators;
+$_SMARTY['stats'] =  $stats;
 
 
 ?>

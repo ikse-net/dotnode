@@ -24,7 +24,7 @@
 
 if(is_numeric($token[2]) )
 {
-	$smarty->assign('Title', 'Community');
+	$_SMARTY['Title'] =  'Community';
 
 	$community['info'] = $db->getRow('SELECT id_comm, id, community_cat.id_cat as id_cat, community.name as name, community.description as description, moderated, country, date, nb_members, community_cat.name as category FROM community LEFT JOIN community_cat USING(id_cat) WHERE id_comm=?', array($token[2]));
 
@@ -108,12 +108,12 @@ if(is_numeric($token[2]) )
 	if($_SESSION['my_id'] != $community['info']['id'])
 		if($_SESSION['my_communities_id'] && in_array($community['info']['id_comm'], $_SESSION['my_communities_id']) )
 		{
-			$smarty->assign('is_member', 1);
+			$_SMARTY['is_member'] =  1;
 			$leftmenu['/communities/unjoin/'.$token[2]] = 'Unjoin';
 		}
 		else
 		{
-			$smarty->assign('is_member', 0);
+			$_SMARTY['is_member'] =  0;
 			if($community['info']['moderated'] == 'yes')
 				$leftmenu['/communities/join/'.$token[2].'/moderated'] = 'Join';
 			else
@@ -121,7 +121,7 @@ if(is_numeric($token[2]) )
 		}
 	else
 	{
-		$smarty->assign('is_member', 1);
+		$_SMARTY['is_member'] =  1;
 		$leftmenu["/communities/edit/".$token[2]] = 'Edit';	
 	}
 
@@ -130,13 +130,13 @@ if(is_numeric($token[2]) )
 	$leftmenu['/communities/events/'.$token[2]] = 'View events';
 	$leftmenu['/communities/invite/'.$token[2]] = 'Invite friends';
 
-	$smarty->assign('leftmenu',$leftmenu);
+	$_SMARTY['leftmenu'] = $leftmenu;
 
 
 	/************************************/
 
-	$smarty->assign('related_communities', $related_comm);
-	$smarty->assign('community', $community);
+	$_SMARTY['related_communities'] =  $related_comm;
+	$_SMARTY['community'] =  $community;
 }
 else
 {

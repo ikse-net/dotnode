@@ -42,7 +42,7 @@ if(is_numeric($token[2]))
 	$leftmenu["/communities/forum/".$community['info']['id_comm']] = 'View forum';
 	$leftmenu["/communities/events/".$community['info']['id_comm']] = 'View events';
 
-	$smarty->assign('leftmenu',$leftmenu);
+	$_SMARTY['leftmenu'] = $leftmenu;
 	/************************************/
 
 	if($_SESSION['my_communities_id'])
@@ -50,11 +50,11 @@ if(is_numeric($token[2]))
 		if( in_array($community['info']['id_comm'], $_SESSION['my_communities_id']) )
 		{
 			$db->query('UPDATE user_comm SET last_visit=? WHERE id=? AND id_comm=?', array(time(), $_SESSION['my_id'], $community['info']['id_comm']));
-			$smarty->assign('member', true);
+			$_SMARTY['is_member'] =  true;
 		}
 	}
 
-	$smarty->assign('community',$community);
-	$smarty->assign('topic', $topic);
+	$_SMARTY['community'] = $community;
+	$_SMARTY['topic'] =  $topic;
 }
 ?>

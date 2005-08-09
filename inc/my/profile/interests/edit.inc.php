@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', "Edit interest profile");
+$_SMARTY['Title'] =  "Edit interest profile";
 
 $t_name = 'user_interests';
 $t_fields = implode(',', array_keys($table_fields[$t_name]));
@@ -32,6 +32,6 @@ $my['interests'] =& $db->getRow('SELECT ! FROM ! WHERE id=?', array($t_fields, $
 if( DB::isError($user_interests) )
 	error_log($_SERVER['HTTP_HOST'].' | Erreyr SQL dans '.__FILE__.': '.$user_interests->getMessage());
 
-$smarty->assign('my', $my);
+$_SMARTY['my'] =  $my;
 
 ?>

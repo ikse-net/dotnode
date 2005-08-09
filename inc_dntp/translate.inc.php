@@ -36,6 +36,6 @@ if(DB::isError($msgid))
         error_log($msg_r->getUserInfo());
 
 
-$smarty->assign('msgid', $msgid);
-$smarty->assign('msgstr', $msgstr);
+$_SMARTY['msgid'] =  $msgid;
+$_SMARTY['msgstr'] =  $msgstr;
 ?>

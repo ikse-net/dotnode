@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Communities');
+$_SMARTY['Title'] =  'Communities';
 
 $last_comm_r = $db->query('SELECT community.id as id, community.id_comm as id_comm, community.name as name, community.description as description, community.nb_members, community_cat.name as cat_name, community.date as date FROM community LEFT JOIN community_cat USING (id_cat) WHERE community.date > ? ORDER BY community.date DESC', array(time()-604800));
 
@@ -43,5 +43,5 @@ while($last_comm = $last_comm_r->fetchRow())
 }
 
 
-$smarty->assign('last_communities', $last_communities);
+$_SMARTY['last_communities'] =  $last_communities;
 ?>

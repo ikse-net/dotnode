@@ -23,7 +23,7 @@
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
 include(INCLUDESPATH.'/bookmarks.inc.php');
-$smarty->assign('Title','Bookmarks');
+$_SMARTY['Title'] = 'Bookmarks';
 
 if($token[1]=='category' && is_numeric($token[2]))
 	$is_category=true;
@@ -57,7 +57,7 @@ if($is_category)
 	$smarty->assign_by_ref('sub_cat',$sub_cat);
 
 	$path = get_cat_path($token[2]);
-        $smarty->assign('path',$path);
+        $_SMARTY['path'] = $path;
 }
 $user['info'] = get_cache_user_info($url_id);
 
@@ -75,12 +75,12 @@ if($user['info']['nb_blogs'] > 0)
 if($user['info']['nb_bookmarks'] > 0)
         $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-$smarty->assign('leftmenu',$leftmenu);
+$_SMARTY['leftmenu'] = $leftmenu;
 /*****************************************/
 
-$smarty->assign('leftmenu',$leftmenu);
-$smarty->assign('links',$links);
-$smarty->assign('user',$user);
+$_SMARTY['leftmenu'] = $leftmenu;
+$_SMARTY['links'] = $links;
+$_SMARTY['user'] = $user;
 
 
 ?>

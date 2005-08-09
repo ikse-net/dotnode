@@ -56,7 +56,7 @@ if(!DB::isError($comments_r))
 else
 	error_log($comments_r->getUserInfo());
 
-$smarty->assign('profile', $user);
-$smarty->assign('blog', $blog);
+$_SMARTY['profile'] =  $user;
+$_SMARTY['blog'] =  $blog;
 
 ?>

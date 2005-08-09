@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Messages');
+$_SMARTY['Title'] =  'Messages';
 
 /** Pagination ***************/
 $pagination['nb_elements'] = $db->getOne('SELECT COUNT(id) FROM message WHERE id=? AND box=?', array($_SESSION['my_id'], 'inbox') );
@@ -42,9 +42,9 @@ else
 	exit();
 }
 
-$pagination['pages'] = array_fill(1,$pagination['nb_pages'], NULL);
+$pagination['pages'] = @array_fill(1,$pagination['nb_pages'], NULL);
 
-$smarty->assign('pagination', $pagination);
+$_SMARTY['pagination'] =  $pagination;
 /******************************/
 
 $messages_r = $db->query('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND box=? ORDER by date DESC LIMIT ?,?', array($_SESSION['my_id'],'inbox',  ($pagination['current_page']-1)*$pagination['elmt_by_page'], $pagination['elmt_by_page']));
@@ -59,5 +59,5 @@ $_SESSION['nb_new_messages'] = $db->getOne('SELECT COUNT(id_mess) FROM message W
 $_SESSION['nb_new_messages_timestamp'] = 1;
 
 
-$smarty->assign('messages', $messages);
+$_SMARTY['messages'] =  $messages;
 ?>

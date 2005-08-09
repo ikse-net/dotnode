@@ -22,5 +22,5 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Send Bogus Report');
+$_SMARTY['Title'] =  'Send Bogus Report';
 ?>

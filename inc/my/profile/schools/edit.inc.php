@@ -24,7 +24,7 @@
 
 include(INCLUDESPATH.'/countries_list.inc.php');
 
-$smarty->assign('Title', "Edit a school");
+$_SMARTY['Title'] =  "Edit a school";
 
 if( is_numeric($token[4]) )
 {
@@ -37,7 +37,7 @@ if( is_numeric($token[4]) )
 		error_log($_SERVER['HTTP_HOST'].' | Erreyr SQL dans '.__FILE__.': '.$user_schools->getMessage());
 
 	$my['schools']['year'] = $my['schools']['year']."-01-01";
-	$smarty->assign('my', $my);
+	$_SMARTY['my'] =  $my;
 }
 else
 {

@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', 'Friends\'Karma');
+$_SMARTY['Title'] =  'Friends\'Karma';
 $relation_r = $db->query('SELECT id_friend , cool , fun , sexy , fan , `level`, `type` FROM relation WHERE id=?', array($_SESSION['my_id']));
 
 while($relation = $relation_r->fetchRow() )
@@ -44,5 +44,5 @@ $smarty->assign('options_fan',
 	'1'=>'1'));
 
 
-$smarty->assign('friends', $friends);
+$_SMARTY['friends'] =  $friends;
 ?>

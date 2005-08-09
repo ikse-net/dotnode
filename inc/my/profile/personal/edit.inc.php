@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', "Edit personal profile");
+$_SMARTY['Title'] =  "Edit personal profile";
 
 $my['personal'] =& $db->getRow('SELECT headline ,notice ,size , eye ,hair ,body_art ,best_feature ,things_i_cant_live_without ,ideal_match FROM user_personal WHERE id=?', array($_SESSION['my_id']));
 $my['personal']['body_art'] = split(',', $my['personal']['body_art']);
@@ -30,6 +30,6 @@ $my['personal']['body_art'] = split(',', $my['personal']['body_art']);
 if( DB::isError($user_personal) )
 	error_log($_SERVER['HTTP_HOST'].' | Erreyr SQL dans '.__FILE__.': '.$user_personal->getMessage());
 
-$smarty->assign('my', $my);
+$_SMARTY['my'] =  $my;
 
 ?>

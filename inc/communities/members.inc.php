@@ -24,7 +24,7 @@
 
 if(is_numeric($token[2]) )
 {
-	$smarty->assign('Title', 'Community members');
+	$_SMARTY['Title'] =  'Community members';
 
 	$community['info'] = $db->getRow('SELECT  id_comm, id, community.name as name, community.description as description, moderated, country, date, nb_members, community_cat.name as category FROM community LEFT JOIN community_cat USING(id_cat) WHERE id_comm=?', array($token[2]));
 
@@ -52,12 +52,12 @@ if(is_numeric($token[2]) )
         $leftmenu["/communities/events/".$token[2]] = 'View events';
         $leftmenu["/communities/invite/".$token[2]] = 'Invite friends';
 
-        $smarty->assign('leftmenu',$leftmenu);
+        $_SMARTY['leftmenu'] = $leftmenu;
 
 
         /************************************/
 
-	$smarty->assign('community', $community);
+	$_SMARTY['community'] =  $community;
 
 }
 else

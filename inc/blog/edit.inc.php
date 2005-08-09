@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','Blog');
+$_SMARTY['Title'] = 'Blog';
 
 $_id_blog = $token[2];
 $_id_comment = $token[3];
@@ -46,13 +46,13 @@ if( is_numeric($_id_blog) && is_numeric($_id_comment) )
 	if($user['info']['nb_bookmarks'] > 0)
 		$leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-	$smarty->assign('leftmenu',$leftmenu);
+	$_SMARTY['leftmenu'] = $leftmenu;
 
 
 	/************************************/
 
-	$smarty->assign('user',$user);
-	$smarty->assign('comment',$comment);
+	$_SMARTY['user'] = $user;
+	$_SMARTY['comment'] = $comment;
 }
 else
 	header('Location: /blog/'.$url_id);

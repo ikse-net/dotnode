@@ -26,6 +26,6 @@
 if($_SESSION['my_id'])
 	$comms = $db->getAssoc('SELECT community.id_comm AS id, name, description FROM community,user_comm WHERE community.id_comm=user_comm.id_comm AND user_comm.id=?', true, array($_SESSION['my_id']));
 
-$smarty->assign('communities',$comms);
+$_SMARTY['communities'] = $comms;
 
 ?>

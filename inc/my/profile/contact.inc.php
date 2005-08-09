@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','Contact Profile');
+$_SMARTY['Title'] = 'Contact Profile';
 
 	$t_name = 'user_contact';
         $t_fields = implode(',', array_keys($table_fields[$t_name]));
@@ -62,7 +62,7 @@ $smarty->assign('Title','Contact Profile');
 	else
 		error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$user_contact->getUserInfo());
 
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 
 
 ?>

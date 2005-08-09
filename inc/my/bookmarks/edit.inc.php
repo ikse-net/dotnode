@@ -26,7 +26,7 @@ include(INCLUDESPATH.'/bookmarks.inc.php');
 
 if( is_numeric($token[3]) )
 {
-	$smarty->assign('Title','Bookmarks');
+	$_SMARTY['Title'] = 'Bookmarks';
 
 	$link =& $db->getRow('SELECT link, comment, id_cat FROM bookmarks WHERE id=? LIMIT !,1', array($_SESSION['my_id'], ($token[3]-1)) );
 
@@ -49,7 +49,7 @@ if( is_numeric($token[3]) )
 	$smarty->assign_by_ref('bookmarks_cat_parent',$bookmarks_cat_parent);
 
 
-	$smarty->assign('my',$my);
+	$_SMARTY['my'] = $my;
 }
 else
 {

@@ -26,7 +26,7 @@ include(INCLUDESPATH.'/countries_list.inc.php');
 
 unset($labels['profile']['country']['(null)']);
 
-$smarty->assign('Title', "Edit my contact");
+$_SMARTY['Title'] =  "Edit my contact";
 
 $t_name = 'user_contact';
 $t_fields = implode(',', array_keys($table_fields[$t_name]));
@@ -38,8 +38,8 @@ if( DB::isError($user_contact) )
 
 $access_list[$t_name] = get_access_list($_SESSION['my_id'], $t_name );
 
-$smarty->assign('access_list',$access_list);
+$_SMARTY['access_list'] = $access_list;
 
-$smarty->assign('my', $my);
+$_SMARTY['my'] =  $my;
 
 ?>

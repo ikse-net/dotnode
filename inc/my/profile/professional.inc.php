@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title','Professional Profile');
+$_SMARTY['Title'] = 'Professional Profile';
 
 /*if(!$_SESSION['my_profile_general'])
 {*/
@@ -64,7 +64,7 @@ $smarty->assign('Title','Professional Profile');
 	else
 		error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$user_professional->getUserInfo());
 
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 
 
 ?>

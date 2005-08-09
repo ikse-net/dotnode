@@ -29,7 +29,7 @@ print_r($smenu);
 print_r($ssmenu);
 exit();
 */
-$smarty->assign('Title', 'Home');
+$_SMARTY['Title'] =  'Home';
 
 $idx = 0;
 
@@ -93,11 +93,11 @@ if($my['info']['nb_blogs'] > 0)
 if($my['info']['nb_bookmarks'] > 0)
         $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
-$smarty->assign('leftmenu',$leftmenu);
+$_SMARTY['leftmenu'] = $leftmenu;
 
 
 /************************************/
 
-$smarty->assign('my',$my);
+$_SMARTY['my'] = $my;
 
 ?>

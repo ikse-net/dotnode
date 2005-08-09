@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', "Edit professional profile");
+$_SMARTY['Title'] =  "Edit professional profile";
 
 $t_name = 'user_professional';
 
@@ -38,7 +38,7 @@ if( DB::isError($my['professional']) )
 
 $access_list[$t_name] = get_access_list($_SESSION['my_id'], $t_name );
 
-$smarty->assign('access_list',$access_list);
-$smarty->assign('my', $my);
+$_SMARTY['access_list'] = $access_list;
+$_SMARTY['my'] =  $my;
 
 ?>

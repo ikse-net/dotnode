@@ -22,7 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$smarty->assign('Title', "Edit my settings");
+$_SMARTY['Title'] =  "Edit my settings";
 
 $t_name = 'settings';
 $t_fields = implode(',', array_keys($table_fields[$t_name]));
@@ -53,7 +53,7 @@ foreach($dir as $style)
 	$css[basename($style)] = basename($style);
 }
 
-$smarty->assign('my', $my);
-$smarty->assign('css', $css);
+$_SMARTY['my'] =  $my;
+$_SMARTY['css'] =  $css;
 
 ?>
