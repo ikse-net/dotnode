@@ -22,18 +22,12 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-
-if(isset($_GET['rush']))
-{
-	error_log('HACK FROM: '.$_SERVER['REMOTE_ADDR']);
-	exit();
-}
 include('../includes/includes.inc.php');
 include('../includes/config/hp.inc.php');
 
 $_SERVER['HTTP_HOST'] = ereg_replace(":80$", '', $_SERVER["HTTP_HOST"]);
 $requested_site = ereg_replace("^www\.", '', $_SERVER["HTTP_HOST"]);
-ereg("(.*)\.dotnode\.com$", $requested_site, $regs);
+ereg("(.*)\.${config['domain']}$", $requested_site, $regs);
 $login = $regs[1];
 
 $smarty = new Smarty;

@@ -13,7 +13,7 @@
 </ul>
 {/strip}
 <br />
-<a href='/xml/foaf' class='foaf'><img src='/img/foaf' alt='FOAF' /></a>
+<a href='/xml/foaf' class='foaf'><img src='/img/foaf.gif' alt='FOAF' /></a>
 {if $profile.info.6nergies_url}
 <a href='http://www.6nergies.net/people/{$profile.info.6nergies_url}' class='6nergies'><img src='/img/profil-6nergies.png' alt='6nergie.net profile' /></a>
 {/if}
