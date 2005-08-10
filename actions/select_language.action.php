@@ -28,7 +28,7 @@ if(valid_lang($token[2]))
 else
 	$lang = 'en_US';
 
-setcookie('lang', $lang, time()+31536000, '/', COOKIE_DOMAIN);
+setcookie('lang', $lang, time()+31536000, '/', $config['domain']);
 setcookie('lang', $lang, time()+31536000, '/');
 
 if(isset($_SESSION['my_id']))

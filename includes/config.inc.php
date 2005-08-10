@@ -55,5 +55,4 @@ else
 $_SMARTY['config'] = $config;
 
 ini_set('register_globals', 'off');
-ini_set('error_log', BASEPATH.'/../log/php.log');
 ?>

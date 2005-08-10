@@ -31,22 +31,11 @@ if(ereg('www', $_SERVER['HTTP_HOST']))
 	exit();
 }
 
-$smarty = new Smarty;
+$smarty = new Smarty_dotnode;
 
 $smarty->template_dir = SMARTYPATH.'/templates/';
 $smarty->compile_dir = SMARTYPATH.'/templates_c/';
-$smarty->config_dir = SMARTYPATH.'/configs/';
-$smarty->cache_dir = SMARTYPATH.'/cache/';
-
 $smarty->compile_id = 'www';
-
-$smarty->register_block('t', 'smarty_translate');
-$smarty->register_modifier('wikise', 'Wikise');
-$smarty->register_modifier('linkurl', 'smarty_modifier_linkurl');
-$smarty->register_modifier('utf8', 'smarty_modifier_utf8');
-$smarty->register_function('html_access_options', 'smarty_function_html_access_options');
-$smarty->use_sub_dirs = true;
-#$smarty->force_compile = true;
 
 $token = retreive_url_info($_SERVER['PHP_SELF']);
 
