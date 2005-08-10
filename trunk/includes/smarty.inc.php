@@ -40,7 +40,6 @@ class Smarty_dotnode extends Smarty
 		$this->debugging_ctrl = false;
 		# $smarty->force_compile = true;
 		# $smarty->cache_modified_check = true;
-		# FIXME: add default caching parameters.
 		
 		$this->template_dir = SMARTYPATH . '/templates/';
 		$this->compile_dir  = SMARTYPATH . '/templates_c/';
