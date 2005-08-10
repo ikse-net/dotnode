@@ -33,8 +33,6 @@ if(ereg('www', $_SERVER['HTTP_HOST']))
 
 $smarty = new Smarty_dotnode;
 
-$smarty->template_dir = SMARTYPATH.'/templates/';
-$smarty->compile_dir = SMARTYPATH.'/templates_c/';
 $smarty->compile_id = 'www';
 
 $token = retreive_url_info($_SERVER['PHP_SELF']);
