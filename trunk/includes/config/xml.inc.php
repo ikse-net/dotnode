@@ -24,4 +24,8 @@
 
 define('INCLUDEPATH',BASEPATH.'/../inc_xml');
 ini_set('zlib.output_compression', 'off');
+ini_set('session.name','dotnodeSessID');
+ini_set('session.save_path',BASEPATH.'/../sessions');
+include(INCLUDESPATH.'/session_save_handler.inc.php');
+session_set_save_handler ("_sess_open", "_sess_close", "_sess_read", "_sess_write", "_sess_destroy", "_sess_gc");
 ?>

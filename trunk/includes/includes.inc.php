@@ -22,24 +22,14 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-include('Smarty/Smarty.class.php');
-include('smarty_plugins/block.gettext.php');
-include('smarty_plugins/modifier.linkalize.php');
-include('smarty_plugins/modifier.linkurl.php');
-
-
-include('smarty_plugins/function.html_access_options.php');
-include('smarty_plugins/modifier.utf8.php');
-
-include('wiki.inc.php');
-
-include('Mail.php');
-
-include('DB.php');
 include('config.inc.php');
 
+include('Mail.php'); // PEAR
+
+include('DB.php'); // PEAR
+
+include('smarty.inc.php');
 include('functions.inc.php');
-include('logikse.class.php');
 
 // To handle difference in PHP_SELF under Apache1 and Apache2
 if( ereg("\?", $_SERVER['REQUEST_URI']) )

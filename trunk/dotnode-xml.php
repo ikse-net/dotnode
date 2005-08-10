@@ -30,24 +30,9 @@ $requested_site = ereg_replace("^www\.", "", $_SERVER["HTTP_HOST"]);
 ereg("(.*)\.${config['domain']}$", $requested_site, $regs);
 $login = $regs[1];
 
-$smarty = new Smarty;
-
+$smarty = new Smarty_dotnode;
 $smarty->template_dir = SMARTYPATH.'/templates_xml/';
-$smarty->compile_dir = SMARTYPATH.'/templates_c/';
-$smarty->config_dir = SMARTYPATH.'/configs/';
-$smarty->cache_dir = SMARTYPATH.'/cache/';
-$smarty->debugging_ctrl = false;
-$smarty->register_modifier('wikise', 'Wikise');
 $smarty->compile_id = 'xml';
-$smarty->caching = false;
-$smarty->cache_lifetime = 3600;
-$smarty->use_sub_dirs = true;
-
-ini_set('session.name','dotnodeSessID');
-ini_set('session.save_path',BASEPATH.'/../sessions');
-
-include(INCLUDESPATH.'/session_save_handler.inc.php');
-session_set_save_handler ("_sess_open", "_sess_close", "_sess_read", "_sess_write", "_sess_destroy", "_sess_gc");
 
 session_start();
 

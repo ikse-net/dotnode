@@ -30,22 +30,11 @@ $requested_site = ereg_replace("^www\.", '', $_SERVER["HTTP_HOST"]);
 ereg("(.*)\.${config['domain']}$", $requested_site, $regs);
 $login = $regs[1];
 
-$smarty = new Smarty;
-
+$smarty = new Smarty_dotnode;
 $smarty->template_dir = SMARTYPATH.'/templates_hp/';
-$smarty->compile_dir = SMARTYPATH.'/templates_c/';
-$smarty->config_dir = SMARTYPATH.'/configs/';
-$smarty->cache_dir = SMARTYPATH.'/cache/';
-$smarty->debugging_ctrl = false;
-$smarty->register_block('t', 'smarty_translate');
-$smarty->register_modifier('wikise', 'Wikise');
-$smarty->register_modifier('utf8', 'smarty_modifier_utf8');
-
 $smarty->compile_id = 'hp';
-$smarty->caching = false;
 $smarty->cache_lifetime = 600;
-$smarty->cache_modified_check = 1;
-$smarty->use_sub_dirs = 1;
+
 if(!$smarty->is_cached('index.tpl', $login.'.'.$lang.'.'.$_SERVER['PHP_SELF'] ))
 {
 	$token = retreive_url_info($_SERVER["PHP_SELF"]);

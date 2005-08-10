@@ -24,19 +24,11 @@
 
 include('../includes/includes.inc.php');
 include('../includes/config/global.inc.php');
-$smarty = new Smarty;
 
-$smarty->template_dir = SMARTYPATH.'/templates/';
-$smarty->compile_dir = SMARTYPATH.'/templates_c/';
-$smarty->config_dir = SMARTYPATH.'/configs/';
-$smarty->cache_dir = SMARTYPATH.'/cache/';
+$smarty = new Smarty_dotnode;
 $smarty->compile_id = 'pub';
-$smarty->use_sub_dirs = true;
-
-$smarty->register_block('t', 'smarty_translate');
 
 $token = retreive_url_info($_SERVER["PHP_SELF"]);
-
 
 if( array_key_exists('dotnodeSessID', $_COOKIE) )
 	session_start();
