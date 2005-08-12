@@ -26,23 +26,25 @@ include_once(INCLUDESPATH.'/pager.inc.php');
 
 $_SMARTY['Title'] =  'Messages';
 
-$messages_r = $db->query('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND box=? ORDER by date DESC', array($_SESSION['my_id'],'inbox'));
+$nb_messages = $db->getOne('SELECT COUNT(id_mess) FROM message WHERE id=? AND box=?', array($_SESSION['my_id'],'inbox'));
+
+$pager =& Pager_dotnode::factory(null, array('totalItems' => $nb_messages));
+
+list($first_item, $last_item) = $pager->getOffsetByPageId();
+$limit_start = $first_item-1;
+$limit_offset = $last_item-$limit_start;
+
+$messages_r = $db->query('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND box=? ORDER by date DESC LIMIT !,!', array($_SESSION['my_id'],'inbox', $limit_start, $limit_offset ));
 
 if(!DB::isError($messages_r) )
 while($message = $messages_r->fetchRow())
-	$messages[$message['id_mess']] = $message;
+        $messages[$message['id_mess']] = $message;
 else
 	error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$messages_r->getUserInfo());
 
 $_SESSION['nb_new_messages'] = $db->getOne('SELECT COUNT(id_mess) FROM message WHERE id=? AND box=? AND flag=?', array($_SESSION['my_id'], 'inbox', 'new'));
 $_SESSION['nb_new_messages_timestamp'] = 1;
 
-$pager =& Pager_dotnode::factory($messages);
-
 $_SMARTY['pager'] = $pager->getLinks();
-
-// $pager->getPageData() return '' if no data element
-// For smarty reason, i prefere an empty array to use foreach / foreachelse
-if(!is_array($_SMARTY['messages'] = $pager->getPageData()))
-        $_SMARTY['messages'] = array();
+$_SMARTY['messages'] = $messages;
 ?>

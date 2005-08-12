@@ -26,11 +26,11 @@ include('Pager/Pager.php');
 
 class Pager_dotnode extends Pager
 {
-	function factory($data, $params=null)
+	function factory($data=null, $params=null)
 	{
 		$default_params = array(
 			'mode'       => 'Sliding',
-			'perPage'    => 4,
+			'perPage'    => 10,
 			'delta'      => 2,
 			'urlVar'     => 'p',
 			'prevImg'    => '&laquo;',
@@ -44,8 +44,8 @@ class Pager_dotnode extends Pager
 			'lastPagePre' => '... ',
 			'lastPagePost' => '',
 			);
-
-		$params['itemData'] = $data;
+		if(!is_null($data))
+			$params['itemData'] = $data;
 		return parent::factory($default_params + $params);
 	}
 }

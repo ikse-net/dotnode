@@ -12,6 +12,9 @@
 	<link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
 	<title>{t}{$Title|default:'Social Network'}{/t} - {#SiteName#}</title>
 	<link rel="stylesheet" type="text/css" href="/default.css" media="all" title="Default" />
+{if $pager}
+	{$pager.linktags}
+{/if}
 	<script type="text/javascript" src="/js/xmlhttp.js"></script>
 </head>
 <body{if $lang=='fa_IR'} dir='rtl'{/if}>
