@@ -1,9 +1,4 @@
 {literal}
-<style type='text/css'>
-#msglist table { width: 70%;}
-#message table { width: 70%; border-width: 3px;}
-</style>
-
 <script type='text/javascript'>
 current_mail = 0;
 function mread(id_mess)
