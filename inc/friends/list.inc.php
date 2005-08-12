@@ -33,7 +33,7 @@ $pager =& Pager_dotnode::factory(null, array('totalItems' => $user['info']['nb_f
 
 list($first_item, $last_item) = $pager->getOffsetByPageId();
 $limit_offset = $first_item-1;
-$limit_length = $last_item-$limit_start;
+$limit_length = $last_item-$limit_offset;
 
 $friends_range = array_slice($user['info']['friends_id'], $limit_offset, $limit_length);
 foreach($friends_range as $dummy=>$friend_id)
