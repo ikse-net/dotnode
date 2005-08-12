@@ -22,33 +22,11 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
+include_once(INCLUDESPATH.'/pager.inc.php');
+
 $_SMARTY['Title'] =  'Messages';
 
-/** Pagination ***************/
-$pagination['nb_elements'] = $db->getOne('SELECT COUNT(id_from) FROM message WHERE id_from=? AND box=?', array($_SESSION['my_id'], 'send') );
-$pagination['elmt_by_page'] = 20;
-if($pagination['nb_elements'] > 0)
-        $pagination['nb_pages'] = ceil($pagination['nb_elements']/$pagination['elmt_by_page']);
-else
-        $pagination['nb_pages'] = 1;
-
-if(is_numeric($token[2]) &&
-   $token[2] <= $pagination['nb_pages'] &&
-   $token[2] > 0 )
-        $pagination['current_page'] = $token[2];
-else
-{       
-        header('Location: /messages/sent/1');
-        exit();
-}
-
-$pagination['pages'] = @array_fill(1,$pagination['nb_pages'], NULL);
-
-$_SMARTY['pagination'] =  $pagination;
-/******************************/
-
-$messages_r = $db->query('SELECT id, id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id_from=? AND box=? ORDER by date DESC LIMIT ?,?', array($_SESSION['my_id'],'send', ($pagination['current_page']-1)*$pagination['elmt_by_page'], 
-$pagination['elmt_by_page'] ));
+$messages_r = $db->query('SELECT id, id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id_from=? AND box=? ORDER by date DESC', array($_SESSION['my_id'],'send') );
 
 $cache=array();
 
@@ -71,6 +49,12 @@ while($message = $messages_r->fetchRow())
 else
 	error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$messages_r->getUserInfo());
 
-$_SMARTY['messages'] =  $messages;
+$pager =& Pager_dotnode::factory($messages);
 
+$_SMARTY['pager'] = $pager->getLinks();
+
+// $pager->getPageData() return '' if no data element
+// For smarty reason, i prefere an empty array to use foreach / foreachelse
+if(!is_array($_SMARTY['messages'] = $pager->getPageData()))
+        $_SMARTY['messages'] = array();
 ?>

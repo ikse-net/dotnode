@@ -33,6 +33,7 @@ $login = $regs[1];
 $smarty = new Smarty_dotnode;
 $smarty->template_dir = SMARTYPATH.'/templates_xml/';
 $smarty->compile_id = 'xml';
+$smarty->caching = true';
 
 session_start();
 

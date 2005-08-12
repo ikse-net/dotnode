@@ -25,21 +25,11 @@ function mread(link, id_mess, flag)
 
 <h2>{t}Inbox{/t}</h2>
 <form action='/action/messages/group_delete' method='post' onSubmit="return confirm('{t}Confirm delete ?{/t}')">
+
 <div id='msglist'>
 <table>
 <tr><th class='profileHeader' colspan='4'>{t}Inbox messages{/t}</th></tr>
-{strip}
-<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>
-{t}Page:{/t}
-{foreach from=$pagination.pages item=none key=page}
-{if $pagination.current_page == $page}
-&nbsp;<strong>{$page}</strong>
-{else}
-&nbsp;<a href='/messages/{$token[1]}/{$page}'>{$page}</a>
-{/if}
-{/foreach}
-</td></tr>
-{/strip}
+<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>{$pager.all}</td></tr>
 {foreach name=messages from=$messages item=message key=id_mess}
 <tr class='{cycle values='odd,even'}'>
 <td><input type='checkbox' name='mess[{$id_mess}]' value='selected' {if $message.type!='message'}disabled='disabled'{/if} /><img src='/img/{$message.type}_{$message.dest}.png' alt='{$message.dest}' /></td>
@@ -50,21 +40,10 @@ function mread(link, id_mess, flag)
 {foreachelse}
 <tr><td align='center'>{t}No message{/t}</td></tr>
 {/foreach}
-{strip}
-<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>
-{t}Page:{/t}
-{foreach from=$pagination.pages item=none key=page}
-{if $pagination.current_page == $page}
-&nbsp;<strong>{$page}</strong>
-{else}
-&nbsp;<a href='/messages/{$token[1]}/{$page}'>{$page}</a>
-{/if}
-{/foreach}
-</td></tr>
-{/strip}
-
+<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>{$pager.all}</td></tr>
 </table>
 </div>
+
 {if $pagination.nb_elements > 1}
 <input type='submit' value='{t}Delete selection{/t}' />
 {/if}

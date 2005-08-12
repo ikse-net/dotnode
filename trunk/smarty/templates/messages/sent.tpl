@@ -17,18 +17,7 @@ function mread(id_mess)
 <div id='msglist'>
 <table>
 <tr><th class='profileHeader' colspan='4'>{t}Sent messages{/t}</th></tr>
-{strip}
-<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>
-{t}Page:{/t}
-{foreach from=$pagination.pages item=none key=page}
-{if $pagination.current_page == $page}
-&nbsp;<strong>{$page}</strong>
-{else}
-&nbsp;<a href='/messages/{$token[1]}/{$page}'>{$page}</a>
-{/if}
-{/foreach}
-</td></tr>
-{/strip}
+<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>{$pager.all}</td></tr>
 {foreach name=messages from=$messages item=message key=id_mess}
 <tr class='{cycle values='odd,even'}'>
 <td><img src='/img/{$message.type}_{$message.dest}.png' alt='{$message.dest}' /></td>
@@ -39,18 +28,7 @@ function mread(id_mess)
 {foreachelse}
 <tr><td align='center'>{t}No message{/t}</td></tr>
 {/foreach}
-{strip}
-<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>
-{t}Page:{/t}
-{foreach from=$pagination.pages item=none key=page}
-{if $pagination.current_page == $page}
-&nbsp;<strong>{$page}</strong>
-{else}
-&nbsp;<a href='/messages/{$token[1]}/{$page}'>{$page}</a>
-{/if}
-{/foreach}
-</td></tr>
-{/strip}
+<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>{$pager.all}</td></tr>
 </table>
 </div>
 
