@@ -2,7 +2,7 @@
 /****************************************************** Open .node ***
  * Description:   
  * Status:        Stable.
- * Author:        Alexandre Dath <alexandre@dotnode.com>
+ * Author:        Alexandre DATH <alexandre@dotnode.com>
  * $Id$
  *
  * Copyright (C) 2005 Alexandre Dath <alexandre@dotnode.com>
@@ -22,24 +22,32 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-include_once(INCLUDESPATH.'/pager.inc.php');
+include('Pager/Pager.php');
 
-$_SMARTY['Title'] =  'Messages';
+class Pager_dotnode extends Pager
+{
+	function factory($data, $params=null)
+	{
+		$default_params = array(
+			'mode'       => 'Sliding',
+			'perPage'    => 4,
+			'delta'      => 2,
+			'urlVar'     => 'p',
+			'prevImg'    => '&laquo;',
+			'nextImg'    => '&raquo;',
+			'curPageLinkClassName' => '',
+			'separator' => '',
+			'spacesBeforeSeparator' => 1,
+			'spacesAfterSeparator' => 1,
+			'firstPagePre' => '',
+			'firstPagePost' => ' ...',
+			'lastPagePre' => '... ',
+			'lastPagePost' => '',
+			);
 
-$messages_r = $db->query('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND box=? ORDER by date DESC', array($_SESSION['my_id'],'save') );
+		$params['itemData'] = $data;
+		return parent::factory($default_params + $params);
+	}
+}
 
-if(!DB::isError($messages_r) )
-while($message = $messages_r->fetchRow())
-	$messages[$message['id_mess']] = $message;
-else
-	error_log($_SERVER['HTTP_HOST'].' | '.__FILE__.' | '.$messages_r->getUserInfo());
-
-$pager =& Pager_dotnode::factory($messages);
-
-$_SMARTY['pager'] = $pager->getLinks();
-
-// $pager->getPageData() return '' if no data element
-// For smarty reason, i prefere an empty array to use foreach / foreachelse
-if(!is_array($_SMARTY['messages'] = $pager->getPageData()))
-        $_SMARTY['messages'] = array();
 ?>

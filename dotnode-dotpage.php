@@ -34,6 +34,7 @@ $smarty = new Smarty_dotnode;
 $smarty->template_dir = SMARTYPATH.'/templates_hp/';
 $smarty->compile_id = 'hp';
 $smarty->cache_lifetime = 600;
+$smarty->caching = true;
 
 if(!$smarty->is_cached('index.tpl', $login.'.'.$lang.'.'.$_SERVER['PHP_SELF'] ))
 {
