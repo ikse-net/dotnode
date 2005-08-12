@@ -22,15 +22,24 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
+include_once(INCLUDESPATH.'/pager.inc.php');
+
 $_SMARTY['Title'] =  'Friends';
 
 $user['info'] = get_cache_user_info($url_id);
 $user['photo'] = build_image_url($url_id);
 
-foreach($user['info']['friends_id'] as $friend_id)
+$pager =& Pager_dotnode::factory(null, array('totalItems' => $user['info']['nb_friends'], 'perPage' => 15));
+
+list($first_item, $last_item) = $pager->getOffsetByPageId();
+$limit_offset = $first_item-1;
+$limit_length = $last_item-$limit_start;
+
+$friends_range = array_slice($user['info']['friends_id'], $limit_offset, $limit_length);
+foreach($friends_range as $dummy=>$friend_id)
         $friends[$friend_id] = get_cache_user_info($friend_id);
 
-/********** determination du chemain *****************/
+/********** determination du chemin *****************/
 $user['path'] = array();
 
 if($url_id == $_SESSION['my_id'])
@@ -54,8 +63,6 @@ elseif($intermediaire = array_intersect($_SESSION['my_friends_id'], $user['info'
 else
         $user['relation_type'] = 'members';
 
-
-
 /************** menu ***************************/
 $leftmenu["/profile/$url_id"] = 'Profile';
 
@@ -69,9 +76,10 @@ if($user['info']['nb_bookmarks'] > 0)
         $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
 
 $_SMARTY['leftmenu'] = $leftmenu;
-
 /************************************************/
+
 $_SMARTY['tr_attr'] = array("class='odd' style='vertical-align:top'", "class='even' style='vertical-align:top'");
 $_SMARTY['user'] =  $user;
+$_SMARTY['pager'] = $pager->getLinks();
 $_SMARTY['friends'] =  $friends;
 ?>
