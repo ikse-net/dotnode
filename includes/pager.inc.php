@@ -46,7 +46,7 @@ class Pager_dotnode extends Pager
 			);
 		if(!is_null($data))
 			$params['itemData'] = $data;
-		return parent::factory($default_params + $params);
+		return parent::factory(array_merge($default_params, $params));
 	}
 }
 

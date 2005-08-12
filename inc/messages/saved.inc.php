@@ -31,10 +31,10 @@ $nb_messages = $db->getOne('SELECT COUNT(id_mess) FROM message WHERE id=? AND bo
 $pager =& Pager_dotnode::factory(null, array('totalItems' => $nb_messages));
 
 list($first_item, $last_item) = $pager->getOffsetByPageId();
-$limit_start = $first_item-1;
-$limit_offset = $last_item-$limit_start;
+$limit_offset = $first_item-1;
+$limit_length = $last_item-$limit_offset;
 
-$messages_r = $db->query('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND box=? ORDER by date DESC LIMIT !,!', array($_SESSION['my_id'],'save', $limit_start, $limit_offset) );
+$messages_r = $db->query('SELECT id_mess, id_from, from_str, type, dest, subject, message, flag, date FROM message WHERE id=? AND box=? ORDER by date DESC LIMIT !,!', array($_SESSION['my_id'],'save', $limit_offset, $limit_length) );
 
 if(!DB::isError($messages_r) )
 while($message = $messages_r->fetchRow())

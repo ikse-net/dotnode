@@ -266,14 +266,14 @@ function translate_list($list, $labels_tab, $separator=',', $separator_out=', ')
 	return implode($separator_out, $translated_thing);                      // on reforme un truc affichable et on le mets dans $value
 }
 
-function get_cache_user_info($id, $fields="", $update_friends_order=false)
+function get_cache_user_info($id, $fields=null, $update_friends_order=false)
 {
 	global $db;
 	global $labels;
 
 	global $url_id;
 
-	if(!$fields)
+	if(is_null($fields))
 		$fields = 'id, login, fname, lname, nick, country, gender, relationship_status, here_for, nb_friends, friends_id, nb_communities, communities_id, nb_fans, nb_bookmarks, nb_blogs, nb_photos, fun, cool, sexy, photo, join_date';
 
 	$info = $db->getRow('SELECT ! FROM cache_user WHERE id=? OR login=? LIMIT 1', array($fields, $id, $id));

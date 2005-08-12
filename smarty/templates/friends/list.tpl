@@ -39,6 +39,7 @@
 <br />
 
 <table>
+<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>{$pager.all}</td></tr>
 {foreach name=friends from=$friends item=friend key=id_friend}
 {if ($smarty.foreach.friends.iteration-1)%3 == 0}
 <tr  class='{cycle values='odd,even'}'>
@@ -65,6 +66,7 @@
 </tr>
 {/if}
 {/foreach}
+<tr><td class='{cycle values='odd,even'} pagination' colspan='4'>{$pager.all}</td></tr>
 </table>
 
 </div> {* mainblock *}
