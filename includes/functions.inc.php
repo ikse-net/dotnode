@@ -449,6 +449,42 @@ function label2name($label)
         return trim($name);
 }
 
+function is_valid($type, $string)
+{
+	global $labels;
+	switch($type)
+	{
+	case 'login':
+		return valid_login($string);
+		break;
+	case 'email':
+		return valid_email($string);
+		break;
+	case 'lang':
+		return valid_lang($lang);
+		break;
+	case 'user_id':
+		return ereg("[a-f0-9]{32}", $string);
+		break;
+	case 'metalbum_type':
+		if(in_array($string, array_keys($labels['metalbum']['type'])))
+			return true;
+		else
+			return false;
+		break;
+	case 'metalbum_name':
+		if(strpos($string, '@'))
+		{
+			list($login, $type) = split('@', $string);
+			if(ereg("[a-zA-Z0-9_-]{2,32}", $login) && is_valid('metalbum_type', $type))
+				return true;
+		}
+		else
+			return false;
+		break;
+	}
+}
+
 function valid_login($login)
 {
 	global $db;
