@@ -22,10 +22,7 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-if(array_key_exists('DOCUMENT_ROOT', $_SERVER) && strlen($_SERVER['DOCUMENT_ROOT']) > 0)
-	define('BASEPATH',$_SERVER['DOCUMENT_ROOT']);
-elseif(array_key_exists('BASEPATH', $_ENV))
-	define('BASEPATH', $_ENV['BASEPATH']);
+define('BASEPATH', dirname(__FILE__).'/../www');
 
 define('INCLUDESPATH', BASEPATH.'/../includes');
 

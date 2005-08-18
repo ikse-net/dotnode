@@ -44,4 +44,7 @@ $dsn_wiki  = array(
     'database' => 'dotnode_wiki'
 );
 
+// Get it on http://www.flickr.com/services/api/key.gne
+$config['metalbum']['flickr']['api_key'] = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+
 ?>

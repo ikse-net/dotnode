@@ -390,6 +390,18 @@ CREATE TABLE `message` (
 ) TYPE=MyISAM;
 
 --
+-- Table structure for table `metalbum`
+--
+
+CREATE TABLE `metalbum` (
+  `id` varchar(32) NOT NULL default '',
+  `type` varchar(16) NOT NULL default '',
+  `login` varchar(64) NOT NULL default '',
+  `nb_items` int(10) unsigned default NULL,
+  PRIMARY KEY  (`id`,`type`,`login`)
+) TYPE=MyISAM;
+
+--
 -- Table structure for table `relation`
 --
 

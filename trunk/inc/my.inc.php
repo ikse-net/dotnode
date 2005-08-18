@@ -82,18 +82,17 @@ if($my['info']['communities_id'])
 }
 
 /************* menu *******************/
-$leftmenu["/profile/$url_id"] = 'View my own profile';
+$_SMARTY['leftmenu']["/profile/$url_id"] = 'View my own profile';
 
 if($my['info']['nb_photos'] > 0)
-        $leftmenu["/album/$url_id"] = 'Album';
+        $_SMARTY['leftmenu']["/album/$url_id"] = 'Album';
+$_SMARTY['leftmenu']["/metalbum/$url_id"] = 'Meta Album';
 
 if($my['info']['nb_blogs'] > 0)
-        $leftmenu["/blog/$url_id"] = 'Blog';
+        $_SMARTY['leftmenu']["/blog/$url_id"] = 'Blog';
 
 if($my['info']['nb_bookmarks'] > 0)
-        $leftmenu["/bookmarks/$url_id"] = 'Bookmarks';
-
-$_SMARTY['leftmenu'] = $leftmenu;
+        $_SMARTY['leftmenu']["/bookmarks/$url_id"] = 'Bookmarks';
 
 
 /************************************/

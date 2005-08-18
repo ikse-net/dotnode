@@ -217,5 +217,9 @@ $labels['invitation']['todo'] = array(
 	'done' => tr('Operation finished'),
 	'stop' => tr('Operation stopped'),
 	'error' => tr('Error') );
+	
+$labels['metalbum']['type'] = array(
+	'interalbum' => 'interAlbum.com',
+	'flickr' => 'Flickr.com' );
 
 ?>

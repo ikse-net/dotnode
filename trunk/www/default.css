@@ -1131,6 +1131,10 @@ html>body #error
 	margin: 1em;
 }
 
+table.album {
+	width: 100%;
+}
+
 /* Hide from IE5-mac. Only IE-win sees this. \*/
 * html ul {
   list-style: none;

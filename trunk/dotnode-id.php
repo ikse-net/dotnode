@@ -60,7 +60,7 @@ if($_SESSION['my_login'] == $config['admin_login'])
 else
 	$smarty->debugging_ctrl = false;
 	
-if(strlen($token[1]) == 32)
+if(is_valid('user_id', $token[1]))
 	list($url_id) = array_splice($token, 1,1);
 else
 	$url_id = $_SESSION['my_id'];

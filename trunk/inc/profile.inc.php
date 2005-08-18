@@ -97,15 +97,14 @@ include('_profile/all.inc.php');
 
 if($url_id != $_SESSION['my_id'])
 {
-	$leftmenu["/messages/write/$url_id/contact"] = 'Send message';
+	$_SMARTY['leftmenu']["/messages/write/$url_id/contact"] = 'Send message';
 	if(!in_array($url_id, $_SESSION['my_friends_id']))
-		$leftmenu["/friends/$url_id/invitation"] = 'Add as a friend';
+		$_SMARTY['leftmenu']["/friends/$url_id/invitation"] = 'Add as a friend';
 	elseif($id_parent != $_SESSION['my_id'])
-		$leftmenu["/action/".$url_id."/friends/unlink"] = "Delete friendship' link";
+		$_SMARTY['leftmenu']["/action/".$url_id."/friends/unlink"] = "Delete friendship' link";
 }
 
-
-$_SMARTY['leftmenu'] = $leftmenu;
+$_SMARTY['leftmenu']['/metalbum/'.$url_id] = 'Meta Album';
 
 $_SMARTY['user'] = $user;
 
