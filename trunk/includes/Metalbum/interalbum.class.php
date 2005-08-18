@@ -10,7 +10,7 @@ class Metalbum_Interalbum extends Metalbum {
 	var $nb_items;
 	
 	function Metalbum_Interalbum($username, $params) {
-		$params = array_merge(array('endpoint' => 'http://interalbum.com/api/rest', $params)
+		$params = array_merge(array('endpoint' => 'http://interalbum.com/api/rest'), $params);
 		$this->api =& new Flickr_API($params);
 		if(!$this->_setUsername($username)) 
 			$this->status = 'error';
