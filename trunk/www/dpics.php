@@ -132,7 +132,7 @@ if($img['path'] && file_exists($real_file))
 				}
 			else
 			{
-				header('location: /photos/'.$real_dest.'/'.$img['path']);
+				header('location: /albums/'.$img['path']);
 				exit();
 			}
 
