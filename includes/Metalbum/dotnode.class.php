@@ -26,13 +26,14 @@ require_once 'Flickr/API.php';
 
 # create a new api object
 
-class Metalbum_Flickr extends Metalbum {
+class Metalbum_Dotnode extends Metalbum {
 	var $api;
 	var $username;
 	var $nsid;
 	var $nb_items;
 	
-	function Metalbum_Flickr($username, $params) {
+	function Metalbum_Dotnode($username, $params) {
+		$params = array_merge(array('endpoint' => 'http://dotnode.com/api/rest'), $params);
 		$this->api =& new Flickr_API($params);
 		if(!$this->_setUsername($username)) 
 			$this->status = 'error';
@@ -41,7 +42,7 @@ class Metalbum_Flickr extends Metalbum {
 	}
 
 	function _setUsername($username) {
-		$response = $this->api->callMethod('flickr.people.findByUsername', array('username' => $username));
+		$response = $this->api->callMethod('dotnode.people.findByUsername', array('username' => $username));
 		if ($response) {
 			$this->username = $username;
 			$user_node =  $response->getNodeAt('user');
@@ -53,20 +54,23 @@ class Metalbum_Flickr extends Metalbum {
 		}
 	}
 
-	function _buildUrl($type, $server, $secret, $id) {
+	function _buildUrl($type, $path, $format) {
 		switch($type) {
-			case 'thumb':	$format='_t'; break;
+			case 'thumb':
+				return "http://dotnode.com/dpics/100x100/{$path}.{$format}";
+				break;
 			case 'full':
-			default:	$format=''; break;
+			default:	; 
+				return "http://dotnode.com/dpics/500x500/{$path}.{$format}";
+				break;
 		}
-		return "http://photos{$server}.flickr.com/{$id}_{$secret}{$format}.jpg";
 	}
 
 	function getNbItems() {
 		if($this->nb_items) {
 			return $this->nb_items;
 		} else {
-			$response = $this->api->callMethod('flickr.people.getPublicPhotos', array('user_id' => $this->nsid));
+			$response = $this->api->callMethod('dotnode.people.getNbPublicPhotos', array('user_id' => $this->nsid));
 			if ($response) {
 				$photos_node = $response->getNodeAt('photos');
 				$this->nb_items = $photos_node->getAttribute('total');
@@ -79,7 +83,7 @@ class Metalbum_Flickr extends Metalbum {
 	}
 
 	function getPhotos($page=1, $per_page=15) {
-		$response = $this->api->callMethod('flickr.people.getPublicPhotos', array(
+		$response = $this->api->callMethod('dotnode.people.getPublicPhotos', array(
 					'user_id' => $this->nsid,
 					'per_page' => $per_page,
 					'page' => $page
@@ -95,13 +99,12 @@ class Metalbum_Flickr extends Metalbum {
 					break;
 				else {
 					unset($photo);
-					$id = $photo_node->getAttribute('id');
-					$server = $photo_node->getAttribute('server');
-					$secret = $photo_node->getAttribute('secret');
-					$photo['id'] = $id;
+					$path = $photo_node->getAttribute('path');
+					$format = $photo_node->getAttribute('format');
+					$photo['id'] = $photo_node->getAttribute('id');
 					$photo['title'] = $photo_node->getAttribute('title');
-					$photo['url_thumb'] = $this->_buildUrl('thumb', $server, $secret, $id);
-					$photo['url_full'] = $this->_buildUrl('full', $server, $secret, $id);
+					$photo['url_thumb'] = $this->_buildUrl('thumb', $path, $format);
+					$photo['url_full'] = $this->_buildUrl('full', $path, $format);
 					$rval[] = $photo;
 				}
 			}
@@ -114,21 +117,20 @@ class Metalbum_Flickr extends Metalbum {
 
 
 	function getPhotoInfo($id_photo) {
-		$response = $this->api->callMethod('flickr.photos.getInfo', array(
+		$response = $this->api->callMethod('dotnode.photos.getInfo', array(
 					'photo_id' => $id_photo
 					));
 		if ($response) {
 			$photo_node = $response->getNodeAt('photo');
-			$id = $photo_node->getAttribute('id');
-			$secret = $photo_node->getAttribute('secret');
-			$server = $photo_node->getAttribute('server');
+			$path = $photo_node->getAttribute('path');
+			$format = $photo_node->getAttribute('format');
 
 			$title_node = $photo_node->getNodeAt('title');
 			$info['title'] = $title_node->decodeXmlEntities($title_node->content);
 			$description_node = $photo_node->getNodeAt('description');
 			$info['description'] = $description_node->decodeXmlEntities($description_node->content);
-			$info['url_thumb'] = $this->_buildUrl('thumb', $server, $secret, $id);
-			$info['url_full'] = $this->_buildUrl('full', $server, $secret, $id);
+			$info['url_thumb'] = $this->_buildUrl('thumb', $path, $format);
+			$info['url_full'] = $this->_buildUrl('full', $path, $format);
 			return $info;
 		} else {
 			$this->_setError(__FUNCTION__, $this->api->getErrorCode(), $this->api->getErrorMessage());
@@ -137,7 +139,7 @@ class Metalbum_Flickr extends Metalbum {
 	}
 
 	function getUrlAlbum() {
-		return 'http://flickr.com/photos/'.$this->nsid.'/';
+		return 'http://'.$this->username.'.dotnode.com/album';
 	}
 	
 }

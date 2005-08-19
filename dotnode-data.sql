@@ -301,6 +301,7 @@ INSERT INTO `message` VALUES ('354a778bacabffaff3d3fd74f93ac278',107,'354a778bac
 
 INSERT INTO `metalbum` VALUES ('354a778bacabffaff3d3fd74f93ac278','flickr','alex-ikse',NULL);
 INSERT INTO `metalbum` VALUES ('354a778bacabffaff3d3fd74f93ac278','interalbum','alexx',NULL);
+INSERT INTO `metalbum` VALUES ('354a778bacabffaff3d3fd74f93ac278','dotnode','alexx',NULL);
 
 --
 -- Dumping data for table `relation`

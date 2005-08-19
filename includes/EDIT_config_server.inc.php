@@ -47,4 +47,9 @@ $dsn_wiki  = array(
 // Get it on http://www.flickr.com/services/api/key.gne
 $config['metalbum']['flickr']['api_key'] = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
+// It's you interalbum.com login + mms code like this : "login@mmscode"
+$config['metalbum']['interalbum']['api_key'] = 'xxxxxx@xxxx';
+
+// It's your ID on dotnode.com (32 chars a-f0-9)
+$config['metalbum']['dotnode']['api_key'] = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 ?>

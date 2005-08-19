@@ -466,6 +466,9 @@ function is_valid($type, $string)
 	case 'user_id':
 		return ereg("[a-f0-9]{32}", $string);
 		break;
+	case 'photo_id':
+		return is_numeric($string);
+		break;
 	case 'metalbum_type':
 		if(in_array($string, array_keys($labels['metalbum']['type'])))
 			return true;

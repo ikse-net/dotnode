@@ -220,6 +220,7 @@ $labels['invitation']['todo'] = array(
 	
 $labels['metalbum']['type'] = array(
 	'interalbum' => 'interAlbum.com',
+	'dotnode' => '.node (dotnode.com)',
 	'flickr' => 'Flickr.com' );
 
 ?>
