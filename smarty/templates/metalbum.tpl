@@ -44,7 +44,7 @@
 <a href='/metalbum/{$url_id}/album/{$album.login}@{$album.type}'>
 <img style='margin: 3px;' src='/img/icons/{$album.type}.png' alt='photo' /></a><br />
 <span class='subimage'><a href="/metalbum/{$url_id}/album/{$album.login}@{$album.type}">{$album.login}@{$album.type}</a></span><br />
-<span class='subimage'><a href="/action/metalbum/delete/{$album.login}@{$album.type}">{t}Delete ?{/t}</a></span>
+{if $url_id == $smarty.session.my_id}<span class='subimage'><a href="/action/metalbum/delete/{$album.login}@{$album.type}">{t}Delete ?{/t}</a></span>{/if}
 </td>
 {if ($smarty.foreach.albums.iteration-1)%6 == 5 || $smarty.foreach.albums.teration.last}
 </tr>
