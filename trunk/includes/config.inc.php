@@ -26,6 +26,8 @@ define('BASEPATH', dirname(__FILE__).'/../www');
 
 define('INCLUDESPATH', BASEPATH.'/../includes');
 
+define('API_REST_METHODPATH', BASEPATH.'/../api/rest.method');
+
 define('ROOTDIR', BASEPATH.'/..');
 define('SMARTYPATH',BASEPATH.'/../smarty');
 
@@ -36,6 +38,7 @@ define('COMMLOGOSPATH',BASEPATH.'/comm_logos');
 define('LOCALEPATH',BASEPATH.'/../locale');
 define('ALBUMPATH',BASEPATH.'/albums');
 define('ALBUMTHUMBPATH',BASEPATH.'/albums/thumb');
+define('ALBUMSIZEDPATH',BASEPATH.'/albums/sized');
 
 define('MODERATOR_ID', '00112233445566778899001122334455');
 

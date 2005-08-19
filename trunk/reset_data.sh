@@ -4,6 +4,7 @@ rm -fr smarty/templates_c/*
 rm -fr smarty/cache/*
 rm -fr data/*/??
 rm -fr data/*/thumb/??
+rm -fr data/*/sized/*
 rm -fr sessions/*
 :> log/*
 
