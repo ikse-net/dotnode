@@ -33,7 +33,7 @@ function help()
 <p>{t}Select your language{/t}:&nbsp;
 <a class='flag' href='/action/select_language/en_US'><img src='/img/flags/en_US.png' alt='english' /></a>&nbsp;
 <a class='flag' href='/action/select_language/fr_FR'><img src='/img/flags/fr_FR.png' alt='french' /></a>&nbsp;
-<a class='flag' href='/action/select_language/de_DE'><img src='/img/flags/de_DE.png' alt='deutch' /></a>&nbsp;
+<a class='flag' href='/action/select_language/de_DE'><img src='/img/flags/de_DE.png' alt='deutsch' /></a>&nbsp;
 <a class='flag' href='/action/select_language/es_ES'><img src='/img/flags/es_ES.png' alt='spanish' /></a>&nbsp;
 <a class='flag' href='/action/select_language/ca_ES'><img src='/img/flags/ca_ES.png' alt='catalan' /></a>&nbsp;
 <a class='flag' href='/action/select_language/pt_BR'><img src='/img/flags/pt_BR.png' alt='brazilian' /></a>&nbsp;

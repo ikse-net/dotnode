@@ -40,7 +40,7 @@
 {if ($smarty.foreach.album.iteration-1)%6 == 0}<tr class='{cycle values='odd,even'}'>{/if}
   <td align='center'>
     <a href='/metalbum/{$url_id}/view/{$metalbum.name}/{$photo.id}'>
-    <img style='margin: 3px;' src='{$photo.url_thumb}' alt='$photo.title|escape' /></a><br />
+    <img style='margin: 3px;' src='{$photo.url_thumb}' alt='{$photo.title|escape}' /></a><br />
   {$photo.title|truncate:30|escape}<br />
   <span class='subimage'><a href="/metalbum/{$url_id}/view/{$metalbum.name}/{$photo.id}">{t}View full photo{/t}</a></span>
   </td>
