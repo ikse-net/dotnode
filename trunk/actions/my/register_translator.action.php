@@ -22,11 +22,11 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$passwd = $db->getOne('SELECT passwd FROM user WHERE id=?', array($_SESSION['my_id']));
+$passwd = $db->getOne('SELECT passwd_md5 FROM user WHERE id=?', array($_SESSION['my_id']));
 $data = array(
 	'id_dotnode' => $_SESSION['my_id'],
 	'login' => $_SESSION['my_login'],
-	'passwd' => $passwd,
+	'passwd_md5' => $passwd,
 	'comment' => stripslashes($_POST['comment']),
 	'status' => 'waiting',
 	'level' => $_POST['level'],

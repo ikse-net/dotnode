@@ -1,5 +1,7 @@
 #/bin/sh
 
+cd `dirname $0`
+
 nice -19 /usr/bin/php dispatch_message.bot.php && sleep 1
 
 for lang in fr_FR en_US es_ES pt_BR ja_JP fa_IR de_DE ca_ES; do

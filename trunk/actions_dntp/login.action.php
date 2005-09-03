@@ -25,11 +25,14 @@
 
 if( $_POST['login'] && $_POST['passwd'])
 {
-	$values = array( $_POST['login'], $_POST['passwd'] );
 
-		$user =& $db->getRow('SELECT id_translator, login, status, lang, level FROM dntp_translator WHERE login=? AND passwd=PASSWORD(?)', $values);
-	if( $user )
+	$user =& $db->getRow('SELECT id_translator, login, status, lang, level FROM dntp_translator WHERE login=? AND (passwd_md5=? OR passwd=OLD_PASSWORD(?))', array( $_POST['login'], md5($_POST['passwd'], $_POST['passwd'])));
+	
+	if( $user['id'] )
 	{
+		if(!is_null($user['passwd']))
+			$db->query('UPDATE dntp_translator SET passwd_md5=?, passwd=NULL WHERE id=?', array(md5($_POST['passwd']), $user['id']));
+					
 		@session_destroy();
 	
 		session_set_save_handler ('_sess_open', '_sess_close', '_sess_read', '_sess_write', '_sess_destroy', '_sess_gc');

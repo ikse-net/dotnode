@@ -25,11 +25,14 @@
 
 if( $_POST['login'] && $_POST['passwd'])
 {
-	$values = array( $_POST['login'], $_POST['passwd'] );
+	$user =& $db->getRow('SELECT id, login, fname, lname, nick, status, passwd FROM user WHERE login=? AND (passwd_md5=? OR passwd=OLD_PASSWORD(?))', array( $_POST['login'], md5($_POST['passwd']), $_POST['passwd']));
 
-	$user =& $db->getRow('SELECT id, login, fname, lname, nick, status FROM user WHERE login=? AND passwd=PASSWORD(?)', $values);
-	if( $user )
+	if( $user['id'] )
 	{
+		// If success with old password hashing method, update new passwd_md5 field
+		if(!is_null($user['passwd']))
+			$db->query('UPDATE user SET passwd_md5=?, passwd=NULL WHERE id=?', array(md5($_POST['passwd']), $user['id']));
+	
 		session_destroy();
 		session_set_save_handler ('_sess_open', '_sess_close', '_sess_read', '_sess_write', '_sess_destroy', '_sess_gc');
 		session_start();

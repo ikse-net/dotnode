@@ -191,6 +191,11 @@ h2, h2 a, h2 a:link, h2 a:visited {
 	text-align: justify;
 }
 
+#blog img {
+      max-width: 460px;
+      height: auto;
+}
+
 #bookmark {
 	padding-top: 5px;
 	margin: 0;

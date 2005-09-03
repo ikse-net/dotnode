@@ -335,6 +335,10 @@ img {
 	color: ;
 }
 
+#blog img {
+      max-width: 460px;
+      height: auto;
+}
 
 #footer {
 	clear: both;

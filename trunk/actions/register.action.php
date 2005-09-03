@@ -38,7 +38,7 @@ if($login && $passwd && valid_login($login) && isset($_POST['accept']))
 			$user_values = array(
 				'id'		=> $_SESSION['my_id'],
 				'login'		=> $login,
-				'passwd'	=> $db->getOne('SELECT PASSWORD(?)', array($_POST['passwd'])),
+				'passwd_md5'	=> md5($_POST['passwd']),
 				'fname'		=> $_SESSION['my_fname'],
 				'lname'		=> $_SESSION['my_lname'],
 				'id_parent'	=> $_SESSION['my_id_invit'],

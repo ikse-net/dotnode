@@ -123,6 +123,11 @@ h2 a, h2, h2 a:link, h2 a:visited {
 	background-color: #104070;
 }
 
+#blog img {
+	max-width: 460px;
+	height: auto;
+}
+
 #album td {
 	display: inline;
 }

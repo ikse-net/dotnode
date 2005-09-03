@@ -498,6 +498,7 @@ function valid_login($login)
 	$bad_login = array (
 'www', 'mail', 'smtp', 'imap', 'pop', 'pop3', 'mysql', 'home','irc','ircd', 'todo',
 'pede',
+'bsd',
 'udf', 'ump', 'cgt', 'cfdt',
 'club', 'nyrk','asso','all-hp','login','foaf','blog','blogs',
 'jabber', 'icq', 'msn', 'yahoo', 'hotmail', 'wanadoo','free',
@@ -508,7 +509,7 @@ function valid_login($login)
 
 	$bad_word = array (
 'sql', 'stat',
-'ns[0-9]{1,}', 'dns', 'admin', 'moderat', 'ikse', 'microsoft', 'linux', 'php[1-9]{1,}', 'bsd', 'apple', 'atari', 'amiga', 'beos', 'macos',
+'ns[0-9]{1,}', 'dns', 'admin', 'moderat', 'ikse', 'microsoft', 'linux', 'php[1-9]{1,}', 'apple', 'atari', 'amiga', 'beos', 'macos',
 'bite', 'bitte', 'couille', 'sex', 'anal', 'fist', 'condom', 'capote', 'vagin', 'chatte', 'clito', 'cum', 'sperm', 'breast', 'blow', 'sodo', 'sado', 'zoophi', 'cock', 'pussy',
 'connar', 'conar', 'encul', 'homoph', 'lesb', 'gay', 'pute', 'puta', 'fuck', 'pedo', 'pedal', 'batar', 'enfoir', 'salo', 'salau', 'con',
 'facho', 'racist', 'racism', 'arab', 'magreb', 'juif', 'juiv', 'youpin', 'polak', 'bougnoul', 'negr', 'riton',

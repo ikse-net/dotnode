@@ -1,13 +1,18 @@
--- MySQL dump 9.11
+-- MySQL dump 10.9
 --
 -- Host: localhost    Database: dotnode_alexx
 -- ------------------------------------------------------
--- Server version	4.0.24_Debian-10-log
+-- Server version	4.1.11-Debian_4sarge1-log
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO,MYSQL40' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
 -- Table structure for table `access`
 --
 
+DROP TABLE IF EXISTS `access`;
 CREATE TABLE `access` (
   `id` varchar(34) NOT NULL default '',
   `table_name` varchar(64) NOT NULL default '',
@@ -20,6 +25,7 @@ CREATE TABLE `access` (
 -- Table structure for table `album`
 --
 
+DROP TABLE IF EXISTS `album`;
 CREATE TABLE `album` (
   `id` varchar(34) NOT NULL default '',
   `id_image` int(10) unsigned NOT NULL auto_increment,
@@ -35,6 +41,7 @@ CREATE TABLE `album` (
 -- Table structure for table `blog`
 --
 
+DROP TABLE IF EXISTS `blog`;
 CREATE TABLE `blog` (
   `id` varchar(34) NOT NULL default '',
   `id_blog` int(10) unsigned NOT NULL auto_increment,
@@ -52,6 +59,7 @@ CREATE TABLE `blog` (
 -- Table structure for table `blog_categorie`
 --
 
+DROP TABLE IF EXISTS `blog_categorie`;
 CREATE TABLE `blog_categorie` (
   `id` varchar(34) NOT NULL default '',
   `id_cat` int(10) unsigned NOT NULL auto_increment,
@@ -65,6 +73,7 @@ CREATE TABLE `blog_categorie` (
 -- Table structure for table `blog_comment`
 --
 
+DROP TABLE IF EXISTS `blog_comment`;
 CREATE TABLE `blog_comment` (
   `id` varchar(34) NOT NULL default '',
   `id_comment` int(10) unsigned NOT NULL auto_increment,
@@ -80,6 +89,7 @@ CREATE TABLE `blog_comment` (
 -- Table structure for table `bookmarks`
 --
 
+DROP TABLE IF EXISTS `bookmarks`;
 CREATE TABLE `bookmarks` (
   `id` varchar(34) NOT NULL default '',
   `id_cat` int(10) unsigned NOT NULL default '0',
@@ -95,6 +105,7 @@ CREATE TABLE `bookmarks` (
 -- Table structure for table `bookmarks_cat`
 --
 
+DROP TABLE IF EXISTS `bookmarks_cat`;
 CREATE TABLE `bookmarks_cat` (
   `id` varchar(32) NOT NULL default '',
   `id_cat` int(10) unsigned NOT NULL auto_increment,
@@ -109,6 +120,7 @@ CREATE TABLE `bookmarks_cat` (
 -- Table structure for table `cache_user`
 --
 
+DROP TABLE IF EXISTS `cache_user`;
 CREATE TABLE `cache_user` (
   `id` varchar(34) NOT NULL default '',
   `login` varchar(32) NOT NULL default '',
@@ -152,6 +164,7 @@ CREATE TABLE `cache_user` (
 -- Table structure for table `community`
 --
 
+DROP TABLE IF EXISTS `community`;
 CREATE TABLE `community` (
   `id` varchar(34) NOT NULL default '',
   `id_comm` int(10) unsigned NOT NULL auto_increment,
@@ -178,6 +191,7 @@ CREATE TABLE `community` (
 -- Table structure for table `community_cat`
 --
 
+DROP TABLE IF EXISTS `community_cat`;
 CREATE TABLE `community_cat` (
   `id_cat` int(10) unsigned NOT NULL auto_increment,
   `name` varchar(64) NOT NULL default '',
@@ -191,6 +205,7 @@ CREATE TABLE `community_cat` (
 -- Table structure for table `community_event`
 --
 
+DROP TABLE IF EXISTS `community_event`;
 CREATE TABLE `community_event` (
   `id_event` int(10) unsigned NOT NULL auto_increment,
   `id_comm` int(11) NOT NULL default '0',
@@ -210,6 +225,7 @@ CREATE TABLE `community_event` (
 -- Table structure for table `community_keyword`
 --
 
+DROP TABLE IF EXISTS `community_keyword`;
 CREATE TABLE `community_keyword` (
   `key_sndx` varchar(16) NOT NULL default '',
   `id_comm` int(10) unsigned NOT NULL default '0',
@@ -223,6 +239,7 @@ CREATE TABLE `community_keyword` (
 -- Table structure for table `community_post`
 --
 
+DROP TABLE IF EXISTS `community_post`;
 CREATE TABLE `community_post` (
   `id_post` int(10) unsigned NOT NULL auto_increment,
   `id_topic` int(10) unsigned NOT NULL default '0',
@@ -240,6 +257,7 @@ CREATE TABLE `community_post` (
 -- Table structure for table `community_topic`
 --
 
+DROP TABLE IF EXISTS `community_topic`;
 CREATE TABLE `community_topic` (
   `id_topic` int(10) unsigned NOT NULL auto_increment,
   `id_comm` int(10) unsigned NOT NULL default '0',
@@ -259,6 +277,7 @@ CREATE TABLE `community_topic` (
 -- Table structure for table `dntp_msgid`
 --
 
+DROP TABLE IF EXISTS `dntp_msgid`;
 CREATE TABLE `dntp_msgid` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `md5` varchar(32) NOT NULL default '',
@@ -277,6 +296,7 @@ CREATE TABLE `dntp_msgid` (
 -- Table structure for table `dntp_msgstr`
 --
 
+DROP TABLE IF EXISTS `dntp_msgstr`;
 CREATE TABLE `dntp_msgstr` (
   `id_msgstr` int(10) unsigned NOT NULL auto_increment,
   `id` int(10) unsigned NOT NULL default '0',
@@ -297,11 +317,13 @@ CREATE TABLE `dntp_msgstr` (
 -- Table structure for table `dntp_translator`
 --
 
+DROP TABLE IF EXISTS `dntp_translator`;
 CREATE TABLE `dntp_translator` (
   `id_translator` int(10) unsigned NOT NULL auto_increment,
   `id_dotnode` varchar(34) NOT NULL default '',
   `login` varchar(64) NOT NULL default '',
-  `passwd` varchar(32) NOT NULL default '',
+  `passwd` varchar(42) default NULL,
+  `passwd_md5` varchar(32) NOT NULL default '',
   `comment` text NOT NULL,
   `status` enum('waiting','ok','ko') NOT NULL default 'waiting',
   `level` set('verif','translator','admin','sadmin') NOT NULL default '',
@@ -310,12 +332,13 @@ CREATE TABLE `dntp_translator` (
   PRIMARY KEY  (`id_translator`,`id_dotnode`),
   UNIQUE KEY `name` (`login`),
   KEY `lang` (`lang`)
-) TYPE=MyISAM;
+) TYPE=MyISAM COMMENT='2';
 
 --
 -- Table structure for table `dntp_translator_msgstr`
 --
 
+DROP TABLE IF EXISTS `dntp_translator_msgstr`;
 CREATE TABLE `dntp_translator_msgstr` (
   `id` int(10) unsigned NOT NULL default '0',
   `id_translator` int(10) unsigned NOT NULL default '0',
@@ -326,6 +349,7 @@ CREATE TABLE `dntp_translator_msgstr` (
 -- Table structure for table `global_data`
 --
 
+DROP TABLE IF EXISTS `global_data`;
 CREATE TABLE `global_data` (
   `name` varchar(32) NOT NULL default '',
   `value` varchar(32) NOT NULL default '',
@@ -336,6 +360,7 @@ CREATE TABLE `global_data` (
 -- Table structure for table `invitation`
 --
 
+DROP TABLE IF EXISTS `invitation`;
 CREATE TABLE `invitation` (
   `id` varchar(34) NOT NULL default '',
   `id_invit` varchar(34) NOT NULL default '',
@@ -347,6 +372,7 @@ CREATE TABLE `invitation` (
 -- Table structure for table `invitation_email`
 --
 
+DROP TABLE IF EXISTS `invitation_email`;
 CREATE TABLE `invitation_email` (
   `id` varchar(34) NOT NULL default '',
   `id_invit` varchar(34) NOT NULL default '',
@@ -369,6 +395,7 @@ CREATE TABLE `invitation_email` (
 -- Table structure for table `message`
 --
 
+DROP TABLE IF EXISTS `message`;
 CREATE TABLE `message` (
   `id` varchar(34) default NULL,
   `id_mess` int(10) unsigned NOT NULL auto_increment,
@@ -393,6 +420,7 @@ CREATE TABLE `message` (
 -- Table structure for table `metalbum`
 --
 
+DROP TABLE IF EXISTS `metalbum`;
 CREATE TABLE `metalbum` (
   `id` varchar(32) NOT NULL default '',
   `type` varchar(16) NOT NULL default '',
@@ -405,6 +433,7 @@ CREATE TABLE `metalbum` (
 -- Table structure for table `relation`
 --
 
+DROP TABLE IF EXISTS `relation`;
 CREATE TABLE `relation` (
   `id` varchar(34) NOT NULL default '',
   `id_friend` varchar(34) NOT NULL default '',
@@ -424,6 +453,7 @@ CREATE TABLE `relation` (
 -- Table structure for table `rss_blog`
 --
 
+DROP TABLE IF EXISTS `rss_blog`;
 CREATE TABLE `rss_blog` (
   `id` varchar(34) NOT NULL default '',
   `id_blog` int(10) unsigned NOT NULL auto_increment,
@@ -438,6 +468,7 @@ CREATE TABLE `rss_blog` (
 -- Table structure for table `rss_blog_ticket`
 --
 
+DROP TABLE IF EXISTS `rss_blog_ticket`;
 CREATE TABLE `rss_blog_ticket` (
   `id` varchar(34) NOT NULL default '',
   `id_blog` int(10) unsigned NOT NULL default '0',
@@ -456,6 +487,7 @@ CREATE TABLE `rss_blog_ticket` (
 -- Table structure for table `session`
 --
 
+DROP TABLE IF EXISTS `session`;
 CREATE TABLE `session` (
   `id` varchar(32) binary NOT NULL default '',
   `SecID` varchar(32) NOT NULL default '',
@@ -468,6 +500,7 @@ CREATE TABLE `session` (
 -- Table structure for table `settings`
 --
 
+DROP TABLE IF EXISTS `settings`;
 CREATE TABLE `settings` (
   `id` varchar(34) NOT NULL default '',
   `new_friend_notifications` set('email') default NULL,
@@ -488,6 +521,7 @@ CREATE TABLE `settings` (
 -- Table structure for table `todo`
 --
 
+DROP TABLE IF EXISTS `todo`;
 CREATE TABLE `todo` (
   `id_todo` int(10) unsigned NOT NULL auto_increment,
   `robot` varchar(128) NOT NULL default '',
@@ -507,10 +541,12 @@ CREATE TABLE `todo` (
 -- Table structure for table `user`
 --
 
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` varchar(34) NOT NULL default '',
   `login` varchar(24) NOT NULL default '',
-  `passwd` varchar(32) NOT NULL default '',
+  `passwd` varchar(42) binary default NULL,
+  `passwd_md5` varchar(32) binary NOT NULL default '',
   `fname` varchar(32) NOT NULL default '',
   `lname` varchar(32) NOT NULL default '',
   `nick` varchar(64) default NULL,
@@ -529,12 +565,13 @@ CREATE TABLE `user` (
   KEY `status` (`status`),
   KEY `photo` (`photo`),
   KEY `nick` (`nick`)
-) TYPE=MyISAM;
+) TYPE=MyISAM COMMENT='2';
 
 --
 -- Table structure for table `user_comm`
 --
 
+DROP TABLE IF EXISTS `user_comm`;
 CREATE TABLE `user_comm` (
   `id` varchar(34) NOT NULL default '',
   `id_comm` int(10) unsigned NOT NULL default '0',
@@ -549,6 +586,7 @@ CREATE TABLE `user_comm` (
 -- Table structure for table `user_contact`
 --
 
+DROP TABLE IF EXISTS `user_contact`;
 CREATE TABLE `user_contact` (
   `id` varchar(34) NOT NULL default '',
   `email` varchar(128) NOT NULL default '',
@@ -576,6 +614,7 @@ CREATE TABLE `user_contact` (
 -- Table structure for table `user_general`
 --
 
+DROP TABLE IF EXISTS `user_general`;
 CREATE TABLE `user_general` (
   `id` varchar(34) NOT NULL default '',
   `relationship_status` enum('single','married','committed') default NULL,
@@ -604,6 +643,7 @@ CREATE TABLE `user_general` (
 -- Table structure for table `user_interests`
 --
 
+DROP TABLE IF EXISTS `user_interests`;
 CREATE TABLE `user_interests` (
   `id` varchar(34) NOT NULL default '',
   `passions` text,
@@ -621,6 +661,7 @@ CREATE TABLE `user_interests` (
 -- Table structure for table `user_personal`
 --
 
+DROP TABLE IF EXISTS `user_personal`;
 CREATE TABLE `user_personal` (
   `id` varchar(34) NOT NULL default '',
   `headline` text,
@@ -643,6 +684,7 @@ CREATE TABLE `user_personal` (
 -- Table structure for table `user_professional`
 --
 
+DROP TABLE IF EXISTS `user_professional`;
 CREATE TABLE `user_professional` (
   `id` varchar(34) NOT NULL default '',
   `6nergies_url` varchar(255) default NULL,
@@ -661,6 +703,7 @@ CREATE TABLE `user_professional` (
 -- Table structure for table `user_schools`
 --
 
+DROP TABLE IF EXISTS `user_schools`;
 CREATE TABLE `user_schools` (
   `id` varchar(34) NOT NULL default '',
   `year` int(4) NOT NULL default '0',
@@ -673,4 +716,9 @@ CREATE TABLE `user_schools` (
   KEY `country` (`country`),
   KEY `year` (`year`)
 ) TYPE=MyISAM;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 

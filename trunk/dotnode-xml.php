@@ -25,21 +25,22 @@
 include('../includes/includes.inc.php');
 include('../includes/config/xml.inc.php');
 
-$_SERVER['HTTP_HOST'] = ereg_replace(":80$", "", $_SERVER["HTTP_HOST"]);
-$requested_site = ereg_replace("^www\.", "", $_SERVER["HTTP_HOST"]);
+$_SERVER['HTTP_HOST'] = ereg_replace(":80$", '', $_SERVER['HTTP_HOST']);
+$requested_site = ereg_replace("^www\.", '', $_SERVER['HTTP_HOST']);
 ereg("(.*)\.${config['domain']}$", $requested_site, $regs);
+
 $login = $regs[1];
 
 $smarty = new Smarty_dotnode;
 $smarty->template_dir = SMARTYPATH.'/templates_xml/';
 $smarty->compile_id = 'xml';
-$smarty->caching = true';
+$smarty->caching = true;
 
 session_start();
 
-if(!$smarty->is_cached('index.tpl', $login.'.'.$_SERVER['PHP_SELF'] ))
+if( !$smarty->is_cached('index.tpl',$login.'.'.$_SERVER['PHP_SELF']) )
 {
-	$token = retreive_url_info($_SERVER["PHP_SELF"]);
+	$token = retreive_url_info($_SERVER['PHP_SELF']);
 	array_splice($token, 0, 1);
 
 	if(strlen($token[0]) == 32)

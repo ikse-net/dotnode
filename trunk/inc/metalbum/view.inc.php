@@ -45,6 +45,7 @@ $_SMARTY['Title'] = 'Meta Album: '.$album_name;
 list($login, $type) = split('@', $album_name);
 
 $album =& Metalbum::factory($type, $login, $config['metalbum'][$type]);
+if(is_a($album, 'Metalbum'))
 $_SMARTY['photo'] = $album->getPhotoInfo($photo_id);
 
 $_SMARTY['metalbum']['name'] = $album_name;
