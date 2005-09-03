@@ -53,6 +53,12 @@ a:hover
 	padding: 3px;
 }
 
+#blog img {
+      max-width: 460px;
+      height: auto;
+}
+
+
 body
 {
 	background: #036;

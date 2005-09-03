@@ -349,6 +349,10 @@ border-left: 1px solid #FF6600;
 	color: ;
 }
 
+#blog img {
+      max-width: 460px;
+      height: auto;
+}
 
 #footer {
 	clear: both;

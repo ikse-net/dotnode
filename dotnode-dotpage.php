@@ -74,7 +74,7 @@ if(!$smarty->is_cached('index.tpl', $login.'.'.$lang.'.'.$_SERVER['PHP_SELF'] ))
 	{
 		if (!isset($_SERVER['PHP_AUTH_USER']) ||
 		    $_SERVER['PHP_AUTH_USER'] != $user['info']['login'] ||
-		    !$db->getRow('SELECT login, status FROM user WHERE login=? AND passwd=PASSWORD(?)',array($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) )
+		    !$db->getRow('SELECT login, status FROM user WHERE login=? AND passwd_md5=?',array($_SERVER['PHP_AUTH_USER'], md5($_SERVER['PHP_AUTH_PW'])) )
 		)
 		{
 			header('WWW-Authenticate: Basic realm=".Page not published"');

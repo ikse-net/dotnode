@@ -1,8 +1,5 @@
 #/bin/sh
 
-CURRENT_DIR=`dirname $0`
-cd ~/$CURRENT_DIR
-
-export BASEPATH=$PWD/../www
+cd `dirname $0`
 
 nice -19 /usr/bin/php fetch_rss.bot.php

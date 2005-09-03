@@ -158,6 +158,12 @@ h2 a{
 	border: 1px solid #DDD;
 }
 
+#blog img {
+      max-width: 460px;
+      height: auto;
+}
+
+
 /* Friends
 ********************************************/
 #friends img{

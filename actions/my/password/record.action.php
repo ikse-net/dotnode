@@ -22,13 +22,13 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-$nb = $db->getOne('SELECT COUNT(id) FROM user WHERE id=? AND passwd=PASSWORD(?)', array($_SESSION['my_id'], $_POST['oldpasswd']));
-//print_r($nb);
+$nb = $db->getOne('SELECT COUNT(id) FROM user WHERE id=? AND passwd_md5=?', array($_SESSION['my_id'], md5($_POST['oldpasswd'])));
+
 if($nb == 1 || isset($_SESSION['old_password']))
 {
 	if($_POST['passwd1'] == $_POST['passwd2'] && strlen($_POST['passwd1']) >3)
 	{
-		$db->query('UPDATE user SET passwd=PASSWORD(?) WHERE id=?', array($_POST['passwd1'], $_SESSION['my_id']) );
+		$db->query('UPDATE user SET passwd_md5=? WHERE id=?', array(md5($_POST['passwd1']), $_SESSION['my_id']) );
 		header('Location: /my');
 	}
 	else
