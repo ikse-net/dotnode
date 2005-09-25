@@ -25,6 +25,11 @@
 $login = $_POST['login'];
 $type = $_POST['type'];
 
-$db->query('INSERT INTO metalbum SET id=?,login=?, type=?', array($_SESSION['my_id'], $login, $type));
+if(is_valid('metalbum_name', $login) && is_valid('metalbum_type', $type))
+	$db->query('INSERT INTO metalbum SET id=?,login=?, type=?', array($_SESSION['my_id'], $login, $type));
+else {
+	$_SESSION['error']['title'] = 'Login invalid';
+	$_SESSION['error']['msg'] = "Valid characters are 'a-z', '0-9', '+', '-' and '_' ";
+}
 header('Location: /metalbum');
 ?>
