@@ -38,7 +38,7 @@ function retreive_url_info($url)
         $token = split('/', $url);
 	if(ereg("\.php$", $token[0]))
 		$token[0] = substr($token[0], 0, -4);
-	return $token;
+	return array_map('urldecode', $token);
 }
 
 function get_pref_language_array($str_http_languages)
@@ -479,7 +479,7 @@ function is_valid($type, $string)
 		if(strpos($string, '@'))
 		{
 			list($login, $type) = split('@', $string);
-			if(ereg("^[a-zA-Z0-9\._-]{2,32}$", $login) && is_valid('metalbum_type', $type))
+			if(ereg("^[ a-zA-Z0-9\._-]{2,32}$", $login) && is_valid('metalbum_type', $type))
 				return true;
 		}
 		else
