@@ -479,7 +479,7 @@ function is_valid($type, $string)
 		if(strpos($string, '@'))
 		{
 			list($login, $type) = split('@', $string);
-			if(ereg("[a-zA-Z0-9_-]{2,32}", $login) && is_valid('metalbum_type', $type))
+			if(ereg("^[a-zA-Z0-9\._-]{2,32}$", $login) && is_valid('metalbum_type', $type))
 				return true;
 		}
 		else
