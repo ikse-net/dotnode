@@ -27,7 +27,7 @@ $id = $user['info']['id'];
 
 $user['general'] = $db->getRow('SELECT birthday,description,web FROM user_general WHERE id=?', array($id));
 $user['professionel'] = $db->getRow('SELECT web FROM user_professional WHERE id=?', array($id));
-$user['contact'] = $db->getRow('SELECT email, phone FROM user_contact WHERE id=?', array($id));
+$user['contact'] = $db->getRow('SELECT email, phone, im, im_type FROM user_contact WHERE id=?', array($id));
 
 $user['contact']['email_sha1'] = sha1('mailto:' . $user['contact']['email']);
 
