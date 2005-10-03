@@ -29,7 +29,7 @@ $user['general'] = $db->getRow('SELECT birthday,description,web FROM user_genera
 $user['professionel'] = $db->getRow('SELECT web FROM user_professional WHERE id=?', array($id));
 $user['contact'] = $db->getRow('SELECT email, phone FROM user_contact WHERE id=?', array($id));
 
-$user['contact']['email_sha1'] = sha1($user['contact']['email']);
+$user['contact']['email_sha1'] = sha1('mailto:' . $user['contact']['email']);
 
 $friends_r = $db->query('SELECT user_contact.email AS email, user.fname AS fname, user.lname AS lname, user.login AS login, user.id AS id FROM user_contact LEFT JOIN user_general USING(id) LEFT JOIN user USING(id) LEFT JOIN  relation USING(id) WHERE relation.id_friend=?', array($id));
 if(DB::isError($friends_r))
@@ -41,7 +41,7 @@ if(DB::isError($friends_r))
 while($friend = $friends_r->fetchRow())
 {
 	$user['friends'][$friend['id']] = $friend;
-	$user['friends'][$friend['id']]['email_sha1'] = sha1($friend['email']);
+	$user['friends'][$friend['id']]['email_sha1'] = sha1('mailto:' . $friend['email']);
 }
 
 ?>
