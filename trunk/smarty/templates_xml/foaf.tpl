@@ -23,9 +23,25 @@
 {if $profile.general.web}
 <foaf:homepage rdf:resource="{$profile.general.web}"/>
 {/if}
+{if $profile.info.nb_blogs}
+<foaf:weblog rdf:resource="http://{$profile.info.login}.dotnode.com/blog/"/>
+{/if}
 <foaf:depiction rdf:resource="http://{$profile.info.login}.dotnode.com{$profile.info.photo_path}"/>
 {if $profile.contact.phone}
 <foaf:phone rdf:resource="tel:{$profile.contact.phone}"/>
+{/if}
+{if $profile.contact.im}
+{if $profile.contact.imtype == 'aim'}
+<foaf:aimID rdf:resource="{$profile.contact.im|escape}"/>
+{elseif $profile.contact.imtype == 'icq'}
+<foaf:icqID rdf:resource="{$profile.contact.im|escape}"/>
+{elseif $profile.contact.imtype == 'jabber'}
+<foaf:jabberID rdf:resource="{$profile.contact.im|escape}"/>
+{elseif $profile.contact.imtype == 'msn'}
+<foaf:msnID rdf:resource="{$profile.contact.im|escape}"/>
+{elseif $profile.contact.imtype == 'yahoo'}
+<foaf:yahooID rdf:resource="{$profile.contact.im|escape}"/>
+{/if}
 {/if}
 {if $profile.professional.web}
 <foaf:workplaceHomepage rdf:resource="{$profile.professional.web}"/>
