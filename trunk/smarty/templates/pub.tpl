@@ -15,6 +15,10 @@
 </fieldset>
 </form>
 
+<script type='text/javascript'>
+        document.getElementById('login').focus();
+</script>
+
 </div>
 <p><img src='/img/who_do_you.png' alt="Who do you want to meet today ?" align='left' style='margin-right: 10px;'/>
 {t escape=no}.node is an online community connecting people through a trusted friends network{/t}.<br />
