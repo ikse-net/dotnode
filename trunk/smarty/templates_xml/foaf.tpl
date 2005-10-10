@@ -31,15 +31,15 @@
 <foaf:phone rdf:resource="tel:{$profile.contact.phone}"/>
 {/if}
 {if $profile.contact.im}
-{if $profile.contact.imtype == 'aim'}
+{if $profile.contact.im_type == 'aim'}
 <foaf:aimID rdf:resource="{$profile.contact.im|escape}"/>
-{elseif $profile.contact.imtype == 'icq'}
+{elseif $profile.contact.im_type == 'icq'}
 <foaf:icqID rdf:resource="{$profile.contact.im|escape}"/>
-{elseif $profile.contact.imtype == 'jabber'}
+{elseif $profile.contact.im_type == 'jabber'}
 <foaf:jabberID rdf:resource="{$profile.contact.im|escape}"/>
-{elseif $profile.contact.imtype == 'msn'}
+{elseif $profile.contact.im_type == 'msn'}
 <foaf:msnID rdf:resource="{$profile.contact.im|escape}"/>
-{elseif $profile.contact.imtype == 'yahoo'}
+{elseif $profile.contact.im_type == 'yahoo'}
 <foaf:yahooID rdf:resource="{$profile.contact.im|escape}"/>
 {/if}
 {/if}
