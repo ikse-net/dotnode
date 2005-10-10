@@ -22,14 +22,14 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
+include('../includes/includes.inc.php');
+include('../includes/config/global.inc.php');
+
 if(ereg('www', $_SERVER['HTTP_HOST']))
 {
         header('Location: http://'.$config['domain'].$_SERVER['PHP_SELF']);
 	exit();
 }
-
-include('../includes/includes.inc.php');
-include('../includes/config/global.inc.php');
 
 session_start();
 
