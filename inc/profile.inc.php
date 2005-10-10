@@ -81,10 +81,10 @@ elseif($intermediaire = array_intersect($_SESSION['my_friends_id'], $user['info'
 else
 	$user['relation_type'] = 'members';
 
-if($user['relation_type'] == 'friends' || $_SESSION['my_id']=='354a778bacabffaff3d3fd74f93ac278')
+if($user['relation_type'] == 'friends' || $_SESSION['my_login'] == $config['admin_login'])
 {
 	$id_parent = $db->getOne('SELECT id_parent FROM user WHERE id=?', array($url_id));
-	if($_SESSION['my_id'] == $id_parent  || $_SESSION['my_id']=='354a778bacabffaff3d3fd74f93ac278')
+	if($_SESSION['my_id'] == $id_parent  || $_SESSION['my_login'] == $config['admin_login'])
 	{
 		$user['invitation']['done'] = $db->getOne('SELECT COUNT(id) FROM invitation_email WHERE id_invit=? AND status=?', array($url_id, 'done'));
 		$user['invitation']['waiting'] = $db->getOne('SELECT COUNT(id) FROM invitation_email WHERE id_invit=? AND status=?', array($url_id, 'doing'));
