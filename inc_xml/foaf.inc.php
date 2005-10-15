@@ -22,14 +22,34 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  ******************** http://opensource.ikse.net/projects/dotnode ***/
 
-
 $id = $user['info']['id'];
+$weight = 'everyone';
 
 $user['general'] = $db->getRow('SELECT birthday,description,web FROM user_general WHERE id=?', array($id));
 $user['professionel'] = $db->getRow('SELECT web FROM user_professional WHERE id=?', array($id));
-$user['contact'] = $db->getRow('SELECT email, phone, im, im_type FROM user_contact WHERE id=?', array($id));
+$user['contact'] = $db->getRow('SELECT email, phone, im, im_type, im2, im2_type FROM user_contact WHERE id=?', array($id));
 
-$user['contact']['email_sha1'] = sha1('mailto:' . $user['contact']['email']);
+$access = array();
+$access['general'] = get_access_list($id, 'user_general');
+$access['professionel'] = get_access_list($id, 'user_professionel');
+$access['contact'] = get_access_list($id, 'user_contact');
+
+$user['contact']['email'] = 'mailto:' . $user['contact']['email'];
+$user['contact']['email_sha1'] = sha1($user['contact']['email']);
+
+// Filtre chaque partie du profile, ne laisse que les infos accessibles par tout 
+// le monde
+foreach($user['contact'] as $key => $value)
+{
+	// on a pas ca dans access? dans le doute, on laisse.
+	if (!array_key_exists($key, $access['contact']))
+		continue;
+	if (access_weight($access['contact'][$key]) < access_weight($weight))
+	{	
+		// on a pas le droit de l'afficher: on le planque.
+		unset($user['contact'][$key]);
+	}
+}
 
 $friends_r = $db->query('SELECT user_contact.email AS email, user.fname AS fname, user.lname AS lname, user.login AS login, user.id AS id FROM user_contact LEFT JOIN user_general USING(id) LEFT JOIN user USING(id) LEFT JOIN  relation USING(id) WHERE relation.id_friend=?', array($id));
 if(DB::isError($friends_r))
