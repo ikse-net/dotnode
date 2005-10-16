@@ -43,6 +43,19 @@
 <foaf:yahooID rdf:resource="{$profile.contact.im|escape}"/>
 {/if}
 {/if}
+{if $profile.contact.im2}
+{if $profile.contact.im2_type == 'aim'}
+<foaf:aimID rdf:resource="{$profile.contact.im2|escape}"/>
+{elseif $profile.contact.im2_type == 'icq'}
+<foaf:icqID rdf:resource="{$profile.contact.im2|escape}"/>
+{elseif $profile.contact.im2_type == 'jabber'}
+<foaf:jabberID rdf:resource="{$profile.contact.im2|escape}"/>
+{elseif $profile.contact.im2_type == 'msn'}
+<foaf:msnID rdf:resource="{$profile.contact.im2|escape}"/>
+{elseif $profile.contact.im2_type == 'yahoo'}
+<foaf:yahooID rdf:resource="{$profile.contact.im2|escape}"/>
+{/if}
+{/if}
 {if $profile.professional.web}
 <foaf:workplaceHomepage rdf:resource="{$profile.professional.web}"/>
 <foaf:workInfoHomepage rdf:resource="{$profile.professional.web}"/>
