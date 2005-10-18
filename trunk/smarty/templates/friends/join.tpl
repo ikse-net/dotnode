@@ -58,7 +58,8 @@ function show_reasons(id)
 <a class='even' href="javascript:display_form('invitation')">{t}Invitation{/t}</a>
 <a class='odd' href="javascript:display_form('import')">{t}Import from CSV{/t}</a>
 </div>
-<table id='form_invitation'>
+<div id='form_invitation'>
+<table>
 <tr><th colspan='2' class='profileHeader'>{t}Fill this form to invite your friend{/t}</th></tr>
 <tr class='{cycle values='odd,even'}'><td colspan='2' align='center'><a href='/my/settings'>{t}Personalize your invitation{/t} !</a></td></tr>
 <tr class='{cycle values='odd,even'}'><td align='right' class='label'>{t}First name{/t}:</td><td><input type='text' name='fname' value='{$smarty.session.temp.post.fname|escape}' /></td></tr>
@@ -71,7 +72,9 @@ function show_reasons(id)
 {/if}
 </td></tr>
 </table>
-<table id='form_import' style='display: none'>
+</div>
+<div id='form_import' style='display: none'>
+<table>
 <tr><th class='profileHeader'>{t}Import a CSV file{/t}</th></tr>
 <tr class='{cycle values='odd,even'}'><td class='value'>{t}The CSV format is: {/t}"{t}First name{/t}","{t}Last name{/t}","address@email.tld"<br />
 {t}Eg.: You can import your Orkut contacts here: {/t}<a href='http://orkut.com/contacts.CSV'>orkut.com/contacts.CSV</a></td></tr>
@@ -79,6 +82,7 @@ function show_reasons(id)
 <tr class='{cycle values='odd,even'}'><td class='label'>{t}File location: {/t}<input type='file' name='csv'></td></tr>
 <tr class='{cycle values='odd,even'}'><td align='right' class='label'><input type='submit' name='import' value='{t}Import{/t}' /></td></tr>
 </table>
+</div>
 <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
 </form>
 {else}
@@ -147,7 +151,7 @@ function display_form(what)
 {
         current_pan_o.style.display = "none";
         current_pan_o = document.getElementById('form_'+what);
-        current_pan_o.style.display = "table";
+	current_pan_o.style.display = "block";
 }
 </script>
 {/literal}
