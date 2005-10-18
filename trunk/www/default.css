@@ -272,7 +272,7 @@ font-size: 11px;
 
 #blog h1 , .blog h1{
 font: 18px Georgia,"Times New Roman",Times,serif;
-font-style: bold;
+font-weight: bold;
 text-align: left;
 border-bottom: 1px solid green;
 }
@@ -386,7 +386,7 @@ padding: 0;
 #main h2 {
 /* font: 18px Georgia,"Times New Roman",Times,serif; */
 font: 19px "Trebuchet MS","Arial","Verdana",sans-serif;
-font-style: bold;
+font-weight: bold;
 color: green;
 border-bottom: 1px solid silver;
 margin-bottom: 0.2em;
