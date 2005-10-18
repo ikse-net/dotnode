@@ -32,7 +32,6 @@ function help()
 </script>
 {/literal}
 {/if}
-<span style="position:absolute; left:1px; top:1px; font-size: 8px">Beta::.</span>
 <div id='title'>
 {if $help_tpl}<p><a href="javascript:help()"><img class='icon' src='/img/help.png' alt='help' /></a></p>{/if}
 <p>
@@ -85,11 +84,13 @@ function help()
 {/foreach}
 </ul>
 
+{if $ssmenu}
 <ul id='ssmenu'>
 {foreach name=ssmenu from=$ssmenu item=title key=link}
 <li><a href='/{$token[0]}/{$token[1]}/{$link}'{if $token[2] eq $link|@basename} class='active'{/if}>{t}{$title}{/t}</a></li>
 {/foreach}
 </ul>
+{/if}
 
 <div id='main'>
 

@@ -20,7 +20,7 @@
 </script>
 
 </div>
-<p><img src='/img/who_do_you.png' alt="Who do you want to meet today ?" align='left' style='margin-right: 10px;'/>
+<p><img src='/img/who_do_you.png' alt="Who do you want to meet today ?" style='margin-right: 10px; float: left;'/>
 {t escape=no}.node is an online community connecting people through a trusted friends network{/t}.<br />
 <br />
 {t}We wish to create a worldwide friendship network without any language barrier{/t}.<br />

@@ -9,9 +9,9 @@
 {/if}
  <form style="display: inline;" method='post' id='cnil' action='http://www.cnil.fr/index.php?id=29'><p>{t}CNIL registration number{/t}: <input type='hidden' name='txtCritere' value='1011429' /><a href='http://www.cnil.fr/index.php?id=29' onClick="document.forms['cnil'].submit(); return false;">1011429</a> - {t}To contact me{/t} : {mailto address=$config.email encode="javascript"}</p></form>
 <p>
-<a href="http://opensource.ikse.net/projects/dotnode"><img border="0" alt="Powered by Open .node" title="Powered by Open .node" src="/img/powered-by.png"/></a>
-<a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=49635&amp;t=70"><img border="0" alt="Get Firefox!" title="Get Firefox!" src="http://sfx-images.mozilla.org/affiliates/Buttons/88x31/get.gif"/></a>
-<a href="http://ikse.net" title='Hébergé sur un serveur dédié virtuel de Ikse / Conception Ikse'><img style="width:88px;height:31px" src="http://ikse.net/images/ikse.net-88x31.png" alt="Hébergé sur un serveur dédié virtuel de Ikse / Conception Ikse" /></a>
+<a href="http://opensource.ikse.net/projects/dotnode"><img alt="Powered by Open .node" title="Powered by Open .node" src="/img/powered-by.png" style="border: 0" /></a>
+<a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=49635&amp;t=70"><img alt="Get Firefox!" title="Get Firefox!" src="http://sfx-images.mozilla.org/affiliates/Buttons/88x31/get.gif" style="border: 0" /></a>
+<a href="http://ikse.net" title='Hébergé sur un serveur dédié virtuel de Ikse / Conception Ikse'><img style="width:88px;height:31px;border:0;" src="http://ikse.net/images/ikse.net-88x31.png" alt="Hébergé sur un serveur dédié virtuel de Ikse / Conception Ikse" /></a>
 </p>
 
 {if $smarty.session.my_login eq $config.admin_login}
