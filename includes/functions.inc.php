@@ -239,6 +239,25 @@ function access_weight($access_str)
 	}
 }
 
+// Il faudrait avoir un objet pour gerer les profiles, ca permettrait
+// de gerer ca beaucoup plus facilement/efficacement.
+function filter_table_with_weight($table, $access, $weight)
+{	
+	foreach ($table as $key => $value)
+	{
+		// on a pas ca dans access? dans le doute, on laisse.
+		if (!array_key_exists($key, $access))
+			continue;
+		if (access_weight($access[$key]) < access_weight($weight))
+		{	
+			// on a pas le droit de l'afficher: on le planque.
+			unset($table[$key]);
+		}
+	}
+	return $table;
+}
+
+
 function get_relation_type($my_id, $my_friends_id, $user_id, $user_friends_id)
 {
 	if($user_id == $my_id)

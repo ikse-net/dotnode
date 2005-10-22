@@ -39,17 +39,9 @@ $user['contact']['email_sha1'] = sha1($user['contact']['email']);
 
 // Filtre chaque partie du profile, ne laisse que les infos accessibles par tout 
 // le monde
-foreach($user['contact'] as $key => $value)
-{
-	// on a pas ca dans access? dans le doute, on laisse.
-	if (!array_key_exists($key, $access['contact']))
-		continue;
-	if (access_weight($access['contact'][$key]) < access_weight($weight))
-	{	
-		// on a pas le droit de l'afficher: on le planque.
-		unset($user['contact'][$key]);
-	}
-}
+$user['contact'] = filter_table_with_weight($user['contact'], $access['contact'], $weight);
+$user['professionel'] = filter_table_with_weight($user['professionel'], $access['professionel'], $weight);
+$user['general'] = filter_table_with_weight($user['general'], $access['general'], $weight);
 
 $friends_r = $db->query('SELECT user_contact.email AS email, user.fname AS fname, user.lname AS lname, user.login AS login, user.id AS id FROM user_contact LEFT JOIN user_general USING(id) LEFT JOIN user USING(id) LEFT JOIN  relation USING(id) WHERE relation.id_friend=?', array($id));
 if(DB::isError($friends_r))
