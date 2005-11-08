@@ -1,4 +1,5 @@
 <?php
+
 /*************************************************
 
 Snoopy - the PHP net client
@@ -45,14 +46,15 @@ class Snoopy
 	var $proxy_host		=	"";					// proxy host to use
 	var $proxy_port		=	"";					// proxy port to use
 	var $agent			=	"Snoopy v1.0";		// agent we masquerade as
-	var $referer		=	"";					// referer info to pass
+	var	$referer		=	"";					// referer info to pass
 	var $cookies		=	array();			// array of cookies to pass
 												// $cookies["username"]="joe";
-	var $rawheaders		=	array(/*"Content-type" => "text/html", 'Accept-encoding' => 'flat'*/);			// array of raw headers to send
+	var	$rawheaders		=	array();			// array of raw headers to send
+												// $rawheaders["Content-type"]="text/html";
 
-	var $maxredirs		=	10;					// http redirection depth maximum. 0 = disallow
+	var $maxredirs		=	5;					// http redirection depth maximum. 0 = disallow
 	var $lastredirectaddr	=	"";				// contains address of last redirected address
-	var $offsiteok		=	true;				// allows redirection off-site
+	var	$offsiteok		=	true;				// allows redirection off-site
 	var $maxframes		=	0;					// frame content depth maximum. 0 = disallow
 	var $expandlinks	=	true;				// expand links to fully qualified URLs.
 												// this only applies to fetchlinks()
@@ -61,7 +63,7 @@ class Snoopy
 												// NOTE: this currently does not respect
 												// dates, domains or paths.
 	
-	var $user			=	"";					// user for http authentication
+	var	$user			=	"";					// user for http authentication
 	var	$pass			=	"";					// password for http authentication
 	
 	// http accept types
@@ -103,7 +105,7 @@ class Snoopy
 	var $_submit_method	=	"POST";				// default submit method
 	var $_submit_type	=	"application/x-www-form-urlencoded";	// default submit type
 	var $_mime_boundary	=   "";					// MIME boundary for multipart/form-data submit type
-	var $_redirectaddr	=	false;			// will be set if page fetched is a redirect
+	var $_redirectaddr	=	false;				// will be set if page fetched is a redirect
 	var $_redirectdepth	=	0;					// increments on an http redirect
 	var $_frameurls		= 	array();			// frame src urls
 	var $_framedepth	=	0;					// increments on frame depth
@@ -153,7 +155,7 @@ class Snoopy
 					$this->_disconnect($fp);
 
 					if($this->_redirectaddr)
-					{ 
+					{
 						/* url was redirected, check if we've hit the max depth */
 						if($this->maxredirs > $this->_redirectdepth)
 						{
@@ -494,10 +496,10 @@ class Snoopy
 			      break;
 						
 			// if a header begins with Location: or URI:, set the redirect
-			if(preg_match("/^(Location:)/i",$currentHeader))
+			if(preg_match("/^(Location:|URI:)/i",$currentHeader))
 			{
 				// get URL portion of the redirect
-				preg_match("/^(Location:)\s+(.*)/",chop($currentHeader),$matches);
+				preg_match("/^(Location:|URI:)\s+(.*)/",chop($currentHeader),$matches);
 				// look for :// in the Location header to see if hostname is included
 				if(!preg_match("|\:\/\/|",$matches[2]))
 				{
@@ -637,9 +639,10 @@ class Snoopy
 		if(!empty($this->user) || !empty($this->pass))	
 			$headers[] = "Authorization: BASIC ".base64_encode($this->user.":".$this->pass);
 			
-		for($curr_header = 0; $curr_header < count($headers); $curr_header++)
+		for($curr_header = 0; $curr_header < count($headers); $curr_header++) {
 			$cmdline_params .= " -H \"".$headers[$curr_header]."\"";
-		
+		}
+			  	                         
 		if(!empty($body))
 			$cmdline_params .= " -d \"$body\"";
 		
@@ -649,8 +652,8 @@ class Snoopy
 		$headerfile = uniqid(time());
 		
 		# accept self-signed certs
-		$cmdline_params .= " -k";
-		exec($this->curl_path." -D \"/tmp/$headerfile\"".$cmdline_params." ".$URI,$results,$return);
+		$cmdline_params .= " -k"; 
+		exec($this->curl_path." -D \"/tmp/$headerfile\"".escapeshellcmd($cmdline_params)." ".escapeshellcmd($URI),$results,$return);
 		
 		if($return)
 		{
@@ -670,10 +673,10 @@ class Snoopy
 		{
 			
 			// if a header begins with Location: or URI:, set the redirect
-			if(preg_match("/^(Location:)/i",$result_headers[$currentHeader]))
+			if(preg_match("/^(Location: |URI: )/i",$result_headers[$currentHeader]))
 			{
 				// get URL portion of the redirect
-				preg_match("/^(Location:)(.*)/",chop($result_headers[$currentHeader]),$matches);
+				preg_match("/^(Location: |URI:)(.*)/",chop($result_headers[$currentHeader]),$matches);
 				// look for :// in the Location header to see if hostname is included
 				if(!preg_match("|\:\/\/|",$matches[2]))
 				{
