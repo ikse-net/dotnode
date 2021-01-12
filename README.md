@@ -6,7 +6,7 @@ Welcome !
 .node is freely distribuable according to the GPL 2 license.
 
 For more information, go to: 
-> http://github.com/alex-ikse/dotnode
+> http://github.com/ikse-net/dotnode
 
 Have fun !
 
